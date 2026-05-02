@@ -20,7 +20,7 @@ The RDF files describing the different versions of the ontology and its modules 
 
 The Widoco tool is used to automatise the ontology publication through the `run-onto.sh` script as described in the template repo xxx.
 
-## PKO Adoption and Maintenance
+## Adoption and Maintenance
 
 If you are using (or willing to use) the Vibe ontology for your project, create a new issue with the template [Use case for VibeOnt](xxx), where you can also provide feedback or add feature requests. Alternatively, you can start from a blank issue.
 
