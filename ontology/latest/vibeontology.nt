@@ -1,0 +1,1117 @@
+<https://w3id.org/vibe-ontology/coinedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/Aesthetic> .
+<https://w3id.org/vibe-ontology/URL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/vibe-ontology/hasLocationOfOrigin> <http://www.w3.org/2000/01/rdf-schema#comment> "Specificeert de geografische of digitale locatie waar een esthetiek voor het eerst is ontstaan."@nl .
+<https://w3id.org/vibe-ontology/hasPrimaryPlatform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/hasPrimaryPlatform> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the main Platform through which an Aesthetic is primarily disseminated or has gained visibility."@en .
+<https://w3id.org/vibe-ontology/Anime> <http://www.w3.org/2000/01/rdf-schema#comment> "主に日本のメディア文脈から生まれたアニメーション作品の形態。"@ja .
+<https://w3id.org/vibe-ontology/InteriorDesign> <http://www.w3.org/2000/01/rdf-schema#comment> "Een vorm van architectonisch werk gericht op het ontwerpen van binnenruimtes."@nl .
+<https://w3id.org/vibe-ontology/Agent> <http://www.w3.org/2000/01/rdf-schema#label> "エージェント"@ja .
+<https://w3id.org/vibe-ontology/Artwork> <http://www.w3.org/2000/01/rdf-schema#comment> "Een creatief artefact geproduceerd binnen elk expressief medium, inclusief visueel (afbeeldingen, schilderijen, beeldhouwwerk, architectuur, film, videogames), auditief (muziek), tekstueel (literatuur) of belichaamde/industriële vormen (mode). Het wordt behandeld als een generieke werkentiteit, onafhankelijk van medium-specifieke taxonomieën."@nl .
+<https://w3id.org/vibe-ontology/ArtistRole> <http://www.w3.org/2000/01/rdf-schema#comment> "Роль, которую исполняет агент как создатель или участник процесса художественного производства."@ru .
+<https://w3id.org/vibe-ontology/Region> <http://www.w3.org/2000/01/rdf-schema#comment> "Un'area geografica."@it .
+<https://w3id.org/vibe-ontology/Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/follows> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<https://w3id.org/vibe-ontology/Painting> <http://www.w3.org/2000/01/rdf-schema#comment> "Un’opera visiva realizzata con pittura su una superficie."@it .
+<https://w3id.org/vibe-ontology/Song> <http://www.w3.org/2000/01/rdf-schema#comment> "A single musical composition, typically consisting of lyrics and melody."@en .
+<https://w3id.org/vibe-ontology/isMemberOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/> <http://www.w3.org/2000/01/rdf-schema#label> "Vibe Ontology"@en .
+<https://w3id.org/vibe-ontology/hasLocation> <http://www.w3.org/2000/01/rdf-schema#label> "所在地"@ja .
+<https://w3id.org/vibe-ontology/Fashion> <http://www.w3.org/2000/01/rdf-schema#label> "ファッション"@ja .
+<https://w3id.org/vibe-ontology/hasRelatedBrand> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/vibe-ontology/Brand> .
+<https://w3id.org/vibe-ontology/colorDimension> <http://www.w3.org/2000/01/rdf-schema#label> "kleur dimensie"@nl .
+<https://w3id.org/vibe-ontology/forAesthetic> <http://www.w3.org/2000/01/rdf-schema#label> "для эстетики"@ru .
+<https://w3id.org/vibe-ontology/precedes> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/vibe-ontology/Aesthetic> .
+<https://w3id.org/vibe-ontology/URL> <http://www.w3.org/2000/01/rdf-schema#label> "URL-адрес"@ru .
+<https://w3id.org/vibe-ontology/PrimaryRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/Aesthetic> <http://www.w3.org/2000/01/rdf-schema#comment> "Een cultureel opkomende, open categorie die een verzameling heterogene elementen (bijv. afbeeldingen, kleuren, objecten, geluiden, teksten) groepeert die worden waargenomen als een coherente uitdrukking van een herkenbare stijl, affect of oriëntatie. Het wordt niet gedefinieerd door noodzakelijke en voldoende voorwaarden, maar door gedeelde associaties en familiegelijkenissen vastgesteld door een gemeenschap. Bijv. de Frutiger Aero-esthetiek groepeert glanzende texturen, heldere verlopen, natuurbeelden en optimistische toekomstbeelden in een herkenbare stijl uit het begin van de jaren 2000."@nl .
+<https://w3id.org/vibe-ontology/influencedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/Aesthetic> .
+<https://w3id.org/vibe-ontology/Collection> <http://www.w3.org/2000/01/rdf-schema#label> "Collezione"@it .
+<https://w3id.org/vibe-ontology/name> <http://www.w3.org/2000/01/rdf-schema#label> "название"@ru .
+<https://w3id.org/vibe-ontology/hasValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/Aesthetic> .
+<https://w3id.org/vibe-ontology/Painting> <http://www.w3.org/2000/01/rdf-schema#label> "Картина"@ru .
+<https://w3id.org/vibe-ontology/valueDimension> <http://www.w3.org/2000/01/rdf-schema#label> "value dimension"@en .
+<https://w3id.org/vibe-ontology/hasValue> <http://www.w3.org/2000/01/rdf-schema#label> "ha valore"@it .
+<https://w3id.org/vibe-ontology/Subculture> <http://www.w3.org/2000/01/rdf-schema#label> "サブカルチャー"@ja .
+<https://w3id.org/vibe-ontology/Album> <http://www.w3.org/2000/01/rdf-schema#comment> "一つの単位としてリリースされた録音トラックのコレクションからなる音楽作品。"@ja .
+<https://w3id.org/vibe-ontology/atTime> <http://www.w3.org/2000/01/rdf-schema#comment> "Указывает временной интервал, в течение которого роль (TimeIndexedRole) является действительной."@ru .
+<https://w3id.org/vibe-ontology/ColorPalette> <http://www.w3.org/2000/01/rdf-schema#comment> "Структурированный набор цветов, связанных через повторяющееся совместное использование, конвенции дизайна или гармонию восприятия; часто вносит вклад в визуальную идентичность эстетики."@ru .
+<https://w3id.org/vibe-ontology/hasLocation> <http://www.w3.org/2000/01/rdf-schema#label> "has location"@en .
+<https://w3id.org/vibe-ontology/Aesthetic> <http://www.w3.org/2000/01/rdf-schema#label> "美学"@ja .
+<https://w3id.org/vibe-ontology/atTime> <http://www.w3.org/2000/01/rdf-schema#comment> "TimeIndexedRoleが有効である時間区間を指定する。"@ja .
+<https://w3id.org/vibe-ontology/hasTheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/overlapsWith> <http://www.w3.org/2000/01/rdf-schema#label> "重複する"@ja .
+<https://w3id.org/vibe-ontology/Fashion> <http://www.w3.org/2000/01/rdf-schema#label> "Fashion"@en .
+<https://w3id.org/vibe-ontology/hasMotif> <http://www.w3.org/2000/01/rdf-schema#label> "has motif"@en .
+<https://w3id.org/vibe-ontology/Fashion> <http://www.w3.org/2000/01/rdf-schema#label> "Mode"@nl .
+<https://w3id.org/vibe-ontology/hasMotif> <http://www.w3.org/2000/01/rdf-schema#comment> "Ассоциирует произведение искусства с узнаваемым повторяющимся мотивом, который в нем присутствует."@ru .
+<https://w3id.org/vibe-ontology/alternateName> <http://www.w3.org/2000/01/rdf-schema#label> "альтернативное название"@ru .
+<https://w3id.org/vibe-ontology/Motif> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/influenced> <http://www.w3.org/2000/01/rdf-schema#label> "оказала влияние на"@ru .
+<https://w3id.org/vibe-ontology/hasRelatedBrand> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/Aesthetic> .
+<https://w3id.org/vibe-ontology/Group> <http://www.w3.org/2000/01/rdf-schema#label> "グループ"@ja .
+<https://w3id.org/vibe-ontology/MusicWork> <http://www.w3.org/2000/01/rdf-schema#label> "Музыкальное произведение"@ru .
+<https://w3id.org/vibe-ontology/TimeIndexedRole> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n10a9d9e078c44993be0b66527199cf7ab3 .
+<https://w3id.org/vibe-ontology/startYear> <http://www.w3.org/2000/01/rdf-schema#label> "開始年"@ja .
+<https://w3id.org/vibe-ontology/influencedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates an Aesthetic to another Aesthetic from which it has drawn stylistic, thematic, or cultural influence."@en .
+<https://w3id.org/vibe-ontology/TimeInterval> <http://www.w3.org/2000/01/rdf-schema#comment> "Un’estensione temporale con un inizio e/o una fine, che può essere precisa o approssimata, usata per qualificare la validità temporale di entità, ruoli o associazioni."@it .
+<http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://w3id.org/vibe-ontology/name> .
+<https://w3id.org/vibe-ontology/hasOriginPeriod> <http://www.w3.org/2000/01/rdf-schema#comment> "Specificeert het tijdsinterval waarin een esthetiek voor het eerst naar voren kwam."@nl .
+<https://w3id.org/vibe-ontology/hasPlatform> <http://www.w3.org/2000/01/rdf-schema#comment> "Ассоциирует эстетику с платформой, на которой она распространяется."@ru .
+<https://w3id.org/vibe-ontology/Role> <http://www.w3.org/2000/01/rdf-schema#label> "役割"@ja .
+<https://w3id.org/vibe-ontology/TimeInterval> <http://www.w3.org/2000/01/rdf-schema#comment> "エンティティ、役割、あるいは関連性の時間的な有効範囲を定義するための期間。厳密な開始・終了時期は、近似的な範囲も許容する。"@ja .
+<https://w3id.org/vibe-ontology/InteriorDesign> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/vibe-ontology/ArchitecturalWork> .
+<https://w3id.org/vibe-ontology/associatedSubculture> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/Aesthetic> .
+<https://w3id.org/vibe-ontology/hasPlatform> <http://www.w3.org/2000/01/rdf-schema#label> "имеет платформу"@ru .
+<https://w3id.org/vibe-ontology/influencedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Collega un'Estetica a un'altra Estetica da cui essa ha tratto influenza stilistica, tematica o culturale."@it .
+<https://w3id.org/vibe-ontology/representativenessType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/vibe-ontology/Song> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/PrimaryRole> <http://www.w3.org/2000/01/rdf-schema#comment> "A role indicating a primary or central association within a context."@en .
+<https://w3id.org/vibe-ontology/withRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/hasTheme> <http://www.w3.org/2000/01/rdf-schema#comment> "Ассоциирует произведение с темой, которую оно выражает или выдвигает на первый план."@ru .
+<https://w3id.org/vibe-ontology/TVShow> <http://www.w3.org/2000/01/rdf-schema#label> "テレビ番組"@ja .
+<https://w3id.org/vibe-ontology/TimeInterval> <http://www.w3.org/2000/01/rdf-schema#label> "時間区間"@ja .
+<https://w3id.org/vibe-ontology/PrimaryRole> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ruolo che indica un’associazione primaria o centrale in un contesto."@it .
+<https://w3id.org/vibe-ontology/hasRelatedBrand> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/vibe-ontology/relatedTo> .
+<https://w3id.org/vibe-ontology/hasCreator> <http://www.w3.org/2000/01/rdf-schema#comment> "美学と、それを創造したまたは生み出したエージェントを関連付ける。"@ja .
+<https://w3id.org/vibe-ontology/RepresentativeAssociation> <http://www.w3.org/2000/01/rdf-schema#comment> "美学と、その象徴的な表象であるエンティティとを繋ぐ関係を実体化したクラス。これらの関連は美学が認識され構築されるメカニズムを定めるものであり、時間的範囲、代表性の度合い、あるいは（主従などの）役割によって詳細化される。"@ja .
+<https://w3id.org/vibe-ontology/hasRelatedBrand> <http://www.w3.org/2000/01/rdf-schema#label> "ha brand associato"@it .
+<https://w3id.org/vibe-ontology/Agent> <http://www.w3.org/2000/01/rdf-schema#comment> "Een entiteit die in staat is tot handelen, creëren of het beïnvloeden van culturele artefacten of esthetiek, inclusief individuen en groepen."@nl .
+<https://w3id.org/vibe-ontology/hasColorPalette> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/influenced> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/Aesthetic> .
+<https://w3id.org/vibe-ontology/relatedTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/vibe-ontology/Region> <http://www.w3.org/2000/01/rdf-schema#label> "Regione"@it .
+<https://w3id.org/vibe-ontology/iconicFigureDimension> <http://www.w3.org/2000/01/rdf-schema#label> "iconic figure dimension"@en .
+<https://w3id.org/vibe-ontology/PeriodDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/hasRelatedBrand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/Person> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/vibe-ontology/Platform> .
+<https://w3id.org/vibe-ontology/ArchitecturalWork> <http://www.w3.org/2000/01/rdf-schema#comment> "建築の実践の中でデザインされた建物または空間構造からなる作品。"@ja .
+<https://w3id.org/vibe-ontology/Brand> <http://www.w3.org/2000/01/rdf-schema#label> "Marchio"@it .
+<https://w3id.org/vibe-ontology/Person> <http://www.w3.org/2000/01/rdf-schema#label> "Persoon"@nl .
+<https://w3id.org/vibe-ontology/hasColorPalette> <http://www.w3.org/2000/01/rdf-schema#comment> "Associeert een esthetiek met een karakteristiek kleurenpalet dat bijdraagt aan de visuele identiteit."@nl .
+<https://w3id.org/vibe-ontology/Region> <http://www.w3.org/2000/01/rdf-schema#label> "Regio"@nl .
+<https://w3id.org/vibe-ontology/Agent> <http://www.w3.org/2000/01/rdf-schema#label> "Actor"@nl .
+<https://w3id.org/vibe-ontology/PrimaryRole> <http://www.w3.org/2000/01/rdf-schema#label> "Ruolo primario"@it .
+<https://w3id.org/vibe-ontology/Videogame> <http://www.w3.org/2000/01/rdf-schema#label> "ビデオゲーム"@ja .
+<https://w3id.org/vibe-ontology/FoodItem> <http://www.w3.org/2000/01/rdf-schema#label> "Alimento"@it .
+<https://w3id.org/vibe-ontology/Person> <http://www.w3.org/2000/01/rdf-schema#label> "Person"@en .
+<https://w3id.org/vibe-ontology/Group> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/vibe-ontology/Agent> .
+<https://w3id.org/vibe-ontology/Role> <http://www.w3.org/2000/01/rdf-schema#comment> "特定の関係性においてエンティティに割り当てられる、文脈依存の機能や属性。"@ja .
+<https://w3id.org/vibe-ontology/Role> <http://www.w3.org/2000/01/rdf-schema#label> "Rol"@nl .
+<https://w3id.org/vibe-ontology/TimeInterval> <http://www.w3.org/2000/01/rdf-schema#label> "Временной интервал"@ru .
+<https://w3id.org/vibe-ontology/Country> <http://www.w3.org/2000/01/rdf-schema#label> "Страна"@ru .
+<https://w3id.org/vibe-ontology/Activity> <http://www.w3.org/2000/01/rdf-schema#label> "Activity"@en .
+<https://w3id.org/vibe-ontology/hasPeriodDefinition> <http://www.w3.org/2000/01/rdf-schema#comment> "Ассоциирует сущность с Определением периода, помещая её в конкретный временной контекст."@ru .
+<https://w3id.org/vibe-ontology/ArchitecturalWork> <http://www.w3.org/2000/01/rdf-schema#label> "Architectonisch werk"@nl .
+<https://w3id.org/vibe-ontology/forAesthetic> <http://www.w3.org/2000/01/rdf-schema#label> "for aesthetic"@en .
+<https://w3id.org/vibe-ontology/Country> <http://www.w3.org/2000/01/rdf-schema#label> "Land"@nl .
+<https://w3id.org/vibe-ontology/DigitalPlace> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ambiente virtuale in cui avvengono interazioni, creazione di contenuti o pratiche comunitarie (per esempio, forum, siti web, social network)."@it .
+<https://w3id.org/vibe-ontology/associatedSubculture> <http://www.w3.org/2000/01/rdf-schema#comment> "Collega un'Estetica a una Sottocultura che le è socialmente associata o ha contribuito alla sua emergenza e stabilizzazione."@it .
+<https://w3id.org/vibe-ontology/isSubgenreOf> <http://www.w3.org/2000/01/rdf-schema#label> "上位ジャンル"@ja .
+<https://w3id.org/vibe-ontology/Agent> <http://www.w3.org/2000/01/rdf-schema#comment> "Агент"@ru .
+<https://w3id.org/vibe-ontology/precedes> <http://www.w3.org/2000/01/rdf-schema#label> "precede"@it .
+<https://w3id.org/vibe-ontology/Beauty> <http://www.w3.org/2000/01/rdf-schema#label> "Beauty"@en .
+<https://w3id.org/vibe-ontology/hasTheme> <http://www.w3.org/2000/01/rdf-schema#comment> "Associeert een werk met een thema dat het uitdrukt, uitdraagt of op de voorgrond plaatst."@nl .
+<https://w3id.org/vibe-ontology/City> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/vibe-ontology/Location> .
+<https://w3id.org/vibe-ontology/ArtistRole> <http://www.w3.org/2000/01/rdf-schema#label> "アーティストの役割"@ja .
+<https://w3id.org/vibe-ontology/Location> <http://www.w3.org/2000/01/rdf-schema#label> "Locatie"@nl .
+<https://w3id.org/vibe-ontology/Agent> <http://www.w3.org/2000/01/rdf-schema#comment> "個人やグループを含む、文化的成果物や美学に対して行動、創造、影響を与える能力を持つエンティティ。"@ja .
+<https://w3id.org/vibe-ontology/Platform> <http://www.w3.org/2000/01/rdf-schema#comment> "Социотехническая система, которая обеспечивает и одновременно ограничивает взаимодействие, создание и распространение контента. Она проявляет субъектность через свой дизайн, управление и алгоритмические механизмы, тем самым формируя возникновение и видимость эстетик."@ru .
+<https://w3id.org/vibe-ontology/Brand> <http://www.w3.org/2000/01/rdf-schema#comment> "Идентифицируемая коммерческая или общественная организация, характеризующаяся названием, идентичностью и набором смыслов, ценностей и практик дизайна, которая может создавать или влиять на артефакты, стили и эстетические ассоциации."@ru .
+<https://w3id.org/vibe-ontology/RepresentativeAssociation> <http://www.w3.org/2000/01/rdf-schema#comment> "Een gereificeerde relatie die een esthetiek koppelt aan een entiteit die als representatief hiervoor wordt beschouwd. Dergelijke associaties coderen de mechanismen waardoor een esthetiek wordt herkend en geconstrueerd, en kunnen worden gekwalificeerd door temporele reikwijdte, mate van representativiteit of rol (bijv. primair)."@nl .
+<https://w3id.org/vibe-ontology/influenced> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/vibe-ontology/relatedTo> .
+<https://w3id.org/vibe-ontology/withRole> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifica il Ruolo ricoperto dall'entità all'interno di una relazione di tipo Ruolo indicizzato temporalmente."@it .
+<https://w3id.org/vibe-ontology/startYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/vibe-ontology/withRole> <http://www.w3.org/2000/01/rdf-schema#label> "met rol"@nl .
+<https://w3id.org/vibe-ontology/Beauty> <http://www.w3.org/2000/01/rdf-schema#comment> "A domain of products, practices, and industries related to personal care, cosmetics, skincare, and bodily appearance, often associated with aesthetic expression and identity construction."@en .
+<https://w3id.org/vibe-ontology/IconicFigure> <http://www.w3.org/2000/01/rdf-schema#comment> "美学と強く関連する個人を表す役割。"@ja .
+<https://w3id.org/vibe-ontology/hasRelatedBrand> <http://www.w3.org/2000/01/rdf-schema#comment> "美学と、その特徴的な、または文化的に一致するブランドを関連付ける。"@ja .
+<https://w3id.org/vibe-ontology/hasPeriodDefinition> <http://www.w3.org/2000/01/rdf-schema#comment> "Associa un'entità a una Definizione di periodo che la colloca in un contesto temporale."@it .
+<https://w3id.org/vibe-ontology/hasSubgenre> <http://www.w3.org/2000/01/rdf-schema#label> "ha sottogenere"@it .
+_:n10a9d9e078c44993be0b66527199cf7ab3 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://w3id.org/vibe-ontology/TVShow> <http://www.w3.org/2000/01/rdf-schema#label> "Сериал"@ru .
+<https://w3id.org/vibe-ontology/associationDimension> <http://www.w3.org/2000/01/rdf-schema#label> "associatie dimensie"@nl .
+<https://w3id.org/vibe-ontology/startYear> <http://www.w3.org/2000/01/rdf-schema#label> "anno di inizio"@it .
+<https://w3id.org/vibe-ontology/LiteraryWork> <http://www.w3.org/2000/01/rdf-schema#label> "Литературное произведение"@ru .
+<https://w3id.org/vibe-ontology/LiteraryWork> <http://www.w3.org/2000/01/rdf-schema#comment> "小説、詩、書かれた物語などのテキスト作品。"@ja .
+<https://w3id.org/vibe-ontology/IconicFigure> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ruolo che rappresenta un individuo fortemente associato a un’estetica."@it .
+<https://w3id.org/vibe-ontology/InteriorDesign> <http://www.w3.org/2000/01/rdf-schema#label> "Interior Design"@en .
+<https://w3id.org/vibe-ontology/hasPeriodDefinition> <http://www.w3.org/2000/01/rdf-schema#label> "has period definition"@en .
+<https://w3id.org/vibe-ontology/source> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the Agent from which a PeriodDefinition derives its evidence or authority."@en .
+<http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/vibe-ontology/Aesthetic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/vibe-ontology/endYear> <http://www.w3.org/2000/01/rdf-schema#label> "終了年"@ja .
+<https://w3id.org/vibe-ontology/associatedSubculture> <http://www.w3.org/2000/01/rdf-schema#comment> "Koppelt een esthetiek aan een subcultuur die er sociaal mee geassocieerd is of heeft bijgedragen aan het ontstaan en de stabilisatie ervan."@nl .
+<https://w3id.org/vibe-ontology/Value> <http://www.w3.org/2000/01/rdf-schema#comment> "An abstract principle, an affective/axiological orientation, or evaluative dimension (ethical, cultural, aesthetic, or ideological) associated with entities or aesthetics. Values are not limited to moral judgments but include broader attitudinal or conceptual stances. E.g., the aesthetic Frutiger Aero is associated with optimism, cleanliness, techno-natural harmony."@en .
+<https://w3id.org/vibe-ontology/hasMember> <http://www.w3.org/2000/01/rdf-schema#comment> "Связывает коллекцию с одной из составляющих её сущностей. Принадлежность не подразумевает исчерпаемости или строгой необходимости."@ru .
+<https://w3id.org/vibe-ontology/follows> <http://www.w3.org/2000/01/rdf-schema#label> "follows"@en .
+<https://w3id.org/vibe-ontology/precedes> <http://www.w3.org/2000/01/rdf-schema#comment> "Указывает на то, что одна эстетика предшествует другой во времени или стилистически. Свойство транзитивно."@ru .
+<https://w3id.org/vibe-ontology/Album> <http://www.w3.org/2000/01/rdf-schema#label> "アルバム"@ja .
+<https://w3id.org/vibe-ontology/hasLocationOfOrigin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/hasSubgenre> <http://www.w3.org/2000/01/rdf-schema#comment> "Связывает Эстетику с более узкой Эстетикой, являющейся её подвариантом."@ru .
+<https://w3id.org/vibe-ontology/hasColorPalette> <http://www.w3.org/2000/01/rdf-schema#label> "имеет цветовую палитру"@ru .
+<https://w3id.org/vibe-ontology/Anime> <http://www.w3.org/2000/01/rdf-schema#label> "Anime"@nl .
+<https://w3id.org/vibe-ontology/Artwork> <http://www.w3.org/2000/01/rdf-schema#comment> "A creative artifact produced within any expressive medium, including visual (images, paintings, sculpture, architecture, film, videogames), auditory (music), textual (literature), or embodied/industrial forms (fashion). It is treated as a generic work entity independent of medium-specific taxonomies."@en .
+<https://w3id.org/vibe-ontology/Song> <http://www.w3.org/2000/01/rdf-schema#label> "Song"@en .
+<https://w3id.org/vibe-ontology/Country> <http://www.w3.org/2000/01/rdf-schema#label> "Country"@en .
+<https://w3id.org/vibe-ontology/withEntity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/RepresentativeAssociation> .
+<https://w3id.org/vibe-ontology/hasPrimaryPlatform> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/Aesthetic> .
+<https://w3id.org/vibe-ontology/fashionDimension> <http://www.w3.org/2000/01/rdf-schema#label> "ファッションの次元"@ja .
+<https://w3id.org/vibe-ontology/themeDimension> <http://www.w3.org/2000/01/rdf-schema#label> "theme dimension"@en .
+<https://w3id.org/vibe-ontology/TVShow> <http://www.w3.org/2000/01/rdf-schema#comment> "A serial audiovisual work produced for television or streaming platforms."@en .
+<https://w3id.org/vibe-ontology/relatedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/withEntity> <http://www.w3.org/2000/01/rdf-schema#label> "с сущностью"@ru .
+<https://w3id.org/vibe-ontology/Album> <http://www.w3.org/2000/01/rdf-schema#label> "Альбом"@ru .
+<https://w3id.org/vibe-ontology/InteriorDesign> <http://www.w3.org/2000/01/rdf-schema#label> "インテリアデザイン"@ja .
+<https://w3id.org/vibe-ontology/hasMember> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/vibe-ontology/PeriodDefinition> <http://www.w3.org/2000/01/rdf-schema#comment> "Een temporeel begrensd maar potentieel onvolledig interval dat wordt gebruikt om entiteiten of verschijnselen in de tijd te plaatsen, waarbij vage of overlappende grenzen mogelijk zijn, in overeenstemming met modellen zoals PeriodO."@nl .
+<https://w3id.org/vibe-ontology/ArchitecturalWork> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/vibe-ontology/Artwork> .
+<https://w3id.org/vibe-ontology/Song> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/vibe-ontology/MusicWork> .
+<https://w3id.org/vibe-ontology/isMemberOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Verbindt een entiteit met de collectie waarvan het een samenstellend lid is."@nl .
+<https://w3id.org/vibe-ontology/Color> <http://www.w3.org/2000/01/rdf-schema#comment> "A visual attribute perceived through light, often contributing to aesthetic identity."@en .
+<https://w3id.org/vibe-ontology/forAesthetic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/isRoleInTimeOf> <http://www.w3.org/2000/01/rdf-schema#label> "является временной ролью для"@ru .
+<https://w3id.org/vibe-ontology/Collection> <http://www.w3.org/2000/01/rdf-schema#label> "コレクション"@ja .
+<https://w3id.org/vibe-ontology/hasSubgenre> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/vibe-ontology/isSubgenreOf> .
+<https://w3id.org/vibe-ontology/TimeInterval> <http://www.w3.org/2000/01/rdf-schema#comment> "Временной отрезок с началом и/или концом, который может быть точно определенным или приблизительным; используется для квалификации временной валидности сущностей, ролей или ассоциаций."@ru .
+<https://w3id.org/vibe-ontology/Painting> <http://www.w3.org/2000/01/rdf-schema#label> "Schilderij"@nl .
+<https://w3id.org/vibe-ontology/isMemberOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+_:n10a9d9e078c44993be0b66527199cf7ab1 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/vibe-ontology/hasMember> .
+<https://w3id.org/vibe-ontology/Group> <http://www.w3.org/2000/01/rdf-schema#label> "Groep"@nl .
+<https://w3id.org/vibe-ontology/isMemberOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Collega un'entità alla Collezione di cui è membro costituente."@it .
+<https://w3id.org/vibe-ontology/hasPrimaryPlatform> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifica la Piattaforma principale attraverso cui un'Estetica è prevalentemente diffusa o ha acquisito visibilità."@it .
+<https://w3id.org/vibe-ontology/Film> <http://www.w3.org/2000/01/rdf-schema#comment> "Un’opera audiovisiva prodotta nel contesto cinematografico."@it .
+<https://w3id.org/vibe-ontology/hasValue> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/vibe-ontology/Value> .
+<https://w3id.org/vibe-ontology/timeInterval> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/PeriodDefinition> .
+<https://w3id.org/vibe-ontology/Anime> <http://www.w3.org/2000/01/rdf-schema#label> "アニメ"@ja .
+<https://w3id.org/vibe-ontology/hasValue> <http://www.w3.org/2000/01/rdf-schema#label> "имеет ценность"@ru .
+<https://w3id.org/vibe-ontology/overlapsWith> <http://www.w3.org/2000/01/rdf-schema#label> "si sovrappone a"@it .
+<https://w3id.org/vibe-ontology/approximateLabel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/vibe-ontology/name> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/Aesthetic> .
+<https://w3id.org/vibe-ontology/Location> <http://www.w3.org/2000/01/rdf-schema#label> "Местоположение"@ru .
+<https://w3id.org/vibe-ontology/hasMember> <http://www.w3.org/2000/01/rdf-schema#label> "имеет участника/элемент"@ru .
+<https://w3id.org/vibe-ontology/IconicFigure> <http://www.w3.org/2000/01/rdf-schema#comment> "Роль, представляющая личность, тесно связанную с определенной эстетикой."@ru .
+<https://w3id.org/vibe-ontology/musicDimension> <http://www.w3.org/2000/01/rdf-schema#label> "музыкальное измерение"@ru .
+<https://w3id.org/vibe-ontology/hasRelatedWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/Videogame> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/vibe-ontology/Artwork> .
+<https://w3id.org/vibe-ontology/hasPrimaryPlatform> <http://www.w3.org/2000/01/rdf-schema#comment> "Указывает на основную платформу, через которую эстетика преимущественно распространялась или получила известность."@ru .
+<https://w3id.org/vibe-ontology/overlapsWith> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/vibe-ontology/relatedTo> .
+<https://w3id.org/vibe-ontology/hasLocationOfOrigin> <http://www.w3.org/2000/01/rdf-schema#label> "место происхождения"@ru .
+<https://w3id.org/vibe-ontology/associationDimension> <http://www.w3.org/2000/01/rdf-schema#comment> "Classificeert het type associatie gecodeerd door een RepresentativeAssociation. Verwachte waarden zijn de individuen: motifDimension, themeDimension, valueDimension, colorDimension, platformDimension, musicDimension, fashionDimension, iconicFigureDimension."@nl .
+<https://w3id.org/vibe-ontology/Region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/hasOriginPeriod> <http://www.w3.org/2000/01/rdf-schema#label> "период возникновения"@ru .
+<https://w3id.org/vibe-ontology/hasIconicFigure> <http://www.w3.org/2000/01/rdf-schema#label> "ha figura iconica"@it .
+<https://w3id.org/vibe-ontology/withRole> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/TimeIndexedRole> .
+<https://w3id.org/vibe-ontology/Film> <http://www.w3.org/2000/01/rdf-schema#label> "Film"@en .
+<https://w3id.org/vibe-ontology/Song> <http://www.w3.org/2000/01/rdf-schema#comment> "Una composizione musicale singola, tipicamente composta da testo e melodia."@it .
+<https://w3id.org/vibe-ontology/follows> <http://www.w3.org/2000/01/rdf-schema#comment> "ある美学が別の美学に時間的またはスタイル的に後続することを示す。この性質は推移的である。"@ja .
+<https://w3id.org/vibe-ontology/coinedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/Film> <http://www.w3.org/2000/01/rdf-schema#label> "Film"@nl .
+<https://w3id.org/vibe-ontology/hasPeriodDefinition> <http://www.w3.org/2000/01/rdf-schema#label> "имеет определение периода"@ru .
+<https://w3id.org/vibe-ontology/Collection> <http://www.w3.org/2000/01/rdf-schema#comment> "A set of entities grouped together, either explicitly or implicitly, based on perceived coherence, curation, or shared associations. Collections function as the primary means through which an Aesthetic is expressed and recognized, without requiring fixed or exhaustive membership."@en .
+<https://w3id.org/vibe-ontology/withRole> <http://www.w3.org/2000/01/rdf-schema#label> "con ruolo"@it .
+<https://w3id.org/vibe-ontology/Song> <http://www.w3.org/2000/01/rdf-schema#comment> "Een enkele muzikale compositie, meestal bestaande uit tekst en melodie."@nl .
+<https://w3id.org/vibe-ontology/motifDimension> <http://www.w3.org/2000/01/rdf-schema#label> "motif dimension"@en .
+<https://w3id.org/vibe-ontology/hasMotif> <http://www.w3.org/2000/01/rdf-schema#comment> "作品と、その中に現れる特徴的なモチーフを関連付ける。"@ja .
+<https://w3id.org/vibe-ontology/Color> <http://www.w3.org/2000/01/rdf-schema#comment> "光を通じて知覚される視覚的属性。美的アイデンティティに貢献することが多い。"@ja .
+<https://w3id.org/vibe-ontology/hasRelatedBrand> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates an Aesthetic with a Brand that is characteristic of or culturally aligned with it."@en .
+<https://w3id.org/vibe-ontology/endYear> <http://www.w3.org/2000/01/rdf-schema#label> "anno di fine"@it .
+<https://w3id.org/vibe-ontology/hasOriginPeriod> <http://www.w3.org/2000/01/rdf-schema#label> "heeft periode van oorsprong"@nl .
+<https://w3id.org/vibe-ontology/Motif> <http://www.w3.org/2000/01/rdf-schema#label> "Мотив"@ru .
+<https://w3id.org/vibe-ontology/hasRelatedWork> <http://www.w3.org/2000/01/rdf-schema#comment> "Associa un'Estetica a un'Opera considerata rappresentativa o tematicamente correlata."@it .
+<https://w3id.org/vibe-ontology/URL> <http://www.w3.org/2000/01/rdf-schema#label> "URL"@it .
+<https://w3id.org/vibe-ontology/ColorPalette> <http://www.w3.org/2000/01/rdf-schema#label> "カラーパレット"@ja .
+<https://w3id.org/vibe-ontology/follows> <http://www.w3.org/2000/01/rdf-schema#label> "следует за"@ru .
+<https://w3id.org/vibe-ontology/TimeIndexedRole> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n10a9d9e078c44993be0b66527199cf7ab5 .
+<https://w3id.org/vibe-ontology/Brand> <http://www.w3.org/2000/01/rdf-schema#label> "Brand"@en .
+<https://w3id.org/vibe-ontology/Videogame> <http://www.w3.org/2000/01/rdf-schema#comment> "Интерактивное цифровое произведение, сочетающее визуальные, повествовательные и игровые элементы."@ru .
+<https://w3id.org/vibe-ontology/> <http://www.w3.org/2000/01/rdf-schema#comment> "Ontology for modelling aesthetics as emergent, collection-based categories grounded in representative associations."@en .
+<https://w3id.org/vibe-ontology/hasPlatform> <http://www.w3.org/2000/01/rdf-schema#label> "流通プラットフォーム"@ja .
+<https://w3id.org/vibe-ontology/ArtistRole> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ruolo svolto da un agente come creatore o contributore alla produzione artistica."@it .
+<https://w3id.org/vibe-ontology/Collection> <http://www.w3.org/2000/01/rdf-schema#label> "Collection"@en .
+<https://w3id.org/vibe-ontology/hasIconicFigure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/influencedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/timeInterval> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/vibe-ontology/TimeInterval> .
+<https://w3id.org/vibe-ontology/hasPeriodDefinition> <http://www.w3.org/2000/01/rdf-schema#comment> "Associeert een entiteit met een periodedefinitie die deze binnen een temporele context plaatst."@nl .
+<https://w3id.org/vibe-ontology/influencedBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/vibe-ontology/Aesthetic> .
+<https://w3id.org/vibe-ontology/precedes> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that one Aesthetic temporally or stylistically precedes another. This property is transitive."@en .
+<https://w3id.org/vibe-ontology/Anime> <http://www.w3.org/2000/01/rdf-schema#label> "Anime"@it .
+<https://w3id.org/vibe-ontology/Color> <http://www.w3.org/2000/01/rdf-schema#label> "Color"@en .
+<https://w3id.org/vibe-ontology/hasMember> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/Collection> .
+<https://w3id.org/vibe-ontology/LiteraryWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/hasValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/musicDimension> <http://www.w3.org/2000/01/rdf-schema#label> "dimensione musicale"@it .
+<https://w3id.org/vibe-ontology/associatedSubculture> <http://www.w3.org/2000/01/rdf-schema#label> "associated subculture"@en .
+<https://w3id.org/vibe-ontology/hasMotif> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/Image> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/vibe-ontology/Artwork> .
+<https://w3id.org/vibe-ontology/atTime> <http://www.w3.org/2000/01/rdf-schema#label> "во время"@ru .
+<https://w3id.org/vibe-ontology/Group> <http://www.w3.org/2000/01/rdf-schema#comment> "A collection of agents acting or identified as a unit."@en .
+<https://w3id.org/vibe-ontology/associatedSubculture> <http://www.w3.org/2000/01/rdf-schema#label> "sottocultura associata"@it .
+<https://w3id.org/vibe-ontology/timeInterval> <http://www.w3.org/2000/01/rdf-schema#label> "時間区間"@ja .
+<https://w3id.org/vibe-ontology/endYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/vibe-ontology/Artwork> <http://www.w3.org/2000/01/rdf-schema#label> "Произведение искусства"@ru .
+<https://w3id.org/vibe-ontology/overlapsWith> <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan dat twee esthetieken significante elementen of associaties delen, zonder dat de een een subgenre van de ander is. Deze eigenschap is symmetrisch."@nl .
+<https://w3id.org/vibe-ontology/colorDimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/vibe-ontology/colorDimension> <http://www.w3.org/2000/01/rdf-schema#label> "dimensione del colore"@it .
+<https://w3id.org/vibe-ontology/atTime> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the temporal interval during which a TimeIndexedRole is valid."@en .
+<https://w3id.org/vibe-ontology/hasPlatform> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates an Aesthetic with a Platform on which it circulates or has been disseminated."@en .
+<https://w3id.org/vibe-ontology/influencedBy> <http://www.w3.org/2000/01/rdf-schema#label> "находится под влиянием"@ru .
+<https://w3id.org/vibe-ontology/Brand> <http://www.w3.org/2000/01/rdf-schema#comment> "An identifiable commercial or institutional entity characterized by a name, identity, and set of associated meanings, values, and design practices, which can produce or influence artifacts, styles, and aesthetic associations."@en .
+<https://w3id.org/vibe-ontology/motifDimension> <http://www.w3.org/2000/01/rdf-schema#label> "измерение мотива"@ru .
+<https://w3id.org/vibe-ontology/RepresentativeAssociation> <http://www.w3.org/2000/01/rdf-schema#label> "象徴的な関連"@ja .
+<https://w3id.org/vibe-ontology/Beauty> <http://www.w3.org/2000/01/rdf-schema#label> "Schoonheidsverzorging"@nl .
+<https://w3id.org/vibe-ontology/ColorPalette> <http://www.w3.org/2000/01/rdf-schema#comment> "反復的な共起、デザイン慣習、視覚的調和によって構造化された色のセット。特定の美学の視覚的アイデンティティの構成要素となることがある。"@ja .
+<https://w3id.org/vibe-ontology/coinedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Collega un'Estetica all'Agente che l'ha coniata o che vi ha dato il nome per la prima volta."@it .
+<https://w3id.org/vibe-ontology/Film> <http://www.w3.org/2000/01/rdf-schema#comment> "Een kunstwerk van bewegende beelden geproduceerd binnen filmische media."@nl .
+<https://w3id.org/vibe-ontology/Location> <http://www.w3.org/2000/01/rdf-schema#comment> "Пространственная сущность, представляющая физическое или цифровое место."@ru .
+<https://w3id.org/vibe-ontology/Film> <http://www.w3.org/2000/01/rdf-schema#comment> "Произведение движущихся изображений, созданное в рамках кинематографа."@ru .
+<https://w3id.org/vibe-ontology/relatedTo> <http://www.w3.org/2000/01/rdf-schema#label> "связано с"@ru .
+<https://w3id.org/vibe-ontology/Collection> <http://www.w3.org/2000/01/rdf-schema#label> "Коллекция"@ru .
+<https://w3id.org/vibe-ontology/hasMember> <http://www.w3.org/2000/01/rdf-schema#label> "構成要素"@ja .
+<https://w3id.org/vibe-ontology/PrimaryRole> <http://www.w3.org/2000/01/rdf-schema#label> "Primaire rol"@nl .
+<https://w3id.org/vibe-ontology/Location> <http://www.w3.org/2000/01/rdf-schema#comment> "Een ruimtelijke entiteit die een fysieke of digitale plaats vertegenwoordigt."@nl .
+<https://w3id.org/vibe-ontology/influenced> <http://www.w3.org/2000/01/rdf-schema#comment> "美学と、それがスタイル、モチーフ、価値観などの点で影響を与えた別の美学を関連付ける。"@ja .
+<https://w3id.org/vibe-ontology/hasPeriodDefinition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/vibe-ontology/IconicFigure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/hasPlatform> <http://www.w3.org/2000/01/rdf-schema#comment> "Associa un'Estetica a una Piattaforma su cui essa circola o è stata diffusa."@it .
+<https://w3id.org/vibe-ontology/Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/vibe-ontology/Agent> .
+<https://w3id.org/vibe-ontology/overlapsWith> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that two Aesthetics share significant elements or associations without either being a subgenre of the other. This property is symmetric."@en .
+<https://w3id.org/vibe-ontology/hasTheme> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/Artwork> .
+<https://w3id.org/vibe-ontology/hasTheme> <http://www.w3.org/2000/01/rdf-schema#label> "имеет тему"@ru .
+<https://w3id.org/vibe-ontology/alternateName> <http://www.w3.org/2000/01/rdf-schema#label> "別名"@ja .
+<https://w3id.org/vibe-ontology/overlapsWith> <http://www.w3.org/2000/01/rdf-schema#label> "overlapt met"@nl .
+<https://w3id.org/vibe-ontology/Location> <http://www.w3.org/2000/01/rdf-schema#comment> "A spatial entity representing a physical or a digital place."@en .
+<https://w3id.org/vibe-ontology/endYear> <http://www.w3.org/2000/01/rdf-schema#label> "eindjaar"@nl .
+<https://w3id.org/vibe-ontology/Role> <http://www.w3.org/2000/01/rdf-schema#label> "Ruolo"@it .
+<https://w3id.org/vibe-ontology/Group> <http://www.w3.org/2000/01/rdf-schema#label> "Group"@en .
+<https://w3id.org/vibe-ontology/Motif> <http://www.w3.org/2000/01/rdf-schema#label> "Motivo"@it .
+<https://w3id.org/vibe-ontology/hasLocationOfOrigin> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/vibe-ontology/hasLocation> .
+<https://w3id.org/vibe-ontology/musicDimension> <http://www.w3.org/2000/01/rdf-schema#label> "music dimension"@en .
+<https://w3id.org/vibe-ontology/hasMotif> <http://www.w3.org/2000/01/rdf-schema#comment> "Associa un'Opera d'arte a un motivo ricorrente e riconoscibile."@it .
+<https://w3id.org/vibe-ontology/hasTheme> <http://www.w3.org/2000/01/rdf-schema#comment> "Associa un'Opera a un Tema che esprime, veicola o mette in primo piano."@it .
+<https://w3id.org/vibe-ontology/PrimaryRole> <http://www.w3.org/2000/01/rdf-schema#comment> "文脈の中で主要または中心的な関連を示す役割。"@ja .
+<https://w3id.org/vibe-ontology/Region> <http://www.w3.org/2000/01/rdf-schema#comment> "地理的区域。"@ja .
+<https://w3id.org/vibe-ontology/hasOriginPeriod> <http://www.w3.org/2000/01/rdf-schema#comment> "美学が最初に出現した期間を指定する。"@ja .
+<https://w3id.org/vibe-ontology/hasRelatedWork> <http://www.w3.org/2000/01/rdf-schema#comment> "Ассоциирует эстетику с произведением, которое считается репрезентативным для неё или тематически связано с ней."@ru .
+<https://w3id.org/vibe-ontology/FoodItem> <http://www.w3.org/2000/01/rdf-schema#comment> "Пищевой продукт, который может иметь эстетическую или культурную значимость."@ru .
+<https://w3id.org/vibe-ontology/Aesthetic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n10a9d9e078c44993be0b66527199cf7ab1 .
+<https://w3id.org/vibe-ontology/PrimaryRole> <http://www.w3.org/2000/01/rdf-schema#label> "Основная роль"@ru .
+<https://w3id.org/vibe-ontology/Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/MusicWork> <http://www.w3.org/2000/01/rdf-schema#comment> "Произведение искусства, выраженное через звук и музыкальную композицию."@ru .
+<https://w3id.org/vibe-ontology/Value> <http://www.w3.org/2000/01/rdf-schema#label> "Valore"@it .
+<https://w3id.org/vibe-ontology/hasValue> <http://www.w3.org/2000/01/rdf-schema#comment> "美学と、その方向性を特徴づける抽象的な価値観を関連付ける。"@ja .
+<https://w3id.org/vibe-ontology/Collection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/Region> <http://www.w3.org/2000/01/rdf-schema#comment> "Географическая область (регион)."@ru .
+<https://w3id.org/vibe-ontology/TVShow> <http://www.w3.org/2000/01/rdf-schema#comment> "Un’opera audiovisiva seriale prodotta per televisione o piattaforme streaming."@it .
+<https://w3id.org/vibe-ontology/approximateLabel> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/TimeInterval> .
+<https://w3id.org/vibe-ontology/follows> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/Aesthetic> .
+<https://w3id.org/vibe-ontology/hasSubgenre> <http://www.w3.org/2000/01/rdf-schema#label> "サブジャンル"@ja .
+_:n10a9d9e078c44993be0b66527199cf7ab1 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://w3id.org/vibe-ontology/hasPlatform> <http://www.w3.org/2000/01/rdf-schema#label> "heeft platform"@nl .
+<https://w3id.org/vibe-ontology/Brand> <http://www.w3.org/2000/01/rdf-schema#label> "Бренд"@ru .
+<https://w3id.org/vibe-ontology/City> <http://www.w3.org/2000/01/rdf-schema#label> "Città"@it .
+<https://w3id.org/vibe-ontology/influencedBy> <http://www.w3.org/2000/01/rdf-schema#label> "影響を受けた"@ja .
+<https://w3id.org/vibe-ontology/valueDimension> <http://www.w3.org/2000/01/rdf-schema#label> "waarde dimensie"@nl .
+<https://w3id.org/vibe-ontology/isSubgenreOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/Aesthetic> .
+<https://w3id.org/vibe-ontology/hasLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "任意のエンティティと物理的またはデジタルの空間的場所を関連付ける。"@ja .
+<https://w3id.org/vibe-ontology/relatedTo> <http://www.w3.org/2000/01/rdf-schema#label> "associato a"@it .
+<https://w3id.org/vibe-ontology/influenced> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/vibe-ontology/Aesthetic> .
+<https://w3id.org/vibe-ontology/RepresentativeAssociation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/isMemberOf> <http://www.w3.org/2000/01/rdf-schema#label> "is member of"@en .
+<https://w3id.org/vibe-ontology/hasPlatform> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/vibe-ontology/Platform> .
+<https://w3id.org/vibe-ontology/hasTheme> <http://www.w3.org/2000/01/rdf-schema#comment> "作品とそのテーマ（作品が伝え、表現し、または強調している主旨やトーン）を関連付ける。"@ja .
+<https://w3id.org/vibe-ontology/Brand> <http://www.w3.org/2000/01/rdf-schema#comment> "Un’entità commerciale o istituzionale identificabile caratterizzata da un nome, un’identità e un set di significati, valori e pratiche di design associate, che possono produrre o influenzare artefatti, stili e associazioni estetiche."@it .
+<https://w3id.org/vibe-ontology/relatedTo> <http://www.w3.org/2000/01/rdf-schema#label> "gerelateerd aan"@nl .
+<https://w3id.org/vibe-ontology/MusicWork> <http://www.w3.org/2000/01/rdf-schema#comment> "Un’opera espressa attraverso il suono e la composizione musicale."@it .
+<https://w3id.org/vibe-ontology/MusicWork> <http://www.w3.org/2000/01/rdf-schema#comment> "Een kunstwerk uitgedrukt via geluid en muzikale compositie."@nl .
+<https://w3id.org/vibe-ontology/RepresentativeAssociation> <http://www.w3.org/2000/01/rdf-schema#comment> "Реифицированное отношение, связывающее эстетику с сущностью, которая считается репрезентативной для неё. Такие ассоциации кодируют механизмы, посредством которых эстетика распознается и конструируется, и могут быть уточнены временными рамками, степенью репрезентативности или ролью (например, основной)."@ru .
+<https://w3id.org/vibe-ontology/Value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/Activity> <http://www.w3.org/2000/01/rdf-schema#label> "活動"@ja .
+<https://w3id.org/vibe-ontology/hasPrimaryPlatform> <http://www.w3.org/2000/01/rdf-schema#label> "主要プラットフォーム"@ja .
+<https://w3id.org/vibe-ontology/RepresentativeAssociation> <http://www.w3.org/2000/01/rdf-schema#label> "Representatieve associatie"@nl .
+<https://w3id.org/vibe-ontology/URL> <http://www.w3.org/2000/01/rdf-schema#label> "URL"@en .
+<https://w3id.org/vibe-ontology/Film> <http://www.w3.org/2000/01/rdf-schema#comment> "A moving-image artwork produced within cinematic media."@en .
+_:n10a9d9e078c44993be0b66527199cf7ab2 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/vibe-ontology/timeInterval> .
+<https://w3id.org/vibe-ontology/> <http://www.w3.org/2000/01/rdf-schema#comment> "Онтология для моделирования эстетики как эмерджентных, коллекционно-обусловленных категорий, основанных на репрезентативных ассоциациях."@ru .
+<https://w3id.org/vibe-ontology/hasPrimaryPlatform> <http://www.w3.org/2000/01/rdf-schema#label> "has primary platform"@en .
+<https://w3id.org/vibe-ontology/influenced> <http://www.w3.org/2000/01/rdf-schema#label> "beïnvloedde"@nl .
+<https://w3id.org/vibe-ontology/isRoleInTimeOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a TimeIndexedRole to the Platform whose temporally situated role is being described."@en .
+<https://w3id.org/vibe-ontology/Fashion> <http://www.w3.org/2000/01/rdf-schema#comment> "Сфера телесного и материального самовыражения, включающая одежду, стайлинг и практики украшения тела, посредством которых транслируются культурные смыслы, идентичности и эстетические ориентиры."@ru .
+<https://w3id.org/vibe-ontology/name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/vibe-ontology/Theme> <http://www.w3.org/2000/01/rdf-schema#comment> "Абстрактная концептуальная направленность или нарратив, лежащий в основе эстетики и отражающий её доминирующие смыслы, эмоциональный тон или мировоззрение. Например, тему эстетики Frutiger Aero можно описать как оптимистичное, чистое и интегрированное с природой видение ближайшего будущего."@ru .
+<https://w3id.org/vibe-ontology/Agent> <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@en .
+<https://w3id.org/vibe-ontology/hasPrimaryPlatform> <http://www.w3.org/2000/01/rdf-schema#comment> "美学が主に普及、または認知を得た主要なプラットフォームを指定する。"@ja .
+<https://w3id.org/vibe-ontology/Platform> <http://www.w3.org/2000/01/rdf-schema#label> "プラットフォーム"@ja .
+<https://w3id.org/vibe-ontology/Videogame> <http://www.w3.org/2000/01/rdf-schema#label> "Videogioco"@it .
+<https://w3id.org/vibe-ontology/hasMember> <http://www.w3.org/2000/01/rdf-schema#label> "has member"@en .
+<https://w3id.org/vibe-ontology/Agent> <http://www.w3.org/2000/01/rdf-schema#label> "Agente"@it .
+<https://w3id.org/vibe-ontology/Country> <http://www.w3.org/2000/01/rdf-schema#comment> "Una località geopolitica che rappresenta una nazione o uno stato."@it .
+<https://w3id.org/vibe-ontology/Person> <http://www.w3.org/2000/01/rdf-schema#label> "Персона"@ru .
+<https://w3id.org/vibe-ontology/Motif> <http://www.w3.org/2000/01/rdf-schema#label> "モチーフ"@ja .
+<https://w3id.org/vibe-ontology/hasColorPalette> <http://www.w3.org/2000/01/rdf-schema#label> "ha palette di colori"@it .
+<https://w3id.org/vibe-ontology/Fashion> <http://www.w3.org/2000/01/rdf-schema#comment> "衣服、スタイリング、装飾といった身体的・物質的な表現領域。文化的な意味合いやアイデンティティ、美的方向性を伝達する手段として機能する。"@ja .
+<https://w3id.org/vibe-ontology/Album> <http://www.w3.org/2000/01/rdf-schema#comment> "Музыкальное произведение, состоящее из коллекции записанных треков, выпущенных единым изданием."@ru .
+<https://w3id.org/vibe-ontology/IconicFigure> <http://www.w3.org/2000/01/rdf-schema#label> "Figura iconica"@it .
+<https://w3id.org/vibe-ontology/follows> <http://www.w3.org/2000/01/rdf-schema#label> "後継する"@ja .
+<https://w3id.org/vibe-ontology/Fashion> <http://www.w3.org/2000/01/rdf-schema#label> "Moda"@it .
+<https://w3id.org/vibe-ontology/hasPeriodDefinition> <http://www.w3.org/2000/01/rdf-schema#label> "期間定義"@ja .
+<https://w3id.org/vibe-ontology/valueDimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/vibe-ontology/fashionDimension> <http://www.w3.org/2000/01/rdf-schema#label> "mode dimensie"@nl .
+<https://w3id.org/vibe-ontology/endYear> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/TimeInterval> .
+<https://w3id.org/vibe-ontology/associationDimension> <http://www.w3.org/2000/01/rdf-schema#label> "association dimension"@en .
+<https://w3id.org/vibe-ontology/hasLocationOfOrigin> <http://www.w3.org/2000/01/rdf-schema#label> "発祥地"@ja .
+<https://w3id.org/vibe-ontology/City> <http://www.w3.org/2000/01/rdf-schema#label> "Stad"@nl .
+<https://w3id.org/vibe-ontology/Value> <http://www.w3.org/2000/01/rdf-schema#label> "Ценность"@ru .
+<https://w3id.org/vibe-ontology/name> <http://www.w3.org/2000/01/rdf-schema#label> "name"@en .
+<https://w3id.org/vibe-ontology/Painting> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/vibe-ontology/Artwork> .
+<https://w3id.org/vibe-ontology/Videogame> <http://www.w3.org/2000/01/rdf-schema#comment> "Een interactief digitaal kunstwerk dat visuele, narratieve en gameplay-elementen combineert."@nl .
+<https://w3id.org/vibe-ontology/coinedBy> <http://www.w3.org/2000/01/rdf-schema#label> "coniato da"@it .
+<https://w3id.org/vibe-ontology/Color> <http://www.w3.org/2000/01/rdf-schema#comment> "Un attributo visivo percepito attraverso la luce, che contribuisce all’identità estetica."@it .
+<https://w3id.org/vibe-ontology/hasPrimaryPlatform> <http://www.w3.org/2000/01/rdf-schema#comment> "Specificeert het belangrijkste platform waarlangs een esthetiek voornamelijk wordt verspreid of zichtbaarheid heeft verkregen."@nl .
+<https://w3id.org/vibe-ontology/timeInterval> <http://www.w3.org/2000/01/rdf-schema#comment> "Collega una PeriodDefinition all'intervallo temporale che essa definisce."@it .
+<https://w3id.org/vibe-ontology/ArchitecturalWork> <http://www.w3.org/2000/01/rdf-schema#comment> "Een kunstwerk bestaande uit gebouwen of ruimtelijke structuren ontworpen binnen de architectuur."@nl .
+<https://w3id.org/vibe-ontology/hasLocation> <http://www.w3.org/2000/01/rdf-schema#label> "ha luogo"@it .
+<https://w3id.org/vibe-ontology/coinedBy> <http://www.w3.org/2000/01/rdf-schema#label> "придумано (кем)"@ru .
+<https://w3id.org/vibe-ontology/> <http://www.w3.org/2000/01/rdf-schema#label> "Вайб Онтология"@ru .
+<https://w3id.org/vibe-ontology/TVShow> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/vibe-ontology/Artwork> .
+<https://w3id.org/vibe-ontology/source> <http://www.w3.org/2000/01/rdf-schema#label> "出典"@ja .
+<https://w3id.org/vibe-ontology/TimeIndexedRole> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n10a9d9e078c44993be0b66527199cf7ab4 .
+<https://w3id.org/vibe-ontology/influencedBy> <http://www.w3.org/2000/01/rdf-schema#label> "influenced by"@en .
+<https://w3id.org/vibe-ontology/Video> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/fashionDimension> <http://www.w3.org/2000/01/rdf-schema#label> "dimensione della moda"@it .
+<https://w3id.org/vibe-ontology/isRoleInTimeOf> <http://www.w3.org/2000/01/rdf-schema#comment> "TimeIndexedRoleと、その時間的に位置づけられた役割が記述されるプラットフォームを結びつける。"@ja .
+<https://w3id.org/vibe-ontology/hasCreator> <http://www.w3.org/2000/01/rdf-schema#label> "heeft maker"@nl .
+<https://w3id.org/vibe-ontology/forAesthetic> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/RepresentativeAssociation> .
+<https://w3id.org/vibe-ontology/hasCreator> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates an Aesthetic to the Agent who created or gave rise to it."@en .
+<https://w3id.org/vibe-ontology/isSubgenreOf> <http://www.w3.org/2000/01/rdf-schema#comment> "美学と、それが属する上位ジャンル、親ジャンル（より広い美学）を関連付ける。"@ja .
+<https://w3id.org/vibe-ontology/hasColorPalette> <http://www.w3.org/2000/01/rdf-schema#comment> "Ассоциирует эстетику с характерной цветовой палитрой, определяющей её визуальную идентичность."@ru .
+<https://w3id.org/vibe-ontology/iconicFigureDimension> <http://www.w3.org/2000/01/rdf-schema#label> "象徴的人物の次元"@ja .
+<https://w3id.org/vibe-ontology/DigitalPlace> <http://www.w3.org/2000/01/rdf-schema#label> "Цифровое пространство"@ru .
+<https://w3id.org/vibe-ontology/forAesthetic> <http://www.w3.org/2000/01/rdf-schema#comment> "象徴的な関連（Representative Association）が、どの美学的系統を規定・説明しているかを示す。"@ja .
+<https://w3id.org/vibe-ontology/Motif> <http://www.w3.org/2000/01/rdf-schema#label> "Motief"@nl .
+<http://www.w3.org/2004/02/skos/core#narrower> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://w3id.org/vibe-ontology/hasSubgenre> .
+<https://w3id.org/vibe-ontology/hasLocation> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/vibe-ontology/Location> .
+<https://w3id.org/vibe-ontology/Video> <http://www.w3.org/2000/01/rdf-schema#label> "Video"@it .
+<https://w3id.org/vibe-ontology/hasColorPalette> <http://www.w3.org/2000/01/rdf-schema#label> "heeft kleurenpalet"@nl .
+<https://w3id.org/vibe-ontology/ArchitecturalWork> <http://www.w3.org/2000/01/rdf-schema#label> "建築作品"@ja .
+<https://w3id.org/vibe-ontology/Video> <http://www.w3.org/2000/01/rdf-schema#comment> "Un’opera audiovisiva, tipicamente digitale."@it .
+<https://w3id.org/vibe-ontology/themeDimension> <http://www.w3.org/2000/01/rdf-schema#label> "измерение темы"@ru .
+<https://w3id.org/vibe-ontology/Song> <http://www.w3.org/2000/01/rdf-schema#label> "楽曲"@ja .
+<https://w3id.org/vibe-ontology/Value> <http://www.w3.org/2000/01/rdf-schema#comment> "Un principio astratto, un orientamento affettivo/assiologico o una dimensione valutativa (etica, culturale, estetica o ideologica) associata a entità o estetiche. I valori non si limitano ai giudizi morali, ma includono anche atteggiamenti e posizioni concettuali più ampie. Ad esempio, l’estetica Frutiger Aero è associata a ottimismo, pulizia e armonia tecno-naturale."@it .
+<https://w3id.org/vibe-ontology/atTime> <http://www.w3.org/2000/01/rdf-schema#label> "op tijdstip"@nl .
+<https://w3id.org/vibe-ontology/platformDimension> <http://www.w3.org/2000/01/rdf-schema#label> "измерение платформы"@ru .
+<https://w3id.org/vibe-ontology/ArtistRole> <http://www.w3.org/2000/01/rdf-schema#label> "Artist Role"@en .
+<https://w3id.org/vibe-ontology/Color> <http://www.w3.org/2000/01/rdf-schema#label> "色"@ja .
+<https://w3id.org/vibe-ontology/hasLocationOfOrigin> <http://www.w3.org/2000/01/rdf-schema#label> "has location of origin"@en .
+<https://w3id.org/vibe-ontology/hasTheme> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/vibe-ontology/Theme> .
+<https://w3id.org/vibe-ontology/withEntity> <http://www.w3.org/2000/01/rdf-schema#comment> "RepresentativeAssociationと、美学の象徴的な表象と見なされるエンティティを結びつける。"@ja .
+<https://w3id.org/vibe-ontology/relatedTo> <http://www.w3.org/2000/01/rdf-schema#comment> "美学が文化的に関連する方法で別のエンティティと関連することを示す一般的な対称関係。より具体的な関係タイプのスーパープロパティとして機能する。"@ja .
+<https://w3id.org/vibe-ontology/DigitalPlace> <http://www.w3.org/2000/01/rdf-schema#label> "Digital Place"@en .
+<https://w3id.org/vibe-ontology/PeriodDefinition> <http://www.w3.org/2000/01/rdf-schema#label> "Periodedefinitie"@nl .
+<https://w3id.org/vibe-ontology/Beauty> <http://www.w3.org/2000/01/rdf-schema#comment> "パーソナルケア、化粧品、スキンケア、身体的外見に関連する製品、実践、産業の領域。美的表現とアイデンティティの構築に関連することが多い。"@ja .
+<https://w3id.org/vibe-ontology/Album> <http://www.w3.org/2000/01/rdf-schema#label> "Album"@en .
+<https://w3id.org/vibe-ontology/withRole> <http://www.w3.org/2000/01/rdf-schema#comment> "特定の関係性や時間的な枠組みにおいて、エンティティが担っている具体的な役割を示す。"@ja .
+<https://w3id.org/vibe-ontology/Album> <http://www.w3.org/2000/01/rdf-schema#comment> "A music work consisting of a collection of recorded tracks released as a single unit."@en .
+<https://w3id.org/vibe-ontology/timeInterval> <http://www.w3.org/2000/01/rdf-schema#comment> "期間定義と、それが定義する時間区間を結びつける。"@ja .
+<https://w3id.org/vibe-ontology/ArtistRole> <http://www.w3.org/2000/01/rdf-schema#comment> "芸術制作の創造者または貢献者としてエージェントが担う役割。"@ja .
+<https://w3id.org/vibe-ontology/TVShow> <http://www.w3.org/2000/01/rdf-schema#comment> "Een serieel audiovisueel werk geproduceerd voor televisie of streamingplatforms."@nl .
+<https://w3id.org/vibe-ontology/InteriorDesign> <http://www.w3.org/2000/01/rdf-schema#comment> "内部空間のデザインに焦点を当てた建築作品の形態。"@ja .
+<https://w3id.org/vibe-ontology/Platform> <http://www.w3.org/2000/01/rdf-schema#comment> "交流やコンテンツ制作、情報の発信や拡散を可能にし、同時に制約する社会技術的なシステム。その設計やアルゴリズムを通じて、美学の出現や可視性を形作る。"@ja .
+<https://w3id.org/vibe-ontology/hasCreator> <http://www.w3.org/2000/01/rdf-schema#label> "has creator"@en .
+<https://w3id.org/vibe-ontology/isRoleInTimeOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Связывает временную роль (TimeIndexedRole) с платформой, чья обусловленная временем роль описывается."@ru .
+<https://w3id.org/vibe-ontology/ArchitecturalWork> <http://www.w3.org/2000/01/rdf-schema#label> "Архитектурное сооружение"@ru .
+<https://w3id.org/vibe-ontology/hasCreator> <http://www.w3.org/2000/01/rdf-schema#comment> "Collega un'Estetica all'Agente che l'ha creata o a cui essa deve la propria origine."@it .
+<https://w3id.org/vibe-ontology/Anime> <http://www.w3.org/2000/01/rdf-schema#comment> "Форма анимационного искусства, зародившаяся преимущественно в контексте японских медиа."@ru .
+<https://w3id.org/vibe-ontology/associationDimension> <http://www.w3.org/2000/01/rdf-schema#label> "関連の次元"@ja .
+<https://w3id.org/vibe-ontology/hasLocationOfOrigin> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the geographic or digital location where an Aesthetic first originated."@en .
+<https://w3id.org/vibe-ontology/representativenessType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/vibe-ontology/Song> <http://www.w3.org/2000/01/rdf-schema#label> "Песня"@ru .
+<https://w3id.org/vibe-ontology/hasPrimaryPlatform> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/vibe-ontology/Platform> .
+<https://w3id.org/vibe-ontology/TimeInterval> <http://www.w3.org/2000/01/rdf-schema#comment> "A temporal extent with a start and/or end that may be precisely defined or approximate, used to qualify the temporal validity of entities, roles, or associations."@en .
+<https://w3id.org/vibe-ontology/hasRelatedBrand> <http://www.w3.org/2000/01/rdf-schema#label> "heeft gerelateerd merk"@nl .
+<https://w3id.org/vibe-ontology/Platform> <http://www.w3.org/2000/01/rdf-schema#label> "Platform"@nl .
+<https://w3id.org/vibe-ontology/hasCreator> <http://www.w3.org/2000/01/rdf-schema#comment> "Verbindt een esthetiek met de agent die deze heeft gecreëerd of aan wie het zijn oorsprong ontleent."@nl .
+<https://w3id.org/vibe-ontology/IconicFigure> <http://www.w3.org/2000/01/rdf-schema#label> "Iconisch figuur"@nl .
+<https://w3id.org/vibe-ontology/source> <http://www.w3.org/2000/01/rdf-schema#label> "source"@en .
+<https://w3id.org/vibe-ontology/timeInterval> <http://www.w3.org/2000/01/rdf-schema#label> "intervallo temporale"@it .
+<https://w3id.org/vibe-ontology/Country> <http://www.w3.org/2000/01/rdf-schema#comment> "A geopolitical location representing a nation or state."@en .
+<https://w3id.org/vibe-ontology/hasLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/Fashion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/Theme> <http://www.w3.org/2000/01/rdf-schema#comment> "Un orientamento concettuale astratto o una struttura narrativa sottostante a un’estetica, che ne cattura i significati dominanti, il tono affettivo o la visione del mondo. Ad esempio, il tema dell’estetica Frutiger Aero può essere descritto come una visione ottimistica, pulita e integrata con la natura del futuro prossimo."@it .
+<https://w3id.org/vibe-ontology/forAesthetic> <http://www.w3.org/2000/01/rdf-schema#comment> "Collega una AssociazioneRappresentativa all'Estetica che essa qualifica."@it .
+<https://w3id.org/vibe-ontology/Group> <http://www.w3.org/2000/01/rdf-schema#comment> "Un insieme di agenti che agiscono o sono identificati come un’unità."@it .
+<https://w3id.org/vibe-ontology/Person> <http://www.w3.org/2000/01/rdf-schema#label> "人物"@ja .
+<https://w3id.org/vibe-ontology/ArtistRole> <http://www.w3.org/2000/01/rdf-schema#label> "Ruolo di artista"@it .
+<https://w3id.org/vibe-ontology/hasIconicFigure> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates an Aesthetic with an Agent who is considered an emblematic or iconic representative of it."@en .
+<https://w3id.org/vibe-ontology/hasMember> <http://www.w3.org/2000/01/rdf-schema#label> "heeft lid"@nl .
+<https://w3id.org/vibe-ontology/DigitalPlace> <http://www.w3.org/2000/01/rdf-schema#comment> "ユーザー同士の交流、コンテンツの制作や発信、コミュニティ活動等が行われるデジタル上の空間やプラットフォーム（例：SNS、掲示板、フォーラム、ウェブサイト等）。"@ja .
+<https://w3id.org/vibe-ontology/Painting> <http://www.w3.org/2000/01/rdf-schema#comment> "A visual artwork created using paint on a surface."@en .
+<https://w3id.org/vibe-ontology/Beauty> <http://www.w3.org/2000/01/rdf-schema#comment> "Сфера товаров, практик и индустрий, связанных с уходом за собой, косметикой и внешним видом, часто ассоциирующаяся с эстетическим самовыражением и конструированием идентичности."@ru .
+<https://w3id.org/vibe-ontology/timeInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/Theme> <http://www.w3.org/2000/01/rdf-schema#comment> "美学の根底にある抽象的な概念的方向性またはナラティブ。主要な意味合い、感情的トーンや世界観を捉える。例：Frutiger Aeroの美学のテーマは、楽観的で清潔で自然と統合された近未来のビジョンであると表現できる。"@ja .
+<https://w3id.org/vibe-ontology/Color> <http://www.w3.org/2000/01/rdf-schema#label> "Kleur"@nl .
+<https://w3id.org/vibe-ontology/hasTheme> <http://www.w3.org/2000/01/rdf-schema#label> "ha tema"@it .
+<https://w3id.org/vibe-ontology/approximateLabel> <http://www.w3.org/2000/01/rdf-schema#label> "etichetta approssimativa"@it .
+<https://w3id.org/vibe-ontology/Video> <http://www.w3.org/2000/01/rdf-schema#comment> "Произведение с движущимися изображениями, обычно цифровое."@ru .
+<https://w3id.org/vibe-ontology/hasRelatedWork> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates an Aesthetic with an Artwork considered representative of or thematically related to it."@en .
+<https://w3id.org/vibe-ontology/hasRelatedBrand> <http://www.w3.org/2000/01/rdf-schema#comment> "Ассоциирует эстетику с брендом, который является характерным для неё или близок ей по духу."@ru .
+<https://w3id.org/vibe-ontology/ArchitecturalWork> <http://www.w3.org/2000/01/rdf-schema#label> "Opera architettonica"@it .
+<https://w3id.org/vibe-ontology/Group> <http://www.w3.org/2000/01/rdf-schema#label> "Gruppo"@it .
+<https://w3id.org/vibe-ontology/RepresentativeAssociation> <http://www.w3.org/2000/01/rdf-schema#label> "Representative Association"@en .
+<https://w3id.org/vibe-ontology/ColorPalette> <http://www.w3.org/2000/01/rdf-schema#comment> "Een gestructureerde set kleuren die verbonden zijn door herhaaldelijke co-occurrentie, ontwerpconventies of perceptuele harmonie, en die vaak bijdragen aan de visuele identiteit van een esthetiek."@nl .
+<https://w3id.org/vibe-ontology/RepresentativeAssociation> <http://www.w3.org/2000/01/rdf-schema#label> "Associazione rappresentativa"@it .
+<https://w3id.org/vibe-ontology/hasPrimaryPlatform> <http://www.w3.org/2000/01/rdf-schema#label> "имеет основную платформу"@ru .
+<https://w3id.org/vibe-ontology/precedes> <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan dat een esthetiek een andere temporeel of stylistisch voorafgaat. Deze eigenschap is transitief."@nl .
+<https://w3id.org/vibe-ontology/timeInterval> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a PeriodDefinition to the TimeInterval it defines."@en .
+<https://w3id.org/vibe-ontology/Film> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/vibe-ontology/Artwork> .
+<https://w3id.org/vibe-ontology/City> <http://www.w3.org/2000/01/rdf-schema#comment> "Una località urbana caratterizzata da popolazione densa e infrastruttura organizzata."@it .
+<https://w3id.org/vibe-ontology/Aesthetic> <http://www.w3.org/2000/01/rdf-schema#label> "Estetica"@it .
+<https://w3id.org/vibe-ontology/platformDimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/vibe-ontology/influencedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Связывает эстетику с другой эстетикой, которая послужила источником стилистического, тематического или культурного влияния."@ru .
+<https://w3id.org/vibe-ontology/representativenessType> <http://www.w3.org/2000/01/rdf-schema#label> "tipo di rappresentatività"@it .
+<https://w3id.org/vibe-ontology/PeriodDefinition> <http://www.w3.org/2000/01/rdf-schema#label> "Определение периода"@ru .
+<https://w3id.org/vibe-ontology/PeriodDefinition> <http://www.w3.org/2000/01/rdf-schema#comment> "実体や現象を時間軸上に位置づけるための時間的範囲。PeriodO等のモデルに準拠し、厳密な境界ではなく、曖昧さや期間の重複を許容する。"@ja .
+<https://w3id.org/vibe-ontology/hasIconicFigure> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/vibe-ontology/Agent> .
+<https://w3id.org/vibe-ontology/atTime> <http://www.w3.org/2000/01/rdf-schema#comment> "Specificeert het tijdsinterval waarin een TimeIndexedRole geldig is."@nl .
+<https://w3id.org/vibe-ontology/approximateLabel> <http://www.w3.org/2000/01/rdf-schema#label> "bijna gelijk label"@nl .
+<https://w3id.org/vibe-ontology/associationDimension> <http://www.w3.org/2000/01/rdf-schema#comment> "Classifica il tipo di associazione codificata da una RepresentativeAssociation. I valori attesi sono gli individui: motifDimension, themeDimension, valueDimension, colorDimension, platformDimension, musicDimension, fashionDimension, iconicFigureDimension."@it .
+<https://w3id.org/vibe-ontology/hasIconicFigure> <http://www.w3.org/2000/01/rdf-schema#comment> "美学と、その象徴的または典型的な代表者と見なされるエージェントを関連付ける。"@ja .
+<https://w3id.org/vibe-ontology/coinedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "美学と、それを作り出したまたは最初に名付けたエージェントを関連付ける。"@ja .
+<https://w3id.org/vibe-ontology/associatedSubculture> <http://www.w3.org/2000/01/rdf-schema#label> "関連サブカルチャー"@ja .
+<https://w3id.org/vibe-ontology/source> <http://www.w3.org/2000/01/rdf-schema#comment> "Indica l'Agente da cui una PeriodDefinition trae la propria evidenza o autorità."@it .
+<https://w3id.org/vibe-ontology/DigitalPlace> <http://www.w3.org/2000/01/rdf-schema#label> "デジタル空間"@ja .
+<https://w3id.org/vibe-ontology/TimeIndexedRole> <http://www.w3.org/2000/01/rdf-schema#comment> "時間区間に明示的に結びついた関係の中でエンティティに割り当てられる文脈的役割。同じエンティティが異なる時点で異なる役割を持つことを可能にする。"@ja .
+<https://w3id.org/vibe-ontology/MusicWork> <http://www.w3.org/2000/01/rdf-schema#comment> "音と音楽的構成を通じて表現される作品。"@ja .
+<https://w3id.org/vibe-ontology/associatedSubculture> <http://www.w3.org/2000/01/rdf-schema#comment> "Links an Aesthetic to a Subculture that is socially associated with it or contributed to its emergence and stabilization."@en .
+<https://w3id.org/vibe-ontology/precedes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/isSubgenreOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Verbindt een esthetiek met een bredere esthetiek waarvan het een specifiekere subvariant is."@nl .
+<https://w3id.org/vibe-ontology/source> <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft de actor aan waaraan een periodedefinitie zijn bewijs of autoriteit ontleent."@nl .
+<https://w3id.org/vibe-ontology/withEntity> <http://www.w3.org/2000/01/rdf-schema#label> "対象エンティティ"@ja .
+<https://w3id.org/vibe-ontology/representativenessType> <http://www.w3.org/2000/01/rdf-schema#label> "representativeness type"@en .
+<https://w3id.org/vibe-ontology/hasLocationOfOrigin> <http://www.w3.org/2000/01/rdf-schema#comment> "美学と、それが最初に発祥した物理的またはデジタルの空間的場所を関連付ける。"@ja .
+<https://w3id.org/vibe-ontology/Theme> <http://www.w3.org/2000/01/rdf-schema#label> "テーマ"@ja .
+<https://w3id.org/vibe-ontology/hasPlatform> <http://www.w3.org/2000/01/rdf-schema#comment> "美学と、それが流通しまたは普及したプラットフォームを関連付ける。"@ja .
+<https://w3id.org/vibe-ontology/overlapsWith> <http://www.w3.org/2000/01/rdf-schema#label> "overlaps with"@en .
+<https://w3id.org/vibe-ontology/hasPeriodDefinition> <http://www.w3.org/2000/01/rdf-schema#label> "ha definizione di periodo"@it .
+<https://w3id.org/vibe-ontology/isMemberOf> <http://www.w3.org/2000/01/rdf-schema#label> "является элементом"@ru .
+<https://w3id.org/vibe-ontology/isMemberOf> <http://www.w3.org/2000/01/rdf-schema#label> "のメンバーである"@ja .
+<https://w3id.org/vibe-ontology/hasCreator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/isSubgenreOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Collega un'Estetica a un'Estetica più ampia di cui essa è una sottovariante più specifica."@it .
+<https://w3id.org/vibe-ontology/hasOriginPeriod> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the time interval during which an Aesthetic first emerged."@en .
+<https://w3id.org/vibe-ontology/Image> <http://www.w3.org/2000/01/rdf-schema#comment> "Un’opera visiva come una fotografia o immagine digitale."@it .
+<https://w3id.org/vibe-ontology/TimeIndexedRole> <http://www.w3.org/2000/01/rdf-schema#label> "Ruolo indicizzato temporalmente"@it .
+<https://w3id.org/vibe-ontology/hasSubgenre> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates an Aesthetic to a more specific Aesthetic that constitutes one of its subvariants."@en .
+<https://w3id.org/vibe-ontology/hasSubgenre> <http://www.w3.org/2000/01/rdf-schema#label> "имеет поджанр"@ru .
+<https://w3id.org/vibe-ontology/associationDimension> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/RepresentativeAssociation> .
+<https://w3id.org/vibe-ontology/Album> <http://www.w3.org/2000/01/rdf-schema#label> "Album"@nl .
+<https://w3id.org/vibe-ontology/hasMotif> <http://www.w3.org/2000/01/rdf-schema#label> "ha motivo"@it .
+<https://w3id.org/vibe-ontology/isMemberOf> <http://www.w3.org/2000/01/rdf-schema#label> "è membro di"@it .
+<https://w3id.org/vibe-ontology/follows> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/follows> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/vibe-ontology/Aesthetic> .
+<https://w3id.org/vibe-ontology/themeDimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/vibe-ontology/hasLocationOfOrigin> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/Aesthetic> .
+<https://w3id.org/vibe-ontology/Motif> <http://www.w3.org/2000/01/rdf-schema#comment> "Een terugkerend en herkenbaar element (visueel, conceptueel of stilistisch) dat bijdraagt aan de identiteit van een esthetiek door herhaalde associatie. Bijv. de motieven van de Frutiger Aero-esthetiek omvatten skeuomorfisme, glanzende texturen, bubbels, natuurbeelden en Frutiger-type lettertypen."@nl .
+<https://w3id.org/vibe-ontology/isSubgenreOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/isRoleInTimeOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Collega un TimeIndexedRole alla Piattaforma il cui ruolo temporalmente situato viene descritto."@it .
+<https://w3id.org/vibe-ontology/Artwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/colorDimension> <http://www.w3.org/2000/01/rdf-schema#label> "color dimension"@en .
+<https://w3id.org/vibe-ontology/fashionDimension> <http://www.w3.org/2000/01/rdf-schema#label> "измерение моды"@ru .
+<https://w3id.org/vibe-ontology/withEntity> <http://www.w3.org/2000/01/rdf-schema#comment> "Koppelt een RepresentativeAssociation aan de entiteit die als representatief voor de esthetiek wordt beschouwd."@nl .
+<https://w3id.org/vibe-ontology/relatedTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Een algemene symmetrische relatie die aangeeft dat een esthetiek gerelateerd is aan een andere entiteit op een cultureel relevante manier. Dient als superproperty voor specifiekere relatietypen."@nl .
+<https://w3id.org/vibe-ontology/isMemberOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates an entity to the Collection of which it is a constituent member."@en .
+<https://w3id.org/vibe-ontology/Collection> <http://www.w3.org/2000/01/rdf-schema#label> "Collectie"@nl .
+<https://w3id.org/vibe-ontology/influenced> <http://www.w3.org/2000/01/rdf-schema#comment> "Collega un'Estetica a un'altra Estetica che essa ha influenzato in termini di stile, motivi o valori, o altro."@it .
+<https://w3id.org/vibe-ontology/MusicWork> <http://www.w3.org/2000/01/rdf-schema#label> "音楽作品"@ja .
+<https://w3id.org/vibe-ontology/Image> <http://www.w3.org/2000/01/rdf-schema#comment> "写真やデジタル画像などの視覚的作品。"@ja .
+<https://w3id.org/vibe-ontology/Theme> <http://www.w3.org/2000/01/rdf-schema#label> "Tema"@it .
+<https://w3id.org/vibe-ontology/relatedTo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/Aesthetic> .
+<https://w3id.org/vibe-ontology/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/vibe-ontology/Artwork> <http://www.w3.org/2000/01/rdf-schema#label> "Kunstwerk"@nl .
+<https://w3id.org/vibe-ontology/musicDimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/vibe-ontology/City> <http://www.w3.org/2000/01/rdf-schema#comment> "Городская локация, характеризующаяся высокой плотностью населения и организованной инфраструктурой."@ru .
+<https://w3id.org/vibe-ontology/Location> <http://www.w3.org/2000/01/rdf-schema#comment> "Un’entità spaziale che rappresenta un luogo fisico o digitale."@it .
+<https://w3id.org/vibe-ontology/Country> <http://www.w3.org/2000/01/rdf-schema#comment> "Een geopolitieke locatie die een natie of staat vertegenwoordigt."@nl .
+<https://w3id.org/vibe-ontology/Artwork> <http://www.w3.org/2000/01/rdf-schema#comment> "視覚（画像、絵画、彫刻、建築、映画、ビデオゲーム）、聴覚（音楽）、テキスト（文学）、または身体的・産業的形態（ファッション）を含む、あらゆる表現メディアで制作された創造的成果物。メディア特有の分類に依存しない汎用的な作品エンティティとして扱われる。"@ja .
+<https://w3id.org/vibe-ontology/> <http://www.w3.org/2000/01/rdf-schema#label> "Vibe Ontologie"@nl .
+<https://w3id.org/vibe-ontology/Value> <http://www.w3.org/2000/01/rdf-schema#comment> "Абстрактный принцип, аффективная/аксиологическая направленность или оценочное измерение (этическое, культурное, эстетическое или идеологическое), связанное с сущностями или эстетиками. Ценности не ограничиваются моральными суждениями, а включают широкие мировоззренческие или концептуальные позиции. Например, эстетика Frutiger Aero ассоциируется с оптимизмом, чистотой и техно-природной гармонией."@ru .
+<https://w3id.org/vibe-ontology/City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/isSubgenreOf> <http://www.w3.org/2000/01/rdf-schema#label> "is subgenre van"@nl .
+<https://w3id.org/vibe-ontology/Aesthetic> <http://www.w3.org/2000/01/rdf-schema#label> "Aesthetic"@en .
+<https://w3id.org/vibe-ontology/hasSubgenre> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/Aesthetic> .
+<https://w3id.org/vibe-ontology/TVShow> <http://www.w3.org/2000/01/rdf-schema#label> "TV-programma"@nl .
+<https://w3id.org/vibe-ontology/withEntity> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a RepresentativeAssociation to the entity that is considered representative of the Aesthetic."@en .
+<https://w3id.org/vibe-ontology/hasSubgenre> <http://www.w3.org/2000/01/rdf-schema#comment> "Verbindt een esthetiek met een specifiekere esthetiek die er een subvariant van vormt."@nl .
+<https://w3id.org/vibe-ontology/withEntity> <http://www.w3.org/2000/01/rdf-schema#label> "met entiteit"@nl .
+<https://w3id.org/vibe-ontology/Artwork> <http://www.w3.org/2000/01/rdf-schema#comment> "Un artefatto creativo prodotto in qualsiasi mezzo espressivo, inclusi visivo (immagini, dipinti, sculture, architetture, film, videogiochi), sonoro (musica), testuale (letteratura) o forme industriali come la moda. Viene trattato come un'opera indipendente dalle tassonomie relative ai media."@it .
+<https://w3id.org/vibe-ontology/Video> <http://www.w3.org/2000/01/rdf-schema#label> "Video"@en .
+<https://w3id.org/vibe-ontology/ArchitecturalWork> <http://www.w3.org/2000/01/rdf-schema#comment> "Произведение искусства, представляющее собой здания или пространственные структуры, созданные в рамках архитектурной практики."@ru .
+<https://w3id.org/vibe-ontology/Value> <http://www.w3.org/2000/01/rdf-schema#label> "価値観"@ja .
+<https://w3id.org/vibe-ontology/Album> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/TimeIndexedRole> <http://www.w3.org/2000/01/rdf-schema#label> "時間付き役割"@ja .
+<https://w3id.org/vibe-ontology/isSubgenreOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/vibe-ontology/Aesthetic> .
+<https://w3id.org/vibe-ontology/overlapsWith> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/Aesthetic> .
+<https://w3id.org/vibe-ontology/follows> <http://www.w3.org/2000/01/rdf-schema#comment> "Geeft aan dat een esthetiek een andere temporeel of stylistisch volgt. Deze eigenschap is transitief."@nl .
+<https://w3id.org/vibe-ontology/PeriodDefinition> <http://www.w3.org/2000/01/rdf-schema#comment> "Ограниченный во времени, но потенциально неточный интервал, используемый для локализации сущностей или явлений во времени; допускает размытые или пересекающиеся границы в соответствии с такими моделями, как PeriodO."@ru .
+<https://w3id.org/vibe-ontology/hasTheme> <http://www.w3.org/2000/01/rdf-schema#label> "テーマ"@ja .
+<https://w3id.org/vibe-ontology/Aesthetic> <http://www.w3.org/2000/01/rdf-schema#comment> "Una categoria culturalmente emergente e aperta che raggruppa una collezione di elementi eterogenei (ad esempio immagini, colori, oggetti, suoni, testi) percepiti come espressione coerente di uno stile, un’affettività o un orientamento riconoscibile. Non è definita da condizioni necessarie e sufficienti, ma da associazioni condivise e somiglianze di famiglia stabilite da una comunità. Ad esempio, l’estetica Frutiger Aero raggruppa texture lucide, gradienti brillanti, immagini della natura e richiami a un futuro ottimistico in uno stile riconoscibile dei primi anni 2000."@it .
+<https://w3id.org/vibe-ontology/Location> <http://www.w3.org/2000/01/rdf-schema#comment> "物理的またはデジタルの場所を表す空間エンティティ。"@ja .
+<https://w3id.org/vibe-ontology/City> <http://www.w3.org/2000/01/rdf-schema#comment> "An urban location characterised by dense population and structured infrastructure."@en .
+<https://w3id.org/vibe-ontology/follows> <http://www.w3.org/2000/01/rdf-schema#comment> "Указывает на то, что одна эстетика следует за другой во времени или стилистически. Свойство является транзитивным."@ru .
+<https://w3id.org/vibe-ontology/relatedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<https://w3id.org/vibe-ontology/PrimaryRole> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/vibe-ontology/Role> .
+<https://w3id.org/vibe-ontology/associationDimension> <http://www.w3.org/2000/01/rdf-schema#label> "dimensione dell’associazione"@it .
+<https://w3id.org/vibe-ontology/precedes> <http://www.w3.org/2000/01/rdf-schema#comment> "ある美学が別の美学に時間的またはスタイル的に先行することを示す。この性質は推移的である。"@ja .
+<https://w3id.org/vibe-ontology/withRole> <http://www.w3.org/2000/01/rdf-schema#label> "役割"@ja .
+<https://w3id.org/vibe-ontology/Film> <http://www.w3.org/2000/01/rdf-schema#label> "Film"@it .
+_:n10a9d9e078c44993be0b66527199cf7ab3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:n10a9d9e078c44993be0b66527199cf7ab4 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/vibe-ontology/forAesthetic> .
+<https://w3id.org/vibe-ontology/approximateLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/vibe-ontology/hasSubgenre> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/vibe-ontology/relatedTo> .
+<https://w3id.org/vibe-ontology/ArtistRole> <http://www.w3.org/2000/01/rdf-schema#label> "Роль художника"@ru .
+<https://w3id.org/vibe-ontology/hasRelatedWork> <http://www.w3.org/2000/01/rdf-schema#comment> "Associeert een esthetiek met een werk dat als representatief of thematisch gerelateerd wordt beschouwd."@nl .
+<https://w3id.org/vibe-ontology/Subculture> <http://www.w3.org/2000/01/rdf-schema#comment> "Социально локализованная группа или сеть, характеризующаяся общими практиками, ценностями и символическими системами, которые отличают её от более широкого культурного контекста; часто способствует возникновению и стабилизации определенных эстетик."@ru .
+<https://w3id.org/vibe-ontology/TimeInterval> <http://www.w3.org/2000/01/rdf-schema#label> "Time Interval"@en .
+<https://w3id.org/vibe-ontology/hasRelatedWork> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/Aesthetic> .
+<https://w3id.org/vibe-ontology/FoodItem> <http://www.w3.org/2000/01/rdf-schema#comment> "美的または文化的意義を持ちうる食用品。"@ja .
+<https://w3id.org/vibe-ontology/Fashion> <http://www.w3.org/2000/01/rdf-schema#comment> "Een domein van belichaamde en materiële expressie met betrekking tot kleding, styling en versieringspraktijken, waardoor culturele betekenissen, identiteiten en esthetische oriëntaties worden gecommuniceerd."@nl .
+<https://w3id.org/vibe-ontology/withEntity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/vibe-ontology/withEntity> <http://www.w3.org/2000/01/rdf-schema#label> "con entità"@it .
+<https://w3id.org/vibe-ontology/URL> <http://www.w3.org/2000/01/rdf-schema#comment> "The wiki URL (aesthetic)"@en .
+<https://w3id.org/vibe-ontology/alternateName> <http://www.w3.org/2000/01/rdf-schema#label> "alternate name"@en .
+<https://w3id.org/vibe-ontology/Role> <http://www.w3.org/2000/01/rdf-schema#comment> "A role is a context-dependent function or qualification assigned to an entity within a relation."@en .
+<https://w3id.org/vibe-ontology/Film> <http://www.w3.org/2000/01/rdf-schema#label> "映画"@ja .
+<https://w3id.org/vibe-ontology/hasColorPalette> <http://www.w3.org/2000/01/rdf-schema#comment> "美学と、その視覚的アイデンティティに寄与する特徴的なカラーパレットを関連付ける。"@ja .
+<https://w3id.org/vibe-ontology/hasRelatedBrand> <http://www.w3.org/2000/01/rdf-schema#comment> "Associa un'Estetica a un Brand che le è caratteristico o culturalmente affine."@it .
+<https://w3id.org/vibe-ontology/FoodItem> <http://www.w3.org/2000/01/rdf-schema#label> "Food Item"@en .
+<http://www.w3.org/2004/02/skos/core#narrower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/PeriodDefinition> <http://www.w3.org/2000/01/rdf-schema#comment> "A temporally bounded but potentially imprecise interval used to situate entities or phenomena in time, allowing for vague or overlapping boundaries, in alignment with models such as PeriodO."@en .
+<https://w3id.org/vibe-ontology/Videogame> <http://www.w3.org/2000/01/rdf-schema#label> "Videogame"@nl .
+<https://w3id.org/vibe-ontology/hasOriginPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/hasLocationOfOrigin> <http://www.w3.org/2000/01/rdf-schema#comment> "Указывает географическое или цифровое местоположение, в котором эстетика возникла впервые."@ru .
+<https://w3id.org/vibe-ontology/influencedBy> <http://www.w3.org/2000/01/rdf-schema#label> "beïnvloed door"@nl .
+<https://w3id.org/vibe-ontology/Painting> <http://www.w3.org/2000/01/rdf-schema#comment> "Een visueel kunstwerk gemaakt met verf op een oppervlak."@nl .
+<https://w3id.org/vibe-ontology/Brand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/> <http://www.w3.org/2000/01/rdf-schema#label> "Ontologia Vibe"@it .
+<https://w3id.org/vibe-ontology/hasRelatedWork> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/vibe-ontology/relatedTo> .
+<https://w3id.org/vibe-ontology/RepresentativeAssociation> <http://www.w3.org/2000/01/rdf-schema#comment> "Una relazione reificata che collega un’Estetica a un’entità considerata rappresentativa di essa. Tali associazioni codificano i meccanismi attraverso cui un’estetica viene riconosciuta e costruita, e possono essere qualificate rispetto all’estensione temporale, al grado di rappresentatività o al ruolo (ad esempio, primario)."@it .
+<https://w3id.org/vibe-ontology/isSubgenreOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates an Aesthetic to a broader Aesthetic of which it is a more specific subvariant."@en .
+<https://w3id.org/vibe-ontology/hasMember> <http://www.w3.org/2000/01/rdf-schema#comment> "Collega una Collezione a una delle entità che la costituiscono. L'appartenenza non implica esaustività né necessità."@it .
+<https://w3id.org/vibe-ontology/Country> <http://www.w3.org/2000/01/rdf-schema#comment> "国家または州を表す地政学的場所。"@ja .
+<https://w3id.org/vibe-ontology/coinedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates an Aesthetic to the Agent who coined or first named it."@en .
+<https://w3id.org/vibe-ontology/TimeInterval> <http://www.w3.org/2000/01/rdf-schema#label> "Intervallo temporale"@it .
+<https://w3id.org/vibe-ontology/hasTheme> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates an Artwork with a Theme it conveys, expresses, or foregrounds."@en .
+<https://w3id.org/vibe-ontology/influencedBy> <http://www.w3.org/2000/01/rdf-schema#label> "influenzato da"@it .
+<https://w3id.org/vibe-ontology/source> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/vibe-ontology/Agent> .
+<https://w3id.org/vibe-ontology/Brand> <http://www.w3.org/2000/01/rdf-schema#comment> "Een identificeerbare commerciële of institutionele entiteit die wordt gekenmerkt door een naam, identiteit en een reeks bijbehorende betekenissen, waarden en ontwerppraktijken, die artefacten, stijlen en esthetische associaties kan produceren of beïnvloeden."@nl .
+<https://w3id.org/vibe-ontology/IconicFigure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/vibe-ontology/Role> .
+<https://w3id.org/vibe-ontology/Subculture> <http://www.w3.org/2000/01/rdf-schema#comment> "A socially situated group or network characterized by shared practices, values, and symbolic systems that differentiate it from broader cultural contexts, often contributing to the emergence and stabilization of specific aesthetics."@en .
+<https://w3id.org/vibe-ontology/DigitalPlace> <http://www.w3.org/2000/01/rdf-schema#label> "Luogo digitale"@it .
+<https://w3id.org/vibe-ontology/valueDimension> <http://www.w3.org/2000/01/rdf-schema#label> "価値観の次元"@ja .
+<https://w3id.org/vibe-ontology/TimeIndexedRole> <http://www.w3.org/2000/01/rdf-schema#label> "Time Indexed Role"@en .
+<https://w3id.org/vibe-ontology/hasIconicFigure> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/Aesthetic> .
+<https://w3id.org/vibe-ontology/hasLocation> <http://www.w3.org/2000/01/rdf-schema#label> "heeft locatie"@nl .
+<https://w3id.org/vibe-ontology/relatedTo> <http://www.w3.org/2000/01/rdf-schema#comment> "A general symmetric relation indicating that an Aesthetic is related to another entity in some culturally relevant way. Serves as a superproperty for more specific relation types."@en .
+<https://w3id.org/vibe-ontology/associatedSubculture> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/vibe-ontology/Subculture> .
+<https://w3id.org/vibe-ontology/hasLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/vibe-ontology/name> <http://www.w3.org/2000/01/rdf-schema#label> "名称"@ja .
+<https://w3id.org/vibe-ontology/iconicFigureDimension> <http://www.w3.org/2000/01/rdf-schema#label> "измерение иконической фигуры"@ru .
+<https://w3id.org/vibe-ontology/ArtistRole> <http://www.w3.org/2000/01/rdf-schema#label> "Kunstenaarsrol"@nl .
+<https://w3id.org/vibe-ontology/InteriorDesign> <http://www.w3.org/2000/01/rdf-schema#comment> "A form of architectural work focused on the design of interior spaces."@en .
+<https://w3id.org/vibe-ontology/Image> <http://www.w3.org/2000/01/rdf-schema#comment> "Визуальное произведение искусства, такое как фотография или цифровое изображение."@ru .
+<http://www.w3.org/2001/XMLSchema#gYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<https://w3id.org/vibe-ontology/overlapsWith> <http://www.w3.org/2000/01/rdf-schema#comment> "Indica che due Estetiche condividono elementi o associazioni significativi, senza che l'una sia sottogenere dell'altra. Questa proprietà è simmetrica."@it .
+<https://w3id.org/vibe-ontology/InteriorDesign> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/InteriorDesign> <http://www.w3.org/2000/01/rdf-schema#label> "Дизайн интерьера"@ru .
+<https://w3id.org/vibe-ontology/ColorPalette> <http://www.w3.org/2000/01/rdf-schema#label> "Color Palette"@en .
+<https://w3id.org/vibe-ontology/hasRelatedWork> <http://www.w3.org/2000/01/rdf-schema#label> "ha opera associata"@it .
+<https://w3id.org/vibe-ontology/withRole> <http://www.w3.org/2000/01/rdf-schema#comment> "Specificeert de rol die de entiteit vervult binnen een tijdgeïndexeerde rolrelatie."@nl .
+<https://w3id.org/vibe-ontology/hasCreator> <http://www.w3.org/2000/01/rdf-schema#label> "имеет создателя"@ru .
+<https://w3id.org/vibe-ontology/timeInterval> <http://www.w3.org/2000/01/rdf-schema#label> "time interval"@en .
+<https://w3id.org/vibe-ontology/Image> <http://www.w3.org/2000/01/rdf-schema#label> "画像"@ja .
+<https://w3id.org/vibe-ontology/Video> <http://www.w3.org/2000/01/rdf-schema#comment> "通常デジタルの動画作品。"@ja .
+<https://w3id.org/vibe-ontology/Videogame> <http://www.w3.org/2000/01/rdf-schema#label> "Видеоигра"@ru .
+<https://w3id.org/vibe-ontology/IconicFigure> <http://www.w3.org/2000/01/rdf-schema#label> "象徴的人物"@ja .
+<https://w3id.org/vibe-ontology/Person> <http://www.w3.org/2000/01/rdf-schema#comment> "Een individuele menselijke actor."@nl .
+<https://w3id.org/vibe-ontology/Theme> <http://www.w3.org/2000/01/rdf-schema#label> "Thema"@nl .
+<https://w3id.org/vibe-ontology/Song> <http://www.w3.org/2000/01/rdf-schema#comment> "Отдельное музыкальное произведение, обычно состоящее из слов и мелодии."@ru .
+<https://w3id.org/vibe-ontology/Activity> <http://www.w3.org/2000/01/rdf-schema#comment> "Индивидуальная или групповая деятельность или практика, потенциально ассоциируемая с эстетическим или субкультурным контекстом."@ru .
+<https://w3id.org/vibe-ontology/FoodItem> <http://www.w3.org/2000/01/rdf-schema#comment> "An edible item that may carry aesthetic or cultural significance."@en .
+<https://w3id.org/vibe-ontology/DigitalPlace> <http://www.w3.org/2000/01/rdf-schema#comment> "Een virtuele omgeving waar interacties, contentcreatie of gemeenschapspraktijken plaatsvinden (bijv. forums, websites, sociale netwerken)."@nl .
+<https://w3id.org/vibe-ontology/MusicWork> <http://www.w3.org/2000/01/rdf-schema#label> "Music Work"@en .
+<https://w3id.org/vibe-ontology/Subculture> <http://www.w3.org/2000/01/rdf-schema#label> "Sottocultura"@it .
+<https://w3id.org/vibe-ontology/DigitalPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/coinedBy> <http://www.w3.org/2000/01/rdf-schema#label> "coined by"@en .
+<https://w3id.org/vibe-ontology/withRole> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the Role held by the entity within a TimeIndexedRole relation."@en .
+<https://w3id.org/vibe-ontology/motifDimension> <http://www.w3.org/2000/01/rdf-schema#label> "dimensione del motivo"@it .
+<https://w3id.org/vibe-ontology/hasOriginPeriod> <http://www.w3.org/2000/01/rdf-schema#label> "発祥期"@ja .
+_:n10a9d9e078c44993be0b66527199cf7ab4 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://w3id.org/vibe-ontology/hasRelatedWork> <http://www.w3.org/2000/01/rdf-schema#comment> "美学と、それを代表するまたはテーマ的に関連すると見なされる作品を関連付ける。"@ja .
+<https://w3id.org/vibe-ontology/hasLocationOfOrigin> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifica la collocazione geografica o digitale in cui un'Estetica ha avuto origine."@it .
+<https://w3id.org/vibe-ontology/hasSubgenre> <http://www.w3.org/2000/01/rdf-schema#comment> "Collega un'Estetica a un'Estetica più specifica che ne costituisce una sottovariante."@it .
+<https://w3id.org/vibe-ontology/Aesthetic> <http://www.w3.org/2000/01/rdf-schema#label> "Esthetiek"@nl .
+<https://w3id.org/vibe-ontology/hasIconicFigure> <http://www.w3.org/2000/01/rdf-schema#label> "象徴的人物"@ja .
+<https://w3id.org/vibe-ontology/Activity> <http://www.w3.org/2000/01/rdf-schema#comment> "Een actie of praktijk uitgevoerd door individuen of groepen, mogelijk geassocieerd met een esthetische of subculturele context."@nl .
+<https://w3id.org/vibe-ontology/influenced> <http://www.w3.org/2000/01/rdf-schema#label> "influenced"@en .
+<https://w3id.org/vibe-ontology/alternateName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/vibe-ontology/Image> <http://www.w3.org/2000/01/rdf-schema#comment> "Een visueel kunstwerk zoals een foto of digitale afbeelding."@nl .
+<https://w3id.org/vibe-ontology/hasRelatedBrand> <http://www.w3.org/2000/01/rdf-schema#label> "has related brand"@en .
+<https://w3id.org/vibe-ontology/LiteraryWork> <http://www.w3.org/2000/01/rdf-schema#label> "Opera letteraria"@it .
+<https://w3id.org/vibe-ontology/FoodItem> <http://www.w3.org/2000/01/rdf-schema#label> "Voedingsmiddel"@nl .
+<https://w3id.org/vibe-ontology/hasMotif> <http://www.w3.org/2000/01/rdf-schema#label> "имеет мотив"@ru .
+<https://w3id.org/vibe-ontology/startYear> <http://www.w3.org/2000/01/rdf-schema#label> "startjaar"@nl .
+<https://w3id.org/vibe-ontology/Role> <http://www.w3.org/2000/01/rdf-schema#label> "Role"@en .
+<https://w3id.org/vibe-ontology/hasRelatedBrand> <http://www.w3.org/2000/01/rdf-schema#comment> "Associeert een esthetiek met een merk dat er kenmerkend voor is of er cultureel mee overeenstemt."@nl .
+<https://w3id.org/vibe-ontology/follows> <http://www.w3.org/2000/01/rdf-schema#label> "segue"@it .
+<https://w3id.org/vibe-ontology/Videogame> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/Anime> <http://www.w3.org/2000/01/rdf-schema#comment> "Una forma di opera animata originaria principalmente del contesto mediatico giapponese."@it .
+<https://w3id.org/vibe-ontology/ArtistRole> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/vibe-ontology/Role> .
+<https://w3id.org/vibe-ontology/ArchitecturalWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/Group> <http://www.w3.org/2000/01/rdf-schema#comment> "一つの単位として行動または識別されるエージェントの集合。"@ja .
+<https://w3id.org/vibe-ontology/Subculture> <http://www.w3.org/2000/01/rdf-schema#comment> "Un gruppo o una rete socialmente situata caratterizzata da pratiche, valori e sistemi simbolici condivisi che la distinguono dal contesto culturale più ampio, contribuendo spesso all’emergere e alla stabilizzazione di specifiche estetiche."@it .
+<https://w3id.org/vibe-ontology/Anime> <http://www.w3.org/2000/01/rdf-schema#comment> "A form of animated artwork originating primarily from Japanese media contexts."@en .
+<http://www.w3.org/2004/02/skos/core#altLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/vibe-ontology/relatedTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Общее симметричное отношение, указывающее на культурную связь эстетики с другой сущностью. Служит суперсвойством для более специфичных типов отношений."@ru .
+<https://w3id.org/vibe-ontology/withEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/withEntity> <http://www.w3.org/2000/01/rdf-schema#comment> "Связывает репрезентативную ассоциацию с сущностью, которая считается характерной для данной эстетики."@ru .
+<https://w3id.org/vibe-ontology/Role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/Video> <http://www.w3.org/2000/01/rdf-schema#label> "Video"@nl .
+<https://w3id.org/vibe-ontology/Color> <http://www.w3.org/2000/01/rdf-schema#label> "Цвет"@ru .
+<https://w3id.org/vibe-ontology/iconicFigureDimension> <http://www.w3.org/2000/01/rdf-schema#label> "dimensione della figura iconica"@it .
+<https://w3id.org/vibe-ontology/Album> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/vibe-ontology/MusicWork> .
+<https://w3id.org/vibe-ontology/atTime> <http://www.w3.org/2000/01/rdf-schema#label> "al tempo"@it .
+<https://w3id.org/vibe-ontology/Collection> <http://www.w3.org/2000/01/rdf-schema#comment> "一貫性、共通の連想に基づいて明示的・暗黙的にキュレーションされた実体の集合。美学が具体的に表現・認識されるための主要な媒体。コレクションの構成要素は必ずしも固定的や網羅的である必要はなく、流動的で変動的である。"@ja .
+<https://w3id.org/vibe-ontology/Group> <http://www.w3.org/2000/01/rdf-schema#comment> "Объединение агентов, действующих или определяемых как единое целое."@ru .
+<https://w3id.org/vibe-ontology/InteriorDesign> <http://www.w3.org/2000/01/rdf-schema#comment> "Una forma di progettazione architettonica focalizzata sugli spazi interni."@it .
+<https://w3id.org/vibe-ontology/MusicWork> <http://www.w3.org/2000/01/rdf-schema#label> "Muzikaal werk"@nl .
+<https://w3id.org/vibe-ontology/Artwork> <http://www.w3.org/2000/01/rdf-schema#comment> "Творческий артефакт, созданный в любой выразительной среде, включая визуальную (изображения, живопись, скульптура, архитектура, кино, видеоигры), звуковую (музыка), текстовую (литература) или воплощенные/индустриальные формы (мода). Рассматривается как общая сущность произведения, независимая от классификаций конкретных медиа."@ru .
+<https://w3id.org/vibe-ontology/PrimaryRole> <http://www.w3.org/2000/01/rdf-schema#label> "Primary Role"@en .
+<https://w3id.org/vibe-ontology/overlapsWith> <http://www.w3.org/2000/01/rdf-schema#comment> "二つの美学が、どちらも相手のサブジャンルではなく、重要な要素や関連を共有することを示す。この性質は対称的である。"@ja .
+<https://w3id.org/vibe-ontology/Country> <http://www.w3.org/2000/01/rdf-schema#label> "国"@ja .
+<https://w3id.org/vibe-ontology/musicDimension> <http://www.w3.org/2000/01/rdf-schema#label> "音楽の次元"@ja .
+<https://w3id.org/vibe-ontology/Agent> <http://www.w3.org/2000/01/rdf-schema#comment> "An entity capable of acting, creating, or influencing cultural artifacts or aesthetics, including individuals and groups."@en .
+<https://w3id.org/vibe-ontology/hasLocationOfOrigin> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/vibe-ontology/Location> .
+<https://w3id.org/vibe-ontology/PeriodDefinition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n10a9d9e078c44993be0b66527199cf7ab2 .
+<https://w3id.org/vibe-ontology/Theme> <http://www.w3.org/2000/01/rdf-schema#comment> "An abstract conceptual orientation or narrative underlying an aesthetic, capturing its dominant meanings, affective tone, or worldview. E.g., the theme of the Frutiger Aero aesthetic can be described as an optimistic, clean, and nature-integrated vision of the near future."@en .
+<https://w3id.org/vibe-ontology/Platform> <http://www.w3.org/2000/01/rdf-schema#label> "Platform"@en .
+<https://w3id.org/vibe-ontology/Theme> <http://www.w3.org/2000/01/rdf-schema#comment> "Een abstracte conceptuele oriëntatie of narratief dat ten grondslag ligt aan een esthetiek en de dominante betekenissen, affectieve toon of wereldbeeld vastlegt. Bijv. het thema van de Frutiger Aero-esthetiek kan worden beschreven als een optimistische, schone en in de natuur geïntegreerde visie op de nabije toekomst."@nl .
+<https://w3id.org/vibe-ontology/atTime> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/vibe-ontology/TimeInterval> .
+<https://w3id.org/vibe-ontology/atTime> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifica l'intervallo temporale durante il quale un TimeIndexedRole è valido."@it .
+<https://w3id.org/vibe-ontology/associatedSubculture> <http://www.w3.org/2000/01/rdf-schema#label> "ассоциированная субкультура"@ru .
+<https://w3id.org/vibe-ontology/hasSubgenre> <http://www.w3.org/2000/01/rdf-schema#label> "has subgenre"@en .
+<https://w3id.org/vibe-ontology/Album> <http://www.w3.org/2000/01/rdf-schema#comment> "Un’opera musicale composta da una raccolta di tracce pubblicate come un’unica unità."@it .
+<https://w3id.org/vibe-ontology/hasCreator> <http://www.w3.org/2000/01/rdf-schema#comment> "Связывает эстетику с агентом, который создал её или способствовал её появлению."@ru .
+<https://w3id.org/vibe-ontology/TVShow> <http://www.w3.org/2000/01/rdf-schema#label> "Serie TV"@it .
+<https://w3id.org/vibe-ontology/Theme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/FoodItem> <http://www.w3.org/2000/01/rdf-schema#label> "Продукт питания"@ru .
+<https://w3id.org/vibe-ontology/startYear> <http://www.w3.org/2000/01/rdf-schema#label> "год начала"@ru .
+<https://w3id.org/vibe-ontology/ColorPalette> <http://www.w3.org/2000/01/rdf-schema#label> "Цветовая палитра"@ru .
+<https://w3id.org/vibe-ontology/URL> <http://www.w3.org/2000/01/rdf-schema#comment> "ウィキデータURL（美学）"@ja .
+<https://w3id.org/vibe-ontology/URL> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://w3id.org/vibe-ontology/representativenessType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/RepresentativeAssociation> .
+<https://w3id.org/vibe-ontology/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/vibe-ontology/isMemberOf> <http://www.w3.org/2000/01/rdf-schema#label> "is lid van"@nl .
+<https://w3id.org/vibe-ontology/isRoleInTimeOf> <http://www.w3.org/2000/01/rdf-schema#label> "時間的役割の対象"@ja .
+<https://w3id.org/vibe-ontology/Activity> <http://www.w3.org/2000/01/rdf-schema#comment> "個人またはグループによって行われる行動または実践的活動。美学またはサブカルチャー的な文脈と結びついている場合がある。"@ja .
+<https://w3id.org/vibe-ontology/hasPlatform> <http://www.w3.org/2000/01/rdf-schema#comment> "Associeert een esthetiek met een platform waarop deze circuleert of is verspreid."@nl .
+<https://w3id.org/vibe-ontology/hasRelatedBrand> <http://www.w3.org/2000/01/rdf-schema#label> "имеет ассоциирующийся бренд"@ru .
+<https://w3id.org/vibe-ontology/Painting> <http://www.w3.org/2000/01/rdf-schema#label> "Painting"@en .
+<https://w3id.org/vibe-ontology/Film> <http://www.w3.org/2000/01/rdf-schema#comment> "映像メディアの中で制作された動画作品。"@ja .
+<https://w3id.org/vibe-ontology/ArtistRole> <http://www.w3.org/2000/01/rdf-schema#comment> "rol gespeeld door een agent als maker van of bijdrager aan artistieke productie."@nl .
+<https://w3id.org/vibe-ontology/TimeIndexedRole> <http://www.w3.org/2000/01/rdf-schema#comment> "A contextual role assigned to an entity within a relation that is explicitly bound to a temporal interval, allowing the same entity to hold different roles at different times."@en .
+<https://w3id.org/vibe-ontology/Subculture> <http://www.w3.org/2000/01/rdf-schema#label> "Субкультура"@ru .
+<https://w3id.org/vibe-ontology/coinedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Связывает эстетику с агентом, который впервые ввел её название или термин."@ru .
+<https://w3id.org/vibe-ontology/hasCreator> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/vibe-ontology/Agent> .
+<https://w3id.org/vibe-ontology/hasSubgenre> <http://www.w3.org/2000/01/rdf-schema#comment> "美学と、その派生系統を構成する、より具体的な美学を関連付ける。"@ja .
+<https://w3id.org/vibe-ontology/hasLocation> <http://www.w3.org/2000/01/rdf-schema#label> "имеет местоположение"@ru .
+_:n10a9d9e078c44993be0b66527199cf7ab1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/vibe-ontology/City> <http://www.w3.org/2000/01/rdf-schema#comment> "Een stedelijke locatie die wordt gekenmerkt door een dichte bevolking en een gestructureerde infrastructuur."@nl .
+<https://w3id.org/vibe-ontology/hasPlatform> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/Aesthetic> .
+<https://w3id.org/vibe-ontology/FoodItem> <http://www.w3.org/2000/01/rdf-schema#comment> "Een eetbaar item dat esthetische of culturele betekenis kan hebben."@nl .
+<https://w3id.org/vibe-ontology/Image> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/LiteraryWork> <http://www.w3.org/2000/01/rdf-schema#label> "Literary Work"@en .
+<https://w3id.org/vibe-ontology/Videogame> <http://www.w3.org/2000/01/rdf-schema#label> "Videogame"@en .
+<https://w3id.org/vibe-ontology/TimeIndexedRole> <http://www.w3.org/2000/01/rdf-schema#label> "Tijdgeïndexeerde rol"@nl .
+<https://w3id.org/vibe-ontology/hasOriginPeriod> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/vibe-ontology/TimeInterval> .
+<https://w3id.org/vibe-ontology/isMemberOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/vibe-ontology/Collection> .
+<https://w3id.org/vibe-ontology/Value> <http://www.w3.org/2000/01/rdf-schema#label> "Waarde"@nl .
+<https://w3id.org/vibe-ontology/Anime> <http://www.w3.org/2000/01/rdf-schema#comment> "Een vorm van geanimeerd kunstwerk die voornamelijk voortkomt uit Japanse mediacontexten."@nl .
+<https://w3id.org/vibe-ontology/hasValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Associa un'Estetica a un Valore che ne caratterizza l'orientamento."@it .
+_:n10a9d9e078c44993be0b66527199cf7ab2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/vibe-ontology/forAesthetic> <http://www.w3.org/2000/01/rdf-schema#label> "対象"@ja .
+<https://w3id.org/vibe-ontology/isRoleInTimeOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Koppelt een TimeIndexedRole aan het platform waarvan de tijdsgebonden rol wordt beschreven."@nl .
+<https://w3id.org/vibe-ontology/> <http://www.w3.org/2000/01/rdf-schema#label> "Vibe オントロジー"@ja .
+<https://w3id.org/vibe-ontology/hasOriginPeriod> <http://www.w3.org/2000/01/rdf-schema#comment> "Указывает временной интервал, в течение которого эстетика появилась впервые."@ru .
+<https://w3id.org/vibe-ontology/Theme> <http://www.w3.org/2000/01/rdf-schema#label> "Theme"@en .
+<https://w3id.org/vibe-ontology/Region> <http://www.w3.org/2000/01/rdf-schema#label> "Регион"@ru .
+<https://w3id.org/vibe-ontology/hasMember> <http://www.w3.org/2000/01/rdf-schema#comment> "エンティティと、それが構成要素となるコレクションを関連付ける。"@ja .
+<https://w3id.org/vibe-ontology/hasSubgenre> <http://www.w3.org/2000/01/rdf-schema#label> "heeft subgenre"@nl .
+<https://w3id.org/vibe-ontology/hasPrimaryPlatform> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/vibe-ontology/hasPlatform> .
+<https://w3id.org/vibe-ontology/Subculture> <http://www.w3.org/2000/01/rdf-schema#label> "Subcultuur"@nl .
+<https://w3id.org/vibe-ontology/overlapsWith> <http://www.w3.org/2000/01/rdf-schema#label> "пересекается с"@ru .
+<https://w3id.org/vibe-ontology/ColorPalette> <http://www.w3.org/2000/01/rdf-schema#comment> "A structured set of colors associated through recurrent co-occurrence, design conventions, or perceptual harmony, often contributing to the visual identity of an aesthetic."@en .
+<https://w3id.org/vibe-ontology/hasCreator> <http://www.w3.org/2000/01/rdf-schema#label> "ha creatore"@it .
+<https://w3id.org/vibe-ontology/hasPlatform> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/vibe-ontology/relatedTo> .
+<https://w3id.org/vibe-ontology/Value> <http://www.w3.org/2000/01/rdf-schema#comment> "エンティティや美学に関連する抽象的な原理、感情的・価値論的方向性、または評価的次元（倫理的、文化的、美的、またはイデオロギー的）。道徳的判断にのみならず、より広い態度や概念的なスタンスを含む。。例：Frutiger Aeroの美学は楽観主義、清潔さ、テクノ的自然調和といった価値観と関連している。"@ja .
+<https://w3id.org/vibe-ontology/Activity> <http://www.w3.org/2000/01/rdf-schema#comment> "An action or practice carried out by individuals or groups, potentially associated with an aesthetic or subcultural context."@en .
+<http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/Image> <http://www.w3.org/2000/01/rdf-schema#label> "Изображение"@ru .
+<https://w3id.org/vibe-ontology/Beauty> <http://www.w3.org/2000/01/rdf-schema#label> "美容"@ja .
+<https://w3id.org/vibe-ontology/Beauty> <http://www.w3.org/2000/01/rdf-schema#label> "Cura della persona"@it .
+<https://w3id.org/vibe-ontology/Person> <http://www.w3.org/2000/01/rdf-schema#label> "Persona"@it .
+<https://w3id.org/vibe-ontology/influencedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/vibe-ontology/relatedTo> .
+<https://w3id.org/vibe-ontology/hasSubgenre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/hasSubgenre> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/vibe-ontology/Aesthetic> .
+<https://w3id.org/vibe-ontology/representativenessType> <http://www.w3.org/2000/01/rdf-schema#label> "тип репрезентативности"@ru .
+<https://w3id.org/vibe-ontology/> <http://www.w3.org/2000/01/rdf-schema#comment> "Ontologie voor het modelleren van esthetiek als emergente, op collecties gebaseerde categorieën die geworteld zijn in representatieve associaties."@nl .
+<https://w3id.org/vibe-ontology/Person> <http://www.w3.org/2000/01/rdf-schema#comment> "Un individuo umano."@it .
+<https://w3id.org/vibe-ontology/City> <http://www.w3.org/2000/01/rdf-schema#label> "Город"@ru .
+<https://w3id.org/vibe-ontology/Country> <http://www.w3.org/2000/01/rdf-schema#label> "Paese"@it .
+<https://w3id.org/vibe-ontology/Aesthetic> <http://www.w3.org/2000/01/rdf-schema#comment> "A culturally emergent, open-ended category that groups a collection of heterogeneous elements (e.g., images, colors, objects, sounds, texts) perceived as coherently expressing a recognizable style, affect, or orientation. It is not defined by necessary and sufficient conditions, but by shared associations and family resemblances established by a community. E.g, the Frutiger Aero aesthetic groups glossy textures, bright gradients, nature imagery, and optimistic future cues into a recognizable early-2000s style."@en .
+<https://w3id.org/vibe-ontology/overlapsWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/hasCreator> <http://www.w3.org/2000/01/rdf-schema#label> "クリエイター"@ja .
+<https://w3id.org/vibe-ontology/overlapsWith> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/vibe-ontology/Aesthetic> .
+<https://w3id.org/vibe-ontology/Value> <http://www.w3.org/2000/01/rdf-schema#label> "Value"@en .
+<https://w3id.org/vibe-ontology/ArchitecturalWork> <http://www.w3.org/2000/01/rdf-schema#label> "Architectural Work"@en .
+<https://w3id.org/vibe-ontology/startYear> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#gYear> .
+<https://w3id.org/vibe-ontology/Brand> <http://www.w3.org/2000/01/rdf-schema#label> "Merk"@nl .
+<https://w3id.org/vibe-ontology/Aesthetic> <http://www.w3.org/2000/01/rdf-schema#comment> "Культурно обусловленная, открытая категория, объединяющая коллекцию разнородных элементов (например, изображений, цветов, объектов, звуков, текстов), которые воспринимаются как целостное выражение узнаваемого стиля, эмоционального настроя или направленности. Она определяется не через необходимые и достаточные условия, а через общие ассоциации и «семейное сходство», установленные сообществом. Например, эстетика Frutiger Aero объединяет глянцевые текстуры, яркие градиенты, образы природы и оптимистичные отсылки к будущему в узнаваемый стиль начала 2000-х годов."@ru .
+<https://w3id.org/vibe-ontology/associatedSubculture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/Color> <http://www.w3.org/2000/01/rdf-schema#comment> "Визуальный атрибут, воспринимаемый через свет, часто вносящий вклад в эстетическую идентичность."@ru .
+<https://w3id.org/vibe-ontology/ColorPalette> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/relatedTo> <http://www.w3.org/2000/01/rdf-schema#label> "関連する"@ja .
+<https://w3id.org/vibe-ontology/Painting> <http://www.w3.org/2000/01/rdf-schema#comment> "表面に絵の具を使って制作された視覚的作品。"@ja .
+<https://w3id.org/vibe-ontology/hasColorPalette> <http://www.w3.org/2000/01/rdf-schema#label> "カラーパレット"@ja .
+_:n10a9d9e078c44993be0b66527199cf7ab5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/vibe-ontology/influenced> <http://www.w3.org/2000/01/rdf-schema#comment> "Verbindt een esthetiek met een andere esthetiek die het heeft beïnvloed op het gebied van stijl, motieven, waarden of anderszins."@nl .
+<https://w3id.org/vibe-ontology/forAesthetic> <http://www.w3.org/2000/01/rdf-schema#label> "voor esthetiek"@nl .
+<https://w3id.org/vibe-ontology/valueDimension> <http://www.w3.org/2000/01/rdf-schema#label> "измерение ценности"@ru .
+<https://w3id.org/vibe-ontology/Image> <http://www.w3.org/2000/01/rdf-schema#label> "Immagine"@it .
+<https://w3id.org/vibe-ontology/Location> <http://www.w3.org/2000/01/rdf-schema#label> "Location"@en .
+<https://w3id.org/vibe-ontology/relatedTo> <http://www.w3.org/2000/01/rdf-schema#label> "related to"@en .
+<https://w3id.org/vibe-ontology/LiteraryWork> <http://www.w3.org/2000/01/rdf-schema#label> "Literair werk"@nl .
+<https://w3id.org/vibe-ontology/Motif> <http://www.w3.org/2000/01/rdf-schema#comment> "A recurrent and recognizable element (visual, conceptual, or stylistic) that contributes to the identity of an aesthetic through repeated association. E.g., the Frutiger Aero aesthetic’s motifs include skeuomorphism, glossy textures, bubbles, nature imagery, and Frutiger-type fonts."@en .
+<https://w3id.org/vibe-ontology/hasColorPalette> <http://www.w3.org/2000/01/rdf-schema#label> "has color palette"@en .
+<https://w3id.org/vibe-ontology/Group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/hasMotif> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/vibe-ontology/Motif> .
+<https://w3id.org/vibe-ontology/overlapsWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<https://w3id.org/vibe-ontology/Video> <http://www.w3.org/2000/01/rdf-schema#comment> "Een kunstwerk van bewegende beelden, meestal digitaal."@nl .
+<https://w3id.org/vibe-ontology/influencedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "美学と、それがスタイル的、テーマ的、または文化的影響を受けた別の美学を関連付ける。"@ja .
+<https://w3id.org/vibe-ontology/forAesthetic> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/vibe-ontology/Aesthetic> .
+<https://w3id.org/vibe-ontology/Platform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/isRoleInTimeOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/vibe-ontology/Platform> .
+<https://w3id.org/vibe-ontology/Videogame> <http://www.w3.org/2000/01/rdf-schema#comment> "視覚的、物語的、ゲームプレイの要素を組み合わせたインタラクティブなデジタル作品。"@ja .
+<https://w3id.org/vibe-ontology/atTime> <http://www.w3.org/2000/01/rdf-schema#label> "時点"@ja .
+<https://w3id.org/vibe-ontology/valueDimension> <http://www.w3.org/2000/01/rdf-schema#label> "dimensione del valore"@it .
+<https://w3id.org/vibe-ontology/isRoleInTimeOf> <http://www.w3.org/2000/01/rdf-schema#label> "è ruolo nel tempo di"@it .
+<https://w3id.org/vibe-ontology/hasLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates any entity with a physical or digital spatial location."@en .
+<https://w3id.org/vibe-ontology/timeInterval> <http://www.w3.org/2000/01/rdf-schema#comment> "Koppelt een periodedefinitie aan het tijdsinterval dat het definieert."@nl .
+<https://w3id.org/vibe-ontology/source> <http://www.w3.org/2000/01/rdf-schema#comment> "期間定義（PeriodDefinition）の根拠、あるいは権威的な裏付けとなるエージェント（出典元）を示す。  "@ja .
+<https://w3id.org/vibe-ontology/TimeInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/IconicFigure> <http://www.w3.org/2000/01/rdf-schema#comment> "Een rol die een individu vertegenwoordigt dat sterk geassocieerd wordt met een esthetiek."@nl .
+<https://w3id.org/vibe-ontology/source> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/PeriodDefinition> .
+<https://w3id.org/vibe-ontology/Beauty> <http://www.w3.org/2000/01/rdf-schema#label> "Красота и уход"@ru .
+<https://w3id.org/vibe-ontology/precedes> <http://www.w3.org/2000/01/rdf-schema#label> "предшествует"@ru .
+<https://w3id.org/vibe-ontology/hasLocationOfOrigin> <http://www.w3.org/2000/01/rdf-schema#label> "heeft locatie van oorsprong"@nl .
+<https://w3id.org/vibe-ontology/hasMember> <http://www.w3.org/2000/01/rdf-schema#label> "ha membro"@it .
+<https://w3id.org/vibe-ontology/hasPeriodDefinition> <http://www.w3.org/2000/01/rdf-schema#label> "heeft periodedefinitie"@nl .
+<https://w3id.org/vibe-ontology/approximateLabel> <http://www.w3.org/2000/01/rdf-schema#label> "approximate label"@en .
+<https://w3id.org/vibe-ontology/ArtistRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/Painting> <http://www.w3.org/2000/01/rdf-schema#comment> "Визуальное произведение искусства, созданное красками на какой-либо поверхности."@ru .
+<https://w3id.org/vibe-ontology/themeDimension> <http://www.w3.org/2000/01/rdf-schema#label> "dimensione del tema"@it .
+<https://w3id.org/vibe-ontology/PeriodDefinition> <http://www.w3.org/2000/01/rdf-schema#label> "Definizione di periodo"@it .
+<https://w3id.org/vibe-ontology/follows> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that one Aesthetic temporally or stylistically follows another. This property is transitive."@en .
+<https://w3id.org/vibe-ontology/iconicFigureDimension> <http://www.w3.org/2000/01/rdf-schema#label> "iconisch figuur dimensie"@nl .
+<https://w3id.org/vibe-ontology/Artwork> <http://www.w3.org/2000/01/rdf-schema#label> "Artwork"@en .
+<https://w3id.org/vibe-ontology/influenced> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/IconicFigure> <http://www.w3.org/2000/01/rdf-schema#label> "Иконическая фигура"@ru .
+<https://w3id.org/vibe-ontology/themeDimension> <http://www.w3.org/2000/01/rdf-schema#label> "thematische dimensie"@nl .
+<https://w3id.org/vibe-ontology/startYear> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/TimeInterval> .
+<https://w3id.org/vibe-ontology/Beauty> <http://www.w3.org/2000/01/rdf-schema#comment> "Een domein van producten, praktijken en industrieën die verband houden met persoonlijke verzorging, cosmetica, huidverzorging en lichamelijke verschijning, vaak geassocieerd met esthetische expressie en identiteitsconstructie."@nl .
+<https://w3id.org/vibe-ontology/Group> <http://www.w3.org/2000/01/rdf-schema#label> "Группа"@ru .
+_:n10a9d9e078c44993be0b66527199cf7ab2 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://w3id.org/vibe-ontology/hasValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates an Aesthetic with an abstract Value that characterizes its orientation."@en .
+<https://w3id.org/vibe-ontology/hasIconicFigure> <http://www.w3.org/2000/01/rdf-schema#comment> "Associeert een esthetiek met een agent die wordt beschouwd als een emblematische of iconische vertegenwoordiger ervan."@nl .
+<https://w3id.org/vibe-ontology/URL> <http://www.w3.org/2000/01/rdf-schema#comment> "URL-адрес в вики (эстетика)"@ru .
+<https://w3id.org/vibe-ontology/hasMember> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a Collection to one of its constituent entities. Membership does not imply exhaustiveness or strict necessity."@en .
+<https://w3id.org/vibe-ontology/Painting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/Theme> <http://www.w3.org/2000/01/rdf-schema#label> "Тема"@ru .
+<https://w3id.org/vibe-ontology/Painting> <http://www.w3.org/2000/01/rdf-schema#label> "絵画"@ja .
+<https://w3id.org/vibe-ontology/influenced> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/vibe-ontology/influencedBy> .
+<https://w3id.org/vibe-ontology/Activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/Videogame> <http://www.w3.org/2000/01/rdf-schema#comment> "An interactive digital artwork combining visual, narrative, and gameplay elements."@en .
+<https://w3id.org/vibe-ontology/isRoleInTimeOf> <http://www.w3.org/2000/01/rdf-schema#label> "is tijdsgebonden rol van"@nl .
+<https://w3id.org/vibe-ontology/associatedSubculture> <http://www.w3.org/2000/01/rdf-schema#comment> "Связывает эстетику с субкультурой, которая ассоциируется с ней в обществе или способствовала её возникновению и стабилизации."@ru .
+<https://w3id.org/vibe-ontology/representativenessType> <http://www.w3.org/2000/01/rdf-schema#label> "representativiteit type"@nl .
+<https://w3id.org/vibe-ontology/> <http://www.w3.org/2000/01/rdf-schema#comment> "美学とその象徴的な表象との結びつきを基盤とし、多様な要素のコレクションから立ち現れる美学的系統をモデル化するためのオントロジー。"@ja .
+<https://w3id.org/vibe-ontology/alternateName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/vibe-ontology/hasPeriodDefinition> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates an entity with a PeriodDefinition that situates it within a temporal context."@en .
+<https://w3id.org/vibe-ontology/influenced> <http://www.w3.org/2000/01/rdf-schema#label> "影響を与えた"@ja .
+<https://w3id.org/vibe-ontology/Anime> <http://www.w3.org/2000/01/rdf-schema#label> "Аниме"@ru .
+<https://w3id.org/vibe-ontology/hasColorPalette> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates an Aesthetic with a characteristic ColorPalette that contributes to its visual identity."@en .
+<https://w3id.org/vibe-ontology/Motif> <http://www.w3.org/2000/01/rdf-schema#comment> "美学のアイデンティティ形成に寄与する、特徴的な要素（視覚、概念、スタイル）。繰り返しその美学との関連性として現れる。　例：Frutiger Aeroにおける光沢感、泡、自然のイメージ、Frutiger系フォントなど。"@ja .
+<https://w3id.org/vibe-ontology/Person> <http://www.w3.org/2000/01/rdf-schema#comment> "An individual human agent."@en .
+<https://w3id.org/vibe-ontology/RepresentativeAssociation> <http://www.w3.org/2000/01/rdf-schema#label> "Репрезентативная ассоциация"@ru .
+<https://w3id.org/vibe-ontology/forAesthetic> <http://www.w3.org/2000/01/rdf-schema#label> "per estetica"@it .
+<https://w3id.org/vibe-ontology/Activity> <http://www.w3.org/2000/01/rdf-schema#label> "Активность"@ru .
+<https://w3id.org/vibe-ontology/hasMember> <http://www.w3.org/2000/01/rdf-schema#comment> "Verbindt een collectie met een van de samenstellende entiteiten. Lidmaatschap impliceert geen volledigheid of strikte noodzaak."@nl .
+<https://w3id.org/vibe-ontology/hasMotif> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates an Artwork with a recurrent and recognizable motif it exhibits."@en .
+<https://w3id.org/vibe-ontology/ArchitecturalWork> <http://www.w3.org/2000/01/rdf-schema#comment> "Un’opera costituita da edifici o strutture progettate nell’ambito dell’architettura."@it .
+<https://w3id.org/vibe-ontology/LiteraryWork> <http://www.w3.org/2000/01/rdf-schema#comment> "Un’opera testuale come romanzi, poesie o narrazioni scritte."@it .
+<https://w3id.org/vibe-ontology/PrimaryRole> <http://www.w3.org/2000/01/rdf-schema#comment> "Een rol die een primaire of centrale associatie binnen een context aangeeft."@nl .
+_:n10a9d9e078c44993be0b66527199cf7ab3 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/vibe-ontology/atTime> .
+<https://w3id.org/vibe-ontology/Location> <http://www.w3.org/2000/01/rdf-schema#label> "Luogo"@it .
+<https://w3id.org/vibe-ontology/platformDimension> <http://www.w3.org/2000/01/rdf-schema#label> "platform dimensie"@nl .
+<https://w3id.org/vibe-ontology/Aesthetic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/hasMember> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/TimeIndexedRole> <http://www.w3.org/2000/01/rdf-schema#label> "Временно обозначенная роль"@ru .
+<https://w3id.org/vibe-ontology/withEntity> <http://www.w3.org/2000/01/rdf-schema#label> "with entity"@en .
+<https://w3id.org/vibe-ontology/coinedBy> <http://www.w3.org/2000/01/rdf-schema#label> "opgebracht door"@nl .
+<https://w3id.org/vibe-ontology/withRole> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/vibe-ontology/Role> .
+<https://w3id.org/vibe-ontology/Platform> <http://www.w3.org/2000/01/rdf-schema#comment> "Een sociaal-technisch systeem dat interactie, contentproductie en verspreiding mogelijk maakt en beperkt, terwijl het invloed uitoefent via het ontwerp, beheer en algoritmische mechanismen, en zo de opkomst en zichtbaarheid van esthetiek vormgeeft."@nl .
+<https://w3id.org/vibe-ontology/isMemberOf> <http://www.w3.org/2000/01/rdf-schema#comment> "エンティティと、それが構成メンバーであるコレクションを関連付ける。"@ja .
+<https://w3id.org/vibe-ontology/TVShow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/Platform> <http://www.w3.org/2000/01/rdf-schema#comment> "A socio-technical system that enables and constrains interaction, content production, and dissemination, while exerting agency through its design, governance, and algorithmic mechanisms, thereby shaping the emergence and visibility of aesthetics."@en .
+<https://w3id.org/vibe-ontology/Agent> <http://www.w3.org/2000/01/rdf-schema#comment> "Сущность, способная действовать, создавать или влиять на культурные артефакты или эстетику, включая индивидов и группы."@ru .
+<https://w3id.org/vibe-ontology/hasMember> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/vibe-ontology/isMemberOf> .
+<https://w3id.org/vibe-ontology/Collection> <http://www.w3.org/2000/01/rdf-schema#comment> "Набор сущностей, сгруппированных вместе (явно или неявно) на основе воспринимаемой целостности, кураторства или общих ассоциаций. Коллекции служат основным средством выражения и узнавания эстетики, не требуя при этом фиксированного или исчерпывающего состава участников."@ru .
+<https://w3id.org/vibe-ontology/isRoleInTimeOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/influenced> <http://www.w3.org/2000/01/rdf-schema#comment> "Связывает эстетику с другой эстетикой, на которую она оказала влияние (в стиле, мотивах, ценностях и т. д.)."@ru .
+<https://w3id.org/vibe-ontology/precedes> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/Aesthetic> .
+<https://w3id.org/vibe-ontology/Color> <http://www.w3.org/2000/01/rdf-schema#label> "Colore"@it .
+<https://w3id.org/vibe-ontology/Fashion> <http://www.w3.org/2000/01/rdf-schema#comment> "A domain of embodied and material expression involving clothing, styling, and adornment practices, through which cultural meanings, identities, and aesthetic orientations are communicated."@en .
+<https://w3id.org/vibe-ontology/follows> <http://www.w3.org/2000/01/rdf-schema#label> "volgt"@nl .
+<https://w3id.org/vibe-ontology/Song> <http://www.w3.org/2000/01/rdf-schema#label> "Canzone"@it .
+<https://w3id.org/vibe-ontology/ColorPalette> <http://www.w3.org/2000/01/rdf-schema#label> "Kleurenpalet"@nl .
+<https://w3id.org/vibe-ontology/LiteraryWork> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/vibe-ontology/Artwork> .
+<https://w3id.org/vibe-ontology/motifDimension> <http://www.w3.org/2000/01/rdf-schema#label> "モチーフの次元"@ja .
+<https://w3id.org/vibe-ontology/iconicFigureDimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/vibe-ontology/Subculture> <http://www.w3.org/2000/01/rdf-schema#label> "Subculture"@en .
+<https://w3id.org/vibe-ontology/Videogame> <http://www.w3.org/2000/01/rdf-schema#comment> "Un’opera digitale interattiva che combina elementi visivi, narrativi e ludici."@it .
+<https://w3id.org/vibe-ontology/Video> <http://www.w3.org/2000/01/rdf-schema#comment> "A moving-image artwork, typically digital."@en .
+<https://w3id.org/vibe-ontology/City> <http://www.w3.org/2000/01/rdf-schema#comment> "密な人口と整備されたインフラを特徴とする都市的場所。"@ja .
+<https://w3id.org/vibe-ontology/Video> <http://www.w3.org/2000/01/rdf-schema#label> "Видео"@ru .
+<https://w3id.org/vibe-ontology/Album> <http://www.w3.org/2000/01/rdf-schema#comment> "Een muzikaal werk bestaande uit een verzameling opgenomen tracks die als één geheel zijn uitgebracht."@nl .
+<https://w3id.org/vibe-ontology/hasCreator> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/Aesthetic> .
+<https://w3id.org/vibe-ontology/PeriodDefinition> <http://www.w3.org/2000/01/rdf-schema#label> "期間定義"@ja .
+<https://w3id.org/vibe-ontology/Image> <http://www.w3.org/2000/01/rdf-schema#comment> "A visual artwork such as a photograph or digital image."@en .
+<https://w3id.org/vibe-ontology/ColorPalette> <http://www.w3.org/2000/01/rdf-schema#label> "Palette di colori"@it .
+<https://w3id.org/vibe-ontology/hasValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Associeert een esthetiek met een abstracte waarde die de oriëntatie ervan kenmerkt."@nl .
+<https://w3id.org/vibe-ontology/Region> <http://www.w3.org/2000/01/rdf-schema#label> "Region"@en .
+<https://w3id.org/vibe-ontology/coinedBy> <http://www.w3.org/2000/01/rdf-schema#label> "命名者"@ja .
+<https://w3id.org/vibe-ontology/City> <http://www.w3.org/2000/01/rdf-schema#label> "都市"@ja .
+<https://w3id.org/vibe-ontology/musicDimension> <http://www.w3.org/2000/01/rdf-schema#label> "muzikale dimensie"@nl .
+<https://w3id.org/vibe-ontology/Region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/vibe-ontology/Location> .
+<https://w3id.org/vibe-ontology/Image> <http://www.w3.org/2000/01/rdf-schema#label> "Afbeelding"@nl .
+<https://w3id.org/vibe-ontology/forAesthetic> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a RepresentativeAssociation to the Aesthetic it qualifies."@en .
+<https://w3id.org/vibe-ontology/Beauty> <http://www.w3.org/2000/01/rdf-schema#comment> "Ambito che comprende prodotti, pratiche e industrie legate alla cura della persona, alla cosmetica, alla skincare e all’aspetto corporeo, spesso associato all’espressione estetica e alla costruzione dell’identiteit."@it .
+<https://w3id.org/vibe-ontology/Aesthetic> <http://www.w3.org/2000/01/rdf-schema#comment> "文化的に創発される、定義の開かれた包括的な概念。画像、色彩、音楽、ファッションスタイル、テキスト、装飾といった多種多様な要素の集まりを、共通のスタイルや美意識、あるいは特定の「系統」を表現するものとして統合して捉える。これは厳密なルール（必要十分条件）で規定されるものではなく、コミュニティ内で共有された連想や家族的類似（ゆるやかな共通性）」を通じて形成される。2010～2020代で流行したインターネット上の視覚芸術様式からファッション系統まで、さまざまな形がある。（例：Frutiger Aero はキラキラしたテクスチャ、鮮やかなグラデーション、自然に関する画像、未来への期待感を、2000年代初期に流行したスタイルと認識できる形で統合している）美意識や美的概念とも言い換えられる。"@ja .
+<https://w3id.org/vibe-ontology/precedes> <http://www.w3.org/2000/01/rdf-schema#label> "precedes"@en .
+<https://w3id.org/vibe-ontology/influenced> <http://www.w3.org/2000/01/rdf-schema#label> "ha influenzato"@it .
+<https://w3id.org/vibe-ontology/timeInterval> <http://www.w3.org/2000/01/rdf-schema#comment> "Связывает определение периода с временным интервалом, который оно описывает."@ru .
+<https://w3id.org/vibe-ontology/associatedSubculture> <http://www.w3.org/2000/01/rdf-schema#label> "geassocieerde subcultuur"@nl .
+<https://w3id.org/vibe-ontology/hasValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Ассоциирует эстетику с абстрактной ценностью, характеризующей её направленность."@ru .
+<https://w3id.org/vibe-ontology/Value> <http://www.w3.org/2000/01/rdf-schema#comment> "Een abstract principe, een affectieve/axiologische oriëntatie of evaluatieve dimensie (ethisch, cultureel, esthetisch of ideologisch) geassocieerd met entiteiten of esthetiek. Waarden zijn niet beperkt tot morele oordelen, maar omvatten bredere houdings- of conceptuele standpunten. Bijv. de esthetiek Frutiger Aero wordt geassocieerd met optimisme, netheid en techno-natuurlijke harmonie."@nl .
+<https://w3id.org/vibe-ontology/coinedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Verbindt een esthetiek met de agent die deze heeft opgebracht of voor het eerst een naam heeft gegeven."@nl .
+<https://w3id.org/vibe-ontology/Collection> <http://www.w3.org/2000/01/rdf-schema#comment> "Un insieme di entità raggruppate assieme, in modo esplicito o implicito, per coerenza percepita o associazioni condivise. Le collezioni costituiscono il mezzo primario tramite il quale le estetiche vengono espresse o riconosciute; non richiedono la fissità o l'esausività dei loro membri."@it .
+<https://w3id.org/vibe-ontology/endYear> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#gYear> .
+<https://w3id.org/vibe-ontology/Person> <http://www.w3.org/2000/01/rdf-schema#comment> "個々の人間エージェント。"@ja .
+<https://w3id.org/vibe-ontology/hasTheme> <http://www.w3.org/2000/01/rdf-schema#label> "has theme"@en .
+<https://w3id.org/vibe-ontology/follows> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/vibe-ontology/precedes> .
+<https://w3id.org/vibe-ontology/FoodItem> <http://www.w3.org/2000/01/rdf-schema#comment> "Un alimento che può avere rilevanza estetica o culturale."@it .
+<https://w3id.org/vibe-ontology/approximateLabel> <http://www.w3.org/2000/01/rdf-schema#label> "приблизительная метка"@ru .
+<https://w3id.org/vibe-ontology/alternateName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/Aesthetic> .
+<https://w3id.org/vibe-ontology/MusicWork> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/vibe-ontology/Artwork> .
+<https://w3id.org/vibe-ontology/LiteraryWork> <http://www.w3.org/2000/01/rdf-schema#comment> "Een tekstueel kunstwerk zoals een roman, gedicht of geschreven verhaal."@nl .
+<https://w3id.org/vibe-ontology/DigitalPlace> <http://www.w3.org/2000/01/rdf-schema#label> "Digitale plek"@nl .
+<https://w3id.org/vibe-ontology/Location> <http://www.w3.org/2000/01/rdf-schema#label> "場所"@ja .
+<https://w3id.org/vibe-ontology/withRole> <http://www.w3.org/2000/01/rdf-schema#label> "with role"@en .
+<https://w3id.org/vibe-ontology/TVShow> <http://www.w3.org/2000/01/rdf-schema#label> "TV Show"@en .
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/URL> <http://www.w3.org/2000/01/rdf-schema#label> "URL"@nl .
+<https://w3id.org/vibe-ontology/hasValue> <http://www.w3.org/2000/01/rdf-schema#label> "has value"@en .
+<https://w3id.org/vibe-ontology/Role> <http://www.w3.org/2000/01/rdf-schema#label> "Роль"@ru .
+<https://w3id.org/vibe-ontology/colorDimension> <http://www.w3.org/2000/01/rdf-schema#label> "цветовое измерение"@ru .
+<https://w3id.org/vibe-ontology/startYear> <http://www.w3.org/2000/01/rdf-schema#label> "start year"@en .
+<https://w3id.org/vibe-ontology/hasLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "Associa qualsiasi entità a una collocazione spaziale, fisica o digitale."@it .
+<https://w3id.org/vibe-ontology/Activity> <http://www.w3.org/2000/01/rdf-schema#comment> "Un’azione o pratica svolta da individui o gruppi, potenzialmente associata a un’estetica o a un contesto sottoculturale."@it .
+<https://w3id.org/vibe-ontology/Fashion> <http://www.w3.org/2000/01/rdf-schema#label> "Мода"@ru .
+<https://w3id.org/vibe-ontology/endYear> <http://www.w3.org/2000/01/rdf-schema#label> "год окончания"@ru .
+<https://w3id.org/vibe-ontology/hasPeriodDefinition> <http://www.w3.org/2000/01/rdf-schema#comment> "エンティティと、それを時間的文脈に位置づける期間定義を関連付ける。"@ja .
+<https://w3id.org/vibe-ontology/Activity> <http://www.w3.org/2000/01/rdf-schema#label> "Activiteit"@nl .
+<https://w3id.org/vibe-ontology/associationDimension> <http://www.w3.org/2000/01/rdf-schema#comment> "Classifies the kind of association. Expected values are the named individuals: motifDimension, themeDimension, valueDimension, colorDimension, platformDimension, musicDimension, fashionDimension, iconicFigureDimension."@en .
+<https://w3id.org/vibe-ontology/isSubgenreOf> <http://www.w3.org/2000/01/rdf-schema#label> "является поджанром"@ru .
+<https://w3id.org/vibe-ontology/hasRelatedWork> <http://www.w3.org/2000/01/rdf-schema#label> "関連作品"@ja .
+<https://w3id.org/vibe-ontology/source> <http://www.w3.org/2000/01/rdf-schema#label> "bron"@nl .
+<https://w3id.org/vibe-ontology/platformDimension> <http://www.w3.org/2000/01/rdf-schema#label> "dimensione della piattaforma"@it .
+<http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/associationDimension> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/vibe-ontology/ArtistRole> <http://www.w3.org/2000/01/rdf-schema#comment> "role played by an agent as a creator or contributor to artistic production."@en .
+<https://w3id.org/vibe-ontology/Subculture> <http://www.w3.org/2000/01/rdf-schema#comment> "独自の慣習や価値観、象徴体系を共有し、主流文化とは区別される社会的グループ。特定の美学の創発と定着を促す基盤となることがある。"@ja .
+<https://w3id.org/vibe-ontology/fashionDimension> <http://www.w3.org/2000/01/rdf-schema#label> "fashion dimension"@en .
+<https://w3id.org/vibe-ontology/Country> <http://www.w3.org/2000/01/rdf-schema#comment> "Геополитическая локация, представляющая собой нацию или государство."@ru .
+<https://w3id.org/vibe-ontology/atTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/hasColorPalette> <http://www.w3.org/2000/01/rdf-schema#comment> "Associa un'Estetica a una palette di colori caratteristica che contribuisce alla sua identità visiva."@it .
+<https://w3id.org/vibe-ontology/coinedBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/vibe-ontology/Agent> .
+<https://w3id.org/vibe-ontology/hasIconicFigure> <http://www.w3.org/2000/01/rdf-schema#label> "heeft iconisch figuur"@nl .
+<https://w3id.org/vibe-ontology/PeriodDefinition> <http://www.w3.org/2000/01/rdf-schema#comment> "Un intervallo temporale delimitato ma potenzialmente impreciso usato per collocare entità o fenomeni nel tempo, che consente di definire confini vaghi o con sovrapposizioni, allineato a modellazioni come PeriodO."@it .
+<https://w3id.org/vibe-ontology/Video> <http://www.w3.org/2000/01/rdf-schema#label> "動画"@ja .
+<https://w3id.org/vibe-ontology/hasPlatform> <http://www.w3.org/2000/01/rdf-schema#label> "ha piattaforma"@it .
+<https://w3id.org/vibe-ontology/DigitalPlace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/vibe-ontology/Location> .
+<https://w3id.org/vibe-ontology/hasLocationOfOrigin> <http://www.w3.org/2000/01/rdf-schema#label> "ha luogo di origine"@it .
+<https://w3id.org/vibe-ontology/isRoleInTimeOf> <http://www.w3.org/2000/01/rdf-schema#label> "is role in time of"@en .
+<https://w3id.org/vibe-ontology/relatedTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Una relazione simmetrica generale che indica che un'Estetica è correlata a un'altra entità in modo culturalmente rilevante. Funge da superpropietà per tipi di relazione più specifici."@it .
+<https://w3id.org/vibe-ontology/hasPlatform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/Album> <http://www.w3.org/2000/01/rdf-schema#label> "Album"@it .
+<https://w3id.org/vibe-ontology/URL> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/Aesthetic> .
+<https://w3id.org/vibe-ontology/InteriorDesign> <http://www.w3.org/2000/01/rdf-schema#label> "Design d’interni"@it .
+<https://w3id.org/vibe-ontology/TimeIndexedRole> <http://www.w3.org/2000/01/rdf-schema#comment> "Een contextuele rol toegewezen aan een entiteit binnen een relatie die expliciet gebonden is aan een tijdsinterval, waardoor dezelfde entiteit op verschillende tijdstippen verschillende rollen kan vervullen."@nl .
+<https://w3id.org/vibe-ontology/hasColorPalette> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/Aesthetic> .
+<https://w3id.org/vibe-ontology/hasLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "Associeert elke entiteit met een fysieke of digitale ruimtelijke locatie."@nl .
+<https://w3id.org/vibe-ontology/hasPrimaryPlatform> <http://www.w3.org/2000/01/rdf-schema#label> "heeft primair platform"@nl .
+<https://w3id.org/vibe-ontology/Brand> <http://www.w3.org/2000/01/rdf-schema#label> "ブランド"@ja .
+<https://w3id.org/vibe-ontology/motifDimension> <http://www.w3.org/2000/01/rdf-schema#label> "motief dimensie"@nl .
+<https://w3id.org/vibe-ontology/hasOriginPeriod> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/Aesthetic> .
+<https://w3id.org/vibe-ontology/hasOriginPeriod> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifica l'intervallo temporale durante il quale un'Estetica è emersa per la prima volta."@it .
+<https://w3id.org/vibe-ontology/hasRelatedWork> <http://www.w3.org/2000/01/rdf-schema#label> "has related work"@en .
+<https://w3id.org/vibe-ontology/TimeIndexedRole> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ruolo assegnato a un’entità all’interno di una relazione, esplicitamente vincolato a un intervallo temporale, cosa che permette alla stessa entità di avere ruoli diversi in tempi diversi."@it .
+<https://w3id.org/vibe-ontology/Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/hasOriginPeriod> <http://www.w3.org/2000/01/rdf-schema#label> "has origin period"@en .
+<https://w3id.org/vibe-ontology/FoodItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/Role> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ruolo è una funzione o qualificazione dipendente dal contesto assegnata a un’entità all’interno di una relazione."@it .
+<https://w3id.org/vibe-ontology/Subculture> <http://www.w3.org/2000/01/rdf-schema#comment> "Een sociaal gesitueerde groep of netwerk gekenmerkt door gedeelde praktijken, waarden en symbolische systemen die het onderscheiden van bredere culturele contexten, en vaak bijdragen aan het ontstaan en de stabilisatie van specifieke esthetiek."@nl .
+<https://w3id.org/vibe-ontology/Film> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/Image> <http://www.w3.org/2000/01/rdf-schema#label> "Image"@en .
+<https://w3id.org/vibe-ontology/hasPeriodDefinition> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/vibe-ontology/PeriodDefinition> .
+<https://w3id.org/vibe-ontology/TVShow> <http://www.w3.org/2000/01/rdf-schema#comment> "Сериальное аудиовизуальное произведение, созданное для телевидения или стриминговых платформ."@ru .
+<https://w3id.org/vibe-ontology/Anime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:n10a9d9e078c44993be0b66527199cf7ab5 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/vibe-ontology/withRole> .
+<https://w3id.org/vibe-ontology/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/Subculture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/TimeIndexedRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/PrimaryRole> <http://www.w3.org/2000/01/rdf-schema#label> "主要役割"@ja .
+<https://w3id.org/vibe-ontology/hasLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "Ассоциирует любую сущность с физическим или цифровым пространственным расположением."@ru .
+<https://w3id.org/vibe-ontology/Video> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/vibe-ontology/Artwork> .
+<https://w3id.org/vibe-ontology/isSubgenreOf> <http://www.w3.org/2000/01/rdf-schema#label> "è sottogenere di"@it .
+<https://w3id.org/vibe-ontology/Country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/vibe-ontology/Location> .
+<https://w3id.org/vibe-ontology/associatedSubculture> <http://www.w3.org/2000/01/rdf-schema#comment> "美学と、社会的に関連の深いサブカルチャー、あるいはその出現や定着に寄与したサブカルチャーを結びつける。"@ja .
+<https://w3id.org/vibe-ontology/follows> <http://www.w3.org/2000/01/rdf-schema#comment> "Indica che un'Estetica segue temporalmente o stilisticamente un'altra. Questa proprietà è transitiva."@it .
+<https://w3id.org/vibe-ontology/Group> <http://www.w3.org/2000/01/rdf-schema#comment> "Een verzameling actoren die handelen of worden geïdentificeerd als een eenheid."@nl .
+<https://w3id.org/vibe-ontology/Anime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/vibe-ontology/Artwork> .
+<https://w3id.org/vibe-ontology/hasOriginPeriod> <http://www.w3.org/2000/01/rdf-schema#label> "ha periodo di origine"@it .
+<https://w3id.org/vibe-ontology/hasPeriodDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/Role> <http://www.w3.org/2000/01/rdf-schema#comment> "Een rol is een contextafhankelijke functie of kwalificatie die aan een entiteit binnen een relatie is toegewezen."@nl .
+<https://w3id.org/vibe-ontology/hasPrimaryPlatform> <http://www.w3.org/2000/01/rdf-schema#label> "ha piattaforma principale"@it .
+<https://w3id.org/vibe-ontology/overlapsWith> <http://www.w3.org/2000/01/rdf-schema#comment> "Указывает на то, что две эстетики имеют общие значимые элементы или ассоциации, при этом ни одна не является поджанром другой. Свойство симметрично."@ru .
+<https://w3id.org/vibe-ontology/approximateLabel> <http://www.w3.org/2000/01/rdf-schema#label> "近似ラベル"@ja .
+<https://w3id.org/vibe-ontology/Color> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/InteriorDesign> <http://www.w3.org/2000/01/rdf-schema#label> "Interieurontwerp"@nl .
+<https://w3id.org/vibe-ontology/endYear> <http://www.w3.org/2000/01/rdf-schema#label> "end year"@en .
+<https://w3id.org/vibe-ontology/PrimaryRole> <http://www.w3.org/2000/01/rdf-schema#comment> "Роль, указывающая на первичную или центральную связь внутри контекста."@ru .
+<https://w3id.org/vibe-ontology/hasMotif> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/Artwork> .
+<https://w3id.org/vibe-ontology/Platform> <http://www.w3.org/2000/01/rdf-schema#comment> "Un sistema socio-tecnico che abilita e al tempo stesso vincola l’interazione, la produzione di contenuti e la loro diffusione, esercitando un’agenzia attraverso il proprio design, le forme di governance e i meccanismi algoritmici, e contribuendo così a modellare l’emergere e la visibilità delle estetiche."@it .
+<https://w3id.org/vibe-ontology/hasIconicFigure> <http://www.w3.org/2000/01/rdf-schema#label> "has iconic figure"@en .
+<https://w3id.org/vibe-ontology/Person> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/vibe-ontology/TimeInterval> .
+<https://w3id.org/vibe-ontology/> <http://www.w3.org/2000/01/rdf-schema#comment> "Ontologia per modellare le estetiche come categorie emergenti basate su collezioni e associazioni rappresentative."@it .
+<https://w3id.org/vibe-ontology/alternateName> <http://www.w3.org/2000/01/rdf-schema#label> "nome alternativo"@it .
+<https://w3id.org/vibe-ontology/hasRelatedWork> <http://www.w3.org/2000/01/rdf-schema#label> "имеет ассоциирующееся произведение"@ru .
+<https://w3id.org/vibe-ontology/isSubgenreOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Связывает эстетику с более широкой эстетикой, подвариантом которой она является."@ru .
+<https://w3id.org/vibe-ontology/hasRelatedWork> <http://www.w3.org/2000/01/rdf-schema#label> "heeft gerelateerd werk"@nl .
+<https://w3id.org/vibe-ontology/Region> <http://www.w3.org/2000/01/rdf-schema#comment> "Een geografisch gebied."@nl .
+<https://w3id.org/vibe-ontology/hasValue> <http://www.w3.org/2000/01/rdf-schema#label> "価値観"@ja .
+<https://w3id.org/vibe-ontology/DigitalPlace> <http://www.w3.org/2000/01/rdf-schema#comment> "Виртуальная среда, где происходит взаимодействие, создание контента или практики сообщества (например, форумы, веб-сайты, социальные сети)."@ru .
+<https://w3id.org/vibe-ontology/associationDimension> <http://www.w3.org/2000/01/rdf-schema#comment> "Классифицирует тип ассоциации. Ожидаемые значения — индивиды: измерение мотива (motifDimension), темы (themeDimension), ценности (valueDimension), цвета (colorDimension), платформы (platformDimension), музыки (musicDimension), моды (fashionDimension) или иконической фигуры (iconicFigureDimension)."@ru .
+<https://w3id.org/vibe-ontology/Artwork> <http://www.w3.org/2000/01/rdf-schema#label> "作品"@ja .
+<https://w3id.org/vibe-ontology/IconicFigure> <http://www.w3.org/2000/01/rdf-schema#label> "Iconic Figure"@en .
+<https://w3id.org/vibe-ontology/withEntity> <http://www.w3.org/2000/01/rdf-schema#comment> "Collega una RepresentativeAssociation all'entità considerata rappresentativa dell'Estetica."@it .
+<https://w3id.org/vibe-ontology/influencedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Verbindt een esthetiek met een andere esthetiek waarvan het stilistische, thematische of culturele invloed heeft ondergaan."@nl .
+<https://w3id.org/vibe-ontology/hasPlatform> <http://www.w3.org/2000/01/rdf-schema#label> "has platform"@en .
+<https://w3id.org/vibe-ontology/name> <http://www.w3.org/2000/01/rdf-schema#label> "naam"@nl .
+<https://w3id.org/vibe-ontology/isMemberOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Связывает сущность с коллекцией, частью которой она является."@ru .
+<https://w3id.org/vibe-ontology/URL> <http://www.w3.org/2000/01/rdf-schema#label> "URL"@ja .
+<https://w3id.org/vibe-ontology/hasIconicFigure> <http://www.w3.org/2000/01/rdf-schema#comment> "Ассоциирует эстетику с агентом, который считается её каноничным или культовым представителем."@ru .
+<https://w3id.org/vibe-ontology/hasTheme> <http://www.w3.org/2000/01/rdf-schema#label> "heeft thema"@nl .
+<https://w3id.org/vibe-ontology/colorDimension> <http://www.w3.org/2000/01/rdf-schema#label> "色の次元"@ja .
+<https://w3id.org/vibe-ontology/fashionDimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/vibe-ontology/influenced> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates an Aesthetic to another Aesthetic that it has influenced in terms of style, motifs, values, or other."@en .
+<https://w3id.org/vibe-ontology/isRoleInTimeOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/TimeIndexedRole> .
+<https://w3id.org/vibe-ontology/Motif> <http://www.w3.org/2000/01/rdf-schema#comment> "Un elemento ricorrente e riconoscibile (di tipo visivo, concettuale o stilistico) che contribuisce all’identità di un’estetica attraverso associazioni ripetute. Per esempio, nell’estetica Frutiger Aero, i motivi includono scheumorfismo, texture lucide, scene di natura e font di tipo Frutiger."@it .
+<https://w3id.org/vibe-ontology/MusicWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/source> <http://www.w3.org/2000/01/rdf-schema#label> "fonte"@it .
+<https://w3id.org/vibe-ontology/hasColorPalette> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/vibe-ontology/ColorPalette> .
+<https://w3id.org/vibe-ontology/name> <http://www.w3.org/2000/01/rdf-schema#label> "nome"@it .
+<https://w3id.org/vibe-ontology/PeriodDefinition> <http://www.w3.org/2000/01/rdf-schema#label> "Period Definition"@en .
+<https://w3id.org/vibe-ontology/associationDimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/Song> <http://www.w3.org/2000/01/rdf-schema#comment> "通常、歌詞とメロディーからなる単一の音楽的構成。"@ja .
+<https://w3id.org/vibe-ontology/TimeInterval> <http://www.w3.org/2000/01/rdf-schema#comment> "Een temporele omvang met een begin en/of einde dat nauwkeurig gedefinieerd of bij benadering kan zijn, gebruikt om de temporele geldigheid van entiteiten, rollen of associaties te kwalificeren."@nl .
+<https://w3id.org/vibe-ontology/Painting> <http://www.w3.org/2000/01/rdf-schema#label> "Dipinto"@it .
+<https://w3id.org/vibe-ontology/associationDimension> <http://www.w3.org/2000/01/rdf-schema#label> "измерение ассоциации"@ru .
+<https://w3id.org/vibe-ontology/motifDimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/vibe-ontology/MusicWork> <http://www.w3.org/2000/01/rdf-schema#comment> "An artwork expressed through sound and musical composition."@en .
+<https://w3id.org/vibe-ontology/precedes> <http://www.w3.org/2000/01/rdf-schema#label> "先行する"@ja .
+<https://w3id.org/vibe-ontology/representativenessType> <http://www.w3.org/2000/01/rdf-schema#label> "象徴性タイプ"@ja .
+<https://w3id.org/vibe-ontology/withRole> <http://www.w3.org/2000/01/rdf-schema#comment> "Определяет Роль, которую сущность играет в рамках отношения временной роли (TimeIndexedRole)."@ru .
+<https://w3id.org/vibe-ontology/isSubgenreOf> <http://www.w3.org/2000/01/rdf-schema#label> "is subgenre of"@en .
+<https://w3id.org/vibe-ontology/Role> <http://www.w3.org/2000/01/rdf-schema#comment> "Роль — это зависящая от контекста функция или квалификация, присваиваемая сущности в рамках отношения."@ru .
+<https://w3id.org/vibe-ontology/platformDimension> <http://www.w3.org/2000/01/rdf-schema#label> "platform dimension"@en .
+<https://w3id.org/vibe-ontology/Artwork> <http://www.w3.org/2000/01/rdf-schema#label> "Opera d'arte"@it .
+<https://w3id.org/vibe-ontology/InteriorDesign> <http://www.w3.org/2000/01/rdf-schema#comment> "Форма архитектурной работы, ориентированная на проектирование внутренних пространств."@ru .
+<https://w3id.org/vibe-ontology/source> <http://www.w3.org/2000/01/rdf-schema#comment> "Указывает на агента, который является источником доказательств или авторитетным лицом для данного определения периода."@ru .
+<https://w3id.org/vibe-ontology/timeInterval> <http://www.w3.org/2000/01/rdf-schema#label> "tijdsinterval"@nl .
+<https://w3id.org/vibe-ontology/LiteraryWork> <http://www.w3.org/2000/01/rdf-schema#label> "文学作品"@ja .
+<https://w3id.org/vibe-ontology/TVShow> <http://www.w3.org/2000/01/rdf-schema#comment> "テレビまたはストリーミングプラットフォーム向けに制作された連続的な視聴覚作品。"@ja .
+<https://w3id.org/vibe-ontology/Collection> <http://www.w3.org/2000/01/rdf-schema#comment> "Een verzameling entiteiten die expliciet of impliciet zijn samengevoegd op basis van waargenomen coherentie, curatie of gedeelde associaties. Collecties fungeren als het primaire middel waarmee een esthetiek wordt uitgedrukt en herkend, zonder dat een vast of uitputtend lidmaatschap vereist is."@nl .
+_:n10a9d9e078c44993be0b66527199cf7ab5 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://w3id.org/vibe-ontology/precedes> <http://www.w3.org/2000/01/rdf-schema#comment> "Indica che un'Estetica precede temporalmente o stilisticamente un'altra. Questa proprietà è transitiva."@it .
+<https://w3id.org/vibe-ontology/themeDimension> <http://www.w3.org/2000/01/rdf-schema#label> "テーマの次元"@ja .
+<https://w3id.org/vibe-ontology/Motif> <http://www.w3.org/2000/01/rdf-schema#comment> "Повторяющийся и узнаваемый элемент (визуальный, концептуальный или стилистический), который формирует идентичность эстетики через многократные ассоциации. Например, мотивы эстетики Frutiger Aero включают скевоморфизм, глянцевые текстуры, пузырьки, образы природы и шрифты семейства Frutiger."@ru .
+<https://w3id.org/vibe-ontology/FoodItem> <http://www.w3.org/2000/01/rdf-schema#label> "食品"@ja .
+<https://w3id.org/vibe-ontology/hasIconicFigure> <http://www.w3.org/2000/01/rdf-schema#label> "имеет иконическую фигуру"@ru .
+<https://w3id.org/vibe-ontology/hasMotif> <http://www.w3.org/2000/01/rdf-schema#comment> "Associeert een kunstwerk met een terugkerend en herkenbaar motief dat het vertoont."@nl .
+<https://w3id.org/vibe-ontology/City> <http://www.w3.org/2000/01/rdf-schema#label> "City"@en .
+<https://w3id.org/vibe-ontology/isSubgenreOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/vibe-ontology/relatedTo> .
+<https://w3id.org/vibe-ontology/forAesthetic> <http://www.w3.org/2000/01/rdf-schema#comment> "Связывает репрезентативную ассоциацию с конкретной эстетикой, которую она характеризует."@ru .
+<https://w3id.org/vibe-ontology/source> <http://www.w3.org/2000/01/rdf-schema#label> "источник"@ru .
+<https://w3id.org/vibe-ontology/Activity> <http://www.w3.org/2000/01/rdf-schema#label> "Attività"@it .
+<https://w3id.org/vibe-ontology/Aesthetic> <http://www.w3.org/2000/01/rdf-schema#label> "Эстетика"@ru .
+<https://w3id.org/vibe-ontology/atTime> <http://www.w3.org/2000/01/rdf-schema#label> "at time"@en .
+<https://w3id.org/vibe-ontology/Song> <http://www.w3.org/2000/01/rdf-schema#label> "Lied"@nl .
+<https://w3id.org/vibe-ontology/TimeIndexedRole> <http://www.w3.org/2000/01/rdf-schema#comment> "Контекстная роль, присваиваемая сущности в рамках отношения, которое явно привязано к временному интервалу, что позволяет одной и той же сущности выполнять разные роли в разное время."@ru .
+<https://w3id.org/vibe-ontology/hasValue> <http://www.w3.org/2000/01/rdf-schema#label> "heeft waarde"@nl .
+<https://w3id.org/vibe-ontology/hasRelatedWork> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/vibe-ontology/Artwork> .
+<https://w3id.org/vibe-ontology/LiteraryWork> <http://www.w3.org/2000/01/rdf-schema#comment> "Текстовое произведение искусства, такое как роман, стихотворение или письменное повествование."@ru .
+<https://w3id.org/vibe-ontology/associationDimension> <http://www.w3.org/2000/01/rdf-schema#comment> "関連性のレベルを分類するための属性。モチーフ、テーマ、価値観、色彩、プラットフォーム、音楽、ファッション、象徴的人物といった各次元を指定する。"@ja .
+<https://w3id.org/vibe-ontology/Region> <http://www.w3.org/2000/01/rdf-schema#label> "地域"@ja .
+_:n10a9d9e078c44993be0b66527199cf7ab4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/vibe-ontology/TimeInterval> <http://www.w3.org/2000/01/rdf-schema#label> "Tijdsinterval"@nl .
+<https://w3id.org/vibe-ontology/Fashion> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ambito di espressione materiale che coinvolge abbigliamento e pratiche di stile, attraverso cui si comunicano significati culturali, identità e orientamenti estetici."@it .
+<https://w3id.org/vibe-ontology/RepresentativeAssociation> <http://www.w3.org/2000/01/rdf-schema#comment> "A reified relation linking an Aesthetic to an entity that is considered representative of it. Such associations encode the mechanisms through which an aesthetic is recognized and constructed, and may be qualified by temporal scope, degree of representativeness, or role (e.g., primary)."@en .
+<https://w3id.org/vibe-ontology/platformDimension> <http://www.w3.org/2000/01/rdf-schema#label> "プラットフォームの次元"@ja .
+<https://w3id.org/vibe-ontology/Color> <http://www.w3.org/2000/01/rdf-schema#comment> "Een visueel kenmerk waargenomen door licht, dat vaak bijdraagt aan esthetische identiteit."@nl .
+<https://w3id.org/vibe-ontology/Motif> <http://www.w3.org/2000/01/rdf-schema#label> "Motif"@en .
+<https://w3id.org/vibe-ontology/withRole> <http://www.w3.org/2000/01/rdf-schema#label> "с ролью"@ru .
+<https://w3id.org/vibe-ontology/Anime> <http://www.w3.org/2000/01/rdf-schema#label> "Anime"@en .
+<https://w3id.org/vibe-ontology/Agent> <http://www.w3.org/2000/01/rdf-schema#comment> "Un’entità capace di agire, creare o influenzare artefatti culturali o estetiche, inclusi individui e gruppi."@it .
+<https://w3id.org/vibe-ontology/MusicWork> <http://www.w3.org/2000/01/rdf-schema#label> "Opera musicale"@it .
+<https://w3id.org/vibe-ontology/precedes> <http://www.w3.org/2000/01/rdf-schema#label> "gaat vooraf aan"@nl .
+<https://w3id.org/vibe-ontology/ArchitecturalWork> <http://www.w3.org/2000/01/rdf-schema#comment> "An artwork consisting of buildings or spatial structures designed within architectural practice."@en .
+<https://w3id.org/vibe-ontology/hasRelatedBrand> <http://www.w3.org/2000/01/rdf-schema#label> "関連ブランド"@ja .
+<https://w3id.org/vibe-ontology/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/vibe-ontology/alternateName> <http://www.w3.org/2000/01/rdf-schema#label> "alternatieve naam"@nl .
+<https://w3id.org/vibe-ontology/Platform> <http://www.w3.org/2000/01/rdf-schema#label> "Платформа"@ru .
+<https://w3id.org/vibe-ontology/Person> <http://www.w3.org/2000/01/rdf-schema#comment> "Человеческий индивид."@ru .
+<https://w3id.org/vibe-ontology/Film> <http://www.w3.org/2000/01/rdf-schema#label> "Фильм"@ru .
+<https://w3id.org/vibe-ontology/timeInterval> <http://www.w3.org/2000/01/rdf-schema#label> "временной интервал"@ru .
+<https://w3id.org/vibe-ontology/Region> <http://www.w3.org/2000/01/rdf-schema#comment> "A geographical area."@en .
+<https://w3id.org/vibe-ontology/hasMotif> <http://www.w3.org/2000/01/rdf-schema#label> "heeft motief"@nl .
+<https://w3id.org/vibe-ontology/ColorPalette> <http://www.w3.org/2000/01/rdf-schema#comment> "Un insieme strutturato di colori associati per co-occorrenza o armonia visiva, che spesso contribuisce all’identità di un’estetica."@it .
+<https://w3id.org/vibe-ontology/precedes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<https://w3id.org/vibe-ontology/hasIconicFigure> <http://www.w3.org/2000/01/rdf-schema#comment> "Associa un'Estetica a un Agente considerato suo rappresentante emblematico."@it .
+<https://w3id.org/vibe-ontology/IconicFigure> <http://www.w3.org/2000/01/rdf-schema#comment> "A role representing an individual strongly associated with an aesthetic."@en .
+<https://w3id.org/vibe-ontology/forAesthetic> <http://www.w3.org/2000/01/rdf-schema#comment> "Koppelt een RepresentativeAssociation aan de esthetiek die het kwalificeert."@nl .
+<https://w3id.org/vibe-ontology/hasMotif> <http://www.w3.org/2000/01/rdf-schema#label> "モチーフ"@ja .
+<https://w3id.org/vibe-ontology/LiteraryWork> <http://www.w3.org/2000/01/rdf-schema#comment> "A textual artwork such as a novel, poem, or written narrative."@en .
+<https://w3id.org/vibe-ontology/DigitalPlace> <http://www.w3.org/2000/01/rdf-schema#comment> "A virtual environment where interactions, content creation, or community practices occur (e.g., forums, websites, social networks)."@en .
+<https://w3id.org/vibe-ontology/Beauty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/vibe-ontology/Platform> <http://www.w3.org/2000/01/rdf-schema#label> "Piattaforma"@it .
+<https://w3id.org/vibe-ontology/Brand> <http://www.w3.org/2000/01/rdf-schema#comment> "名称、アイデンティティ、特有の価値観やデザイン指針によって識別される商業的・組織的実体。あらゆる品物やスタイルの創出、および美学との関連性の形成に影響を与える。"@ja .
+<http://www.w3.org/2004/02/skos/core#altLabel> <http://www.w3.org/2002/07/owl#equivalentProperty> <https://w3id.org/vibe-ontology/alternateName> .
+<https://w3id.org/vibe-ontology/atTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/vibe-ontology/TimeIndexedRole> .

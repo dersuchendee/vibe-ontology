@@ -1,0 +1,1899 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/vibe-ontology/"
+     xml:base="https://w3id.org/vibe-ontology/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://w3id.org/vibe-ontology/">
+        <rdfs:comment xml:lang="it">Ontologia per modellare le estetiche come categorie emergenti basate su collezioni e associazioni rappresentative.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Ontologie voor het modelleren van esthetiek als emergente, op collecties gebaseerde categorieën die geworteld zijn in representatieve associaties.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Ontology for modelling aesthetics as emergent, collection-based categories grounded in representative associations.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Онтология для моделирования эстетики как эмерджентных, коллекционно-обусловленных категорий, основанных на репрезентативных ассоциациях.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">美学とその象徴的な表象との結びつきを基盤とし、多様な要素のコレクションから立ち現れる美学的系統をモデル化するためのオントロジー。</rdfs:comment>
+        <rdfs:label xml:lang="it">Ontologia Vibe</rdfs:label>
+        <rdfs:label xml:lang="nl">Vibe Ontologie</rdfs:label>
+        <rdfs:label xml:lang="en">Vibe Ontology</rdfs:label>
+        <rdfs:label xml:lang="ja">Vibe オントロジー</rdfs:label>
+        <rdfs:label xml:lang="ru">Вайб Онтология</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#gYear -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#gYear"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#broader -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#broader"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#narrower -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#narrower">
+        <owl:equivalentProperty rdf:resource="https://w3id.org/vibe-ontology/hasSubgenre"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/associatedSubculture -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/associatedSubculture">
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/Aesthetic"/>
+        <rdfs:range rdf:resource="https://w3id.org/vibe-ontology/Subculture"/>
+        <rdfs:comment xml:lang="it">Collega un&apos;Estetica a una Sottocultura che le è socialmente associata o ha contribuito alla sua emergenza e stabilizzazione.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Koppelt een esthetiek aan een subcultuur die er sociaal mee geassocieerd is of heeft bijgedragen aan het ontstaan en de stabilisatie ervan.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Links an Aesthetic to a Subculture that is socially associated with it or contributed to its emergence and stabilization.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Связывает эстетику с субкультурой, которая ассоциируется с ней в обществе или способствовала её возникновению и стабилизации.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">美学と、社会的に関連の深いサブカルチャー、あるいはその出現や定着に寄与したサブカルチャーを結びつける。</rdfs:comment>
+        <rdfs:label xml:lang="en">associated subculture</rdfs:label>
+        <rdfs:label xml:lang="nl">geassocieerde subcultuur</rdfs:label>
+        <rdfs:label xml:lang="it">sottocultura associata</rdfs:label>
+        <rdfs:label xml:lang="ru">ассоциированная субкультура</rdfs:label>
+        <rdfs:label xml:lang="ja">関連サブカルチャー</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/associationDimension -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/associationDimension">
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/RepresentativeAssociation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="it">Classifica il tipo di associazione codificata da una RepresentativeAssociation. I valori attesi sono gli individui: motifDimension, themeDimension, valueDimension, colorDimension, platformDimension, musicDimension, fashionDimension, iconicFigureDimension.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Classificeert het type associatie gecodeerd door een RepresentativeAssociation. Verwachte waarden zijn de individuen: motifDimension, themeDimension, valueDimension, colorDimension, platformDimension, musicDimension, fashionDimension, iconicFigureDimension.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Classifies the kind of association. Expected values are the named individuals: motifDimension, themeDimension, valueDimension, colorDimension, platformDimension, musicDimension, fashionDimension, iconicFigureDimension.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Классифицирует тип ассоциации. Ожидаемые значения — индивиды: измерение мотива (motifDimension), темы (themeDimension), ценности (valueDimension), цвета (colorDimension), платформы (platformDimension), музыки (musicDimension), моды (fashionDimension) или иконической фигуры (iconicFigureDimension).</rdfs:comment>
+        <rdfs:comment xml:lang="ja">関連性のレベルを分類するための属性。モチーフ、テーマ、価値観、色彩、プラットフォーム、音楽、ファッション、象徴的人物といった各次元を指定する。</rdfs:comment>
+        <rdfs:label xml:lang="nl">associatie dimensie</rdfs:label>
+        <rdfs:label xml:lang="en">association dimension</rdfs:label>
+        <rdfs:label xml:lang="it">dimensione dell’associazione</rdfs:label>
+        <rdfs:label xml:lang="ru">измерение ассоциации</rdfs:label>
+        <rdfs:label xml:lang="ja">関連の次元</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/atTime -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/atTime">
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/TimeIndexedRole"/>
+        <rdfs:range rdf:resource="https://w3id.org/vibe-ontology/TimeInterval"/>
+        <rdfs:comment xml:lang="it">Specifica l&apos;intervallo temporale durante il quale un TimeIndexedRole è valido.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Specificeert het tijdsinterval waarin een TimeIndexedRole geldig is.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Specifies the temporal interval during which a TimeIndexedRole is valid.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">TimeIndexedRoleが有効である時間区間を指定する。</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Указывает временной интервал, в течение которого роль (TimeIndexedRole) является действительной.</rdfs:comment>
+        <rdfs:label xml:lang="it">al tempo</rdfs:label>
+        <rdfs:label xml:lang="en">at time</rdfs:label>
+        <rdfs:label xml:lang="nl">op tijdstip</rdfs:label>
+        <rdfs:label xml:lang="ru">во время</rdfs:label>
+        <rdfs:label xml:lang="ja">時点</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/coinedBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/coinedBy">
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/Aesthetic"/>
+        <rdfs:range rdf:resource="https://w3id.org/vibe-ontology/Agent"/>
+        <rdfs:comment xml:lang="it">Collega un&apos;Estetica all&apos;Agente che l&apos;ha coniata o che vi ha dato il nome per la prima volta.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Relates an Aesthetic to the Agent who coined or first named it.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Verbindt een esthetiek met de agent die deze heeft opgebracht of voor het eerst een naam heeft gegeven.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Связывает эстетику с агентом, который впервые ввел её название или термин.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">美学と、それを作り出したまたは最初に名付けたエージェントを関連付ける。</rdfs:comment>
+        <rdfs:label xml:lang="en">coined by</rdfs:label>
+        <rdfs:label xml:lang="it">coniato da</rdfs:label>
+        <rdfs:label xml:lang="nl">opgebracht door</rdfs:label>
+        <rdfs:label xml:lang="ru">придумано (кем)</rdfs:label>
+        <rdfs:label xml:lang="ja">命名者</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/follows -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/follows">
+        <owl:inverseOf rdf:resource="https://w3id.org/vibe-ontology/precedes"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/Aesthetic"/>
+        <rdfs:range rdf:resource="https://w3id.org/vibe-ontology/Aesthetic"/>
+        <rdfs:comment xml:lang="nl">Geeft aan dat een esthetiek een andere temporeel of stylistisch volgt. Deze eigenschap is transitief.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Indica che un&apos;Estetica segue temporalmente o stilisticamente un&apos;altra. Questa proprietà è transitiva.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indicates that one Aesthetic temporally or stylistically follows another. This property is transitive.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Указывает на то, что одна эстетика следует за другой во времени или стилистически. Свойство является транзитивным.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">ある美学が別の美学に時間的またはスタイル的に後続することを示す。この性質は推移的である。</rdfs:comment>
+        <rdfs:label xml:lang="en">follows</rdfs:label>
+        <rdfs:label xml:lang="it">segue</rdfs:label>
+        <rdfs:label xml:lang="nl">volgt</rdfs:label>
+        <rdfs:label xml:lang="ru">следует за</rdfs:label>
+        <rdfs:label xml:lang="ja">後継する</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/forAesthetic -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/forAesthetic">
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/RepresentativeAssociation"/>
+        <rdfs:range rdf:resource="https://w3id.org/vibe-ontology/Aesthetic"/>
+        <rdfs:comment xml:lang="it">Collega una AssociazioneRappresentativa all&apos;Estetica che essa qualifica.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Koppelt een RepresentativeAssociation aan de esthetiek die het kwalificeert.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Links a RepresentativeAssociation to the Aesthetic it qualifies.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Связывает репрезентативную ассоциацию с конкретной эстетикой, которую она характеризует.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">象徴的な関連（Representative Association）が、どの美学的系統を規定・説明しているかを示す。</rdfs:comment>
+        <rdfs:label xml:lang="en">for aesthetic</rdfs:label>
+        <rdfs:label xml:lang="it">per estetica</rdfs:label>
+        <rdfs:label xml:lang="nl">voor esthetiek</rdfs:label>
+        <rdfs:label xml:lang="ru">для эстетики</rdfs:label>
+        <rdfs:label xml:lang="ja">対象</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/hasColorPalette -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/hasColorPalette">
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/Aesthetic"/>
+        <rdfs:range rdf:resource="https://w3id.org/vibe-ontology/ColorPalette"/>
+        <rdfs:comment xml:lang="it">Associa un&apos;Estetica a una palette di colori caratteristica che contribuisce alla sua identità visiva.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Associates an Aesthetic with a characteristic ColorPalette that contributes to its visual identity.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Associeert een esthetiek met een karakteristiek kleurenpalet dat bijdraagt aan de visuele identiteit.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Ассоциирует эстетику с характерной цветовой палитрой, определяющей её визуальную идентичность.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">美学と、その視覚的アイデンティティに寄与する特徴的なカラーパレットを関連付ける。</rdfs:comment>
+        <rdfs:label xml:lang="it">ha palette di colori</rdfs:label>
+        <rdfs:label xml:lang="en">has color palette</rdfs:label>
+        <rdfs:label xml:lang="nl">heeft kleurenpalet</rdfs:label>
+        <rdfs:label xml:lang="ru">имеет цветовую палитру</rdfs:label>
+        <rdfs:label xml:lang="ja">カラーパレット</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/hasCreator -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/hasCreator">
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/Aesthetic"/>
+        <rdfs:range rdf:resource="https://w3id.org/vibe-ontology/Agent"/>
+        <rdfs:comment xml:lang="it">Collega un&apos;Estetica all&apos;Agente che l&apos;ha creata o a cui essa deve la propria origine.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Relates an Aesthetic to the Agent who created or gave rise to it.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Verbindt een esthetiek met de agent die deze heeft gecreëerd of aan wie het zijn oorsprong ontleent.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Связывает эстетику с агентом, который создал её или способствовал её появлению.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">美学と、それを創造したまたは生み出したエージェントを関連付ける。</rdfs:comment>
+        <rdfs:label xml:lang="it">ha creatore</rdfs:label>
+        <rdfs:label xml:lang="en">has creator</rdfs:label>
+        <rdfs:label xml:lang="nl">heeft maker</rdfs:label>
+        <rdfs:label xml:lang="ru">имеет создателя</rdfs:label>
+        <rdfs:label xml:lang="ja">クリエイター</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/hasIconicFigure -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/hasIconicFigure">
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/Aesthetic"/>
+        <rdfs:range rdf:resource="https://w3id.org/vibe-ontology/Agent"/>
+        <rdfs:comment xml:lang="it">Associa un&apos;Estetica a un Agente considerato suo rappresentante emblematico.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Associates an Aesthetic with an Agent who is considered an emblematic or iconic representative of it.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Associeert een esthetiek met een agent die wordt beschouwd als een emblematische of iconische vertegenwoordiger ervan.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Ассоциирует эстетику с агентом, который считается её каноничным или культовым представителем.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">美学と、その象徴的または典型的な代表者と見なされるエージェントを関連付ける。</rdfs:comment>
+        <rdfs:label xml:lang="it">ha figura iconica</rdfs:label>
+        <rdfs:label xml:lang="en">has iconic figure</rdfs:label>
+        <rdfs:label xml:lang="nl">heeft iconisch figuur</rdfs:label>
+        <rdfs:label xml:lang="ru">имеет иконическую фигуру</rdfs:label>
+        <rdfs:label xml:lang="ja">象徴的人物</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/hasLocation -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/hasLocation">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="https://w3id.org/vibe-ontology/Location"/>
+        <rdfs:comment xml:lang="it">Associa qualsiasi entità a una collocazione spaziale, fisica o digitale.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Associates any entity with a physical or digital spatial location.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Associeert elke entiteit met een fysieke of digitale ruimtelijke locatie.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Ассоциирует любую сущность с физическим или цифровым пространственным расположением.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">任意のエンティティと物理的またはデジタルの空間的場所を関連付ける。</rdfs:comment>
+        <rdfs:label xml:lang="it">ha luogo</rdfs:label>
+        <rdfs:label xml:lang="en">has location</rdfs:label>
+        <rdfs:label xml:lang="nl">heeft locatie</rdfs:label>
+        <rdfs:label xml:lang="ru">имеет местоположение</rdfs:label>
+        <rdfs:label xml:lang="ja">所在地</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/hasLocationOfOrigin -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/hasLocationOfOrigin">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/vibe-ontology/hasLocation"/>
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/Aesthetic"/>
+        <rdfs:range rdf:resource="https://w3id.org/vibe-ontology/Location"/>
+        <rdfs:comment xml:lang="it">Specifica la collocazione geografica o digitale in cui un&apos;Estetica ha avuto origine.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Specificeert de geografische of digitale locatie waar een esthetiek voor het eerst is ontstaan.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Specifies the geographic or digital location where an Aesthetic first originated.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Указывает географическое или цифровое местоположение, в котором эстетика возникла впервые.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">美学と、それが最初に発祥した物理的またはデジタルの空間的場所を関連付ける。</rdfs:comment>
+        <rdfs:label xml:lang="it">ha luogo di origine</rdfs:label>
+        <rdfs:label xml:lang="en">has location of origin</rdfs:label>
+        <rdfs:label xml:lang="nl">heeft locatie van oorsprong</rdfs:label>
+        <rdfs:label xml:lang="ru">место происхождения</rdfs:label>
+        <rdfs:label xml:lang="ja">発祥地</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/hasMember -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/hasMember">
+        <owl:inverseOf rdf:resource="https://w3id.org/vibe-ontology/isMemberOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/Collection"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="it">Collega una Collezione a una delle entità che la costituiscono. L&apos;appartenenza non implica esaustività né necessità.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Relates a Collection to one of its constituent entities. Membership does not imply exhaustiveness or strict necessity.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Verbindt een collectie met een van de samenstellende entiteiten. Lidmaatschap impliceert geen volledigheid of strikte noodzaak.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Связывает коллекцию с одной из составляющих её сущностей. Принадлежность не подразумевает исчерпаемости или строгой необходимости.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">エンティティと、それが構成要素となるコレクションを関連付ける。</rdfs:comment>
+        <rdfs:label xml:lang="it">ha membro</rdfs:label>
+        <rdfs:label xml:lang="en">has member</rdfs:label>
+        <rdfs:label xml:lang="nl">heeft lid</rdfs:label>
+        <rdfs:label xml:lang="ru">имеет участника/элемент</rdfs:label>
+        <rdfs:label xml:lang="ja">構成要素</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/hasMotif -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/hasMotif">
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/Artwork"/>
+        <rdfs:range rdf:resource="https://w3id.org/vibe-ontology/Motif"/>
+        <rdfs:comment xml:lang="it">Associa un&apos;Opera d&apos;arte a un motivo ricorrente e riconoscibile.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Associates an Artwork with a recurrent and recognizable motif it exhibits.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Associeert een kunstwerk met een terugkerend en herkenbaar motief dat het vertoont.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Ассоциирует произведение искусства с узнаваемым повторяющимся мотивом, который в нем присутствует.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">作品と、その中に現れる特徴的なモチーフを関連付ける。</rdfs:comment>
+        <rdfs:label xml:lang="it">ha motivo</rdfs:label>
+        <rdfs:label xml:lang="en">has motif</rdfs:label>
+        <rdfs:label xml:lang="nl">heeft motief</rdfs:label>
+        <rdfs:label xml:lang="ru">имеет мотив</rdfs:label>
+        <rdfs:label xml:lang="ja">モチーフ</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/hasOriginPeriod -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/hasOriginPeriod">
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/Aesthetic"/>
+        <rdfs:range rdf:resource="https://w3id.org/vibe-ontology/TimeInterval"/>
+        <rdfs:comment xml:lang="it">Specifica l&apos;intervallo temporale durante il quale un&apos;Estetica è emersa per la prima volta.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Specificeert het tijdsinterval waarin een esthetiek voor het eerst naar voren kwam.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Specifies the time interval during which an Aesthetic first emerged.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Указывает временной интервал, в течение которого эстетика появилась впервые.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">美学が最初に出現した期間を指定する。</rdfs:comment>
+        <rdfs:label xml:lang="it">ha periodo di origine</rdfs:label>
+        <rdfs:label xml:lang="en">has origin period</rdfs:label>
+        <rdfs:label xml:lang="nl">heeft periode van oorsprong</rdfs:label>
+        <rdfs:label xml:lang="ru">период возникновения</rdfs:label>
+        <rdfs:label xml:lang="ja">発祥期</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/hasPeriodDefinition -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/hasPeriodDefinition">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="https://w3id.org/vibe-ontology/PeriodDefinition"/>
+        <rdfs:comment xml:lang="it">Associa un&apos;entità a una Definizione di periodo che la colloca in un contesto temporale.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Associates an entity with a PeriodDefinition that situates it within a temporal context.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Associeert een entiteit met een periodedefinitie die deze binnen een temporele context plaatst.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Ассоциирует сущность с Определением периода, помещая её в конкретный временной контекст.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">エンティティと、それを時間的文脈に位置づける期間定義を関連付ける。</rdfs:comment>
+        <rdfs:label xml:lang="it">ha definizione di periodo</rdfs:label>
+        <rdfs:label xml:lang="en">has period definition</rdfs:label>
+        <rdfs:label xml:lang="nl">heeft periodedefinitie</rdfs:label>
+        <rdfs:label xml:lang="ru">имеет определение периода</rdfs:label>
+        <rdfs:label xml:lang="ja">期間定義</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/hasPlatform -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/hasPlatform">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/vibe-ontology/relatedTo"/>
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/Aesthetic"/>
+        <rdfs:range rdf:resource="https://w3id.org/vibe-ontology/Platform"/>
+        <rdfs:comment xml:lang="it">Associa un&apos;Estetica a una Piattaforma su cui essa circola o è stata diffusa.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Associates an Aesthetic with a Platform on which it circulates or has been disseminated.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Associeert een esthetiek met een platform waarop deze circuleert of is verspreid.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Ассоциирует эстетику с платформой, на которой она распространяется.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">美学と、それが流通しまたは普及したプラットフォームを関連付ける。</rdfs:comment>
+        <rdfs:label xml:lang="it">ha piattaforma</rdfs:label>
+        <rdfs:label xml:lang="en">has platform</rdfs:label>
+        <rdfs:label xml:lang="nl">heeft platform</rdfs:label>
+        <rdfs:label xml:lang="ru">имеет платформу</rdfs:label>
+        <rdfs:label xml:lang="ja">流通プラットフォーム</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/hasPrimaryPlatform -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/hasPrimaryPlatform">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/vibe-ontology/hasPlatform"/>
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/Aesthetic"/>
+        <rdfs:range rdf:resource="https://w3id.org/vibe-ontology/Platform"/>
+        <rdfs:comment xml:lang="it">Specifica la Piattaforma principale attraverso cui un&apos;Estetica è prevalentemente diffusa o ha acquisito visibilità.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Specificeert het belangrijkste platform waarlangs een esthetiek voornamelijk wordt verspreid of zichtbaarheid heeft verkregen.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Specifies the main Platform through which an Aesthetic is primarily disseminated or has gained visibility.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Указывает на основную платформу, через которую эстетика преимущественно распространялась или получила известность.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">美学が主に普及、または認知を得た主要なプラットフォームを指定する。</rdfs:comment>
+        <rdfs:label xml:lang="it">ha piattaforma principale</rdfs:label>
+        <rdfs:label xml:lang="en">has primary platform</rdfs:label>
+        <rdfs:label xml:lang="nl">heeft primair platform</rdfs:label>
+        <rdfs:label xml:lang="ru">имеет основную платформу</rdfs:label>
+        <rdfs:label xml:lang="ja">主要プラットフォーム</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/hasRelatedBrand -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/hasRelatedBrand">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/vibe-ontology/relatedTo"/>
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/Aesthetic"/>
+        <rdfs:range rdf:resource="https://w3id.org/vibe-ontology/Brand"/>
+        <rdfs:comment xml:lang="it">Associa un&apos;Estetica a un Brand che le è caratteristico o culturalmente affine.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Associates an Aesthetic with a Brand that is characteristic of or culturally aligned with it.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Associeert een esthetiek met een merk dat er kenmerkend voor is of er cultureel mee overeenstemt.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Ассоциирует эстетику с брендом, который является характерным для неё или близок ей по духу.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">美学と、その特徴的な、または文化的に一致するブランドを関連付ける。</rdfs:comment>
+        <rdfs:label xml:lang="it">ha brand associato</rdfs:label>
+        <rdfs:label xml:lang="en">has related brand</rdfs:label>
+        <rdfs:label xml:lang="nl">heeft gerelateerd merk</rdfs:label>
+        <rdfs:label xml:lang="ru">имеет ассоциирующийся бренд</rdfs:label>
+        <rdfs:label xml:lang="ja">関連ブランド</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/hasRelatedWork -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/hasRelatedWork">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/vibe-ontology/relatedTo"/>
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/Aesthetic"/>
+        <rdfs:range rdf:resource="https://w3id.org/vibe-ontology/Artwork"/>
+        <rdfs:comment xml:lang="it">Associa un&apos;Estetica a un&apos;Opera considerata rappresentativa o tematicamente correlata.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Associates an Aesthetic with an Artwork considered representative of or thematically related to it.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Associeert een esthetiek met een werk dat als representatief of thematisch gerelateerd wordt beschouwd.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Ассоциирует эстетику с произведением, которое считается репрезентативным для неё или тематически связано с ней.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">美学と、それを代表するまたはテーマ的に関連すると見なされる作品を関連付ける。</rdfs:comment>
+        <rdfs:label xml:lang="it">ha opera associata</rdfs:label>
+        <rdfs:label xml:lang="en">has related work</rdfs:label>
+        <rdfs:label xml:lang="nl">heeft gerelateerd werk</rdfs:label>
+        <rdfs:label xml:lang="ru">имеет ассоциирующееся произведение</rdfs:label>
+        <rdfs:label xml:lang="ja">関連作品</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/hasSubgenre -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/hasSubgenre">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/vibe-ontology/relatedTo"/>
+        <owl:inverseOf rdf:resource="https://w3id.org/vibe-ontology/isSubgenreOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/Aesthetic"/>
+        <rdfs:range rdf:resource="https://w3id.org/vibe-ontology/Aesthetic"/>
+        <rdfs:comment xml:lang="it">Collega un&apos;Estetica a un&apos;Estetica più specifica che ne costituisce una sottovariante.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Relates an Aesthetic to a more specific Aesthetic that constitutes one of its subvariants.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Verbindt een esthetiek met een specifiekere esthetiek die er een subvariant van vormt.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Связывает Эстетику с более узкой Эстетикой, являющейся её подвариантом.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">美学と、その派生系統を構成する、より具体的な美学を関連付ける。</rdfs:comment>
+        <rdfs:label xml:lang="it">ha sottogenere</rdfs:label>
+        <rdfs:label xml:lang="en">has subgenre</rdfs:label>
+        <rdfs:label xml:lang="nl">heeft subgenre</rdfs:label>
+        <rdfs:label xml:lang="ru">имеет поджанр</rdfs:label>
+        <rdfs:label xml:lang="ja">サブジャンル</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/hasTheme -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/hasTheme">
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/Artwork"/>
+        <rdfs:range rdf:resource="https://w3id.org/vibe-ontology/Theme"/>
+        <rdfs:comment xml:lang="it">Associa un&apos;Opera a un Tema che esprime, veicola o mette in primo piano.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Associates an Artwork with a Theme it conveys, expresses, or foregrounds.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Associeert een werk met een thema dat het uitdrukt, uitdraagt of op de voorgrond plaatst.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Ассоциирует произведение с темой, которую оно выражает или выдвигает на первый план.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">作品とそのテーマ（作品が伝え、表現し、または強調している主旨やトーン）を関連付ける。</rdfs:comment>
+        <rdfs:label xml:lang="it">ha tema</rdfs:label>
+        <rdfs:label xml:lang="en">has theme</rdfs:label>
+        <rdfs:label xml:lang="nl">heeft thema</rdfs:label>
+        <rdfs:label xml:lang="ru">имеет тему</rdfs:label>
+        <rdfs:label xml:lang="ja">テーマ</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/hasValue -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/hasValue">
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/Aesthetic"/>
+        <rdfs:range rdf:resource="https://w3id.org/vibe-ontology/Value"/>
+        <rdfs:comment xml:lang="it">Associa un&apos;Estetica a un Valore che ne caratterizza l&apos;orientamento.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Associates an Aesthetic with an abstract Value that characterizes its orientation.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Associeert een esthetiek met een abstracte waarde die de oriëntatie ervan kenmerkt.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Ассоциирует эстетику с абстрактной ценностью, характеризующей её направленность.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">美学と、その方向性を特徴づける抽象的な価値観を関連付ける。</rdfs:comment>
+        <rdfs:label xml:lang="it">ha valore</rdfs:label>
+        <rdfs:label xml:lang="en">has value</rdfs:label>
+        <rdfs:label xml:lang="nl">heeft waarde</rdfs:label>
+        <rdfs:label xml:lang="ru">имеет ценность</rdfs:label>
+        <rdfs:label xml:lang="ja">価値観</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/influenced -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/influenced">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/vibe-ontology/relatedTo"/>
+        <owl:inverseOf rdf:resource="https://w3id.org/vibe-ontology/influencedBy"/>
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/Aesthetic"/>
+        <rdfs:range rdf:resource="https://w3id.org/vibe-ontology/Aesthetic"/>
+        <rdfs:comment xml:lang="it">Collega un&apos;Estetica a un&apos;altra Estetica che essa ha influenzato in termini di stile, motivi o valori, o altro.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Relates an Aesthetic to another Aesthetic that it has influenced in terms of style, motifs, values, or other.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Verbindt een esthetiek met een andere esthetiek die het heeft beïnvloed op het gebied van stijl, motieven, waarden of anderszins.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Связывает эстетику с другой эстетикой, на которую она оказала влияние (в стиле, мотивах, ценностях и т. д.).</rdfs:comment>
+        <rdfs:comment xml:lang="ja">美学と、それがスタイル、モチーフ、価値観などの点で影響を与えた別の美学を関連付ける。</rdfs:comment>
+        <rdfs:label xml:lang="nl">beïnvloedde</rdfs:label>
+        <rdfs:label xml:lang="it">ha influenzato</rdfs:label>
+        <rdfs:label xml:lang="en">influenced</rdfs:label>
+        <rdfs:label xml:lang="ru">оказала влияние на</rdfs:label>
+        <rdfs:label xml:lang="ja">影響を与えた</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/influencedBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/influencedBy">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/vibe-ontology/relatedTo"/>
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/Aesthetic"/>
+        <rdfs:range rdf:resource="https://w3id.org/vibe-ontology/Aesthetic"/>
+        <rdfs:comment xml:lang="it">Collega un&apos;Estetica a un&apos;altra Estetica da cui essa ha tratto influenza stilistica, tematica o culturale.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Relates an Aesthetic to another Aesthetic from which it has drawn stylistic, thematic, or cultural influence.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Verbindt een esthetiek met een andere esthetiek waarvan het stilistische, thematische of culturele invloed heeft ondergaan.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Связывает эстетику с другой эстетикой, которая послужила источником стилистического, тематического или культурного влияния.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">美学と、それがスタイル的、テーマ的、または文化的影響を受けた別の美学を関連付ける。</rdfs:comment>
+        <rdfs:label xml:lang="nl">beïnvloed door</rdfs:label>
+        <rdfs:label xml:lang="en">influenced by</rdfs:label>
+        <rdfs:label xml:lang="it">influenzato da</rdfs:label>
+        <rdfs:label xml:lang="ru">находится под влиянием</rdfs:label>
+        <rdfs:label xml:lang="ja">影響を受けた</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/isMemberOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/isMemberOf">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="https://w3id.org/vibe-ontology/Collection"/>
+        <rdfs:comment xml:lang="it">Collega un&apos;entità alla Collezione di cui è membro costituente.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Relates an entity to the Collection of which it is a constituent member.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Verbindt een entiteit met de collectie waarvan het een samenstellend lid is.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Связывает сущность с коллекцией, частью которой она является.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">エンティティと、それが構成メンバーであるコレクションを関連付ける。</rdfs:comment>
+        <rdfs:label xml:lang="nl">is lid van</rdfs:label>
+        <rdfs:label xml:lang="en">is member of</rdfs:label>
+        <rdfs:label xml:lang="it">è membro di</rdfs:label>
+        <rdfs:label xml:lang="ru">является элементом</rdfs:label>
+        <rdfs:label xml:lang="ja">のメンバーである</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/isRoleInTimeOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/isRoleInTimeOf">
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/TimeIndexedRole"/>
+        <rdfs:range rdf:resource="https://w3id.org/vibe-ontology/Platform"/>
+        <rdfs:comment xml:lang="it">Collega un TimeIndexedRole alla Piattaforma il cui ruolo temporalmente situato viene descritto.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Koppelt een TimeIndexedRole aan het platform waarvan de tijdsgebonden rol wordt beschreven.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Links a TimeIndexedRole to the Platform whose temporally situated role is being described.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">TimeIndexedRoleと、その時間的に位置づけられた役割が記述されるプラットフォームを結びつける。</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Связывает временную роль (TimeIndexedRole) с платформой, чья обусловленная временем роль описывается.</rdfs:comment>
+        <rdfs:label xml:lang="en">is role in time of</rdfs:label>
+        <rdfs:label xml:lang="nl">is tijdsgebonden rol van</rdfs:label>
+        <rdfs:label xml:lang="it">è ruolo nel tempo di</rdfs:label>
+        <rdfs:label xml:lang="ru">является временной ролью для</rdfs:label>
+        <rdfs:label xml:lang="ja">時間的役割の対象</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/isSubgenreOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/isSubgenreOf">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/vibe-ontology/relatedTo"/>
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/Aesthetic"/>
+        <rdfs:range rdf:resource="https://w3id.org/vibe-ontology/Aesthetic"/>
+        <rdfs:comment xml:lang="it">Collega un&apos;Estetica a un&apos;Estetica più ampia di cui essa è una sottovariante più specifica.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Relates an Aesthetic to a broader Aesthetic of which it is a more specific subvariant.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Verbindt een esthetiek met een bredere esthetiek waarvan het een specifiekere subvariant is.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Связывает эстетику с более широкой эстетикой, подвариантом которой она является.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">美学と、それが属する上位ジャンル、親ジャンル（より広い美学）を関連付ける。</rdfs:comment>
+        <rdfs:label xml:lang="en">is subgenre of</rdfs:label>
+        <rdfs:label xml:lang="nl">is subgenre van</rdfs:label>
+        <rdfs:label xml:lang="it">è sottogenere di</rdfs:label>
+        <rdfs:label xml:lang="ru">является поджанром</rdfs:label>
+        <rdfs:label xml:lang="ja">上位ジャンル</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/overlapsWith -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/overlapsWith">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/vibe-ontology/relatedTo"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/Aesthetic"/>
+        <rdfs:range rdf:resource="https://w3id.org/vibe-ontology/Aesthetic"/>
+        <rdfs:comment xml:lang="nl">Geeft aan dat twee esthetieken significante elementen of associaties delen, zonder dat de een een subgenre van de ander is. Deze eigenschap is symmetrisch.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Indica che due Estetiche condividono elementi o associazioni significativi, senza che l&apos;una sia sottogenere dell&apos;altra. Questa proprietà è simmetrica.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indicates that two Aesthetics share significant elements or associations without either being a subgenre of the other. This property is symmetric.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Указывает на то, что две эстетики имеют общие значимые элементы или ассоциации, при этом ни одна не является поджанром другой. Свойство симметрично.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">二つの美学が、どちらも相手のサブジャンルではなく、重要な要素や関連を共有することを示す。この性質は対称的である。</rdfs:comment>
+        <rdfs:label xml:lang="en">overlaps with</rdfs:label>
+        <rdfs:label xml:lang="nl">overlapt met</rdfs:label>
+        <rdfs:label xml:lang="it">si sovrappone a</rdfs:label>
+        <rdfs:label xml:lang="ru">пересекается с</rdfs:label>
+        <rdfs:label xml:lang="ja">重複する</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/precedes -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/precedes">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/Aesthetic"/>
+        <rdfs:range rdf:resource="https://w3id.org/vibe-ontology/Aesthetic"/>
+        <rdfs:comment xml:lang="nl">Geeft aan dat een esthetiek een andere temporeel of stylistisch voorafgaat. Deze eigenschap is transitief.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Indica che un&apos;Estetica precede temporalmente o stilisticamente un&apos;altra. Questa proprietà è transitiva.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indicates that one Aesthetic temporally or stylistically precedes another. This property is transitive.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Указывает на то, что одна эстетика предшествует другой во времени или стилистически. Свойство транзитивно.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">ある美学が別の美学に時間的またはスタイル的に先行することを示す。この性質は推移的である。</rdfs:comment>
+        <rdfs:label xml:lang="nl">gaat vooraf aan</rdfs:label>
+        <rdfs:label xml:lang="it">precede</rdfs:label>
+        <rdfs:label xml:lang="en">precedes</rdfs:label>
+        <rdfs:label xml:lang="ru">предшествует</rdfs:label>
+        <rdfs:label xml:lang="ja">先行する</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/relatedTo -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/relatedTo">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/Aesthetic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">A general symmetric relation indicating that an Aesthetic is related to another entity in some culturally relevant way. Serves as a superproperty for more specific relation types.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een algemene symmetrische relatie die aangeeft dat een esthetiek gerelateerd is aan een andere entiteit op een cultureel relevante manier. Dient als superproperty voor specifiekere relatietypen.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Una relazione simmetrica generale che indica che un&apos;Estetica è correlata a un&apos;altra entità in modo culturalmente rilevante. Funge da superpropietà per tipi di relazione più specifici.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Общее симметричное отношение, указывающее на культурную связь эстетики с другой сущностью. Служит суперсвойством для более специфичных типов отношений.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">美学が文化的に関連する方法で別のエンティティと関連することを示す一般的な対称関係。より具体的な関係タイプのスーパープロパティとして機能する。</rdfs:comment>
+        <rdfs:label xml:lang="it">associato a</rdfs:label>
+        <rdfs:label xml:lang="nl">gerelateerd aan</rdfs:label>
+        <rdfs:label xml:lang="en">related to</rdfs:label>
+        <rdfs:label xml:lang="ru">связано с</rdfs:label>
+        <rdfs:label xml:lang="ja">関連する</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/source -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/source">
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/PeriodDefinition"/>
+        <rdfs:range rdf:resource="https://w3id.org/vibe-ontology/Agent"/>
+        <rdfs:comment xml:lang="nl">Geeft de actor aan waaraan een periodedefinitie zijn bewijs of autoriteit ontleent.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Indica l&apos;Agente da cui una PeriodDefinition trae la propria evidenza o autorità.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indicates the Agent from which a PeriodDefinition derives its evidence or authority.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Указывает на агента, который является источником доказательств или авторитетным лицом для данного определения периода.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">期間定義（PeriodDefinition）の根拠、あるいは権威的な裏付けとなるエージェント（出典元）を示す。  </rdfs:comment>
+        <rdfs:label xml:lang="nl">bron</rdfs:label>
+        <rdfs:label xml:lang="it">fonte</rdfs:label>
+        <rdfs:label xml:lang="en">source</rdfs:label>
+        <rdfs:label xml:lang="ru">источник</rdfs:label>
+        <rdfs:label xml:lang="ja">出典</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/timeInterval -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/timeInterval">
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/PeriodDefinition"/>
+        <rdfs:range rdf:resource="https://w3id.org/vibe-ontology/TimeInterval"/>
+        <rdfs:comment xml:lang="it">Collega una PeriodDefinition all&apos;intervallo temporale che essa definisce.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Koppelt een periodedefinitie aan het tijdsinterval dat het definieert.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Links a PeriodDefinition to the TimeInterval it defines.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Связывает определение периода с временным интервалом, который оно описывает.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">期間定義と、それが定義する時間区間を結びつける。</rdfs:comment>
+        <rdfs:label xml:lang="it">intervallo temporale</rdfs:label>
+        <rdfs:label xml:lang="nl">tijdsinterval</rdfs:label>
+        <rdfs:label xml:lang="en">time interval</rdfs:label>
+        <rdfs:label xml:lang="ru">временной интервал</rdfs:label>
+        <rdfs:label xml:lang="ja">時間区間</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/withEntity -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/withEntity">
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/RepresentativeAssociation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="it">Collega una RepresentativeAssociation all&apos;entità considerata rappresentativa dell&apos;Estetica.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Koppelt een RepresentativeAssociation aan de entiteit die als representatief voor de esthetiek wordt beschouwd.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Links a RepresentativeAssociation to the entity that is considered representative of the Aesthetic.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">RepresentativeAssociationと、美学の象徴的な表象と見なされるエンティティを結びつける。</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Связывает репрезентативную ассоциацию с сущностью, которая считается характерной для данной эстетики.</rdfs:comment>
+        <rdfs:label xml:lang="it">con entità</rdfs:label>
+        <rdfs:label xml:lang="nl">met entiteit</rdfs:label>
+        <rdfs:label xml:lang="en">with entity</rdfs:label>
+        <rdfs:label xml:lang="ru">с сущностью</rdfs:label>
+        <rdfs:label xml:lang="ja">対象エンティティ</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/withRole -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/vibe-ontology/withRole">
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/TimeIndexedRole"/>
+        <rdfs:range rdf:resource="https://w3id.org/vibe-ontology/Role"/>
+        <rdfs:comment xml:lang="it">Specifica il Ruolo ricoperto dall&apos;entità all&apos;interno di una relazione di tipo Ruolo indicizzato temporalmente.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Specificeert de rol die de entiteit vervult binnen een tijdgeïndexeerde rolrelatie.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Specifies the Role held by the entity within a TimeIndexedRole relation.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Определяет Роль, которую сущность играет в рамках отношения временной роли (TimeIndexedRole).</rdfs:comment>
+        <rdfs:comment xml:lang="ja">特定の関係性や時間的な枠組みにおいて、エンティティが担っている具体的な役割を示す。</rdfs:comment>
+        <rdfs:label xml:lang="it">con ruolo</rdfs:label>
+        <rdfs:label xml:lang="nl">met rol</rdfs:label>
+        <rdfs:label xml:lang="en">with role</rdfs:label>
+        <rdfs:label xml:lang="ru">с ролью</rdfs:label>
+        <rdfs:label xml:lang="ja">役割</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel">
+        <owl:equivalentProperty rdf:resource="https://w3id.org/vibe-ontology/alternateName"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
+        <owl:equivalentProperty rdf:resource="https://w3id.org/vibe-ontology/name"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/URL -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/vibe-ontology/URL">
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/Aesthetic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:comment xml:lang="en">The wiki URL (aesthetic)</rdfs:comment>
+        <rdfs:comment xml:lang="ru">URL-адрес в вики (эстетика)</rdfs:comment>
+        <rdfs:comment xml:lang="ja">ウィキデータURL（美学）</rdfs:comment>
+        <rdfs:label xml:lang="en">URL</rdfs:label>
+        <rdfs:label xml:lang="it">URL</rdfs:label>
+        <rdfs:label xml:lang="ja">URL</rdfs:label>
+        <rdfs:label xml:lang="nl">URL</rdfs:label>
+        <rdfs:label xml:lang="ru">URL-адрес</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/alternateName -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/vibe-ontology/alternateName">
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/Aesthetic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">alternate name</rdfs:label>
+        <rdfs:label xml:lang="nl">alternatieve naam</rdfs:label>
+        <rdfs:label xml:lang="it">nome alternativo</rdfs:label>
+        <rdfs:label xml:lang="ru">альтернативное название</rdfs:label>
+        <rdfs:label xml:lang="ja">別名</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/approximateLabel -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/vibe-ontology/approximateLabel">
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/TimeInterval"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">approximate label</rdfs:label>
+        <rdfs:label xml:lang="nl">bijna gelijk label</rdfs:label>
+        <rdfs:label xml:lang="it">etichetta approssimativa</rdfs:label>
+        <rdfs:label xml:lang="ru">приблизительная метка</rdfs:label>
+        <rdfs:label xml:lang="ja">近似ラベル</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/endYear -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/vibe-ontology/endYear">
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/TimeInterval"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+        <rdfs:label xml:lang="it">anno di fine</rdfs:label>
+        <rdfs:label xml:lang="nl">eindjaar</rdfs:label>
+        <rdfs:label xml:lang="en">end year</rdfs:label>
+        <rdfs:label xml:lang="ru">год окончания</rdfs:label>
+        <rdfs:label xml:lang="ja">終了年</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/name -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/vibe-ontology/name">
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/Aesthetic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="nl">naam</rdfs:label>
+        <rdfs:label xml:lang="en">name</rdfs:label>
+        <rdfs:label xml:lang="it">nome</rdfs:label>
+        <rdfs:label xml:lang="ru">название</rdfs:label>
+        <rdfs:label xml:lang="ja">名称</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/representativenessType -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/vibe-ontology/representativenessType">
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/RepresentativeAssociation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">representativeness type</rdfs:label>
+        <rdfs:label xml:lang="nl">representativiteit type</rdfs:label>
+        <rdfs:label xml:lang="it">tipo di rappresentatività</rdfs:label>
+        <rdfs:label xml:lang="ru">тип репрезентативности</rdfs:label>
+        <rdfs:label xml:lang="ja">象徴性タイプ</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/startYear -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/vibe-ontology/startYear">
+        <rdfs:domain rdf:resource="https://w3id.org/vibe-ontology/TimeInterval"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+        <rdfs:label xml:lang="it">anno di inizio</rdfs:label>
+        <rdfs:label xml:lang="en">start year</rdfs:label>
+        <rdfs:label xml:lang="nl">startjaar</rdfs:label>
+        <rdfs:label xml:lang="ru">год начала</rdfs:label>
+        <rdfs:label xml:lang="ja">開始年</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/Activity -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/Activity">
+        <rdfs:comment xml:lang="en">An action or practice carried out by individuals or groups, potentially associated with an aesthetic or subcultural context.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een actie of praktijk uitgevoerd door individuen of groepen, mogelijk geassocieerd met een esthetische of subculturele context.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un’azione o pratica svolta da individui o gruppi, potenzialmente associata a un’estetica o a un contesto sottoculturale.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Индивидуальная или групповая деятельность или практика, потенциально ассоциируемая с эстетическим или субкультурным контекстом.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">個人またはグループによって行われる行動または実践的活動。美学またはサブカルチャー的な文脈と結びついている場合がある。</rdfs:comment>
+        <rdfs:label xml:lang="nl">Activiteit</rdfs:label>
+        <rdfs:label xml:lang="en">Activity</rdfs:label>
+        <rdfs:label xml:lang="it">Attività</rdfs:label>
+        <rdfs:label xml:lang="ru">Активность</rdfs:label>
+        <rdfs:label xml:lang="ja">活動</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/Aesthetic -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/Aesthetic">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/vibe-ontology/hasMember"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A culturally emergent, open-ended category that groups a collection of heterogeneous elements (e.g., images, colors, objects, sounds, texts) perceived as coherently expressing a recognizable style, affect, or orientation. It is not defined by necessary and sufficient conditions, but by shared associations and family resemblances established by a community. E.g, the Frutiger Aero aesthetic groups glossy textures, bright gradients, nature imagery, and optimistic future cues into a recognizable early-2000s style.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een cultureel opkomende, open categorie die een verzameling heterogene elementen (bijv. afbeeldingen, kleuren, objecten, geluiden, teksten) groepeert die worden waargenomen als een coherente uitdrukking van een herkenbare stijl, affect of oriëntatie. Het wordt niet gedefinieerd door noodzakelijke en voldoende voorwaarden, maar door gedeelde associaties en familiegelijkenissen vastgesteld door een gemeenschap. Bijv. de Frutiger Aero-esthetiek groepeert glanzende texturen, heldere verlopen, natuurbeelden en optimistische toekomstbeelden in een herkenbare stijl uit het begin van de jaren 2000.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Una categoria culturalmente emergente e aperta che raggruppa una collezione di elementi eterogenei (ad esempio immagini, colori, oggetti, suoni, testi) percepiti come espressione coerente di uno stile, un’affettività o un orientamento riconoscibile. Non è definita da condizioni necessarie e sufficienti, ma da associazioni condivise e somiglianze di famiglia stabilite da una comunità. Ad esempio, l’estetica Frutiger Aero raggruppa texture lucide, gradienti brillanti, immagini della natura e richiami a un futuro ottimistico in uno stile riconoscibile dei primi anni 2000.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Культурно обусловленная, открытая категория, объединяющая коллекцию разнородных элементов (например, изображений, цветов, объектов, звуков, текстов), которые воспринимаются как целостное выражение узнаваемого стиля, эмоционального настроя или направленности. Она определяется не через необходимые и достаточные условия, а через общие ассоциации и «семейное сходство», установленные сообществом. Например, эстетика Frutiger Aero объединяет глянцевые текстуры, яркие градиенты, образы природы и оптимистичные отсылки к будущему в узнаваемый стиль начала 2000-х годов.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">文化的に創発される、定義の開かれた包括的な概念。画像、色彩、音楽、ファッションスタイル、テキスト、装飾といった多種多様な要素の集まりを、共通のスタイルや美意識、あるいは特定の「系統」を表現するものとして統合して捉える。これは厳密なルール（必要十分条件）で規定されるものではなく、コミュニティ内で共有された連想や家族的類似（ゆるやかな共通性）」を通じて形成される。2010～2020代で流行したインターネット上の視覚芸術様式からファッション系統まで、さまざまな形がある。（例：Frutiger Aero はキラキラしたテクスチャ、鮮やかなグラデーション、自然に関する画像、未来への期待感を、2000年代初期に流行したスタイルと認識できる形で統合している）美意識や美的概念とも言い換えられる。</rdfs:comment>
+        <rdfs:label xml:lang="en">Aesthetic</rdfs:label>
+        <rdfs:label xml:lang="it">Estetica</rdfs:label>
+        <rdfs:label xml:lang="nl">Esthetiek</rdfs:label>
+        <rdfs:label xml:lang="ru">Эстетика</rdfs:label>
+        <rdfs:label xml:lang="ja">美学</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/Agent -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/Agent">
+        <rdfs:comment xml:lang="en">An entity capable of acting, creating, or influencing cultural artifacts or aesthetics, including individuals and groups.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een entiteit die in staat is tot handelen, creëren of het beïnvloeden van culturele artefacten of esthetiek, inclusief individuen en groepen.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un’entità capace di agire, creare o influenzare artefatti culturali o estetiche, inclusi individui e gruppi.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Агент</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Сущность, способная действовать, создавать или влиять на культурные артефакты или эстетику, включая индивидов и группы.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">個人やグループを含む、文化的成果物や美学に対して行動、創造、影響を与える能力を持つエンティティ。</rdfs:comment>
+        <rdfs:label xml:lang="nl">Actor</rdfs:label>
+        <rdfs:label xml:lang="en">Agent</rdfs:label>
+        <rdfs:label xml:lang="it">Agente</rdfs:label>
+        <rdfs:label xml:lang="ja">エージェント</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/Album -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/Album">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/vibe-ontology/MusicWork"/>
+        <rdfs:comment xml:lang="en">A music work consisting of a collection of recorded tracks released as a single unit.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een muzikaal werk bestaande uit een verzameling opgenomen tracks die als één geheel zijn uitgebracht.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un’opera musicale composta da una raccolta di tracce pubblicate come un’unica unità.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Музыкальное произведение, состоящее из коллекции записанных треков, выпущенных единым изданием.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">一つの単位としてリリースされた録音トラックのコレクションからなる音楽作品。</rdfs:comment>
+        <rdfs:label xml:lang="en">Album</rdfs:label>
+        <rdfs:label xml:lang="it">Album</rdfs:label>
+        <rdfs:label xml:lang="nl">Album</rdfs:label>
+        <rdfs:label xml:lang="ru">Альбом</rdfs:label>
+        <rdfs:label xml:lang="ja">アルバム</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/Anime -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/Anime">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/vibe-ontology/Artwork"/>
+        <rdfs:comment xml:lang="en">A form of animated artwork originating primarily from Japanese media contexts.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een vorm van geanimeerd kunstwerk die voornamelijk voortkomt uit Japanse mediacontexten.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Una forma di opera animata originaria principalmente del contesto mediatico giapponese.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Форма анимационного искусства, зародившаяся преимущественно в контексте японских медиа.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">主に日本のメディア文脈から生まれたアニメーション作品の形態。</rdfs:comment>
+        <rdfs:label xml:lang="en">Anime</rdfs:label>
+        <rdfs:label xml:lang="it">Anime</rdfs:label>
+        <rdfs:label xml:lang="nl">Anime</rdfs:label>
+        <rdfs:label xml:lang="ru">Аниме</rdfs:label>
+        <rdfs:label xml:lang="ja">アニメ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/ArchitecturalWork -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/ArchitecturalWork">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/vibe-ontology/Artwork"/>
+        <rdfs:comment xml:lang="en">An artwork consisting of buildings or spatial structures designed within architectural practice.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een kunstwerk bestaande uit gebouwen of ruimtelijke structuren ontworpen binnen de architectuur.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un’opera costituita da edifici o strutture progettate nell’ambito dell’architettura.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Произведение искусства, представляющее собой здания или пространственные структуры, созданные в рамках архитектурной практики.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">建築の実践の中でデザインされた建物または空間構造からなる作品。</rdfs:comment>
+        <rdfs:label xml:lang="nl">Architectonisch werk</rdfs:label>
+        <rdfs:label xml:lang="en">Architectural Work</rdfs:label>
+        <rdfs:label xml:lang="it">Opera architettonica</rdfs:label>
+        <rdfs:label xml:lang="ru">Архитектурное сооружение</rdfs:label>
+        <rdfs:label xml:lang="ja">建築作品</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/ArtistRole -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/ArtistRole">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/vibe-ontology/Role"/>
+        <rdfs:comment xml:lang="it">Un ruolo svolto da un agente come creatore o contributore alla produzione artistica.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">rol gespeeld door een agent als maker van of bijdrager aan artistieke productie.</rdfs:comment>
+        <rdfs:comment xml:lang="en">role played by an agent as a creator or contributor to artistic production.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Роль, которую исполняет агент как создатель или участник процесса художественного производства.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">芸術制作の創造者または貢献者としてエージェントが担う役割。</rdfs:comment>
+        <rdfs:label xml:lang="en">Artist Role</rdfs:label>
+        <rdfs:label xml:lang="nl">Kunstenaarsrol</rdfs:label>
+        <rdfs:label xml:lang="it">Ruolo di artista</rdfs:label>
+        <rdfs:label xml:lang="ru">Роль художника</rdfs:label>
+        <rdfs:label xml:lang="ja">アーティストの役割</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/Artwork -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/Artwork">
+        <rdfs:comment xml:lang="en">A creative artifact produced within any expressive medium, including visual (images, paintings, sculpture, architecture, film, videogames), auditory (music), textual (literature), or embodied/industrial forms (fashion). It is treated as a generic work entity independent of medium-specific taxonomies.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een creatief artefact geproduceerd binnen elk expressief medium, inclusief visueel (afbeeldingen, schilderijen, beeldhouwwerk, architectuur, film, videogames), auditief (muziek), tekstueel (literatuur) of belichaamde/industriële vormen (mode). Het wordt behandeld als een generieke werkentiteit, onafhankelijk van medium-specifieke taxonomieën.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un artefatto creativo prodotto in qualsiasi mezzo espressivo, inclusi visivo (immagini, dipinti, sculture, architetture, film, videogiochi), sonoro (musica), testuale (letteratura) o forme industriali come la moda. Viene trattato come un&apos;opera indipendente dalle tassonomie relative ai media.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Творческий артефакт, созданный в любой выразительной среде, включая визуальную (изображения, живопись, скульптура, архитектура, кино, видеоигры), звуковую (музыка), текстовую (литература) или воплощенные/индустриальные формы (мода). Рассматривается как общая сущность произведения, независимая от классификаций конкретных медиа.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">視覚（画像、絵画、彫刻、建築、映画、ビデオゲーム）、聴覚（音楽）、テキスト（文学）、または身体的・産業的形態（ファッション）を含む、あらゆる表現メディアで制作された創造的成果物。メディア特有の分類に依存しない汎用的な作品エンティティとして扱われる。</rdfs:comment>
+        <rdfs:label xml:lang="en">Artwork</rdfs:label>
+        <rdfs:label xml:lang="nl">Kunstwerk</rdfs:label>
+        <rdfs:label xml:lang="it">Opera d&apos;arte</rdfs:label>
+        <rdfs:label xml:lang="ru">Произведение искусства</rdfs:label>
+        <rdfs:label xml:lang="ja">作品</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/Beauty -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/Beauty">
+        <rdfs:comment xml:lang="en">A domain of products, practices, and industries related to personal care, cosmetics, skincare, and bodily appearance, often associated with aesthetic expression and identity construction.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Ambito che comprende prodotti, pratiche e industrie legate alla cura della persona, alla cosmetica, alla skincare e all’aspetto corporeo, spesso associato all’espressione estetica e alla costruzione dell’identiteit.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een domein van producten, praktijken en industrieën die verband houden met persoonlijke verzorging, cosmetica, huidverzorging en lichamelijke verschijning, vaak geassocieerd met esthetische expressie en identiteitsconstructie.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Сфера товаров, практик и индустрий, связанных с уходом за собой, косметикой и внешним видом, часто ассоциирующаяся с эстетическим самовыражением и конструированием идентичности.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">パーソナルケア、化粧品、スキンケア、身体的外見に関連する製品、実践、産業の領域。美的表現とアイデンティティの構築に関連することが多い。</rdfs:comment>
+        <rdfs:label xml:lang="en">Beauty</rdfs:label>
+        <rdfs:label xml:lang="it">Cura della persona</rdfs:label>
+        <rdfs:label xml:lang="nl">Schoonheidsverzorging</rdfs:label>
+        <rdfs:label xml:lang="ru">Красота и уход</rdfs:label>
+        <rdfs:label xml:lang="ja">美容</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/Brand -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/Brand">
+        <rdfs:comment xml:lang="en">An identifiable commercial or institutional entity characterized by a name, identity, and set of associated meanings, values, and design practices, which can produce or influence artifacts, styles, and aesthetic associations.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een identificeerbare commerciële of institutionele entiteit die wordt gekenmerkt door een naam, identiteit en een reeks bijbehorende betekenissen, waarden en ontwerppraktijken, die artefacten, stijlen en esthetische associaties kan produceren of beïnvloeden.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un’entità commerciale o istituzionale identificabile caratterizzata da un nome, un’identità e un set di significati, valori e pratiche di design associate, che possono produrre o influenzare artefatti, stili e associazioni estetiche.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Идентифицируемая коммерческая или общественная организация, характеризующаяся названием, идентичностью и набором смыслов, ценностей и практик дизайна, которая может создавать или влиять на артефакты, стили и эстетические ассоциации.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">名称、アイデンティティ、特有の価値観やデザイン指針によって識別される商業的・組織的実体。あらゆる品物やスタイルの創出、および美学との関連性の形成に影響を与える。</rdfs:comment>
+        <rdfs:label xml:lang="en">Brand</rdfs:label>
+        <rdfs:label xml:lang="it">Marchio</rdfs:label>
+        <rdfs:label xml:lang="nl">Merk</rdfs:label>
+        <rdfs:label xml:lang="ru">Бренд</rdfs:label>
+        <rdfs:label xml:lang="ja">ブランド</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/City -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/City">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/vibe-ontology/Location"/>
+        <rdfs:comment xml:lang="en">An urban location characterised by dense population and structured infrastructure.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een stedelijke locatie die wordt gekenmerkt door een dichte bevolking en een gestructureerde infrastructuur.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Una località urbana caratterizzata da popolazione densa e infrastruttura organizzata.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Городская локация, характеризующаяся высокой плотностью населения и организованной инфраструктурой.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">密な人口と整備されたインフラを特徴とする都市的場所。</rdfs:comment>
+        <rdfs:label xml:lang="it">Città</rdfs:label>
+        <rdfs:label xml:lang="en">City</rdfs:label>
+        <rdfs:label xml:lang="nl">Stad</rdfs:label>
+        <rdfs:label xml:lang="ru">Город</rdfs:label>
+        <rdfs:label xml:lang="ja">都市</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/Collection -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/Collection">
+        <rdfs:comment xml:lang="en">A set of entities grouped together, either explicitly or implicitly, based on perceived coherence, curation, or shared associations. Collections function as the primary means through which an Aesthetic is expressed and recognized, without requiring fixed or exhaustive membership.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een verzameling entiteiten die expliciet of impliciet zijn samengevoegd op basis van waargenomen coherentie, curatie of gedeelde associaties. Collecties fungeren als het primaire middel waarmee een esthetiek wordt uitgedrukt en herkend, zonder dat een vast of uitputtend lidmaatschap vereist is.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un insieme di entità raggruppate assieme, in modo esplicito o implicito, per coerenza percepita o associazioni condivise. Le collezioni costituiscono il mezzo primario tramite il quale le estetiche vengono espresse o riconosciute; non richiedono la fissità o l&apos;esausività dei loro membri.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Набор сущностей, сгруппированных вместе (явно или неявно) на основе воспринимаемой целостности, кураторства или общих ассоциаций. Коллекции служат основным средством выражения и узнавания эстетики, не требуя при этом фиксированного или исчерпывающего состава участников.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">一貫性、共通の連想に基づいて明示的・暗黙的にキュレーションされた実体の集合。美学が具体的に表現・認識されるための主要な媒体。コレクションの構成要素は必ずしも固定的や網羅的である必要はなく、流動的で変動的である。</rdfs:comment>
+        <rdfs:label xml:lang="nl">Collectie</rdfs:label>
+        <rdfs:label xml:lang="en">Collection</rdfs:label>
+        <rdfs:label xml:lang="it">Collezione</rdfs:label>
+        <rdfs:label xml:lang="ru">Коллекция</rdfs:label>
+        <rdfs:label xml:lang="ja">コレクション</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/Color -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/Color">
+        <rdfs:comment xml:lang="en">A visual attribute perceived through light, often contributing to aesthetic identity.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een visueel kenmerk waargenomen door licht, dat vaak bijdraagt aan esthetische identiteit.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un attributo visivo percepito attraverso la luce, che contribuisce all’identità estetica.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Визуальный атрибут, воспринимаемый через свет, часто вносящий вклад в эстетическую идентичность.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">光を通じて知覚される視覚的属性。美的アイデンティティに貢献することが多い。</rdfs:comment>
+        <rdfs:label xml:lang="en">Color</rdfs:label>
+        <rdfs:label xml:lang="it">Colore</rdfs:label>
+        <rdfs:label xml:lang="nl">Kleur</rdfs:label>
+        <rdfs:label xml:lang="ru">Цвет</rdfs:label>
+        <rdfs:label xml:lang="ja">色</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/ColorPalette -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/ColorPalette">
+        <rdfs:comment xml:lang="en">A structured set of colors associated through recurrent co-occurrence, design conventions, or perceptual harmony, often contributing to the visual identity of an aesthetic.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een gestructureerde set kleuren die verbonden zijn door herhaaldelijke co-occurrentie, ontwerpconventies of perceptuele harmonie, en die vaak bijdragen aan de visuele identiteit van een esthetiek.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un insieme strutturato di colori associati per co-occorrenza o armonia visiva, che spesso contribuisce all’identità di un’estetica.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Структурированный набор цветов, связанных через повторяющееся совместное использование, конвенции дизайна или гармонию восприятия; часто вносит вклад в визуальную идентичность эстетики.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">反復的な共起、デザイン慣習、視覚的調和によって構造化された色のセット。特定の美学の視覚的アイデンティティの構成要素となることがある。</rdfs:comment>
+        <rdfs:label xml:lang="en">Color Palette</rdfs:label>
+        <rdfs:label xml:lang="nl">Kleurenpalet</rdfs:label>
+        <rdfs:label xml:lang="it">Palette di colori</rdfs:label>
+        <rdfs:label xml:lang="ru">Цветовая палитра</rdfs:label>
+        <rdfs:label xml:lang="ja">カラーパレット</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/Country -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/Country">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/vibe-ontology/Location"/>
+        <rdfs:comment xml:lang="en">A geopolitical location representing a nation or state.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een geopolitieke locatie die een natie of staat vertegenwoordigt.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Una località geopolitica che rappresenta una nazione o uno stato.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Геополитическая локация, представляющая собой нацию или государство.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">国家または州を表す地政学的場所。</rdfs:comment>
+        <rdfs:label xml:lang="en">Country</rdfs:label>
+        <rdfs:label xml:lang="nl">Land</rdfs:label>
+        <rdfs:label xml:lang="it">Paese</rdfs:label>
+        <rdfs:label xml:lang="ru">Страна</rdfs:label>
+        <rdfs:label xml:lang="ja">国</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/DigitalPlace -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/DigitalPlace">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/vibe-ontology/Location"/>
+        <rdfs:comment xml:lang="en">A virtual environment where interactions, content creation, or community practices occur (e.g., forums, websites, social networks).</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een virtuele omgeving waar interacties, contentcreatie of gemeenschapspraktijken plaatsvinden (bijv. forums, websites, sociale netwerken).</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un ambiente virtuale in cui avvengono interazioni, creazione di contenuti o pratiche comunitarie (per esempio, forum, siti web, social network).</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Виртуальная среда, где происходит взаимодействие, создание контента или практики сообщества (например, форумы, веб-сайты, социальные сети).</rdfs:comment>
+        <rdfs:comment xml:lang="ja">ユーザー同士の交流、コンテンツの制作や発信、コミュニティ活動等が行われるデジタル上の空間やプラットフォーム（例：SNS、掲示板、フォーラム、ウェブサイト等）。</rdfs:comment>
+        <rdfs:label xml:lang="en">Digital Place</rdfs:label>
+        <rdfs:label xml:lang="nl">Digitale plek</rdfs:label>
+        <rdfs:label xml:lang="it">Luogo digitale</rdfs:label>
+        <rdfs:label xml:lang="ru">Цифровое пространство</rdfs:label>
+        <rdfs:label xml:lang="ja">デジタル空間</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/Fashion -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/Fashion">
+        <rdfs:comment xml:lang="en">A domain of embodied and material expression involving clothing, styling, and adornment practices, through which cultural meanings, identities, and aesthetic orientations are communicated.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een domein van belichaamde en materiële expressie met betrekking tot kleding, styling en versieringspraktijken, waardoor culturele betekenissen, identiteiten en esthetische oriëntaties worden gecommuniceerd.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un ambito di espressione materiale che coinvolge abbigliamento e pratiche di stile, attraverso cui si comunicano significati culturali, identità e orientamenti estetici.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Сфера телесного и материального самовыражения, включающая одежду, стайлинг и практики украшения тела, посредством которых транслируются культурные смыслы, идентичности и эстетические ориентиры.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">衣服、スタイリング、装飾といった身体的・物質的な表現領域。文化的な意味合いやアイデンティティ、美的方向性を伝達する手段として機能する。</rdfs:comment>
+        <rdfs:label xml:lang="en">Fashion</rdfs:label>
+        <rdfs:label xml:lang="it">Moda</rdfs:label>
+        <rdfs:label xml:lang="nl">Mode</rdfs:label>
+        <rdfs:label xml:lang="ru">Мода</rdfs:label>
+        <rdfs:label xml:lang="ja">ファッション</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/Film -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/Film">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/vibe-ontology/Artwork"/>
+        <rdfs:comment xml:lang="en">A moving-image artwork produced within cinematic media.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een kunstwerk van bewegende beelden geproduceerd binnen filmische media.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un’opera audiovisiva prodotta nel contesto cinematografico.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Произведение движущихся изображений, созданное в рамках кинематографа.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">映像メディアの中で制作された動画作品。</rdfs:comment>
+        <rdfs:label xml:lang="en">Film</rdfs:label>
+        <rdfs:label xml:lang="it">Film</rdfs:label>
+        <rdfs:label xml:lang="nl">Film</rdfs:label>
+        <rdfs:label xml:lang="ru">Фильм</rdfs:label>
+        <rdfs:label xml:lang="ja">映画</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/FoodItem -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/FoodItem">
+        <rdfs:comment xml:lang="en">An edible item that may carry aesthetic or cultural significance.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een eetbaar item dat esthetische of culturele betekenis kan hebben.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un alimento che può avere rilevanza estetica o culturale.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Пищевой продукт, который может иметь эстетическую или культурную значимость.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">美的または文化的意義を持ちうる食用品。</rdfs:comment>
+        <rdfs:label xml:lang="it">Alimento</rdfs:label>
+        <rdfs:label xml:lang="en">Food Item</rdfs:label>
+        <rdfs:label xml:lang="nl">Voedingsmiddel</rdfs:label>
+        <rdfs:label xml:lang="ru">Продукт питания</rdfs:label>
+        <rdfs:label xml:lang="ja">食品</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/Group -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/Group">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/vibe-ontology/Agent"/>
+        <rdfs:comment xml:lang="en">A collection of agents acting or identified as a unit.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een verzameling actoren die handelen of worden geïdentificeerd als een eenheid.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un insieme di agenti che agiscono o sono identificati come un’unità.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Объединение агентов, действующих или определяемых как единое целое.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">一つの単位として行動または識別されるエージェントの集合。</rdfs:comment>
+        <rdfs:label xml:lang="nl">Groep</rdfs:label>
+        <rdfs:label xml:lang="en">Group</rdfs:label>
+        <rdfs:label xml:lang="it">Gruppo</rdfs:label>
+        <rdfs:label xml:lang="ru">Группа</rdfs:label>
+        <rdfs:label xml:lang="ja">グループ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/IconicFigure -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/IconicFigure">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/vibe-ontology/Role"/>
+        <rdfs:comment xml:lang="en">A role representing an individual strongly associated with an aesthetic.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een rol die een individu vertegenwoordigt dat sterk geassocieerd wordt met een esthetiek.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un ruolo che rappresenta un individuo fortemente associato a un’estetica.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Роль, представляющая личность, тесно связанную с определенной эстетикой.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">美学と強く関連する個人を表す役割。</rdfs:comment>
+        <rdfs:label xml:lang="it">Figura iconica</rdfs:label>
+        <rdfs:label xml:lang="en">Iconic Figure</rdfs:label>
+        <rdfs:label xml:lang="nl">Iconisch figuur</rdfs:label>
+        <rdfs:label xml:lang="ru">Иконическая фигура</rdfs:label>
+        <rdfs:label xml:lang="ja">象徴的人物</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/Image -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/Image">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/vibe-ontology/Artwork"/>
+        <rdfs:comment xml:lang="en">A visual artwork such as a photograph or digital image.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een visueel kunstwerk zoals een foto of digitale afbeelding.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un’opera visiva come una fotografia o immagine digitale.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Визуальное произведение искусства, такое как фотография или цифровое изображение.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">写真やデジタル画像などの視覚的作品。</rdfs:comment>
+        <rdfs:label xml:lang="nl">Afbeelding</rdfs:label>
+        <rdfs:label xml:lang="en">Image</rdfs:label>
+        <rdfs:label xml:lang="it">Immagine</rdfs:label>
+        <rdfs:label xml:lang="ru">Изображение</rdfs:label>
+        <rdfs:label xml:lang="ja">画像</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/InteriorDesign -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/InteriorDesign">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/vibe-ontology/ArchitecturalWork"/>
+        <rdfs:comment xml:lang="en">A form of architectural work focused on the design of interior spaces.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een vorm van architectonisch werk gericht op het ontwerpen van binnenruimtes.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Una forma di progettazione architettonica focalizzata sugli spazi interni.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Форма архитектурной работы, ориентированная на проектирование внутренних пространств.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">内部空間のデザインに焦点を当てた建築作品の形態。</rdfs:comment>
+        <rdfs:label xml:lang="it">Design d’interni</rdfs:label>
+        <rdfs:label xml:lang="nl">Interieurontwerp</rdfs:label>
+        <rdfs:label xml:lang="en">Interior Design</rdfs:label>
+        <rdfs:label xml:lang="ru">Дизайн интерьера</rdfs:label>
+        <rdfs:label xml:lang="ja">インテリアデザイン</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/LiteraryWork -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/LiteraryWork">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/vibe-ontology/Artwork"/>
+        <rdfs:comment xml:lang="en">A textual artwork such as a novel, poem, or written narrative.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een tekstueel kunstwerk zoals een roman, gedicht of geschreven verhaal.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un’opera testuale come romanzi, poesie o narrazioni scritte.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Текстовое произведение искусства, такое как роман, стихотворение или письменное повествование.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">小説、詩、書かれた物語などのテキスト作品。</rdfs:comment>
+        <rdfs:label xml:lang="nl">Literair werk</rdfs:label>
+        <rdfs:label xml:lang="en">Literary Work</rdfs:label>
+        <rdfs:label xml:lang="it">Opera letteraria</rdfs:label>
+        <rdfs:label xml:lang="ru">Литературное произведение</rdfs:label>
+        <rdfs:label xml:lang="ja">文学作品</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/Location -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/Location">
+        <rdfs:comment xml:lang="en">A spatial entity representing a physical or a digital place.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een ruimtelijke entiteit die een fysieke of digitale plaats vertegenwoordigt.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un’entità spaziale che rappresenta un luogo fisico o digitale.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Пространственная сущность, представляющая физическое или цифровое место.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">物理的またはデジタルの場所を表す空間エンティティ。</rdfs:comment>
+        <rdfs:label xml:lang="nl">Locatie</rdfs:label>
+        <rdfs:label xml:lang="en">Location</rdfs:label>
+        <rdfs:label xml:lang="it">Luogo</rdfs:label>
+        <rdfs:label xml:lang="ru">Местоположение</rdfs:label>
+        <rdfs:label xml:lang="ja">場所</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/Motif -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/Motif">
+        <rdfs:comment xml:lang="en">A recurrent and recognizable element (visual, conceptual, or stylistic) that contributes to the identity of an aesthetic through repeated association. E.g., the Frutiger Aero aesthetic’s motifs include skeuomorphism, glossy textures, bubbles, nature imagery, and Frutiger-type fonts.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een terugkerend en herkenbaar element (visueel, conceptueel of stilistisch) dat bijdraagt aan de identiteit van een esthetiek door herhaalde associatie. Bijv. de motieven van de Frutiger Aero-esthetiek omvatten skeuomorfisme, glanzende texturen, bubbels, natuurbeelden en Frutiger-type lettertypen.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un elemento ricorrente e riconoscibile (di tipo visivo, concettuale o stilistico) che contribuisce all’identità di un’estetica attraverso associazioni ripetute. Per esempio, nell’estetica Frutiger Aero, i motivi includono scheumorfismo, texture lucide, scene di natura e font di tipo Frutiger.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Повторяющийся и узнаваемый элемент (визуальный, концептуальный или стилистический), который формирует идентичность эстетики через многократные ассоциации. Например, мотивы эстетики Frutiger Aero включают скевоморфизм, глянцевые текстуры, пузырьки, образы природы и шрифты семейства Frutiger.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">美学のアイデンティティ形成に寄与する、特徴的な要素（視覚、概念、スタイル）。繰り返しその美学との関連性として現れる。　例：Frutiger Aeroにおける光沢感、泡、自然のイメージ、Frutiger系フォントなど。</rdfs:comment>
+        <rdfs:label xml:lang="nl">Motief</rdfs:label>
+        <rdfs:label xml:lang="en">Motif</rdfs:label>
+        <rdfs:label xml:lang="it">Motivo</rdfs:label>
+        <rdfs:label xml:lang="ru">Мотив</rdfs:label>
+        <rdfs:label xml:lang="ja">モチーフ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/MusicWork -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/MusicWork">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/vibe-ontology/Artwork"/>
+        <rdfs:comment xml:lang="en">An artwork expressed through sound and musical composition.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een kunstwerk uitgedrukt via geluid en muzikale compositie.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un’opera espressa attraverso il suono e la composizione musicale.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Произведение искусства, выраженное через звук и музыкальную композицию.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">音と音楽的構成を通じて表現される作品。</rdfs:comment>
+        <rdfs:label xml:lang="en">Music Work</rdfs:label>
+        <rdfs:label xml:lang="nl">Muzikaal werk</rdfs:label>
+        <rdfs:label xml:lang="it">Opera musicale</rdfs:label>
+        <rdfs:label xml:lang="ru">Музыкальное произведение</rdfs:label>
+        <rdfs:label xml:lang="ja">音楽作品</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/Painting -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/Painting">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/vibe-ontology/Artwork"/>
+        <rdfs:comment xml:lang="en">A visual artwork created using paint on a surface.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een visueel kunstwerk gemaakt met verf op een oppervlak.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un’opera visiva realizzata con pittura su una superficie.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Визуальное произведение искусства, созданное красками на какой-либо поверхности.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">表面に絵の具を使って制作された視覚的作品。</rdfs:comment>
+        <rdfs:label xml:lang="it">Dipinto</rdfs:label>
+        <rdfs:label xml:lang="en">Painting</rdfs:label>
+        <rdfs:label xml:lang="nl">Schilderij</rdfs:label>
+        <rdfs:label xml:lang="ru">Картина</rdfs:label>
+        <rdfs:label xml:lang="ja">絵画</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/PeriodDefinition -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/PeriodDefinition">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/vibe-ontology/timeInterval"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A temporally bounded but potentially imprecise interval used to situate entities or phenomena in time, allowing for vague or overlapping boundaries, in alignment with models such as PeriodO.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een temporeel begrensd maar potentieel onvolledig interval dat wordt gebruikt om entiteiten of verschijnselen in de tijd te plaatsen, waarbij vage of overlappende grenzen mogelijk zijn, in overeenstemming met modellen zoals PeriodO.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un intervallo temporale delimitato ma potenzialmente impreciso usato per collocare entità o fenomeni nel tempo, che consente di definire confini vaghi o con sovrapposizioni, allineato a modellazioni come PeriodO.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Ограниченный во времени, но потенциально неточный интервал, используемый для локализации сущностей или явлений во времени; допускает размытые или пересекающиеся границы в соответствии с такими моделями, как PeriodO.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">実体や現象を時間軸上に位置づけるための時間的範囲。PeriodO等のモデルに準拠し、厳密な境界ではなく、曖昧さや期間の重複を許容する。</rdfs:comment>
+        <rdfs:label xml:lang="it">Definizione di periodo</rdfs:label>
+        <rdfs:label xml:lang="en">Period Definition</rdfs:label>
+        <rdfs:label xml:lang="nl">Periodedefinitie</rdfs:label>
+        <rdfs:label xml:lang="ru">Определение периода</rdfs:label>
+        <rdfs:label xml:lang="ja">期間定義</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/Person -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/Person">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/vibe-ontology/Agent"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/vibe-ontology/Platform"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/vibe-ontology/TimeInterval"/>
+        <rdfs:comment xml:lang="en">An individual human agent.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een individuele menselijke actor.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un individuo umano.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Человеческий индивид.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">個々の人間エージェント。</rdfs:comment>
+        <rdfs:label xml:lang="en">Person</rdfs:label>
+        <rdfs:label xml:lang="it">Persona</rdfs:label>
+        <rdfs:label xml:lang="nl">Persoon</rdfs:label>
+        <rdfs:label xml:lang="ru">Персона</rdfs:label>
+        <rdfs:label xml:lang="ja">人物</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/Platform -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/Platform">
+        <rdfs:comment xml:lang="en">A socio-technical system that enables and constrains interaction, content production, and dissemination, while exerting agency through its design, governance, and algorithmic mechanisms, thereby shaping the emergence and visibility of aesthetics.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een sociaal-technisch systeem dat interactie, contentproductie en verspreiding mogelijk maakt en beperkt, terwijl het invloed uitoefent via het ontwerp, beheer en algoritmische mechanismen, en zo de opkomst en zichtbaarheid van esthetiek vormgeeft.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un sistema socio-tecnico che abilita e al tempo stesso vincola l’interazione, la produzione di contenuti e la loro diffusione, esercitando un’agenzia attraverso il proprio design, le forme di governance e i meccanismi algoritmici, e contribuendo così a modellare l’emergere e la visibilità delle estetiche.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Социотехническая система, которая обеспечивает и одновременно ограничивает взаимодействие, создание и распространение контента. Она проявляет субъектность через свой дизайн, управление и алгоритмические механизмы, тем самым формируя возникновение и видимость эстетик.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">交流やコンテンツ制作、情報の発信や拡散を可能にし、同時に制約する社会技術的なシステム。その設計やアルゴリズムを通じて、美学の出現や可視性を形作る。</rdfs:comment>
+        <rdfs:label xml:lang="it">Piattaforma</rdfs:label>
+        <rdfs:label xml:lang="en">Platform</rdfs:label>
+        <rdfs:label xml:lang="nl">Platform</rdfs:label>
+        <rdfs:label xml:lang="ru">Платформа</rdfs:label>
+        <rdfs:label xml:lang="ja">プラットフォーム</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/PrimaryRole -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/PrimaryRole">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/vibe-ontology/Role"/>
+        <rdfs:comment xml:lang="en">A role indicating a primary or central association within a context.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een rol die een primaire of centrale associatie binnen een context aangeeft.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un ruolo che indica un’associazione primaria o centrale in un contesto.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Роль, указывающая на первичную или центральную связь внутри контекста.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">文脈の中で主要または中心的な関連を示す役割。</rdfs:comment>
+        <rdfs:label xml:lang="nl">Primaire rol</rdfs:label>
+        <rdfs:label xml:lang="en">Primary Role</rdfs:label>
+        <rdfs:label xml:lang="it">Ruolo primario</rdfs:label>
+        <rdfs:label xml:lang="ru">Основная роль</rdfs:label>
+        <rdfs:label xml:lang="ja">主要役割</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/Region -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/Region">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/vibe-ontology/Location"/>
+        <rdfs:comment xml:lang="en">A geographical area.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een geografisch gebied.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un&apos;area geografica.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Географическая область (регион).</rdfs:comment>
+        <rdfs:comment xml:lang="ja">地理的区域。</rdfs:comment>
+        <rdfs:label xml:lang="nl">Regio</rdfs:label>
+        <rdfs:label xml:lang="en">Region</rdfs:label>
+        <rdfs:label xml:lang="it">Regione</rdfs:label>
+        <rdfs:label xml:lang="ru">Регион</rdfs:label>
+        <rdfs:label xml:lang="ja">地域</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/RepresentativeAssociation -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/RepresentativeAssociation">
+        <rdfs:comment xml:lang="en">A reified relation linking an Aesthetic to an entity that is considered representative of it. Such associations encode the mechanisms through which an aesthetic is recognized and constructed, and may be qualified by temporal scope, degree of representativeness, or role (e.g., primary).</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een gereificeerde relatie die een esthetiek koppelt aan een entiteit die als representatief hiervoor wordt beschouwd. Dergelijke associaties coderen de mechanismen waardoor een esthetiek wordt herkend en geconstrueerd, en kunnen worden gekwalificeerd door temporele reikwijdte, mate van representativiteit of rol (bijv. primair).</rdfs:comment>
+        <rdfs:comment xml:lang="it">Una relazione reificata che collega un’Estetica a un’entità considerata rappresentativa di essa. Tali associazioni codificano i meccanismi attraverso cui un’estetica viene riconosciuta e costruita, e possono essere qualificate rispetto all’estensione temporale, al grado di rappresentatività o al ruolo (ad esempio, primario).</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Реифицированное отношение, связывающее эстетику с сущностью, которая считается репрезентативной для неё. Такие ассоциации кодируют механизмы, посредством которых эстетика распознается и конструируется, и могут быть уточнены временными рамками, степенью репрезентативности или ролью (например, основной).</rdfs:comment>
+        <rdfs:comment xml:lang="ja">美学と、その象徴的な表象であるエンティティとを繋ぐ関係を実体化したクラス。これらの関連は美学が認識され構築されるメカニズムを定めるものであり、時間的範囲、代表性の度合い、あるいは（主従などの）役割によって詳細化される。</rdfs:comment>
+        <rdfs:label xml:lang="it">Associazione rappresentativa</rdfs:label>
+        <rdfs:label xml:lang="nl">Representatieve associatie</rdfs:label>
+        <rdfs:label xml:lang="en">Representative Association</rdfs:label>
+        <rdfs:label xml:lang="ru">Репрезентативная ассоциация</rdfs:label>
+        <rdfs:label xml:lang="ja">象徴的な関連</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/Role -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/Role">
+        <rdfs:comment xml:lang="en">A role is a context-dependent function or qualification assigned to an entity within a relation.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een rol is een contextafhankelijke functie of kwalificatie die aan een entiteit binnen een relatie is toegewezen.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un ruolo è una funzione o qualificazione dipendente dal contesto assegnata a un’entità all’interno di una relazione.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Роль — это зависящая от контекста функция или квалификация, присваиваемая сущности в рамках отношения.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">特定の関係性においてエンティティに割り当てられる、文脈依存の機能や属性。</rdfs:comment>
+        <rdfs:label xml:lang="nl">Rol</rdfs:label>
+        <rdfs:label xml:lang="en">Role</rdfs:label>
+        <rdfs:label xml:lang="it">Ruolo</rdfs:label>
+        <rdfs:label xml:lang="ru">Роль</rdfs:label>
+        <rdfs:label xml:lang="ja">役割</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/Song -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/Song">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/vibe-ontology/MusicWork"/>
+        <rdfs:comment xml:lang="en">A single musical composition, typically consisting of lyrics and melody.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een enkele muzikale compositie, meestal bestaande uit tekst en melodie.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Una composizione musicale singola, tipicamente composta da testo e melodia.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Отдельное музыкальное произведение, обычно состоящее из слов и мелодии.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">通常、歌詞とメロディーからなる単一の音楽的構成。</rdfs:comment>
+        <rdfs:label xml:lang="it">Canzone</rdfs:label>
+        <rdfs:label xml:lang="nl">Lied</rdfs:label>
+        <rdfs:label xml:lang="en">Song</rdfs:label>
+        <rdfs:label xml:lang="ru">Песня</rdfs:label>
+        <rdfs:label xml:lang="ja">楽曲</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/Subculture -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/Subculture">
+        <rdfs:comment xml:lang="en">A socially situated group or network characterized by shared practices, values, and symbolic systems that differentiate it from broader cultural contexts, often contributing to the emergence and stabilization of specific aesthetics.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een sociaal gesitueerde groep of netwerk gekenmerkt door gedeelde praktijken, waarden en symbolische systemen die het onderscheiden van bredere culturele contexten, en vaak bijdragen aan het ontstaan en de stabilisatie van specifieke esthetiek.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un gruppo o una rete socialmente situata caratterizzata da pratiche, valori e sistemi simbolici condivisi che la distinguono dal contesto culturale più ampio, contribuendo spesso all’emergere e alla stabilizzazione di specifiche estetiche.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Социально локализованная группа или сеть, характеризующаяся общими практиками, ценностями и символическими системами, которые отличают её от более широкого культурного контекста; часто способствует возникновению и стабилизации определенных эстетик.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">独自の慣習や価値観、象徴体系を共有し、主流文化とは区別される社会的グループ。特定の美学の創発と定着を促す基盤となることがある。</rdfs:comment>
+        <rdfs:label xml:lang="it">Sottocultura</rdfs:label>
+        <rdfs:label xml:lang="en">Subculture</rdfs:label>
+        <rdfs:label xml:lang="nl">Subcultuur</rdfs:label>
+        <rdfs:label xml:lang="ru">Субкультура</rdfs:label>
+        <rdfs:label xml:lang="ja">サブカルチャー</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/TVShow -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/TVShow">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/vibe-ontology/Artwork"/>
+        <rdfs:comment xml:lang="en">A serial audiovisual work produced for television or streaming platforms.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een serieel audiovisueel werk geproduceerd voor televisie of streamingplatforms.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un’opera audiovisiva seriale prodotta per televisione o piattaforme streaming.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Сериальное аудиовизуальное произведение, созданное для телевидения или стриминговых платформ.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">テレビまたはストリーミングプラットフォーム向けに制作された連続的な視聴覚作品。</rdfs:comment>
+        <rdfs:label xml:lang="it">Serie TV</rdfs:label>
+        <rdfs:label xml:lang="en">TV Show</rdfs:label>
+        <rdfs:label xml:lang="nl">TV-programma</rdfs:label>
+        <rdfs:label xml:lang="ru">Сериал</rdfs:label>
+        <rdfs:label xml:lang="ja">テレビ番組</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/Theme -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/Theme">
+        <rdfs:comment xml:lang="en">An abstract conceptual orientation or narrative underlying an aesthetic, capturing its dominant meanings, affective tone, or worldview. E.g., the theme of the Frutiger Aero aesthetic can be described as an optimistic, clean, and nature-integrated vision of the near future.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een abstracte conceptuele oriëntatie of narratief dat ten grondslag ligt aan een esthetiek en de dominante betekenissen, affectieve toon of wereldbeeld vastlegt. Bijv. het thema van de Frutiger Aero-esthetiek kan worden beschreven als een optimistische, schone en in de natuur geïntegreerde visie op de nabije toekomst.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un orientamento concettuale astratto o una struttura narrativa sottostante a un’estetica, che ne cattura i significati dominanti, il tono affettivo o la visione del mondo. Ad esempio, il tema dell’estetica Frutiger Aero può essere descritto come una visione ottimistica, pulita e integrata con la natura del futuro prossimo.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Абстрактная концептуальная направленность или нарратив, лежащий в основе эстетики и отражающий её доминирующие смыслы, эмоциональный тон или мировоззрение. Например, тему эстетики Frutiger Aero можно описать как оптимистичное, чистое и интегрированное с природой видение ближайшего будущего.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">美学の根底にある抽象的な概念的方向性またはナラティブ。主要な意味合い、感情的トーンや世界観を捉える。例：Frutiger Aeroの美学のテーマは、楽観的で清潔で自然と統合された近未来のビジョンであると表現できる。</rdfs:comment>
+        <rdfs:label xml:lang="it">Tema</rdfs:label>
+        <rdfs:label xml:lang="nl">Thema</rdfs:label>
+        <rdfs:label xml:lang="en">Theme</rdfs:label>
+        <rdfs:label xml:lang="ru">Тема</rdfs:label>
+        <rdfs:label xml:lang="ja">テーマ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/TimeIndexedRole -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/TimeIndexedRole">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/vibe-ontology/atTime"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/vibe-ontology/forAesthetic"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/vibe-ontology/withRole"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A contextual role assigned to an entity within a relation that is explicitly bound to a temporal interval, allowing the same entity to hold different roles at different times.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een contextuele rol toegewezen aan een entiteit binnen een relatie die expliciet gebonden is aan een tijdsinterval, waardoor dezelfde entiteit op verschillende tijdstippen verschillende rollen kan vervullen.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un ruolo assegnato a un’entità all’interno di una relazione, esplicitamente vincolato a un intervallo temporale, cosa che permette alla stessa entità di avere ruoli diversi in tempi diversi.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Контекстная роль, присваиваемая сущности в рамках отношения, которое явно привязано к временному интервалу, что позволяет одной и той же сущности выполнять разные роли в разное время.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">時間区間に明示的に結びついた関係の中でエンティティに割り当てられる文脈的役割。同じエンティティが異なる時点で異なる役割を持つことを可能にする。</rdfs:comment>
+        <rdfs:label xml:lang="it">Ruolo indicizzato temporalmente</rdfs:label>
+        <rdfs:label xml:lang="nl">Tijdgeïndexeerde rol</rdfs:label>
+        <rdfs:label xml:lang="en">Time Indexed Role</rdfs:label>
+        <rdfs:label xml:lang="ru">Временно обозначенная роль</rdfs:label>
+        <rdfs:label xml:lang="ja">時間付き役割</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/TimeInterval -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/TimeInterval">
+        <rdfs:comment xml:lang="en">A temporal extent with a start and/or end that may be precisely defined or approximate, used to qualify the temporal validity of entities, roles, or associations.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een temporele omvang met een begin en/of einde dat nauwkeurig gedefinieerd of bij benadering kan zijn, gebruikt om de temporele geldigheid van entiteiten, rollen of associaties te kwalificeren.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un’estensione temporale con un inizio e/o una fine, che può essere precisa o approssimata, usata per qualificare la validità temporale di entità, ruoli o associazioni.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Временной отрезок с началом и/или концом, который может быть точно определенным или приблизительным; используется для квалификации временной валидности сущностей, ролей или ассоциаций.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">エンティティ、役割、あるいは関連性の時間的な有効範囲を定義するための期間。厳密な開始・終了時期は、近似的な範囲も許容する。</rdfs:comment>
+        <rdfs:label xml:lang="it">Intervallo temporale</rdfs:label>
+        <rdfs:label xml:lang="nl">Tijdsinterval</rdfs:label>
+        <rdfs:label xml:lang="en">Time Interval</rdfs:label>
+        <rdfs:label xml:lang="ru">Временной интервал</rdfs:label>
+        <rdfs:label xml:lang="ja">時間区間</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/Value -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/Value">
+        <rdfs:comment xml:lang="en">An abstract principle, an affective/axiological orientation, or evaluative dimension (ethical, cultural, aesthetic, or ideological) associated with entities or aesthetics. Values are not limited to moral judgments but include broader attitudinal or conceptual stances. E.g., the aesthetic Frutiger Aero is associated with optimism, cleanliness, techno-natural harmony.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een abstract principe, een affectieve/axiologische oriëntatie of evaluatieve dimensie (ethisch, cultureel, esthetisch of ideologisch) geassocieerd met entiteiten of esthetiek. Waarden zijn niet beperkt tot morele oordelen, maar omvatten bredere houdings- of conceptuele standpunten. Bijv. de esthetiek Frutiger Aero wordt geassocieerd met optimisme, netheid en techno-natuurlijke harmonie.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un principio astratto, un orientamento affettivo/assiologico o una dimensione valutativa (etica, culturale, estetica o ideologica) associata a entità o estetiche. I valori non si limitano ai giudizi morali, ma includono anche atteggiamenti e posizioni concettuali più ampie. Ad esempio, l’estetica Frutiger Aero è associata a ottimismo, pulizia e armonia tecno-naturale.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Абстрактный принцип, аффективная/аксиологическая направленность или оценочное измерение (этическое, культурное, эстетическое или идеологическое), связанное с сущностями или эстетиками. Ценности не ограничиваются моральными суждениями, а включают широкие мировоззренческие или концептуальные позиции. Например, эстетика Frutiger Aero ассоциируется с оптимизмом, чистотой и техно-природной гармонией.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">エンティティや美学に関連する抽象的な原理、感情的・価値論的方向性、または評価的次元（倫理的、文化的、美的、またはイデオロギー的）。道徳的判断にのみならず、より広い態度や概念的なスタンスを含む。。例：Frutiger Aeroの美学は楽観主義、清潔さ、テクノ的自然調和といった価値観と関連している。</rdfs:comment>
+        <rdfs:label xml:lang="it">Valore</rdfs:label>
+        <rdfs:label xml:lang="en">Value</rdfs:label>
+        <rdfs:label xml:lang="nl">Waarde</rdfs:label>
+        <rdfs:label xml:lang="ru">Ценность</rdfs:label>
+        <rdfs:label xml:lang="ja">価値観</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/Video -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/Video">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/vibe-ontology/Artwork"/>
+        <rdfs:comment xml:lang="en">A moving-image artwork, typically digital.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een kunstwerk van bewegende beelden, meestal digitaal.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un’opera audiovisiva, tipicamente digitale.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Произведение с движущимися изображениями, обычно цифровое.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">通常デジタルの動画作品。</rdfs:comment>
+        <rdfs:label xml:lang="en">Video</rdfs:label>
+        <rdfs:label xml:lang="it">Video</rdfs:label>
+        <rdfs:label xml:lang="nl">Video</rdfs:label>
+        <rdfs:label xml:lang="ru">Видео</rdfs:label>
+        <rdfs:label xml:lang="ja">動画</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/Videogame -->
+
+
+    <owl:Class rdf:about="https://w3id.org/vibe-ontology/Videogame">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/vibe-ontology/Artwork"/>
+        <rdfs:comment xml:lang="en">An interactive digital artwork combining visual, narrative, and gameplay elements.</rdfs:comment>
+        <rdfs:comment xml:lang="nl">Een interactief digitaal kunstwerk dat visuele, narratieve en gameplay-elementen combineert.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Un’opera digitale interattiva che combina elementi visivi, narrativi e ludici.</rdfs:comment>
+        <rdfs:comment xml:lang="ru">Интерактивное цифровое произведение, сочетающее визуальные, повествовательные и игровые элементы.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">視覚的、物語的、ゲームプレイの要素を組み合わせたインタラクティブなデジタル作品。</rdfs:comment>
+        <rdfs:label xml:lang="en">Videogame</rdfs:label>
+        <rdfs:label xml:lang="nl">Videogame</rdfs:label>
+        <rdfs:label xml:lang="it">Videogioco</rdfs:label>
+        <rdfs:label xml:lang="ru">Видеоигра</rdfs:label>
+        <rdfs:label xml:lang="ja">ビデオゲーム</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/colorDimension -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/vibe-ontology/colorDimension">
+        <rdfs:label xml:lang="en">color dimension</rdfs:label>
+        <rdfs:label xml:lang="it">dimensione del colore</rdfs:label>
+        <rdfs:label xml:lang="nl">kleur dimensie</rdfs:label>
+        <rdfs:label xml:lang="ru">цветовое измерение</rdfs:label>
+        <rdfs:label xml:lang="ja">色の次元</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/fashionDimension -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/vibe-ontology/fashionDimension">
+        <rdfs:label xml:lang="it">dimensione della moda</rdfs:label>
+        <rdfs:label xml:lang="en">fashion dimension</rdfs:label>
+        <rdfs:label xml:lang="nl">mode dimensie</rdfs:label>
+        <rdfs:label xml:lang="ru">измерение моды</rdfs:label>
+        <rdfs:label xml:lang="ja">ファッションの次元</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/iconicFigureDimension -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/vibe-ontology/iconicFigureDimension">
+        <rdfs:label xml:lang="it">dimensione della figura iconica</rdfs:label>
+        <rdfs:label xml:lang="en">iconic figure dimension</rdfs:label>
+        <rdfs:label xml:lang="nl">iconisch figuur dimensie</rdfs:label>
+        <rdfs:label xml:lang="ru">измерение иконической фигуры</rdfs:label>
+        <rdfs:label xml:lang="ja">象徴的人物の次元</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/motifDimension -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/vibe-ontology/motifDimension">
+        <rdfs:label xml:lang="it">dimensione del motivo</rdfs:label>
+        <rdfs:label xml:lang="nl">motief dimensie</rdfs:label>
+        <rdfs:label xml:lang="en">motif dimension</rdfs:label>
+        <rdfs:label xml:lang="ru">измерение мотива</rdfs:label>
+        <rdfs:label xml:lang="ja">モチーフの次元</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/musicDimension -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/vibe-ontology/musicDimension">
+        <rdfs:label xml:lang="it">dimensione musicale</rdfs:label>
+        <rdfs:label xml:lang="en">music dimension</rdfs:label>
+        <rdfs:label xml:lang="nl">muzikale dimensie</rdfs:label>
+        <rdfs:label xml:lang="ru">музыкальное измерение</rdfs:label>
+        <rdfs:label xml:lang="ja">音楽の次元</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/platformDimension -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/vibe-ontology/platformDimension">
+        <rdfs:label xml:lang="it">dimensione della piattaforma</rdfs:label>
+        <rdfs:label xml:lang="nl">platform dimensie</rdfs:label>
+        <rdfs:label xml:lang="en">platform dimension</rdfs:label>
+        <rdfs:label xml:lang="ru">измерение платформы</rdfs:label>
+        <rdfs:label xml:lang="ja">プラットフォームの次元</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/themeDimension -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/vibe-ontology/themeDimension">
+        <rdfs:label xml:lang="it">dimensione del tema</rdfs:label>
+        <rdfs:label xml:lang="nl">thematische dimensie</rdfs:label>
+        <rdfs:label xml:lang="en">theme dimension</rdfs:label>
+        <rdfs:label xml:lang="ru">измерение темы</rdfs:label>
+        <rdfs:label xml:lang="ja">テーマの次元</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/vibe-ontology/valueDimension -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/vibe-ontology/valueDimension">
+        <rdfs:label xml:lang="it">dimensione del valore</rdfs:label>
+        <rdfs:label xml:lang="en">value dimension</rdfs:label>
+        <rdfs:label xml:lang="nl">waarde dimensie</rdfs:label>
+        <rdfs:label xml:lang="ru">измерение ценности</rdfs:label>
+        <rdfs:label xml:lang="ja">価値観の次元</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

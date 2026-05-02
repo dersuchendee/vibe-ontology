@@ -1,0 +1,5154 @@
+[
+  {
+    "@id": "https://w3id.org/vibe-ontology/startYear",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/TimeInterval"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "anno di inizio"
+      },
+      {
+        "@language": "en",
+        "@value": "start year"
+      },
+      {
+        "@language": "nl",
+        "@value": "startjaar"
+      },
+      {
+        "@language": "ja",
+        "@value": "開始年"
+      },
+      {
+        "@language": "ru",
+        "@value": "год начала"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#gYear"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/InteriorDesign",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A form of architectural work focused on the design of interior spaces."
+      },
+      {
+        "@language": "it",
+        "@value": "Una forma di progettazione architettonica focalizzata sugli spazi interni."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een vorm van architectonisch werk gericht op het ontwerpen van binnenruimtes."
+      },
+      {
+        "@language": "ja",
+        "@value": "内部空間のデザインに焦点を当てた建築作品の形態。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Форма архитектурной работы, ориентированная на проектирование внутренних пространств."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "Design d’interni"
+      },
+      {
+        "@language": "en",
+        "@value": "Interior Design"
+      },
+      {
+        "@language": "nl",
+        "@value": "Interieurontwerp"
+      },
+      {
+        "@language": "ja",
+        "@value": "インテリアデザイン"
+      },
+      {
+        "@language": "ru",
+        "@value": "Дизайн интерьера"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/ArchitecturalWork"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/relatedTo",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "http://www.w3.org/2002/07/owl#SymmetricProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A general symmetric relation indicating that an Aesthetic is related to another entity in some culturally relevant way. Serves as a superproperty for more specific relation types."
+      },
+      {
+        "@language": "it",
+        "@value": "Una relazione simmetrica generale che indica che un'Estetica è correlata a un'altra entità in modo culturalmente rilevante. Funge da superpropietà per tipi di relazione più specifici."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een algemene symmetrische relatie die aangeeft dat een esthetiek gerelateerd is aan een andere entiteit op een cultureel relevante manier. Dient als superproperty voor specifiekere relatietypen."
+      },
+      {
+        "@language": "ja",
+        "@value": "美学が文化的に関連する方法で別のエンティティと関連することを示す一般的な対称関係。より具体的な関係タイプのスーパープロパティとして機能する。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Общее симметричное отношение, указывающее на культурную связь эстетики с другой сущностью. Служит суперсвойством для более специфичных типов отношений."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Aesthetic"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "associato a"
+      },
+      {
+        "@language": "en",
+        "@value": "related to"
+      },
+      {
+        "@language": "nl",
+        "@value": "gerelateerd aan"
+      },
+      {
+        "@language": "ja",
+        "@value": "関連する"
+      },
+      {
+        "@language": "ru",
+        "@value": "связано с"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2002/07/owl#Thing"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/hasLocationOfOrigin",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Specifica la collocazione geografica o digitale in cui un'Estetica ha avuto origine."
+      },
+      {
+        "@language": "en",
+        "@value": "Specifies the geographic or digital location where an Aesthetic first originated."
+      },
+      {
+        "@language": "nl",
+        "@value": "Specificeert de geografische of digitale locatie waar een esthetiek voor het eerst is ontstaan."
+      },
+      {
+        "@language": "ja",
+        "@value": "美学と、それが最初に発祥した物理的またはデジタルの空間的場所を関連付ける。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Указывает географическое или цифровое местоположение, в котором эстетика возникла впервые."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Aesthetic"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "ha luogo di origine"
+      },
+      {
+        "@language": "en",
+        "@value": "has location of origin"
+      },
+      {
+        "@language": "nl",
+        "@value": "heeft locatie van oorsprong"
+      },
+      {
+        "@language": "ja",
+        "@value": "発祥地"
+      },
+      {
+        "@language": "ru",
+        "@value": "место происхождения"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Location"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/hasLocation"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/RepresentativeAssociation",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A reified relation linking an Aesthetic to an entity that is considered representative of it. Such associations encode the mechanisms through which an aesthetic is recognized and constructed, and may be qualified by temporal scope, degree of representativeness, or role (e.g., primary)."
+      },
+      {
+        "@language": "it",
+        "@value": "Una relazione reificata che collega un’Estetica a un’entità considerata rappresentativa di essa. Tali associazioni codificano i meccanismi attraverso cui un’estetica viene riconosciuta e costruita, e possono essere qualificate rispetto all’estensione temporale, al grado di rappresentatività o al ruolo (ad esempio, primario)."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een gereificeerde relatie die een esthetiek koppelt aan een entiteit die als representatief hiervoor wordt beschouwd. Dergelijke associaties coderen de mechanismen waardoor een esthetiek wordt herkend en geconstrueerd, en kunnen worden gekwalificeerd door temporele reikwijdte, mate van representativiteit of rol (bijv. primair)."
+      },
+      {
+        "@language": "ja",
+        "@value": "美学と、その象徴的な表象であるエンティティとを繋ぐ関係を実体化したクラス。これらの関連は美学が認識され構築されるメカニズムを定めるものであり、時間的範囲、代表性の度合い、あるいは（主従などの）役割によって詳細化される。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Реифицированное отношение, связывающее эстетику с сущностью, которая считается репрезентативной для неё. Такие ассоциации кодируют механизмы, посредством которых эстетика распознается и конструируется, и могут быть уточнены временными рамками, степенью репрезентативности или ролью (например, основной)."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "Associazione rappresentativa"
+      },
+      {
+        "@language": "en",
+        "@value": "Representative Association"
+      },
+      {
+        "@language": "nl",
+        "@value": "Representatieve associatie"
+      },
+      {
+        "@language": "ja",
+        "@value": "象徴的な関連"
+      },
+      {
+        "@language": "ru",
+        "@value": "Репрезентативная ассоциация"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentProperty": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/hasSubgenre"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/Brand",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "An identifiable commercial or institutional entity characterized by a name, identity, and set of associated meanings, values, and design practices, which can produce or influence artifacts, styles, and aesthetic associations."
+      },
+      {
+        "@language": "it",
+        "@value": "Un’entità commerciale o istituzionale identificabile caratterizzata da un nome, un’identità e un set di significati, valori e pratiche di design associate, che possono produrre o influenzare artefatti, stili e associazioni estetiche."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een identificeerbare commerciële of institutionele entiteit die wordt gekenmerkt door een naam, identiteit en een reeks bijbehorende betekenissen, waarden en ontwerppraktijken, die artefacten, stijlen en esthetische associaties kan produceren of beïnvloeden."
+      },
+      {
+        "@language": "ja",
+        "@value": "名称、アイデンティティ、特有の価値観やデザイン指針によって識別される商業的・組織的実体。あらゆる品物やスタイルの創出、および美学との関連性の形成に影響を与える。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Идентифицируемая коммерческая или общественная организация, характеризующаяся названием, идентичностью и набором смыслов, ценностей и практик дизайна, которая может создавать или влиять на артефакты, стили и эстетические ассоциации."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Brand"
+      },
+      {
+        "@language": "it",
+        "@value": "Marchio"
+      },
+      {
+        "@language": "nl",
+        "@value": "Merk"
+      },
+      {
+        "@language": "ja",
+        "@value": "ブランド"
+      },
+      {
+        "@language": "ru",
+        "@value": "Бренд"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/Theme",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "An abstract conceptual orientation or narrative underlying an aesthetic, capturing its dominant meanings, affective tone, or worldview. E.g., the theme of the Frutiger Aero aesthetic can be described as an optimistic, clean, and nature-integrated vision of the near future."
+      },
+      {
+        "@language": "it",
+        "@value": "Un orientamento concettuale astratto o una struttura narrativa sottostante a un’estetica, che ne cattura i significati dominanti, il tono affettivo o la visione del mondo. Ad esempio, il tema dell’estetica Frutiger Aero può essere descritto come una visione ottimistica, pulita e integrata con la natura del futuro prossimo."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een abstracte conceptuele oriëntatie of narratief dat ten grondslag ligt aan een esthetiek en de dominante betekenissen, affectieve toon of wereldbeeld vastlegt. Bijv. het thema van de Frutiger Aero-esthetiek kan worden beschreven als een optimistische, schone en in de natuur geïntegreerde visie op de nabije toekomst."
+      },
+      {
+        "@language": "ja",
+        "@value": "美学の根底にある抽象的な概念的方向性またはナラティブ。主要な意味合い、感情的トーンや世界観を捉える。例：Frutiger Aeroの美学のテーマは、楽観的で清潔で自然と統合された近未来のビジョンであると表現できる。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Абстрактная концептуальная направленность или нарратив, лежащий в основе эстетики и отражающий её доминирующие смыслы, эмоциональный тон или мировоззрение. Например, тему эстетики Frutiger Aero можно описать как оптимистичное, чистое и интегрированное с природой видение ближайшего будущего."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "Tema"
+      },
+      {
+        "@language": "en",
+        "@value": "Theme"
+      },
+      {
+        "@language": "nl",
+        "@value": "Thema"
+      },
+      {
+        "@language": "ja",
+        "@value": "テーマ"
+      },
+      {
+        "@language": "ru",
+        "@value": "Тема"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/PeriodDefinition",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A temporally bounded but potentially imprecise interval used to situate entities or phenomena in time, allowing for vague or overlapping boundaries, in alignment with models such as PeriodO."
+      },
+      {
+        "@language": "it",
+        "@value": "Un intervallo temporale delimitato ma potenzialmente impreciso usato per collocare entità o fenomeni nel tempo, che consente di definire confini vaghi o con sovrapposizioni, allineato a modellazioni come PeriodO."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een temporeel begrensd maar potentieel onvolledig interval dat wordt gebruikt om entiteiten of verschijnselen in de tijd te plaatsen, waarbij vage of overlappende grenzen mogelijk zijn, in overeenstemming met modellen zoals PeriodO."
+      },
+      {
+        "@language": "ja",
+        "@value": "実体や現象を時間軸上に位置づけるための時間的範囲。PeriodO等のモデルに準拠し、厳密な境界ではなく、曖昧さや期間の重複を許容する。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Ограниченный во времени, но потенциально неточный интервал, используемый для локализации сущностей или явлений во времени; допускает размытые или пересекающиеся границы в соответствии с такими моделями, как PeriodO."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "Definizione di periodo"
+      },
+      {
+        "@language": "en",
+        "@value": "Period Definition"
+      },
+      {
+        "@language": "nl",
+        "@value": "Periodedefinitie"
+      },
+      {
+        "@language": "ja",
+        "@value": "期間定義"
+      },
+      {
+        "@language": "ru",
+        "@value": "Определение периода"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "_:n10a9d9e078c44993be0b66527199cf7ab2"
+      }
+    ]
+  },
+  {
+    "@id": "_:n10a9d9e078c44993be0b66527199cf7ab2",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#minCardinality": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/timeInterval"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/hasIconicFigure",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Associa un'Estetica a un Agente considerato suo rappresentante emblematico."
+      },
+      {
+        "@language": "en",
+        "@value": "Associates an Aesthetic with an Agent who is considered an emblematic or iconic representative of it."
+      },
+      {
+        "@language": "nl",
+        "@value": "Associeert een esthetiek met een agent die wordt beschouwd als een emblematische of iconische vertegenwoordiger ervan."
+      },
+      {
+        "@language": "ja",
+        "@value": "美学と、その象徴的または典型的な代表者と見なされるエージェントを関連付ける。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Ассоциирует эстетику с агентом, который считается её каноничным или культовым представителем."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Aesthetic"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "ha figura iconica"
+      },
+      {
+        "@language": "en",
+        "@value": "has iconic figure"
+      },
+      {
+        "@language": "nl",
+        "@value": "heeft iconisch figuur"
+      },
+      {
+        "@language": "ja",
+        "@value": "象徴的人物"
+      },
+      {
+        "@language": "ru",
+        "@value": "имеет иконическую фигуру"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Agent"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#Concept",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/hasLocation",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Associa qualsiasi entità a una collocazione spaziale, fisica o digitale."
+      },
+      {
+        "@language": "en",
+        "@value": "Associates any entity with a physical or digital spatial location."
+      },
+      {
+        "@language": "nl",
+        "@value": "Associeert elke entiteit met een fysieke of digitale ruimtelijke locatie."
+      },
+      {
+        "@language": "ja",
+        "@value": "任意のエンティティと物理的またはデジタルの空間的場所を関連付ける。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Ассоциирует любую сущность с физическим или цифровым пространственным расположением."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.w3.org/2002/07/owl#Thing"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "ha luogo"
+      },
+      {
+        "@language": "en",
+        "@value": "has location"
+      },
+      {
+        "@language": "nl",
+        "@value": "heeft locatie"
+      },
+      {
+        "@language": "ja",
+        "@value": "所在地"
+      },
+      {
+        "@language": "ru",
+        "@value": "имеет местоположение"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Location"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/colorDimension",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "color dimension"
+      },
+      {
+        "@language": "it",
+        "@value": "dimensione del colore"
+      },
+      {
+        "@language": "nl",
+        "@value": "kleur dimensie"
+      },
+      {
+        "@language": "ja",
+        "@value": "色の次元"
+      },
+      {
+        "@language": "ru",
+        "@value": "цветовое измерение"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/hasRelatedBrand",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Associa un'Estetica a un Brand che le è caratteristico o culturalmente affine."
+      },
+      {
+        "@language": "en",
+        "@value": "Associates an Aesthetic with a Brand that is characteristic of or culturally aligned with it."
+      },
+      {
+        "@language": "nl",
+        "@value": "Associeert een esthetiek met een merk dat er kenmerkend voor is of er cultureel mee overeenstemt."
+      },
+      {
+        "@language": "ja",
+        "@value": "美学と、その特徴的な、または文化的に一致するブランドを関連付ける。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Ассоциирует эстетику с брендом, который является характерным для неё или близок ей по духу."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Aesthetic"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "ha brand associato"
+      },
+      {
+        "@language": "en",
+        "@value": "has related brand"
+      },
+      {
+        "@language": "nl",
+        "@value": "heeft gerelateerd merk"
+      },
+      {
+        "@language": "ja",
+        "@value": "関連ブランド"
+      },
+      {
+        "@language": "ru",
+        "@value": "имеет ассоциирующийся бренд"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Brand"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/relatedTo"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/City",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "An urban location characterised by dense population and structured infrastructure."
+      },
+      {
+        "@language": "it",
+        "@value": "Una località urbana caratterizzata da popolazione densa e infrastruttura organizzata."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een stedelijke locatie die wordt gekenmerkt door een dichte bevolking en een gestructureerde infrastructuur."
+      },
+      {
+        "@language": "ja",
+        "@value": "密な人口と整備されたインフラを特徴とする都市的場所。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Городская локация, характеризующаяся высокой плотностью населения и организованной инфраструктурой."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "City"
+      },
+      {
+        "@language": "it",
+        "@value": "Città"
+      },
+      {
+        "@language": "nl",
+        "@value": "Stad"
+      },
+      {
+        "@language": "ja",
+        "@value": "都市"
+      },
+      {
+        "@language": "ru",
+        "@value": "Город"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Location"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/associatedSubculture",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Collega un'Estetica a una Sottocultura che le è socialmente associata o ha contribuito alla sua emergenza e stabilizzazione."
+      },
+      {
+        "@language": "en",
+        "@value": "Links an Aesthetic to a Subculture that is socially associated with it or contributed to its emergence and stabilization."
+      },
+      {
+        "@language": "nl",
+        "@value": "Koppelt een esthetiek aan een subcultuur die er sociaal mee geassocieerd is of heeft bijgedragen aan het ontstaan en de stabilisatie ervan."
+      },
+      {
+        "@language": "ja",
+        "@value": "美学と、社会的に関連の深いサブカルチャー、あるいはその出現や定着に寄与したサブカルチャーを結びつける。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Связывает эстетику с субкультурой, которая ассоциируется с ней в обществе или способствовала её возникновению и стабилизации."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Aesthetic"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "associated subculture"
+      },
+      {
+        "@language": "it",
+        "@value": "sottocultura associata"
+      },
+      {
+        "@language": "nl",
+        "@value": "geassocieerde subcultuur"
+      },
+      {
+        "@language": "ja",
+        "@value": "関連サブカルチャー"
+      },
+      {
+        "@language": "ru",
+        "@value": "ассоциированная субкультура"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Subculture"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/withEntity",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Collega una RepresentativeAssociation all'entità considerata rappresentativa dell'Estetica."
+      },
+      {
+        "@language": "en",
+        "@value": "Links a RepresentativeAssociation to the entity that is considered representative of the Aesthetic."
+      },
+      {
+        "@language": "nl",
+        "@value": "Koppelt een RepresentativeAssociation aan de entiteit die als representatief voor de esthetiek wordt beschouwd."
+      },
+      {
+        "@language": "ja",
+        "@value": "RepresentativeAssociationと、美学の象徴的な表象と見なされるエンティティを結びつける。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Связывает репрезентативную ассоциацию с сущностью, которая считается характерной для данной эстетики."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/RepresentativeAssociation"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "con entità"
+      },
+      {
+        "@language": "en",
+        "@value": "with entity"
+      },
+      {
+        "@language": "nl",
+        "@value": "met entiteit"
+      },
+      {
+        "@language": "ja",
+        "@value": "対象エンティティ"
+      },
+      {
+        "@language": "ru",
+        "@value": "с сущностью"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2002/07/owl#Thing"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/Location",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A spatial entity representing a physical or a digital place."
+      },
+      {
+        "@language": "it",
+        "@value": "Un’entità spaziale che rappresenta un luogo fisico o digitale."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een ruimtelijke entiteit die een fysieke of digitale plaats vertegenwoordigt."
+      },
+      {
+        "@language": "ja",
+        "@value": "物理的またはデジタルの場所を表す空間エンティティ。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Пространственная сущность, представляющая физическое или цифровое место."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Location"
+      },
+      {
+        "@language": "it",
+        "@value": "Luogo"
+      },
+      {
+        "@language": "nl",
+        "@value": "Locatie"
+      },
+      {
+        "@language": "ja",
+        "@value": "場所"
+      },
+      {
+        "@language": "ru",
+        "@value": "Местоположение"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/Aesthetic",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A culturally emergent, open-ended category that groups a collection of heterogeneous elements (e.g., images, colors, objects, sounds, texts) perceived as coherently expressing a recognizable style, affect, or orientation. It is not defined by necessary and sufficient conditions, but by shared associations and family resemblances established by a community. E.g, the Frutiger Aero aesthetic groups glossy textures, bright gradients, nature imagery, and optimistic future cues into a recognizable early-2000s style."
+      },
+      {
+        "@language": "it",
+        "@value": "Una categoria culturalmente emergente e aperta che raggruppa una collezione di elementi eterogenei (ad esempio immagini, colori, oggetti, suoni, testi) percepiti come espressione coerente di uno stile, un’affettività o un orientamento riconoscibile. Non è definita da condizioni necessarie e sufficienti, ma da associazioni condivise e somiglianze di famiglia stabilite da una comunità. Ad esempio, l’estetica Frutiger Aero raggruppa texture lucide, gradienti brillanti, immagini della natura e richiami a un futuro ottimistico in uno stile riconoscibile dei primi anni 2000."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een cultureel opkomende, open categorie die een verzameling heterogene elementen (bijv. afbeeldingen, kleuren, objecten, geluiden, teksten) groepeert die worden waargenomen als een coherente uitdrukking van een herkenbare stijl, affect of oriëntatie. Het wordt niet gedefinieerd door noodzakelijke en voldoende voorwaarden, maar door gedeelde associaties en familiegelijkenissen vastgesteld door een gemeenschap. Bijv. de Frutiger Aero-esthetiek groepeert glanzende texturen, heldere verlopen, natuurbeelden en optimistische toekomstbeelden in een herkenbare stijl uit het begin van de jaren 2000."
+      },
+      {
+        "@language": "ja",
+        "@value": "文化的に創発される、定義の開かれた包括的な概念。画像、色彩、音楽、ファッションスタイル、テキスト、装飾といった多種多様な要素の集まりを、共通のスタイルや美意識、あるいは特定の「系統」を表現するものとして統合して捉える。これは厳密なルール（必要十分条件）で規定されるものではなく、コミュニティ内で共有された連想や家族的類似（ゆるやかな共通性）」を通じて形成される。2010～2020代で流行したインターネット上の視覚芸術様式からファッション系統まで、さまざまな形がある。（例：Frutiger Aero はキラキラしたテクスチャ、鮮やかなグラデーション、自然に関する画像、未来への期待感を、2000年代初期に流行したスタイルと認識できる形で統合している）美意識や美的概念とも言い換えられる。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Культурно обусловленная, открытая категория, объединяющая коллекцию разнородных элементов (например, изображений, цветов, объектов, звуков, текстов), которые воспринимаются как целостное выражение узнаваемого стиля, эмоционального настроя или направленности. Она определяется не через необходимые и достаточные условия, а через общие ассоциации и «семейное сходство», установленные сообществом. Например, эстетика Frutiger Aero объединяет глянцевые текстуры, яркие градиенты, образы природы и оптимистичные отсылки к будущему в узнаваемый стиль начала 2000-х годов."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Aesthetic"
+      },
+      {
+        "@language": "it",
+        "@value": "Estetica"
+      },
+      {
+        "@language": "nl",
+        "@value": "Esthetiek"
+      },
+      {
+        "@language": "ja",
+        "@value": "美学"
+      },
+      {
+        "@language": "ru",
+        "@value": "Эстетика"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+      },
+      {
+        "@id": "_:n10a9d9e078c44993be0b66527199cf7ab1"
+      }
+    ]
+  },
+  {
+    "@id": "_:n10a9d9e078c44993be0b66527199cf7ab1",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#minCardinality": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/hasMember"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/motifDimension",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "dimensione del motivo"
+      },
+      {
+        "@language": "en",
+        "@value": "motif dimension"
+      },
+      {
+        "@language": "nl",
+        "@value": "motief dimensie"
+      },
+      {
+        "@language": "ja",
+        "@value": "モチーフの次元"
+      },
+      {
+        "@language": "ru",
+        "@value": "измерение мотива"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/hasPlatform",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Associa un'Estetica a una Piattaforma su cui essa circola o è stata diffusa."
+      },
+      {
+        "@language": "en",
+        "@value": "Associates an Aesthetic with a Platform on which it circulates or has been disseminated."
+      },
+      {
+        "@language": "nl",
+        "@value": "Associeert een esthetiek met een platform waarop deze circuleert of is verspreid."
+      },
+      {
+        "@language": "ja",
+        "@value": "美学と、それが流通しまたは普及したプラットフォームを関連付ける。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Ассоциирует эстетику с платформой, на которой она распространяется."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Aesthetic"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "ha piattaforma"
+      },
+      {
+        "@language": "en",
+        "@value": "has platform"
+      },
+      {
+        "@language": "nl",
+        "@value": "heeft platform"
+      },
+      {
+        "@language": "ja",
+        "@value": "流通プラットフォーム"
+      },
+      {
+        "@language": "ru",
+        "@value": "имеет платформу"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Platform"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/relatedTo"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/follows",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "http://www.w3.org/2002/07/owl#TransitiveProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Indica che un'Estetica segue temporalmente o stilisticamente un'altra. Questa proprietà è transitiva."
+      },
+      {
+        "@language": "en",
+        "@value": "Indicates that one Aesthetic temporally or stylistically follows another. This property is transitive."
+      },
+      {
+        "@language": "nl",
+        "@value": "Geeft aan dat een esthetiek een andere temporeel of stylistisch volgt. Deze eigenschap is transitief."
+      },
+      {
+        "@language": "ja",
+        "@value": "ある美学が別の美学に時間的またはスタイル的に後続することを示す。この性質は推移的である。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Указывает на то, что одна эстетика следует за другой во времени или стилистически. Свойство является транзитивным."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Aesthetic"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "follows"
+      },
+      {
+        "@language": "it",
+        "@value": "segue"
+      },
+      {
+        "@language": "nl",
+        "@value": "volgt"
+      },
+      {
+        "@language": "ja",
+        "@value": "後継する"
+      },
+      {
+        "@language": "ru",
+        "@value": "следует за"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Aesthetic"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/precedes"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/hasMotif",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Associa un'Opera d'arte a un motivo ricorrente e riconoscibile."
+      },
+      {
+        "@language": "en",
+        "@value": "Associates an Artwork with a recurrent and recognizable motif it exhibits."
+      },
+      {
+        "@language": "nl",
+        "@value": "Associeert een kunstwerk met een terugkerend en herkenbaar motief dat het vertoont."
+      },
+      {
+        "@language": "ja",
+        "@value": "作品と、その中に現れる特徴的なモチーフを関連付ける。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Ассоциирует произведение искусства с узнаваемым повторяющимся мотивом, который в нем присутствует."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Artwork"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "ha motivo"
+      },
+      {
+        "@language": "en",
+        "@value": "has motif"
+      },
+      {
+        "@language": "nl",
+        "@value": "heeft motief"
+      },
+      {
+        "@language": "ja",
+        "@value": "モチーフ"
+      },
+      {
+        "@language": "ru",
+        "@value": "имеет мотив"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Motif"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/Group",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A collection of agents acting or identified as a unit."
+      },
+      {
+        "@language": "it",
+        "@value": "Un insieme di agenti che agiscono o sono identificati come un’unità."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een verzameling actoren die handelen of worden geïdentificeerd als een eenheid."
+      },
+      {
+        "@language": "ja",
+        "@value": "一つの単位として行動または識別されるエージェントの集合。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Объединение агентов, действующих или определяемых как единое целое."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Group"
+      },
+      {
+        "@language": "it",
+        "@value": "Gruppo"
+      },
+      {
+        "@language": "nl",
+        "@value": "Groep"
+      },
+      {
+        "@language": "ja",
+        "@value": "グループ"
+      },
+      {
+        "@language": "ru",
+        "@value": "Группа"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Agent"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#closeMatch",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/influencedBy",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Collega un'Estetica a un'altra Estetica da cui essa ha tratto influenza stilistica, tematica o culturale."
+      },
+      {
+        "@language": "en",
+        "@value": "Relates an Aesthetic to another Aesthetic from which it has drawn stylistic, thematic, or cultural influence."
+      },
+      {
+        "@language": "nl",
+        "@value": "Verbindt een esthetiek met een andere esthetiek waarvan het stilistische, thematische of culturele invloed heeft ondergaan."
+      },
+      {
+        "@language": "ja",
+        "@value": "美学と、それがスタイル的、テーマ的、または文化的影響を受けた別の美学を関連付ける。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Связывает эстетику с другой эстетикой, которая послужила источником стилистического, тематического или культурного влияния."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Aesthetic"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "influenced by"
+      },
+      {
+        "@language": "it",
+        "@value": "influenzato da"
+      },
+      {
+        "@language": "nl",
+        "@value": "beïnvloed door"
+      },
+      {
+        "@language": "ja",
+        "@value": "影響を受けた"
+      },
+      {
+        "@language": "ru",
+        "@value": "находится под влиянием"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Aesthetic"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/relatedTo"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/Image",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A visual artwork such as a photograph or digital image."
+      },
+      {
+        "@language": "it",
+        "@value": "Un’opera visiva come una fotografia o immagine digitale."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een visueel kunstwerk zoals een foto of digitale afbeelding."
+      },
+      {
+        "@language": "ja",
+        "@value": "写真やデジタル画像などの視覚的作品。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Визуальное произведение искусства, такое как фотография или цифровое изображение."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Image"
+      },
+      {
+        "@language": "it",
+        "@value": "Immagine"
+      },
+      {
+        "@language": "nl",
+        "@value": "Afbeelding"
+      },
+      {
+        "@language": "ja",
+        "@value": "画像"
+      },
+      {
+        "@language": "ru",
+        "@value": "Изображение"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Artwork"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentProperty": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/name"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/forAesthetic",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Collega una AssociazioneRappresentativa all'Estetica che essa qualifica."
+      },
+      {
+        "@language": "en",
+        "@value": "Links a RepresentativeAssociation to the Aesthetic it qualifies."
+      },
+      {
+        "@language": "nl",
+        "@value": "Koppelt een RepresentativeAssociation aan de esthetiek die het kwalificeert."
+      },
+      {
+        "@language": "ja",
+        "@value": "象徴的な関連（Representative Association）が、どの美学的系統を規定・説明しているかを示す。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Связывает репрезентативную ассоциацию с конкретной эстетикой, которую она характеризует."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/RepresentativeAssociation"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "for aesthetic"
+      },
+      {
+        "@language": "it",
+        "@value": "per estetica"
+      },
+      {
+        "@language": "nl",
+        "@value": "voor esthetiek"
+      },
+      {
+        "@language": "ja",
+        "@value": "対象"
+      },
+      {
+        "@language": "ru",
+        "@value": "для эстетики"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Aesthetic"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/Color",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A visual attribute perceived through light, often contributing to aesthetic identity."
+      },
+      {
+        "@language": "it",
+        "@value": "Un attributo visivo percepito attraverso la luce, che contribuisce all’identità estetica."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een visueel kenmerk waargenomen door licht, dat vaak bijdraagt aan esthetische identiteit."
+      },
+      {
+        "@language": "ja",
+        "@value": "光を通じて知覚される視覚的属性。美的アイデンティティに貢献することが多い。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Визуальный атрибут, воспринимаемый через свет, часто вносящий вклад в эстетическую идентичность."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Color"
+      },
+      {
+        "@language": "it",
+        "@value": "Colore"
+      },
+      {
+        "@language": "nl",
+        "@value": "Kleur"
+      },
+      {
+        "@language": "ja",
+        "@value": "色"
+      },
+      {
+        "@language": "ru",
+        "@value": "Цвет"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/Anime",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A form of animated artwork originating primarily from Japanese media contexts."
+      },
+      {
+        "@language": "it",
+        "@value": "Una forma di opera animata originaria principalmente del contesto mediatico giapponese."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een vorm van geanimeerd kunstwerk die voornamelijk voortkomt uit Japanse mediacontexten."
+      },
+      {
+        "@language": "ja",
+        "@value": "主に日本のメディア文脈から生まれたアニメーション作品の形態。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Форма анимационного искусства, зародившаяся преимущественно в контексте японских медиа."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Anime"
+      },
+      {
+        "@language": "it",
+        "@value": "Anime"
+      },
+      {
+        "@language": "nl",
+        "@value": "Anime"
+      },
+      {
+        "@language": "ja",
+        "@value": "アニメ"
+      },
+      {
+        "@language": "ru",
+        "@value": "Аниме"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Artwork"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/hasMember",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Collega una Collezione a una delle entità che la costituiscono. L'appartenenza non implica esaustività né necessità."
+      },
+      {
+        "@language": "en",
+        "@value": "Relates a Collection to one of its constituent entities. Membership does not imply exhaustiveness or strict necessity."
+      },
+      {
+        "@language": "nl",
+        "@value": "Verbindt een collectie met een van de samenstellende entiteiten. Lidmaatschap impliceert geen volledigheid of strikte noodzaak."
+      },
+      {
+        "@language": "ja",
+        "@value": "エンティティと、それが構成要素となるコレクションを関連付ける。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Связывает коллекцию с одной из составляющих её сущностей. Принадлежность не подразумевает исчерпаемости или строгой необходимости."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Collection"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "ha membro"
+      },
+      {
+        "@language": "en",
+        "@value": "has member"
+      },
+      {
+        "@language": "nl",
+        "@value": "heeft lid"
+      },
+      {
+        "@language": "ja",
+        "@value": "構成要素"
+      },
+      {
+        "@language": "ru",
+        "@value": "имеет участника/элемент"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2002/07/owl#Thing"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/isMemberOf"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/Country",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A geopolitical location representing a nation or state."
+      },
+      {
+        "@language": "it",
+        "@value": "Una località geopolitica che rappresenta una nazione o uno stato."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een geopolitieke locatie die een natie of staat vertegenwoordigt."
+      },
+      {
+        "@language": "ja",
+        "@value": "国家または州を表す地政学的場所。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Геополитическая локация, представляющая собой нацию или государство."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Country"
+      },
+      {
+        "@language": "it",
+        "@value": "Paese"
+      },
+      {
+        "@language": "nl",
+        "@value": "Land"
+      },
+      {
+        "@language": "ja",
+        "@value": "国"
+      },
+      {
+        "@language": "ru",
+        "@value": "Страна"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Location"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/hasCreator",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Collega un'Estetica all'Agente che l'ha creata o a cui essa deve la propria origine."
+      },
+      {
+        "@language": "en",
+        "@value": "Relates an Aesthetic to the Agent who created or gave rise to it."
+      },
+      {
+        "@language": "nl",
+        "@value": "Verbindt een esthetiek met de agent die deze heeft gecreëerd of aan wie het zijn oorsprong ontleent."
+      },
+      {
+        "@language": "ja",
+        "@value": "美学と、それを創造したまたは生み出したエージェントを関連付ける。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Связывает эстетику с агентом, который создал её или способствовал её появлению."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Aesthetic"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "ha creatore"
+      },
+      {
+        "@language": "en",
+        "@value": "has creator"
+      },
+      {
+        "@language": "nl",
+        "@value": "heeft maker"
+      },
+      {
+        "@language": "ja",
+        "@value": "クリエイター"
+      },
+      {
+        "@language": "ru",
+        "@value": "имеет создателя"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Agent"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/PrimaryRole",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A role indicating a primary or central association within a context."
+      },
+      {
+        "@language": "it",
+        "@value": "Un ruolo che indica un’associazione primaria o centrale in un contesto."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een rol die een primaire of centrale associatie binnen een context aangeeft."
+      },
+      {
+        "@language": "ja",
+        "@value": "文脈の中で主要または中心的な関連を示す役割。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Роль, указывающая на первичную или центральную связь внутри контекста."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Primary Role"
+      },
+      {
+        "@language": "it",
+        "@value": "Ruolo primario"
+      },
+      {
+        "@language": "nl",
+        "@value": "Primaire rol"
+      },
+      {
+        "@language": "ja",
+        "@value": "主要役割"
+      },
+      {
+        "@language": "ru",
+        "@value": "Основная роль"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Role"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/fashionDimension",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "dimensione della moda"
+      },
+      {
+        "@language": "en",
+        "@value": "fashion dimension"
+      },
+      {
+        "@language": "nl",
+        "@value": "mode dimensie"
+      },
+      {
+        "@language": "ja",
+        "@value": "ファッションの次元"
+      },
+      {
+        "@language": "ru",
+        "@value": "измерение моды"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/ColorPalette",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A structured set of colors associated through recurrent co-occurrence, design conventions, or perceptual harmony, often contributing to the visual identity of an aesthetic."
+      },
+      {
+        "@language": "it",
+        "@value": "Un insieme strutturato di colori associati per co-occorrenza o armonia visiva, che spesso contribuisce all’identità di un’estetica."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een gestructureerde set kleuren die verbonden zijn door herhaaldelijke co-occurrentie, ontwerpconventies of perceptuele harmonie, en die vaak bijdragen aan de visuele identiteit van een esthetiek."
+      },
+      {
+        "@language": "ja",
+        "@value": "反復的な共起、デザイン慣習、視覚的調和によって構造化された色のセット。特定の美学の視覚的アイデンティティの構成要素となることがある。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Структурированный набор цветов, связанных через повторяющееся совместное использование, конвенции дизайна или гармонию восприятия; часто вносит вклад в визуальную идентичность эстетики."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Color Palette"
+      },
+      {
+        "@language": "it",
+        "@value": "Palette di colori"
+      },
+      {
+        "@language": "nl",
+        "@value": "Kleurenpalet"
+      },
+      {
+        "@language": "ja",
+        "@value": "カラーパレット"
+      },
+      {
+        "@language": "ru",
+        "@value": "Цветовая палитра"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/hasRelatedWork",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Associa un'Estetica a un'Opera considerata rappresentativa o tematicamente correlata."
+      },
+      {
+        "@language": "en",
+        "@value": "Associates an Aesthetic with an Artwork considered representative of or thematically related to it."
+      },
+      {
+        "@language": "nl",
+        "@value": "Associeert een esthetiek met een werk dat als representatief of thematisch gerelateerd wordt beschouwd."
+      },
+      {
+        "@language": "ja",
+        "@value": "美学と、それを代表するまたはテーマ的に関連すると見なされる作品を関連付ける。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Ассоциирует эстетику с произведением, которое считается репрезентативным для неё или тематически связано с ней."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Aesthetic"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "ha opera associata"
+      },
+      {
+        "@language": "en",
+        "@value": "has related work"
+      },
+      {
+        "@language": "nl",
+        "@value": "heeft gerelateerd werk"
+      },
+      {
+        "@language": "ja",
+        "@value": "関連作品"
+      },
+      {
+        "@language": "ru",
+        "@value": "имеет ассоциирующееся произведение"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Artwork"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/relatedTo"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/hasOriginPeriod",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Specifica l'intervallo temporale durante il quale un'Estetica è emersa per la prima volta."
+      },
+      {
+        "@language": "en",
+        "@value": "Specifies the time interval during which an Aesthetic first emerged."
+      },
+      {
+        "@language": "nl",
+        "@value": "Specificeert het tijdsinterval waarin een esthetiek voor het eerst naar voren kwam."
+      },
+      {
+        "@language": "ja",
+        "@value": "美学が最初に出現した期間を指定する。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Указывает временной интервал, в течение которого эстетика появилась впервые."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Aesthetic"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "ha periodo di origine"
+      },
+      {
+        "@language": "en",
+        "@value": "has origin period"
+      },
+      {
+        "@language": "nl",
+        "@value": "heeft periode van oorsprong"
+      },
+      {
+        "@language": "ja",
+        "@value": "発祥期"
+      },
+      {
+        "@language": "ru",
+        "@value": "период возникновения"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/TimeInterval"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/Film",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A moving-image artwork produced within cinematic media."
+      },
+      {
+        "@language": "it",
+        "@value": "Un’opera audiovisiva prodotta nel contesto cinematografico."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een kunstwerk van bewegende beelden geproduceerd binnen filmische media."
+      },
+      {
+        "@language": "ja",
+        "@value": "映像メディアの中で制作された動画作品。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Произведение движущихся изображений, созданное в рамках кинематографа."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Film"
+      },
+      {
+        "@language": "it",
+        "@value": "Film"
+      },
+      {
+        "@language": "nl",
+        "@value": "Film"
+      },
+      {
+        "@language": "ja",
+        "@value": "映画"
+      },
+      {
+        "@language": "ru",
+        "@value": "Фильм"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Artwork"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/iconicFigureDimension",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "dimensione della figura iconica"
+      },
+      {
+        "@language": "en",
+        "@value": "iconic figure dimension"
+      },
+      {
+        "@language": "nl",
+        "@value": "iconisch figuur dimensie"
+      },
+      {
+        "@language": "ja",
+        "@value": "象徴的人物の次元"
+      },
+      {
+        "@language": "ru",
+        "@value": "измерение иконической фигуры"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/hasValue",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Associa un'Estetica a un Valore che ne caratterizza l'orientamento."
+      },
+      {
+        "@language": "en",
+        "@value": "Associates an Aesthetic with an abstract Value that characterizes its orientation."
+      },
+      {
+        "@language": "nl",
+        "@value": "Associeert een esthetiek met een abstracte waarde die de oriëntatie ervan kenmerkt."
+      },
+      {
+        "@language": "ja",
+        "@value": "美学と、その方向性を特徴づける抽象的な価値観を関連付ける。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Ассоциирует эстетику с абстрактной ценностью, характеризующей её направленность."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Aesthetic"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "ha valore"
+      },
+      {
+        "@language": "en",
+        "@value": "has value"
+      },
+      {
+        "@language": "nl",
+        "@value": "heeft waarde"
+      },
+      {
+        "@language": "ja",
+        "@value": "価値観"
+      },
+      {
+        "@language": "ru",
+        "@value": "имеет ценность"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Value"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentProperty": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/alternateName"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/isRoleInTimeOf",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Collega un TimeIndexedRole alla Piattaforma il cui ruolo temporalmente situato viene descritto."
+      },
+      {
+        "@language": "en",
+        "@value": "Links a TimeIndexedRole to the Platform whose temporally situated role is being described."
+      },
+      {
+        "@language": "nl",
+        "@value": "Koppelt een TimeIndexedRole aan het platform waarvan de tijdsgebonden rol wordt beschreven."
+      },
+      {
+        "@language": "ja",
+        "@value": "TimeIndexedRoleと、その時間的に位置づけられた役割が記述されるプラットフォームを結びつける。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Связывает временную роль (TimeIndexedRole) с платформой, чья обусловленная временем роль описывается."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/TimeIndexedRole"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "is role in time of"
+      },
+      {
+        "@language": "it",
+        "@value": "è ruolo nel tempo di"
+      },
+      {
+        "@language": "nl",
+        "@value": "is tijdsgebonden rol van"
+      },
+      {
+        "@language": "ja",
+        "@value": "時間的役割の対象"
+      },
+      {
+        "@language": "ru",
+        "@value": "является временной ролью для"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Platform"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/Subculture",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A socially situated group or network characterized by shared practices, values, and symbolic systems that differentiate it from broader cultural contexts, often contributing to the emergence and stabilization of specific aesthetics."
+      },
+      {
+        "@language": "it",
+        "@value": "Un gruppo o una rete socialmente situata caratterizzata da pratiche, valori e sistemi simbolici condivisi che la distinguono dal contesto culturale più ampio, contribuendo spesso all’emergere e alla stabilizzazione di specifiche estetiche."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een sociaal gesitueerde groep of netwerk gekenmerkt door gedeelde praktijken, waarden en symbolische systemen die het onderscheiden van bredere culturele contexten, en vaak bijdragen aan het ontstaan en de stabilisatie van specifieke esthetiek."
+      },
+      {
+        "@language": "ja",
+        "@value": "独自の慣習や価値観、象徴体系を共有し、主流文化とは区別される社会的グループ。特定の美学の創発と定着を促す基盤となることがある。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Социально локализованная группа или сеть, характеризующаяся общими практиками, ценностями и символическими системами, которые отличают её от более широкого культурного контекста; часто способствует возникновению и стабилизации определенных эстетик."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "Sottocultura"
+      },
+      {
+        "@language": "en",
+        "@value": "Subculture"
+      },
+      {
+        "@language": "nl",
+        "@value": "Subcultuur"
+      },
+      {
+        "@language": "ja",
+        "@value": "サブカルチャー"
+      },
+      {
+        "@language": "ru",
+        "@value": "Субкультура"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/source",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Indica l'Agente da cui una PeriodDefinition trae la propria evidenza o autorità."
+      },
+      {
+        "@language": "en",
+        "@value": "Indicates the Agent from which a PeriodDefinition derives its evidence or authority."
+      },
+      {
+        "@language": "nl",
+        "@value": "Geeft de actor aan waaraan een periodedefinitie zijn bewijs of autoriteit ontleent."
+      },
+      {
+        "@language": "ja",
+        "@value": "期間定義（PeriodDefinition）の根拠、あるいは権威的な裏付けとなるエージェント（出典元）を示す。  "
+      },
+      {
+        "@language": "ru",
+        "@value": "Указывает на агента, который является источником доказательств или авторитетным лицом для данного определения периода."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/PeriodDefinition"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "fonte"
+      },
+      {
+        "@language": "en",
+        "@value": "source"
+      },
+      {
+        "@language": "nl",
+        "@value": "bron"
+      },
+      {
+        "@language": "ja",
+        "@value": "出典"
+      },
+      {
+        "@language": "ru",
+        "@value": "источник"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Agent"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/platformDimension",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "dimensione della piattaforma"
+      },
+      {
+        "@language": "en",
+        "@value": "platform dimension"
+      },
+      {
+        "@language": "nl",
+        "@value": "platform dimensie"
+      },
+      {
+        "@language": "ja",
+        "@value": "プラットフォームの次元"
+      },
+      {
+        "@language": "ru",
+        "@value": "измерение платформы"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/ArtistRole",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Un ruolo svolto da un agente come creatore o contributore alla produzione artistica."
+      },
+      {
+        "@language": "en",
+        "@value": "role played by an agent as a creator or contributor to artistic production."
+      },
+      {
+        "@language": "nl",
+        "@value": "rol gespeeld door een agent als maker van of bijdrager aan artistieke productie."
+      },
+      {
+        "@language": "ja",
+        "@value": "芸術制作の創造者または貢献者としてエージェントが担う役割。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Роль, которую исполняет агент как создатель или участник процесса художественного производства."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Artist Role"
+      },
+      {
+        "@language": "it",
+        "@value": "Ruolo di artista"
+      },
+      {
+        "@language": "nl",
+        "@value": "Kunstenaarsrol"
+      },
+      {
+        "@language": "ja",
+        "@value": "アーティストの役割"
+      },
+      {
+        "@language": "ru",
+        "@value": "Роль художника"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Role"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/Song",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A single musical composition, typically consisting of lyrics and melody."
+      },
+      {
+        "@language": "it",
+        "@value": "Una composizione musicale singola, tipicamente composta da testo e melodia."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een enkele muzikale compositie, meestal bestaande uit tekst en melodie."
+      },
+      {
+        "@language": "ja",
+        "@value": "通常、歌詞とメロディーからなる単一の音楽的構成。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Отдельное музыкальное произведение, обычно состоящее из слов и мелодии."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "Canzone"
+      },
+      {
+        "@language": "en",
+        "@value": "Song"
+      },
+      {
+        "@language": "nl",
+        "@value": "Lied"
+      },
+      {
+        "@language": "ja",
+        "@value": "楽曲"
+      },
+      {
+        "@language": "ru",
+        "@value": "Песня"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/MusicWork"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/Role",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A role is a context-dependent function or qualification assigned to an entity within a relation."
+      },
+      {
+        "@language": "it",
+        "@value": "Un ruolo è una funzione o qualificazione dipendente dal contesto assegnata a un’entità all’interno di una relazione."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een rol is een contextafhankelijke functie of kwalificatie die aan een entiteit binnen een relatie is toegewezen."
+      },
+      {
+        "@language": "ja",
+        "@value": "特定の関係性においてエンティティに割り当てられる、文脈依存の機能や属性。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Роль — это зависящая от контекста функция или квалификация, присваиваемая сущности в рамках отношения."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Role"
+      },
+      {
+        "@language": "it",
+        "@value": "Ruolo"
+      },
+      {
+        "@language": "nl",
+        "@value": "Rol"
+      },
+      {
+        "@language": "ja",
+        "@value": "役割"
+      },
+      {
+        "@language": "ru",
+        "@value": "Роль"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Ontology"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Ontologia per modellare le estetiche come categorie emergenti basate su collezioni e associazioni rappresentative."
+      },
+      {
+        "@language": "en",
+        "@value": "Ontology for modelling aesthetics as emergent, collection-based categories grounded in representative associations."
+      },
+      {
+        "@language": "nl",
+        "@value": "Ontologie voor het modelleren van esthetiek als emergente, op collecties gebaseerde categorieën die geworteld zijn in representatieve associaties."
+      },
+      {
+        "@language": "ja",
+        "@value": "美学とその象徴的な表象との結びつきを基盤とし、多様な要素のコレクションから立ち現れる美学的系統をモデル化するためのオントロジー。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Онтология для моделирования эстетики как эмерджентных, коллекционно-обусловленных категорий, основанных на репрезентативных ассоциациях."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "Ontologia Vibe"
+      },
+      {
+        "@language": "en",
+        "@value": "Vibe Ontology"
+      },
+      {
+        "@language": "nl",
+        "@value": "Vibe Ontologie"
+      },
+      {
+        "@language": "ja",
+        "@value": "Vibe オントロジー"
+      },
+      {
+        "@language": "ru",
+        "@value": "Вайб Онтология"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/valueDimension",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "dimensione del valore"
+      },
+      {
+        "@language": "en",
+        "@value": "value dimension"
+      },
+      {
+        "@language": "nl",
+        "@value": "waarde dimensie"
+      },
+      {
+        "@language": "ja",
+        "@value": "価値観の次元"
+      },
+      {
+        "@language": "ru",
+        "@value": "измерение ценности"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/FoodItem",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "An edible item that may carry aesthetic or cultural significance."
+      },
+      {
+        "@language": "it",
+        "@value": "Un alimento che può avere rilevanza estetica o culturale."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een eetbaar item dat esthetische of culturele betekenis kan hebben."
+      },
+      {
+        "@language": "ja",
+        "@value": "美的または文化的意義を持ちうる食用品。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Пищевой продукт, который может иметь эстетическую или культурную значимость."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "Alimento"
+      },
+      {
+        "@language": "en",
+        "@value": "Food Item"
+      },
+      {
+        "@language": "nl",
+        "@value": "Voedingsmiddel"
+      },
+      {
+        "@language": "ja",
+        "@value": "食品"
+      },
+      {
+        "@language": "ru",
+        "@value": "Продукт питания"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/TimeIndexedRole",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A contextual role assigned to an entity within a relation that is explicitly bound to a temporal interval, allowing the same entity to hold different roles at different times."
+      },
+      {
+        "@language": "it",
+        "@value": "Un ruolo assegnato a un’entità all’interno di una relazione, esplicitamente vincolato a un intervallo temporale, cosa che permette alla stessa entità di avere ruoli diversi in tempi diversi."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een contextuele rol toegewezen aan een entiteit binnen een relatie die expliciet gebonden is aan een tijdsinterval, waardoor dezelfde entiteit op verschillende tijdstippen verschillende rollen kan vervullen."
+      },
+      {
+        "@language": "ja",
+        "@value": "時間区間に明示的に結びついた関係の中でエンティティに割り当てられる文脈的役割。同じエンティティが異なる時点で異なる役割を持つことを可能にする。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Контекстная роль, присваиваемая сущности в рамках отношения, которое явно привязано к временному интервалу, что позволяет одной и той же сущности выполнять разные роли в разное время."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "Ruolo indicizzato temporalmente"
+      },
+      {
+        "@language": "en",
+        "@value": "Time Indexed Role"
+      },
+      {
+        "@language": "nl",
+        "@value": "Tijdgeïndexeerde rol"
+      },
+      {
+        "@language": "ja",
+        "@value": "時間付き役割"
+      },
+      {
+        "@language": "ru",
+        "@value": "Временно обозначенная роль"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "_:n10a9d9e078c44993be0b66527199cf7ab3"
+      },
+      {
+        "@id": "_:n10a9d9e078c44993be0b66527199cf7ab4"
+      },
+      {
+        "@id": "_:n10a9d9e078c44993be0b66527199cf7ab5"
+      }
+    ]
+  },
+  {
+    "@id": "_:n10a9d9e078c44993be0b66527199cf7ab3",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#minCardinality": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/atTime"
+      }
+    ]
+  },
+  {
+    "@id": "_:n10a9d9e078c44993be0b66527199cf7ab4",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#minCardinality": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/forAesthetic"
+      }
+    ]
+  },
+  {
+    "@id": "_:n10a9d9e078c44993be0b66527199cf7ab5",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#minCardinality": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/withRole"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/Platform",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A socio-technical system that enables and constrains interaction, content production, and dissemination, while exerting agency through its design, governance, and algorithmic mechanisms, thereby shaping the emergence and visibility of aesthetics."
+      },
+      {
+        "@language": "it",
+        "@value": "Un sistema socio-tecnico che abilita e al tempo stesso vincola l’interazione, la produzione di contenuti e la loro diffusione, esercitando un’agenzia attraverso il proprio design, le forme di governance e i meccanismi algoritmici, e contribuendo così a modellare l’emergere e la visibilità delle estetiche."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een sociaal-technisch systeem dat interactie, contentproductie en verspreiding mogelijk maakt en beperkt, terwijl het invloed uitoefent via het ontwerp, beheer en algoritmische mechanismen, en zo de opkomst en zichtbaarheid van esthetiek vormgeeft."
+      },
+      {
+        "@language": "ja",
+        "@value": "交流やコンテンツ制作、情報の発信や拡散を可能にし、同時に制約する社会技術的なシステム。その設計やアルゴリズムを通じて、美学の出現や可視性を形作る。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Социотехническая система, которая обеспечивает и одновременно ограничивает взаимодействие, создание и распространение контента. Она проявляет субъектность через свой дизайн, управление и алгоритмические механизмы, тем самым формируя возникновение и видимость эстетик."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "Piattaforma"
+      },
+      {
+        "@language": "en",
+        "@value": "Platform"
+      },
+      {
+        "@language": "nl",
+        "@value": "Platform"
+      },
+      {
+        "@language": "ja",
+        "@value": "プラットフォーム"
+      },
+      {
+        "@language": "ru",
+        "@value": "Платформа"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/endYear",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/TimeInterval"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "anno di fine"
+      },
+      {
+        "@language": "en",
+        "@value": "end year"
+      },
+      {
+        "@language": "nl",
+        "@value": "eindjaar"
+      },
+      {
+        "@language": "ja",
+        "@value": "終了年"
+      },
+      {
+        "@language": "ru",
+        "@value": "год окончания"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#gYear"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/approximateLabel",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/TimeInterval"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "approximate label"
+      },
+      {
+        "@language": "it",
+        "@value": "etichetta approssimativa"
+      },
+      {
+        "@language": "nl",
+        "@value": "bijna gelijk label"
+      },
+      {
+        "@language": "ja",
+        "@value": "近似ラベル"
+      },
+      {
+        "@language": "ru",
+        "@value": "приблизительная метка"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/Beauty",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A domain of products, practices, and industries related to personal care, cosmetics, skincare, and bodily appearance, often associated with aesthetic expression and identity construction."
+      },
+      {
+        "@language": "it",
+        "@value": "Ambito che comprende prodotti, pratiche e industrie legate alla cura della persona, alla cosmetica, alla skincare e all’aspetto corporeo, spesso associato all’espressione estetica e alla costruzione dell’identiteit."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een domein van producten, praktijken en industrieën die verband houden met persoonlijke verzorging, cosmetica, huidverzorging en lichamelijke verschijning, vaak geassocieerd met esthetische expressie en identiteitsconstructie."
+      },
+      {
+        "@language": "ja",
+        "@value": "パーソナルケア、化粧品、スキンケア、身体的外見に関連する製品、実践、産業の領域。美的表現とアイデンティティの構築に関連することが多い。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Сфера товаров, практик и индустрий, связанных с уходом за собой, косметикой и внешним видом, часто ассоциирующаяся с эстетическим самовыражением и конструированием идентичности."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Beauty"
+      },
+      {
+        "@language": "it",
+        "@value": "Cura della persona"
+      },
+      {
+        "@language": "nl",
+        "@value": "Schoonheidsverzorging"
+      },
+      {
+        "@language": "ja",
+        "@value": "美容"
+      },
+      {
+        "@language": "ru",
+        "@value": "Красота и уход"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/Region",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A geographical area."
+      },
+      {
+        "@language": "it",
+        "@value": "Un'area geografica."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een geografisch gebied."
+      },
+      {
+        "@language": "ja",
+        "@value": "地理的区域。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Географическая область (регион)."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Region"
+      },
+      {
+        "@language": "it",
+        "@value": "Regione"
+      },
+      {
+        "@language": "nl",
+        "@value": "Regio"
+      },
+      {
+        "@language": "ja",
+        "@value": "地域"
+      },
+      {
+        "@language": "ru",
+        "@value": "Регион"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Location"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/Collection",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A set of entities grouped together, either explicitly or implicitly, based on perceived coherence, curation, or shared associations. Collections function as the primary means through which an Aesthetic is expressed and recognized, without requiring fixed or exhaustive membership."
+      },
+      {
+        "@language": "it",
+        "@value": "Un insieme di entità raggruppate assieme, in modo esplicito o implicito, per coerenza percepita o associazioni condivise. Le collezioni costituiscono il mezzo primario tramite il quale le estetiche vengono espresse o riconosciute; non richiedono la fissità o l'esausività dei loro membri."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een verzameling entiteiten die expliciet of impliciet zijn samengevoegd op basis van waargenomen coherentie, curatie of gedeelde associaties. Collecties fungeren als het primaire middel waarmee een esthetiek wordt uitgedrukt en herkend, zonder dat een vast of uitputtend lidmaatschap vereist is."
+      },
+      {
+        "@language": "ja",
+        "@value": "一貫性、共通の連想に基づいて明示的・暗黙的にキュレーションされた実体の集合。美学が具体的に表現・認識されるための主要な媒体。コレクションの構成要素は必ずしも固定的や網羅的である必要はなく、流動的で変動的である。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Набор сущностей, сгруппированных вместе (явно или неявно) на основе воспринимаемой целостности, кураторства или общих ассоциаций. Коллекции служат основным средством выражения и узнавания эстетики, не требуя при этом фиксированного или исчерпывающего состава участников."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Collection"
+      },
+      {
+        "@language": "it",
+        "@value": "Collezione"
+      },
+      {
+        "@language": "nl",
+        "@value": "Collectie"
+      },
+      {
+        "@language": "ja",
+        "@value": "コレクション"
+      },
+      {
+        "@language": "ru",
+        "@value": "Коллекция"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/representativenessType",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/RepresentativeAssociation"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "representativeness type"
+      },
+      {
+        "@language": "it",
+        "@value": "tipo di rappresentatività"
+      },
+      {
+        "@language": "nl",
+        "@value": "representativiteit type"
+      },
+      {
+        "@language": "ja",
+        "@value": "象徴性タイプ"
+      },
+      {
+        "@language": "ru",
+        "@value": "тип репрезентативности"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/influenced",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Collega un'Estetica a un'altra Estetica che essa ha influenzato in termini di stile, motivi o valori, o altro."
+      },
+      {
+        "@language": "en",
+        "@value": "Relates an Aesthetic to another Aesthetic that it has influenced in terms of style, motifs, values, or other."
+      },
+      {
+        "@language": "nl",
+        "@value": "Verbindt een esthetiek met een andere esthetiek die het heeft beïnvloed op het gebied van stijl, motieven, waarden of anderszins."
+      },
+      {
+        "@language": "ja",
+        "@value": "美学と、それがスタイル、モチーフ、価値観などの点で影響を与えた別の美学を関連付ける。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Связывает эстетику с другой эстетикой, на которую она оказала влияние (в стиле, мотивах, ценностях и т. д.)."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Aesthetic"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "ha influenzato"
+      },
+      {
+        "@language": "en",
+        "@value": "influenced"
+      },
+      {
+        "@language": "nl",
+        "@value": "beïnvloedde"
+      },
+      {
+        "@language": "ja",
+        "@value": "影響を与えた"
+      },
+      {
+        "@language": "ru",
+        "@value": "оказала влияние на"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Aesthetic"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/relatedTo"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/influencedBy"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/musicDimension",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "dimensione musicale"
+      },
+      {
+        "@language": "en",
+        "@value": "music dimension"
+      },
+      {
+        "@language": "nl",
+        "@value": "muzikale dimensie"
+      },
+      {
+        "@language": "ja",
+        "@value": "音楽の次元"
+      },
+      {
+        "@language": "ru",
+        "@value": "музыкальное измерение"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/isSubgenreOf",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Collega un'Estetica a un'Estetica più ampia di cui essa è una sottovariante più specifica."
+      },
+      {
+        "@language": "en",
+        "@value": "Relates an Aesthetic to a broader Aesthetic of which it is a more specific subvariant."
+      },
+      {
+        "@language": "nl",
+        "@value": "Verbindt een esthetiek met een bredere esthetiek waarvan het een specifiekere subvariant is."
+      },
+      {
+        "@language": "ja",
+        "@value": "美学と、それが属する上位ジャンル、親ジャンル（より広い美学）を関連付ける。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Связывает эстетику с более широкой эстетикой, подвариантом которой она является."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Aesthetic"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "is subgenre of"
+      },
+      {
+        "@language": "it",
+        "@value": "è sottogenere di"
+      },
+      {
+        "@language": "nl",
+        "@value": "is subgenre van"
+      },
+      {
+        "@language": "ja",
+        "@value": "上位ジャンル"
+      },
+      {
+        "@language": "ru",
+        "@value": "является поджанром"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Aesthetic"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/relatedTo"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/Painting",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A visual artwork created using paint on a surface."
+      },
+      {
+        "@language": "it",
+        "@value": "Un’opera visiva realizzata con pittura su una superficie."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een visueel kunstwerk gemaakt met verf op een oppervlak."
+      },
+      {
+        "@language": "ja",
+        "@value": "表面に絵の具を使って制作された視覚的作品。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Визуальное произведение искусства, созданное красками на какой-либо поверхности."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "Dipinto"
+      },
+      {
+        "@language": "en",
+        "@value": "Painting"
+      },
+      {
+        "@language": "nl",
+        "@value": "Schilderij"
+      },
+      {
+        "@language": "ja",
+        "@value": "絵画"
+      },
+      {
+        "@language": "ru",
+        "@value": "Картина"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Artwork"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/DigitalPlace",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A virtual environment where interactions, content creation, or community practices occur (e.g., forums, websites, social networks)."
+      },
+      {
+        "@language": "it",
+        "@value": "Un ambiente virtuale in cui avvengono interazioni, creazione di contenuti o pratiche comunitarie (per esempio, forum, siti web, social network)."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een virtuele omgeving waar interacties, contentcreatie of gemeenschapspraktijken plaatsvinden (bijv. forums, websites, sociale netwerken)."
+      },
+      {
+        "@language": "ja",
+        "@value": "ユーザー同士の交流、コンテンツの制作や発信、コミュニティ活動等が行われるデジタル上の空間やプラットフォーム（例：SNS、掲示板、フォーラム、ウェブサイト等）。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Виртуальная среда, где происходит взаимодействие, создание контента или практики сообщества (например, форумы, веб-сайты, социальные сети)."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Digital Place"
+      },
+      {
+        "@language": "it",
+        "@value": "Luogo digitale"
+      },
+      {
+        "@language": "nl",
+        "@value": "Digitale plek"
+      },
+      {
+        "@language": "ja",
+        "@value": "デジタル空間"
+      },
+      {
+        "@language": "ru",
+        "@value": "Цифровое пространство"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Location"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/hasPeriodDefinition",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Associa un'entità a una Definizione di periodo che la colloca in un contesto temporale."
+      },
+      {
+        "@language": "en",
+        "@value": "Associates an entity with a PeriodDefinition that situates it within a temporal context."
+      },
+      {
+        "@language": "nl",
+        "@value": "Associeert een entiteit met een periodedefinitie die deze binnen een temporele context plaatst."
+      },
+      {
+        "@language": "ja",
+        "@value": "エンティティと、それを時間的文脈に位置づける期間定義を関連付ける。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Ассоциирует сущность с Определением периода, помещая её в конкретный временной контекст."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.w3.org/2002/07/owl#Thing"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "ha definizione di periodo"
+      },
+      {
+        "@language": "en",
+        "@value": "has period definition"
+      },
+      {
+        "@language": "nl",
+        "@value": "heeft periodedefinitie"
+      },
+      {
+        "@language": "ja",
+        "@value": "期間定義"
+      },
+      {
+        "@language": "ru",
+        "@value": "имеет определение периода"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/PeriodDefinition"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/precedes",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "http://www.w3.org/2002/07/owl#TransitiveProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Indica che un'Estetica precede temporalmente o stilisticamente un'altra. Questa proprietà è transitiva."
+      },
+      {
+        "@language": "en",
+        "@value": "Indicates that one Aesthetic temporally or stylistically precedes another. This property is transitive."
+      },
+      {
+        "@language": "nl",
+        "@value": "Geeft aan dat een esthetiek een andere temporeel of stylistisch voorafgaat. Deze eigenschap is transitief."
+      },
+      {
+        "@language": "ja",
+        "@value": "ある美学が別の美学に時間的またはスタイル的に先行することを示す。この性質は推移的である。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Указывает на то, что одна эстетика предшествует другой во времени или стилистически. Свойство транзитивно."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Aesthetic"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "precede"
+      },
+      {
+        "@language": "en",
+        "@value": "precedes"
+      },
+      {
+        "@language": "nl",
+        "@value": "gaat vooraf aan"
+      },
+      {
+        "@language": "ja",
+        "@value": "先行する"
+      },
+      {
+        "@language": "ru",
+        "@value": "предшествует"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Aesthetic"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/hasTheme",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Associa un'Opera a un Tema che esprime, veicola o mette in primo piano."
+      },
+      {
+        "@language": "en",
+        "@value": "Associates an Artwork with a Theme it conveys, expresses, or foregrounds."
+      },
+      {
+        "@language": "nl",
+        "@value": "Associeert een werk met een thema dat het uitdrukt, uitdraagt of op de voorgrond plaatst."
+      },
+      {
+        "@language": "ja",
+        "@value": "作品とそのテーマ（作品が伝え、表現し、または強調している主旨やトーン）を関連付ける。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Ассоциирует произведение с темой, которую оно выражает или выдвигает на первый план."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Artwork"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "ha tema"
+      },
+      {
+        "@language": "en",
+        "@value": "has theme"
+      },
+      {
+        "@language": "nl",
+        "@value": "heeft thema"
+      },
+      {
+        "@language": "ja",
+        "@value": "テーマ"
+      },
+      {
+        "@language": "ru",
+        "@value": "имеет тему"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Theme"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/Value",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "An abstract principle, an affective/axiological orientation, or evaluative dimension (ethical, cultural, aesthetic, or ideological) associated with entities or aesthetics. Values are not limited to moral judgments but include broader attitudinal or conceptual stances. E.g., the aesthetic Frutiger Aero is associated with optimism, cleanliness, techno-natural harmony."
+      },
+      {
+        "@language": "it",
+        "@value": "Un principio astratto, un orientamento affettivo/assiologico o una dimensione valutativa (etica, culturale, estetica o ideologica) associata a entità o estetiche. I valori non si limitano ai giudizi morali, ma includono anche atteggiamenti e posizioni concettuali più ampie. Ad esempio, l’estetica Frutiger Aero è associata a ottimismo, pulizia e armonia tecno-naturale."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een abstract principe, een affectieve/axiologische oriëntatie of evaluatieve dimensie (ethisch, cultureel, esthetisch of ideologisch) geassocieerd met entiteiten of esthetiek. Waarden zijn niet beperkt tot morele oordelen, maar omvatten bredere houdings- of conceptuele standpunten. Bijv. de esthetiek Frutiger Aero wordt geassocieerd met optimisme, netheid en techno-natuurlijke harmonie."
+      },
+      {
+        "@language": "ja",
+        "@value": "エンティティや美学に関連する抽象的な原理、感情的・価値論的方向性、または評価的次元（倫理的、文化的、美的、またはイデオロギー的）。道徳的判断にのみならず、より広い態度や概念的なスタンスを含む。。例：Frutiger Aeroの美学は楽観主義、清潔さ、テクノ的自然調和といった価値観と関連している。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Абстрактный принцип, аффективная/аксиологическая направленность или оценочное измерение (этическое, культурное, эстетическое или идеологическое), связанное с сущностями или эстетиками. Ценности не ограничиваются моральными суждениями, а включают широкие мировоззренческие или концептуальные позиции. Например, эстетика Frutiger Aero ассоциируется с оптимизмом, чистотой и техно-природной гармонией."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "Valore"
+      },
+      {
+        "@language": "en",
+        "@value": "Value"
+      },
+      {
+        "@language": "nl",
+        "@value": "Waarde"
+      },
+      {
+        "@language": "ja",
+        "@value": "価値観"
+      },
+      {
+        "@language": "ru",
+        "@value": "Ценность"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/hasColorPalette",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Associates an Aesthetic with a characteristic ColorPalette that contributes to its visual identity."
+      },
+      {
+        "@language": "it",
+        "@value": "Associa un'Estetica a una palette di colori caratteristica che contribuisce alla sua identità visiva."
+      },
+      {
+        "@language": "nl",
+        "@value": "Associeert een esthetiek met een karakteristiek kleurenpalet dat bijdraagt aan de visuele identiteit."
+      },
+      {
+        "@language": "ja",
+        "@value": "美学と、その視覚的アイデンティティに寄与する特徴的なカラーパレットを関連付ける。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Ассоциирует эстетику с характерной цветовой палитрой, определяющей её визуальную идентичность."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Aesthetic"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "ha palette di colori"
+      },
+      {
+        "@language": "en",
+        "@value": "has color palette"
+      },
+      {
+        "@language": "nl",
+        "@value": "heeft kleurenpalet"
+      },
+      {
+        "@language": "ja",
+        "@value": "カラーパレット"
+      },
+      {
+        "@language": "ru",
+        "@value": "имеет цветовую палитру"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/ColorPalette"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2001/XMLSchema#gYear",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Datatype"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/TVShow",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A serial audiovisual work produced for television or streaming platforms."
+      },
+      {
+        "@language": "it",
+        "@value": "Un’opera audiovisiva seriale prodotta per televisione o piattaforme streaming."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een serieel audiovisueel werk geproduceerd voor televisie of streamingplatforms."
+      },
+      {
+        "@language": "ja",
+        "@value": "テレビまたはストリーミングプラットフォーム向けに制作された連続的な視聴覚作品。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Сериальное аудиовизуальное произведение, созданное для телевидения или стриминговых платформ."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "Serie TV"
+      },
+      {
+        "@language": "en",
+        "@value": "TV Show"
+      },
+      {
+        "@language": "nl",
+        "@value": "TV-programma"
+      },
+      {
+        "@language": "ja",
+        "@value": "テレビ番組"
+      },
+      {
+        "@language": "ru",
+        "@value": "Сериал"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Artwork"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/ArchitecturalWork",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "An artwork consisting of buildings or spatial structures designed within architectural practice."
+      },
+      {
+        "@language": "it",
+        "@value": "Un’opera costituita da edifici o strutture progettate nell’ambito dell’architettura."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een kunstwerk bestaande uit gebouwen of ruimtelijke structuren ontworpen binnen de architectuur."
+      },
+      {
+        "@language": "ja",
+        "@value": "建築の実践の中でデザインされた建物または空間構造からなる作品。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Произведение искусства, представляющее собой здания или пространственные структуры, созданные в рамках архитектурной практики."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Architectural Work"
+      },
+      {
+        "@language": "it",
+        "@value": "Opera architettonica"
+      },
+      {
+        "@language": "nl",
+        "@value": "Architectonisch werk"
+      },
+      {
+        "@language": "ja",
+        "@value": "建築作品"
+      },
+      {
+        "@language": "ru",
+        "@value": "Архитектурное сооружение"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Artwork"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/alternateName",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Aesthetic"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "alternate name"
+      },
+      {
+        "@language": "it",
+        "@value": "nome alternativo"
+      },
+      {
+        "@language": "nl",
+        "@value": "alternatieve naam"
+      },
+      {
+        "@language": "ja",
+        "@value": "別名"
+      },
+      {
+        "@language": "ru",
+        "@value": "альтернативное название"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/atTime",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Specifica l'intervallo temporale durante il quale un TimeIndexedRole è valido."
+      },
+      {
+        "@language": "en",
+        "@value": "Specifies the temporal interval during which a TimeIndexedRole is valid."
+      },
+      {
+        "@language": "nl",
+        "@value": "Specificeert het tijdsinterval waarin een TimeIndexedRole geldig is."
+      },
+      {
+        "@language": "ja",
+        "@value": "TimeIndexedRoleが有効である時間区間を指定する。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Указывает временной интервал, в течение которого роль (TimeIndexedRole) является действительной."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/TimeIndexedRole"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "al tempo"
+      },
+      {
+        "@language": "en",
+        "@value": "at time"
+      },
+      {
+        "@language": "nl",
+        "@value": "op tijdstip"
+      },
+      {
+        "@language": "ja",
+        "@value": "時点"
+      },
+      {
+        "@language": "ru",
+        "@value": "во время"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/TimeInterval"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/URL",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The wiki URL (aesthetic)"
+      },
+      {
+        "@language": "ja",
+        "@value": "ウィキデータURL（美学）"
+      },
+      {
+        "@language": "ru",
+        "@value": "URL-адрес в вики (эстетика)"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Aesthetic"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "URL"
+      },
+      {
+        "@language": "it",
+        "@value": "URL"
+      },
+      {
+        "@language": "nl",
+        "@value": "URL"
+      },
+      {
+        "@language": "ja",
+        "@value": "URL"
+      },
+      {
+        "@language": "ru",
+        "@value": "URL-адрес"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/isMemberOf",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Collega un'entità alla Collezione di cui è membro costituente."
+      },
+      {
+        "@language": "en",
+        "@value": "Relates an entity to the Collection of which it is a constituent member."
+      },
+      {
+        "@language": "nl",
+        "@value": "Verbindt een entiteit met de collectie waarvan het een samenstellend lid is."
+      },
+      {
+        "@language": "ja",
+        "@value": "エンティティと、それが構成メンバーであるコレクションを関連付ける。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Связывает сущность с коллекцией, частью которой она является."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.w3.org/2002/07/owl#Thing"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "is member of"
+      },
+      {
+        "@language": "it",
+        "@value": "è membro di"
+      },
+      {
+        "@language": "nl",
+        "@value": "is lid van"
+      },
+      {
+        "@language": "ja",
+        "@value": "のメンバーである"
+      },
+      {
+        "@language": "ru",
+        "@value": "является элементом"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Collection"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/Video",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A moving-image artwork, typically digital."
+      },
+      {
+        "@language": "it",
+        "@value": "Un’opera audiovisiva, tipicamente digitale."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een kunstwerk van bewegende beelden, meestal digitaal."
+      },
+      {
+        "@language": "ja",
+        "@value": "通常デジタルの動画作品。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Произведение с движущимися изображениями, обычно цифровое."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Video"
+      },
+      {
+        "@language": "it",
+        "@value": "Video"
+      },
+      {
+        "@language": "nl",
+        "@value": "Video"
+      },
+      {
+        "@language": "ja",
+        "@value": "動画"
+      },
+      {
+        "@language": "ru",
+        "@value": "Видео"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Artwork"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/Activity",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "An action or practice carried out by individuals or groups, potentially associated with an aesthetic or subcultural context."
+      },
+      {
+        "@language": "it",
+        "@value": "Un’azione o pratica svolta da individui o gruppi, potenzialmente associata a un’estetica o a un contesto sottoculturale."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een actie of praktijk uitgevoerd door individuen of groepen, mogelijk geassocieerd met een esthetische of subculturele context."
+      },
+      {
+        "@language": "ja",
+        "@value": "個人またはグループによって行われる行動または実践的活動。美学またはサブカルチャー的な文脈と結びついている場合がある。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Индивидуальная или групповая деятельность или практика, потенциально ассоциируемая с эстетическим или субкультурным контекстом."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Activity"
+      },
+      {
+        "@language": "it",
+        "@value": "Attività"
+      },
+      {
+        "@language": "nl",
+        "@value": "Activiteit"
+      },
+      {
+        "@language": "ja",
+        "@value": "活動"
+      },
+      {
+        "@language": "ru",
+        "@value": "Активность"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/LiteraryWork",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A textual artwork such as a novel, poem, or written narrative."
+      },
+      {
+        "@language": "it",
+        "@value": "Un’opera testuale come romanzi, poesie o narrazioni scritte."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een tekstueel kunstwerk zoals een roman, gedicht of geschreven verhaal."
+      },
+      {
+        "@language": "ja",
+        "@value": "小説、詩、書かれた物語などのテキスト作品。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Текстовое произведение искусства, такое как роман, стихотворение или письменное повествование."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Literary Work"
+      },
+      {
+        "@language": "it",
+        "@value": "Opera letteraria"
+      },
+      {
+        "@language": "nl",
+        "@value": "Literair werk"
+      },
+      {
+        "@language": "ja",
+        "@value": "文学作品"
+      },
+      {
+        "@language": "ru",
+        "@value": "Литературное произведение"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Artwork"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/Videogame",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "An interactive digital artwork combining visual, narrative, and gameplay elements."
+      },
+      {
+        "@language": "it",
+        "@value": "Un’opera digitale interattiva che combina elementi visivi, narrativi e ludici."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een interactief digitaal kunstwerk dat visuele, narratieve en gameplay-elementen combineert."
+      },
+      {
+        "@language": "ja",
+        "@value": "視覚的、物語的、ゲームプレイの要素を組み合わせたインタラクティブなデジタル作品。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Интерактивное цифровое произведение, сочетающее визуальные, повествовательные и игровые элементы."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Videogame"
+      },
+      {
+        "@language": "it",
+        "@value": "Videogioco"
+      },
+      {
+        "@language": "nl",
+        "@value": "Videogame"
+      },
+      {
+        "@language": "ja",
+        "@value": "ビデオゲーム"
+      },
+      {
+        "@language": "ru",
+        "@value": "Видеоигра"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Artwork"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/associationDimension",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Classifica il tipo di associazione codificata da una RepresentativeAssociation. I valori attesi sono gli individui: motifDimension, themeDimension, valueDimension, colorDimension, platformDimension, musicDimension, fashionDimension, iconicFigureDimension."
+      },
+      {
+        "@language": "en",
+        "@value": "Classifies the kind of association. Expected values are the named individuals: motifDimension, themeDimension, valueDimension, colorDimension, platformDimension, musicDimension, fashionDimension, iconicFigureDimension."
+      },
+      {
+        "@language": "nl",
+        "@value": "Classificeert het type associatie gecodeerd door een RepresentativeAssociation. Verwachte waarden zijn de individuen: motifDimension, themeDimension, valueDimension, colorDimension, platformDimension, musicDimension, fashionDimension, iconicFigureDimension."
+      },
+      {
+        "@language": "ja",
+        "@value": "関連性のレベルを分類するための属性。モチーフ、テーマ、価値観、色彩、プラットフォーム、音楽、ファッション、象徴的人物といった各次元を指定する。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Классифицирует тип ассоциации. Ожидаемые значения — индивиды: измерение мотива (motifDimension), темы (themeDimension), ценности (valueDimension), цвета (colorDimension), платформы (platformDimension), музыки (musicDimension), моды (fashionDimension) или иконической фигуры (iconicFigureDimension)."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/RepresentativeAssociation"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "association dimension"
+      },
+      {
+        "@language": "it",
+        "@value": "dimensione dell’associazione"
+      },
+      {
+        "@language": "nl",
+        "@value": "associatie dimensie"
+      },
+      {
+        "@language": "ja",
+        "@value": "関連の次元"
+      },
+      {
+        "@language": "ru",
+        "@value": "измерение ассоциации"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2002/07/owl#Thing"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#broader",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/withRole",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Specifica il Ruolo ricoperto dall'entità all'interno di una relazione di tipo Ruolo indicizzato temporalmente."
+      },
+      {
+        "@language": "en",
+        "@value": "Specifies the Role held by the entity within a TimeIndexedRole relation."
+      },
+      {
+        "@language": "nl",
+        "@value": "Specificeert de rol die de entiteit vervult binnen een tijdgeïndexeerde rolrelatie."
+      },
+      {
+        "@language": "ja",
+        "@value": "特定の関係性や時間的な枠組みにおいて、エンティティが担っている具体的な役割を示す。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Определяет Роль, которую сущность играет в рамках отношения временной роли (TimeIndexedRole)."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/TimeIndexedRole"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "con ruolo"
+      },
+      {
+        "@language": "en",
+        "@value": "with role"
+      },
+      {
+        "@language": "nl",
+        "@value": "met rol"
+      },
+      {
+        "@language": "ja",
+        "@value": "役割"
+      },
+      {
+        "@language": "ru",
+        "@value": "с ролью"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Role"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/Artwork",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A creative artifact produced within any expressive medium, including visual (images, paintings, sculpture, architecture, film, videogames), auditory (music), textual (literature), or embodied/industrial forms (fashion). It is treated as a generic work entity independent of medium-specific taxonomies."
+      },
+      {
+        "@language": "it",
+        "@value": "Un artefatto creativo prodotto in qualsiasi mezzo espressivo, inclusi visivo (immagini, dipinti, sculture, architetture, film, videogiochi), sonoro (musica), testuale (letteratura) o forme industriali come la moda. Viene trattato come un'opera indipendente dalle tassonomie relative ai media."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een creatief artefact geproduceerd binnen elk expressief medium, inclusief visueel (afbeeldingen, schilderijen, beeldhouwwerk, architectuur, film, videogames), auditief (muziek), tekstueel (literatuur) of belichaamde/industriële vormen (mode). Het wordt behandeld als een generieke werkentiteit, onafhankelijk van medium-specifieke taxonomieën."
+      },
+      {
+        "@language": "ja",
+        "@value": "視覚（画像、絵画、彫刻、建築、映画、ビデオゲーム）、聴覚（音楽）、テキスト（文学）、または身体的・産業的形態（ファッション）を含む、あらゆる表現メディアで制作された創造的成果物。メディア特有の分類に依存しない汎用的な作品エンティティとして扱われる。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Творческий артефакт, созданный в любой выразительной среде, включая визуальную (изображения, живопись, скульптура, архитектура, кино, видеоигры), звуковую (музыка), текстовую (литература) или воплощенные/индустриальные формы (мода). Рассматривается как общая сущность произведения, независимая от классификаций конкретных медиа."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Artwork"
+      },
+      {
+        "@language": "it",
+        "@value": "Opera d'arte"
+      },
+      {
+        "@language": "nl",
+        "@value": "Kunstwerk"
+      },
+      {
+        "@language": "ja",
+        "@value": "作品"
+      },
+      {
+        "@language": "ru",
+        "@value": "Произведение искусства"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/hasPrimaryPlatform",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Specifica la Piattaforma principale attraverso cui un'Estetica è prevalentemente diffusa o ha acquisito visibilità."
+      },
+      {
+        "@language": "en",
+        "@value": "Specifies the main Platform through which an Aesthetic is primarily disseminated or has gained visibility."
+      },
+      {
+        "@language": "nl",
+        "@value": "Specificeert het belangrijkste platform waarlangs een esthetiek voornamelijk wordt verspreid of zichtbaarheid heeft verkregen."
+      },
+      {
+        "@language": "ja",
+        "@value": "美学が主に普及、または認知を得た主要なプラットフォームを指定する。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Указывает на основную платформу, через которую эстетика преимущественно распространялась или получила известность."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Aesthetic"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "ha piattaforma principale"
+      },
+      {
+        "@language": "en",
+        "@value": "has primary platform"
+      },
+      {
+        "@language": "nl",
+        "@value": "heeft primair platform"
+      },
+      {
+        "@language": "ja",
+        "@value": "主要プラットフォーム"
+      },
+      {
+        "@language": "ru",
+        "@value": "имеет основную платформу"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Platform"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/hasPlatform"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/name",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Aesthetic"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "name"
+      },
+      {
+        "@language": "it",
+        "@value": "nome"
+      },
+      {
+        "@language": "nl",
+        "@value": "naam"
+      },
+      {
+        "@language": "ja",
+        "@value": "名称"
+      },
+      {
+        "@language": "ru",
+        "@value": "название"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/Fashion",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A domain of embodied and material expression involving clothing, styling, and adornment practices, through which cultural meanings, identities, and aesthetic orientations are communicated."
+      },
+      {
+        "@language": "it",
+        "@value": "Un ambito di espressione materiale che coinvolge abbigliamento e pratiche di stile, attraverso cui si comunicano significati culturali, identità e orientamenti estetici."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een domein van belichaamde en materiële expressie met betrekking tot kleding, styling en versieringspraktijken, waardoor culturele betekenissen, identiteiten en esthetische oriëntaties worden gecommuniceerd."
+      },
+      {
+        "@language": "ja",
+        "@value": "衣服、スタイリング、装飾といった身体的・物質的な表現領域。文化的な意味合いやアイデンティティ、美的方向性を伝達する手段として機能する。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Сфера телесного и материального самовыражения, включающая одежду, стайлинг и практики украшения тела, посредством которых транслируются культурные смыслы, идентичности и эстетические ориентиры."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Fashion"
+      },
+      {
+        "@language": "it",
+        "@value": "Moda"
+      },
+      {
+        "@language": "nl",
+        "@value": "Mode"
+      },
+      {
+        "@language": "ja",
+        "@value": "ファッション"
+      },
+      {
+        "@language": "ru",
+        "@value": "Мода"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/MusicWork",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "An artwork expressed through sound and musical composition."
+      },
+      {
+        "@language": "it",
+        "@value": "Un’opera espressa attraverso il suono e la composizione musicale."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een kunstwerk uitgedrukt via geluid en muzikale compositie."
+      },
+      {
+        "@language": "ja",
+        "@value": "音と音楽的構成を通じて表現される作品。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Произведение искусства, выраженное через звук и музыкальную композицию."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Music Work"
+      },
+      {
+        "@language": "it",
+        "@value": "Opera musicale"
+      },
+      {
+        "@language": "nl",
+        "@value": "Muzikaal werk"
+      },
+      {
+        "@language": "ja",
+        "@value": "音楽作品"
+      },
+      {
+        "@language": "ru",
+        "@value": "Музыкальное произведение"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Artwork"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/IconicFigure",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A role representing an individual strongly associated with an aesthetic."
+      },
+      {
+        "@language": "it",
+        "@value": "Un ruolo che rappresenta un individuo fortemente associato a un’estetica."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een rol die een individu vertegenwoordigt dat sterk geassocieerd wordt met een esthetiek."
+      },
+      {
+        "@language": "ja",
+        "@value": "美学と強く関連する個人を表す役割。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Роль, представляющая личность, тесно связанную с определенной эстетикой."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "Figura iconica"
+      },
+      {
+        "@language": "en",
+        "@value": "Iconic Figure"
+      },
+      {
+        "@language": "nl",
+        "@value": "Iconisch figuur"
+      },
+      {
+        "@language": "ja",
+        "@value": "象徴的人物"
+      },
+      {
+        "@language": "ru",
+        "@value": "Иконическая фигура"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Role"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/Album",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A music work consisting of a collection of recorded tracks released as a single unit."
+      },
+      {
+        "@language": "it",
+        "@value": "Un’opera musicale composta da una raccolta di tracce pubblicate come un’unica unità."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een muzikaal werk bestaande uit een verzameling opgenomen tracks die als één geheel zijn uitgebracht."
+      },
+      {
+        "@language": "ja",
+        "@value": "一つの単位としてリリースされた録音トラックのコレクションからなる音楽作品。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Музыкальное произведение, состоящее из коллекции записанных треков, выпущенных единым изданием."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Album"
+      },
+      {
+        "@language": "it",
+        "@value": "Album"
+      },
+      {
+        "@language": "nl",
+        "@value": "Album"
+      },
+      {
+        "@language": "ja",
+        "@value": "アルバム"
+      },
+      {
+        "@language": "ru",
+        "@value": "Альбом"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/MusicWork"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/overlapsWith",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "http://www.w3.org/2002/07/owl#SymmetricProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Indica che due Estetiche condividono elementi o associazioni significativi, senza che l'una sia sottogenere dell'altra. Questa proprietà è simmetrica."
+      },
+      {
+        "@language": "en",
+        "@value": "Indicates that two Aesthetics share significant elements or associations without either being a subgenre of the other. This property is symmetric."
+      },
+      {
+        "@language": "nl",
+        "@value": "Geeft aan dat twee esthetieken significante elementen of associaties delen, zonder dat de een een subgenre van de ander is. Deze eigenschap is symmetrisch."
+      },
+      {
+        "@language": "ja",
+        "@value": "二つの美学が、どちらも相手のサブジャンルではなく、重要な要素や関連を共有することを示す。この性質は対称的である。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Указывает на то, что две эстетики имеют общие значимые элементы или ассоциации, при этом ни одна не является поджанром другой. Свойство симметрично."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Aesthetic"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "overlaps with"
+      },
+      {
+        "@language": "it",
+        "@value": "si sovrappone a"
+      },
+      {
+        "@language": "nl",
+        "@value": "overlapt met"
+      },
+      {
+        "@language": "ja",
+        "@value": "重複する"
+      },
+      {
+        "@language": "ru",
+        "@value": "пересекается с"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Aesthetic"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/relatedTo"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/hasSubgenre",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Collega un'Estetica a un'Estetica più specifica che ne costituisce una sottovariante."
+      },
+      {
+        "@language": "en",
+        "@value": "Relates an Aesthetic to a more specific Aesthetic that constitutes one of its subvariants."
+      },
+      {
+        "@language": "nl",
+        "@value": "Verbindt een esthetiek met een specifiekere esthetiek die er een subvariant van vormt."
+      },
+      {
+        "@language": "ja",
+        "@value": "美学と、その派生系統を構成する、より具体的な美学を関連付ける。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Связывает Эстетику с более узкой Эстетикой, являющейся её подвариантом."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Aesthetic"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "ha sottogenere"
+      },
+      {
+        "@language": "en",
+        "@value": "has subgenre"
+      },
+      {
+        "@language": "nl",
+        "@value": "heeft subgenre"
+      },
+      {
+        "@language": "ja",
+        "@value": "サブジャンル"
+      },
+      {
+        "@language": "ru",
+        "@value": "имеет поджанр"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Aesthetic"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/relatedTo"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/isSubgenreOf"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/coinedBy",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Collega un'Estetica all'Agente che l'ha coniata o che vi ha dato il nome per la prima volta."
+      },
+      {
+        "@language": "en",
+        "@value": "Relates an Aesthetic to the Agent who coined or first named it."
+      },
+      {
+        "@language": "nl",
+        "@value": "Verbindt een esthetiek met de agent die deze heeft opgebracht of voor het eerst een naam heeft gegeven."
+      },
+      {
+        "@language": "ja",
+        "@value": "美学と、それを作り出したまたは最初に名付けたエージェントを関連付ける。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Связывает эстетику с агентом, который впервые ввел её название или термин."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Aesthetic"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "coined by"
+      },
+      {
+        "@language": "it",
+        "@value": "coniato da"
+      },
+      {
+        "@language": "nl",
+        "@value": "opgebracht door"
+      },
+      {
+        "@language": "ja",
+        "@value": "命名者"
+      },
+      {
+        "@language": "ru",
+        "@value": "придумано (кем)"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Agent"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/Agent",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "An entity capable of acting, creating, or influencing cultural artifacts or aesthetics, including individuals and groups."
+      },
+      {
+        "@language": "it",
+        "@value": "Un’entità capace di agire, creare o influenzare artefatti culturali o estetiche, inclusi individui e gruppi."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een entiteit die in staat is tot handelen, creëren of het beïnvloeden van culturele artefacten of esthetiek, inclusief individuen en groepen."
+      },
+      {
+        "@language": "ja",
+        "@value": "個人やグループを含む、文化的成果物や美学に対して行動、創造、影響を与える能力を持つエンティティ。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Сущность, способная действовать, создавать или влиять на культурные артефакты или эстетику, включая индивидов и группы."
+      },
+      {
+        "@language": "ru",
+        "@value": "Агент"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Agent"
+      },
+      {
+        "@language": "it",
+        "@value": "Agente"
+      },
+      {
+        "@language": "nl",
+        "@value": "Actor"
+      },
+      {
+        "@language": "ja",
+        "@value": "エージェント"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/TimeInterval",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A temporal extent with a start and/or end that may be precisely defined or approximate, used to qualify the temporal validity of entities, roles, or associations."
+      },
+      {
+        "@language": "it",
+        "@value": "Un’estensione temporale con un inizio e/o una fine, che può essere precisa o approssimata, usata per qualificare la validità temporale di entità, ruoli o associazioni."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een temporele omvang met een begin en/of einde dat nauwkeurig gedefinieerd of bij benadering kan zijn, gebruikt om de temporele geldigheid van entiteiten, rollen of associaties te kwalificeren."
+      },
+      {
+        "@language": "ja",
+        "@value": "エンティティ、役割、あるいは関連性の時間的な有効範囲を定義するための期間。厳密な開始・終了時期は、近似的な範囲も許容する。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Временной отрезок с началом и/или концом, который может быть точно определенным или приблизительным; используется для квалификации временной валидности сущностей, ролей или ассоциаций."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "Intervallo temporale"
+      },
+      {
+        "@language": "en",
+        "@value": "Time Interval"
+      },
+      {
+        "@language": "nl",
+        "@value": "Tijdsinterval"
+      },
+      {
+        "@language": "ja",
+        "@value": "時間区間"
+      },
+      {
+        "@language": "ru",
+        "@value": "Временной интервал"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/timeInterval",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Collega una PeriodDefinition all'intervallo temporale che essa definisce."
+      },
+      {
+        "@language": "en",
+        "@value": "Links a PeriodDefinition to the TimeInterval it defines."
+      },
+      {
+        "@language": "nl",
+        "@value": "Koppelt een periodedefinitie aan het tijdsinterval dat het definieert."
+      },
+      {
+        "@language": "ja",
+        "@value": "期間定義と、それが定義する時間区間を結びつける。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Связывает определение периода с временным интервалом, который оно описывает."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/PeriodDefinition"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "intervallo temporale"
+      },
+      {
+        "@language": "en",
+        "@value": "time interval"
+      },
+      {
+        "@language": "nl",
+        "@value": "tijdsinterval"
+      },
+      {
+        "@language": "ja",
+        "@value": "時間区間"
+      },
+      {
+        "@language": "ru",
+        "@value": "временной интервал"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/TimeInterval"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/Person",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "An individual human agent."
+      },
+      {
+        "@language": "it",
+        "@value": "Un individuo umano."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een individuele menselijke actor."
+      },
+      {
+        "@language": "ja",
+        "@value": "個々の人間エージェント。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Человеческий индивид."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Person"
+      },
+      {
+        "@language": "it",
+        "@value": "Persona"
+      },
+      {
+        "@language": "nl",
+        "@value": "Persoon"
+      },
+      {
+        "@language": "ja",
+        "@value": "人物"
+      },
+      {
+        "@language": "ru",
+        "@value": "Персона"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Agent"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#disjointWith": [
+      {
+        "@id": "https://w3id.org/vibe-ontology/Platform"
+      },
+      {
+        "@id": "https://w3id.org/vibe-ontology/TimeInterval"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/themeDimension",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "dimensione del tema"
+      },
+      {
+        "@language": "en",
+        "@value": "theme dimension"
+      },
+      {
+        "@language": "nl",
+        "@value": "thematische dimensie"
+      },
+      {
+        "@language": "ja",
+        "@value": "テーマの次元"
+      },
+      {
+        "@language": "ru",
+        "@value": "измерение темы"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/vibe-ontology/Motif",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A recurrent and recognizable element (visual, conceptual, or stylistic) that contributes to the identity of an aesthetic through repeated association. E.g., the Frutiger Aero aesthetic’s motifs include skeuomorphism, glossy textures, bubbles, nature imagery, and Frutiger-type fonts."
+      },
+      {
+        "@language": "it",
+        "@value": "Un elemento ricorrente e riconoscibile (di tipo visivo, concettuale o stilistico) che contribuisce all’identità di un’estetica attraverso associazioni ripetute. Per esempio, nell’estetica Frutiger Aero, i motivi includono scheumorfismo, texture lucide, scene di natura e font di tipo Frutiger."
+      },
+      {
+        "@language": "nl",
+        "@value": "Een terugkerend en herkenbaar element (visueel, conceptueel of stilistisch) dat bijdraagt aan de identiteit van een esthetiek door herhaalde associatie. Bijv. de motieven van de Frutiger Aero-esthetiek omvatten skeuomorfisme, glanzende texturen, bubbels, natuurbeelden en Frutiger-type lettertypen."
+      },
+      {
+        "@language": "ja",
+        "@value": "美学のアイデンティティ形成に寄与する、特徴的な要素（視覚、概念、スタイル）。繰り返しその美学との関連性として現れる。　例：Frutiger Aeroにおける光沢感、泡、自然のイメージ、Frutiger系フォントなど。"
+      },
+      {
+        "@language": "ru",
+        "@value": "Повторяющийся и узнаваемый элемент (визуальный, концептуальный или стилистический), который формирует идентичность эстетики через многократные ассоциации. Например, мотивы эстетики Frutiger Aero включают скевоморфизм, глянцевые текстуры, пузырьки, образы природы и шрифты семейства Frutiger."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Motif"
+      },
+      {
+        "@language": "it",
+        "@value": "Motivo"
+      },
+      {
+        "@language": "nl",
+        "@value": "Motief"
+      },
+      {
+        "@language": "ja",
+        "@value": "モチーフ"
+      },
+      {
+        "@language": "ru",
+        "@value": "Мотив"
+      }
+    ]
+  }
+]

@@ -1,0 +1,2501 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "ru", "ja", "en", "it", "nl" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://w3id.org/vibe-ontology", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.w3.org/2004/02/skos/core" ],
+    "iri" : "https://w3id.org/vibe-ontology/",
+    "labels" : {
+      "ru" : "Вайб Онтология",
+      "ja" : "Vibe オントロジー",
+      "en" : "Vibe Ontology",
+      "it" : "Ontologia Vibe",
+      "nl" : "Vibe Ontologie"
+    },
+    "comments" : {
+      "ru" : "Онтология для моделирования эстетики как эмерджентных, коллекционно-обусловленных категорий, основанных на репрезентативных ассоциациях.",
+      "ja" : "美学とその象徴的な表象との結びつきを基盤とし、多様な要素のコレクションから立ち現れる美学的系統をモデル化するためのオントロジー。",
+      "en" : "Ontology for modelling aesthetics as emergent, collection-based categories grounded in representative associations.",
+      "it" : "Ontologia per modellare le estetiche come categorie emergenti basate su collezioni e associazioni rappresentative.",
+      "nl" : "Ontologie voor het modelleren van esthetiek als emergente, op collecties gebaseerde categorieën die geworteld zijn in representatieve associaties."
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "68",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "62",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "9",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "90",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "92",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "117",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "104",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "113",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "120",
+    "type" : "owl:Class"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "94",
+    "type" : "owl:Class"
+  }, {
+    "id" : "122",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "124",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "23",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "107",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "96",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/2004/02/skos/core#Concept",
+    "baseIri" : "http://www.w3.org/2004/02/skos/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Concept"
+    },
+    "subClasses" : [ "4" ],
+    "attributes" : [ "external" ],
+    "id" : "3"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/Role",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Role",
+      "ru" : "Роль",
+      "ja" : "役割",
+      "en" : "Role",
+      "it" : "Ruolo",
+      "nl" : "Rol"
+    },
+    "subClasses" : [ "14", "15", "16" ],
+    "comment" : {
+      "ru" : "Роль — это зависящая от контекста функция или квалификация, присваиваемая сущности в рамках отношения.",
+      "ja" : "特定の関係性においてエンティティに割り当てられる、文脈依存の機能や属性。",
+      "en" : "A role is a context-dependent function or qualification assigned to an entity within a relation.",
+      "it" : "Un ruolo è una funzione o qualificazione dipendente dal contesto assegnata a un’entità all’interno di una relazione.",
+      "nl" : "Een rol is een contextafhankelijke functie of kwalificatie die aan een entiteit binnen een relatie is toegewezen."
+    },
+    "id" : "13"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/ColorPalette",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ColorPalette",
+      "ru" : "Цветовая палитра",
+      "ja" : "カラーパレット",
+      "en" : "Color Palette",
+      "it" : "Palette di colori",
+      "nl" : "Kleurenpalet"
+    },
+    "comment" : {
+      "ru" : "Структурированный набор цветов, связанных через повторяющееся совместное использование, конвенции дизайна или гармонию восприятия; часто вносит вклад в визуальную идентичность эстетики.",
+      "ja" : "反復的な共起、デザイン慣習、視覚的調和によって構造化された色のセット。特定の美学の視覚的アイデンティティの構成要素となることがある。",
+      "en" : "A structured set of colors associated through recurrent co-occurrence, design conventions, or perceptual harmony, often contributing to the visual identity of an aesthetic.",
+      "it" : "Un insieme strutturato di colori associati per co-occorrenza o armonia visiva, che spesso contribuisce all’identità di un’estetica.",
+      "nl" : "Een gestructureerde set kleuren die verbonden zijn door herhaaldelijke co-occurrentie, ontwerpconventies of perceptuele harmonie, en die vaak bijdragen aan de visuele identiteit van een esthetiek."
+    },
+    "id" : "17"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/City",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "City",
+      "ru" : "Город",
+      "ja" : "都市",
+      "en" : "City",
+      "it" : "Città",
+      "nl" : "Stad"
+    },
+    "comment" : {
+      "ru" : "Городская локация, характеризующаяся высокой плотностью населения и организованной инфраструктурой.",
+      "ja" : "密な人口と整備されたインフラを特徴とする都市的場所。",
+      "en" : "An urban location characterised by dense population and structured infrastructure.",
+      "it" : "Una località urbana caratterizzata da popolazione densa e infrastruttura organizzata.",
+      "nl" : "Een stedelijke locatie die wordt gekenmerkt door een dichte bevolking en een gestructureerde infrastructuur."
+    },
+    "id" : "18",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/Value",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Value",
+      "ru" : "Ценность",
+      "ja" : "価値観",
+      "en" : "Value",
+      "it" : "Valore",
+      "nl" : "Waarde"
+    },
+    "comment" : {
+      "ru" : "Абстрактный принцип, аффективная/аксиологическая направленность или оценочное измерение (этическое, культурное, эстетическое или идеологическое), связанное с сущностями или эстетиками. Ценности не ограничиваются моральными суждениями, а включают широкие мировоззренческие или концептуальные позиции. Например, эстетика Frutiger Aero ассоциируется с оптимизмом, чистотой и техно-природной гармонией.",
+      "ja" : "エンティティや美学に関連する抽象的な原理、感情的・価値論的方向性、または評価的次元（倫理的、文化的、美的、またはイデオロギー的）。道徳的判断にのみならず、より広い態度や概念的なスタンスを含む。。例：Frutiger Aeroの美学は楽観主義、清潔さ、テクノ的自然調和といった価値観と関連している。",
+      "en" : "An abstract principle, an affective/axiological orientation, or evaluative dimension (ethical, cultural, aesthetic, or ideological) associated with entities or aesthetics. Values are not limited to moral judgments but include broader attitudinal or conceptual stances. E.g., the aesthetic Frutiger Aero is associated with optimism, cleanliness, techno-natural harmony.",
+      "it" : "Un principio astratto, un orientamento affettivo/assiologico o una dimensione valutativa (etica, culturale, estetica o ideologica) associata a entità o estetiche. I valori non si limitano ai giudizi morali, ma includono anche atteggiamenti e posizioni concettuali più ampie. Ad esempio, l’estetica Frutiger Aero è associata a ottimismo, pulizia e armonia tecno-naturale.",
+      "nl" : "Een abstract principe, een affectieve/axiologische oriëntatie of evaluatieve dimensie (ethisch, cultureel, esthetisch of ideologisch) geassocieerd met entiteiten of esthetiek. Waarden zijn niet beperkt tot morele oordelen, maar omvatten bredere houdings- of conceptuele standpunten. Bijv. de esthetiek Frutiger Aero wordt geassocieerd met optimisme, netheid en techno-natuurlijke harmonie."
+    },
+    "id" : "24"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/Aesthetic",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Aesthetic",
+      "ru" : "Эстетика",
+      "ja" : "美学",
+      "en" : "Aesthetic",
+      "it" : "Estetica",
+      "nl" : "Esthetiek"
+    },
+    "comment" : {
+      "ru" : "Культурно обусловленная, открытая категория, объединяющая коллекцию разнородных элементов (например, изображений, цветов, объектов, звуков, текстов), которые воспринимаются как целостное выражение узнаваемого стиля, эмоционального настроя или направленности. Она определяется не через необходимые и достаточные условия, а через общие ассоциации и «семейное сходство», установленные сообществом. Например, эстетика Frutiger Aero объединяет глянцевые текстуры, яркие градиенты, образы природы и оптимистичные отсылки к будущему в узнаваемый стиль начала 2000-х годов.",
+      "ja" : "文化的に創発される、定義の開かれた包括的な概念。画像、色彩、音楽、ファッションスタイル、テキスト、装飾といった多種多様な要素の集まりを、共通のスタイルや美意識、あるいは特定の「系統」を表現するものとして統合して捉える。これは厳密なルール（必要十分条件）で規定されるものではなく、コミュニティ内で共有された連想や家族的類似（ゆるやかな共通性）」を通じて形成される。2010～2020代で流行したインターネット上の視覚芸術様式からファッション系統まで、さまざまな形がある。（例：Frutiger Aero はキラキラしたテクスチャ、鮮やかなグラデーション、自然に関する画像、未来への期待感を、2000年代初期に流行したスタイルと認識できる形で統合している）美意識や美的概念とも言い換えられる。",
+      "en" : "A culturally emergent, open-ended category that groups a collection of heterogeneous elements (e.g., images, colors, objects, sounds, texts) perceived as coherently expressing a recognizable style, affect, or orientation. It is not defined by necessary and sufficient conditions, but by shared associations and family resemblances established by a community. E.g, the Frutiger Aero aesthetic groups glossy textures, bright gradients, nature imagery, and optimistic future cues into a recognizable early-2000s style.",
+      "it" : "Una categoria culturalmente emergente e aperta che raggruppa una collezione di elementi eterogenei (ad esempio immagini, colori, oggetti, suoni, testi) percepiti come espressione coerente di uno stile, un’affettività o un orientamento riconoscibile. Non è definita da condizioni necessarie e sufficienti, ma da associazioni condivise e somiglianze di famiglia stabilite da una comunità. Ad esempio, l’estetica Frutiger Aero raggruppa texture lucide, gradienti brillanti, immagini della natura e richiami a un futuro ottimistico in uno stile riconoscibile dei primi anni 2000.",
+      "nl" : "Een cultureel opkomende, open categorie die een verzameling heterogene elementen (bijv. afbeeldingen, kleuren, objecten, geluiden, teksten) groepeert die worden waargenomen als een coherente uitdrukking van een herkenbare stijl, affect of oriëntatie. Het wordt niet gedefinieerd door noodzakelijke en voldoende voorwaarden, maar door gedeelde associaties en familiegelijkenissen vastgesteld door een gemeenschap. Bijv. de Frutiger Aero-esthetiek groepeert glanzende texturen, heldere verlopen, natuurbeelden en optimistische toekomstbeelden in een herkenbare stijl uit het begin van de jaren 2000."
+    },
+    "id" : "4",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/Subculture",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Subculture",
+      "ru" : "Субкультура",
+      "ja" : "サブカルチャー",
+      "en" : "Subculture",
+      "it" : "Sottocultura",
+      "nl" : "Subcultuur"
+    },
+    "comment" : {
+      "ru" : "Социально локализованная группа или сеть, характеризующаяся общими практиками, ценностями и символическими системами, которые отличают её от более широкого культурного контекста; часто способствует возникновению и стабилизации определенных эстетик.",
+      "ja" : "独自の慣習や価値観、象徴体系を共有し、主流文化とは区別される社会的グループ。特定の美学の創発と定着を促す基盤となることがある。",
+      "en" : "A socially situated group or network characterized by shared practices, values, and symbolic systems that differentiate it from broader cultural contexts, often contributing to the emergence and stabilization of specific aesthetics.",
+      "it" : "Un gruppo o una rete socialmente situata caratterizzata da pratiche, valori e sistemi simbolici condivisi che la distinguono dal contesto culturale più ampio, contribuendo spesso all’emergere e alla stabilizzazione di specifiche estetiche.",
+      "nl" : "Een sociaal gesitueerde groep of netwerk gekenmerkt door gedeelde praktijken, waarden en symbolische systemen die het onderscheiden van bredere culturele contexten, en vaak bijdragen aan het ontstaan en de stabilisatie van specifieke esthetiek."
+    },
+    "id" : "43"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/Fashion",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fashion",
+      "ru" : "Мода",
+      "ja" : "ファッション",
+      "en" : "Fashion",
+      "it" : "Moda",
+      "nl" : "Mode"
+    },
+    "comment" : {
+      "ru" : "Сфера телесного и материального самовыражения, включающая одежду, стайлинг и практики украшения тела, посредством которых транслируются культурные смыслы, идентичности и эстетические ориентиры.",
+      "ja" : "衣服、スタイリング、装飾といった身体的・物質的な表現領域。文化的な意味合いやアイデンティティ、美的方向性を伝達する手段として機能する。",
+      "en" : "A domain of embodied and material expression involving clothing, styling, and adornment practices, through which cultural meanings, identities, and aesthetic orientations are communicated.",
+      "it" : "Un ambito di espressione materiale che coinvolge abbigliamento e pratiche di stile, attraverso cui si comunicano significati culturali, identità e orientamenti estetici.",
+      "nl" : "Een domein van belichaamde en materiële expressie met betrekking tot kleding, styling en versieringspraktijken, waardoor culturele betekenissen, identiteiten en esthetische oriëntaties worden gecommuniceerd."
+    },
+    "id" : "51"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/TimeInterval",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TimeInterval",
+      "ru" : "Временной интервал",
+      "ja" : "時間区間",
+      "en" : "Time Interval",
+      "it" : "Intervallo temporale",
+      "nl" : "Tijdsinterval"
+    },
+    "comment" : {
+      "ru" : "Временной отрезок с началом и/или концом, который может быть точно определенным или приблизительным; используется для квалификации временной валидности сущностей, ролей или ассоциаций.",
+      "ja" : "エンティティ、役割、あるいは関連性の時間的な有効範囲を定義するための期間。厳密な開始・終了時期は、近似的な範囲も許容する。",
+      "en" : "A temporal extent with a start and/or end that may be precisely defined or approximate, used to qualify the temporal validity of entities, roles, or associations.",
+      "it" : "Un’estensione temporale con un inizio e/o una fine, che può essere precisa o approssimata, usata per qualificare la validità temporale di entità, ruoli o associazioni.",
+      "nl" : "Een temporele omvang met een begin en/of einde dat nauwkeurig gedefinieerd of bij benadering kan zijn, gebruikt om de temporele geldigheid van entiteiten, rollen of associaties te kwalificeren."
+    },
+    "id" : "33"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/Color",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Color",
+      "ru" : "Цвет",
+      "ja" : "色",
+      "en" : "Color",
+      "it" : "Colore",
+      "nl" : "Kleur"
+    },
+    "comment" : {
+      "ru" : "Визуальный атрибут, воспринимаемый через свет, часто вносящий вклад в эстетическую идентичность.",
+      "ja" : "光を通じて知覚される視覚的属性。美的アイデンティティに貢献することが多い。",
+      "en" : "A visual attribute perceived through light, often contributing to aesthetic identity.",
+      "it" : "Un attributo visivo percepito attraverso la luce, che contribuisce all’identità estetica.",
+      "nl" : "Een visueel kenmerk waargenomen door licht, dat vaak bijdraagt aan esthetische identiteit."
+    },
+    "id" : "54"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/Anime",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Anime",
+      "ru" : "Аниме",
+      "ja" : "アニメ",
+      "en" : "Anime",
+      "it" : "Anime",
+      "nl" : "Anime"
+    },
+    "comment" : {
+      "ru" : "Форма анимационного искусства, зародившаяся преимущественно в контексте японских медиа.",
+      "ja" : "主に日本のメディア文脈から生まれたアニメーション作品の形態。",
+      "en" : "A form of animated artwork originating primarily from Japanese media contexts.",
+      "it" : "Una forma di opera animata originaria principalmente del contesto mediatico giapponese.",
+      "nl" : "Een vorm van geanimeerd kunstwerk die voornamelijk voortkomt uit Japanse mediacontexten."
+    },
+    "id" : "56",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/Album",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Album",
+      "ru" : "Альбом",
+      "ja" : "アルバム",
+      "en" : "Album",
+      "it" : "Album",
+      "nl" : "Album"
+    },
+    "comment" : {
+      "ru" : "Музыкальное произведение, состоящее из коллекции записанных треков, выпущенных единым изданием.",
+      "ja" : "一つの単位としてリリースされた録音トラックのコレクションからなる音楽作品。",
+      "en" : "A music work consisting of a collection of recorded tracks released as a single unit.",
+      "it" : "Un’opera musicale composta da una raccolta di tracce pubblicate come un’unica unità.",
+      "nl" : "Een muzikaal werk bestaande uit een verzameling opgenomen tracks die als één geheel zijn uitgebracht."
+    },
+    "id" : "57",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "67",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "68",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/ArchitecturalWork",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ArchitecturalWork",
+      "ru" : "Архитектурное сооружение",
+      "ja" : "建築作品",
+      "en" : "Architectural Work",
+      "it" : "Opera architettonica",
+      "nl" : "Architectonisch werk"
+    },
+    "subClasses" : [ "42" ],
+    "comment" : {
+      "ru" : "Произведение искусства, представляющее собой здания или пространственные структуры, созданные в рамках архитектурной практики.",
+      "ja" : "建築の実践の中でデザインされた建物または空間構造からなる作品。",
+      "en" : "An artwork consisting of buildings or spatial structures designed within architectural practice.",
+      "it" : "Un’opera costituita da edifici o strutture progettate nell’ambito dell’architettura.",
+      "nl" : "Een kunstwerk bestaande uit gebouwen of ruimtelijke structuren ontworpen binnen de architectuur."
+    },
+    "id" : "38",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "69",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "62",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "75",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "76",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "9",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/PeriodDefinition",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PeriodDefinition",
+      "ru" : "Определение периода",
+      "ja" : "期間定義",
+      "en" : "Period Definition",
+      "it" : "Definizione di periodo",
+      "nl" : "Periodedefinitie"
+    },
+    "comment" : {
+      "ru" : "Ограниченный во времени, но потенциально неточный интервал, используемый для локализации сущностей или явлений во времени; допускает размытые или пересекающиеся границы в соответствии с такими моделями, как PeriodO.",
+      "ja" : "実体や現象を時間軸上に位置づけるための時間的範囲。PeriodO等のモデルに準拠し、厳密な境界ではなく、曖昧さや期間の重複を許容する。",
+      "en" : "A temporally bounded but potentially imprecise interval used to situate entities or phenomena in time, allowing for vague or overlapping boundaries, in alignment with models such as PeriodO.",
+      "it" : "Un intervallo temporale delimitato ma potenzialmente impreciso usato per collocare entità o fenomeni nel tempo, che consente di definire confini vaghi o con sovrapposizioni, allineato a modellazioni come PeriodO.",
+      "nl" : "Een temporeel begrensd maar potentieel onvolledig interval dat wordt gebruikt om entiteiten of verschijnselen in de tijd te plaatsen, waarbij vage of overlappende grenzen mogelijk zijn, in overeenstemming met modellen zoals PeriodO."
+    },
+    "id" : "10"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/FoodItem",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FoodItem",
+      "ru" : "Продукт питания",
+      "ja" : "食品",
+      "en" : "Food Item",
+      "it" : "Alimento",
+      "nl" : "Voedingsmiddel"
+    },
+    "comment" : {
+      "ru" : "Пищевой продукт, который может иметь эстетическую или культурную значимость.",
+      "ja" : "美的または文化的意義を持ちうる食用品。",
+      "en" : "An edible item that may carry aesthetic or cultural significance.",
+      "it" : "Un alimento che può avere rilevanza estetica o culturale.",
+      "nl" : "Een eetbaar item dat esthetische of culturele betekenis kan hebben."
+    },
+    "id" : "81"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/Group",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Group",
+      "ru" : "Группа",
+      "ja" : "グループ",
+      "en" : "Group",
+      "it" : "Gruppo",
+      "nl" : "Groep"
+    },
+    "comment" : {
+      "ru" : "Объединение агентов, действующих или определяемых как единое целое.",
+      "ja" : "一つの単位として行動または識別されるエージェントの集合。",
+      "en" : "A collection of agents acting or identified as a unit.",
+      "it" : "Un insieme di agenti che agiscono o sono identificati come un’unità.",
+      "nl" : "Een verzameling actoren die handelen of worden geïdentificeerd als een eenheid."
+    },
+    "id" : "82",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/PrimaryRole",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PrimaryRole",
+      "ru" : "Основная роль",
+      "ja" : "主要役割",
+      "en" : "Primary Role",
+      "it" : "Ruolo primario",
+      "nl" : "Primaire rol"
+    },
+    "comment" : {
+      "ru" : "Роль, указывающая на первичную или центральную связь внутри контекста.",
+      "ja" : "文脈の中で主要または中心的な関連を示す役割。",
+      "en" : "A role indicating a primary or central association within a context.",
+      "it" : "Un ruolo che indica un’associazione primaria o centrale in un contesto.",
+      "nl" : "Een rol die een primaire of centrale associatie binnen een context aangeeft."
+    },
+    "id" : "15",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/Artwork",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Artwork",
+      "ru" : "Произведение искусства",
+      "ja" : "作品",
+      "en" : "Artwork",
+      "it" : "Opera d'arte",
+      "nl" : "Kunstwerk"
+    },
+    "subClasses" : [ "50", "48", "35", "30", "40", "38", "28", "26", "1", "56" ],
+    "comment" : {
+      "ru" : "Творческий артефакт, созданный в любой выразительной среде, включая визуальную (изображения, живопись, скульптура, архитектура, кино, видеоигры), звуковую (музыка), текстовую (литература) или воплощенные/индустриальные формы (мода). Рассматривается как общая сущность произведения, независимая от классификаций конкретных медиа.",
+      "ja" : "視覚（画像、絵画、彫刻、建築、映画、ビデオゲーム）、聴覚（音楽）、テキスト（文学）、または身体的・産業的形態（ファッション）を含む、あらゆる表現メディアで制作された創造的成果物。メディア特有の分類に依存しない汎用的な作品エンティティとして扱われる。",
+      "en" : "A creative artifact produced within any expressive medium, including visual (images, paintings, sculpture, architecture, film, videogames), auditory (music), textual (literature), or embodied/industrial forms (fashion). It is treated as a generic work entity independent of medium-specific taxonomies.",
+      "it" : "Un artefatto creativo prodotto in qualsiasi mezzo espressivo, inclusi visivo (immagini, dipinti, sculture, architetture, film, videogiochi), sonoro (musica), testuale (letteratura) o forme industriali come la moda. Viene trattato come un'opera indipendente dalle tassonomie relative ai media.",
+      "nl" : "Een creatief artefact geproduceerd binnen elk expressief medium, inclusief visueel (afbeeldingen, schilderijen, beeldhouwwerk, architectuur, film, videogames), auditief (muziek), tekstueel (literatuur) of belichaamde/industriële vormen (mode). Het wordt behandeld als een generieke werkentiteit, onafhankelijk van medium-specifieke taxonomieën."
+    },
+    "id" : "2"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/Song",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Song",
+      "ru" : "Песня",
+      "ja" : "楽曲",
+      "en" : "Song",
+      "it" : "Canzone",
+      "nl" : "Lied"
+    },
+    "comment" : {
+      "ru" : "Отдельное музыкальное произведение, обычно состоящее из слов и мелодии.",
+      "ja" : "通常、歌詞とメロディーからなる単一の音楽的構成。",
+      "en" : "A single musical composition, typically consisting of lyrics and melody.",
+      "it" : "Una composizione musicale singola, tipicamente composta da testo e melodia.",
+      "nl" : "Een enkele muzikale compositie, meestal bestaande uit tekst en melodie."
+    },
+    "id" : "90",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/IconicFigure",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IconicFigure",
+      "ru" : "Иконическая фигура",
+      "ja" : "象徴的人物",
+      "en" : "Iconic Figure",
+      "it" : "Figura iconica",
+      "nl" : "Iconisch figuur"
+    },
+    "comment" : {
+      "ru" : "Роль, представляющая личность, тесно связанную с определенной эстетикой.",
+      "ja" : "美学と強く関連する個人を表す役割。",
+      "en" : "A role representing an individual strongly associated with an aesthetic.",
+      "it" : "Un ruolo che rappresenta un individuo fortemente associato a un’estetica.",
+      "nl" : "Een rol die een individu vertegenwoordigt dat sterk geassocieerd wordt met een esthetiek."
+    },
+    "id" : "16",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/Brand",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Brand",
+      "ru" : "Бренд",
+      "ja" : "ブランド",
+      "en" : "Brand",
+      "it" : "Marchio",
+      "nl" : "Merk"
+    },
+    "comment" : {
+      "ru" : "Идентифицируемая коммерческая или общественная организация, характеризующаяся названием, идентичностью и набором смыслов, ценностей и практик дизайна, которая может создавать или влиять на артефакты, стили и эстетические ассоциации.",
+      "ja" : "名称、アイデンティティ、特有の価値観やデザイン指針によって識別される商業的・組織的実体。あらゆる品物やスタイルの創出、および美学との関連性の形成に影響を与える。",
+      "en" : "An identifiable commercial or institutional entity characterized by a name, identity, and set of associated meanings, values, and design practices, which can produce or influence artifacts, styles, and aesthetic associations.",
+      "it" : "Un’entità commerciale o istituzionale identificabile caratterizzata da un nome, un’identità e un set di significati, valori e pratiche di design associate, che possono produrre o influenzare artefatti, stili e associazioni estetiche.",
+      "nl" : "Een identificeerbare commerciële of institutionele entiteit die wordt gekenmerkt door een naam, identiteit en een reeks bijbehorende betekenissen, waarden en ontwerppraktijken, die artefacten, stijlen en esthetische associaties kan produceren of beïnvloeden."
+    },
+    "id" : "91"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/Activity",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Activity",
+      "ru" : "Активность",
+      "ja" : "活動",
+      "en" : "Activity",
+      "it" : "Attività",
+      "nl" : "Activiteit"
+    },
+    "comment" : {
+      "ru" : "Индивидуальная или групповая деятельность или практика, потенциально ассоциируемая с эстетическим или субкультурным контекстом.",
+      "ja" : "個人またはグループによって行われる行動または実践的活動。美学またはサブカルチャー的な文脈と結びついている場合がある。",
+      "en" : "An action or practice carried out by individuals or groups, potentially associated with an aesthetic or subcultural context.",
+      "it" : "Un’azione o pratica svolta da individui o gruppi, potenzialmente associata a un’estetica o a un contesto sottoculturale.",
+      "nl" : "Een actie of praktijk uitgevoerd door individuen of groepen, mogelijk geassocieerd met een esthetische of subculturele context."
+    },
+    "id" : "92"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/Video",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Video",
+      "ru" : "Видео",
+      "ja" : "動画",
+      "en" : "Video",
+      "it" : "Video",
+      "nl" : "Video"
+    },
+    "comment" : {
+      "ru" : "Произведение с движущимися изображениями, обычно цифровое.",
+      "ja" : "通常デジタルの動画作品。",
+      "en" : "A moving-image artwork, typically digital.",
+      "it" : "Un’opera audiovisiva, tipicamente digitale.",
+      "nl" : "Een kunstwerk van bewegende beelden, meestal digitaal."
+    },
+    "id" : "30",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/Platform",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Platform",
+      "ru" : "Платформа",
+      "ja" : "プラットフォーム",
+      "en" : "Platform",
+      "it" : "Piattaforma",
+      "nl" : "Platform"
+    },
+    "comment" : {
+      "ru" : "Социотехническая система, которая обеспечивает и одновременно ограничивает взаимодействие, создание и распространение контента. Она проявляет субъектность через свой дизайн, управление и алгоритмические механизмы, тем самым формируя возникновение и видимость эстетик.",
+      "ja" : "交流やコンテンツ制作、情報の発信や拡散を可能にし、同時に制約する社会技術的なシステム。その設計やアルゴリズムを通じて、美学の出現や可視性を形作る。",
+      "en" : "A socio-technical system that enables and constrains interaction, content production, and dissemination, while exerting agency through its design, governance, and algorithmic mechanisms, thereby shaping the emergence and visibility of aesthetics.",
+      "it" : "Un sistema socio-tecnico che abilita e al tempo stesso vincola l’interazione, la produzione di contenuti e la loro diffusione, esercitando un’agenzia attraverso il proprio design, le forme di governance e i meccanismi algoritmici, e contribuendo così a modellare l’emergere e la visibilità delle estetiche.",
+      "nl" : "Een sociaal-technisch systeem dat interactie, contentproductie en verspreiding mogelijk maakt en beperkt, terwijl het invloed uitoefent via het ontwerp, beheer en algoritmische mechanismen, en zo de opkomst en zichtbaarheid van esthetiek vormgeeft."
+    },
+    "id" : "6"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/RepresentativeAssociation",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RepresentativeAssociation",
+      "ru" : "Репрезентативная ассоциация",
+      "ja" : "象徴的な関連",
+      "en" : "Representative Association",
+      "it" : "Associazione rappresentativa",
+      "nl" : "Representatieve associatie"
+    },
+    "comment" : {
+      "ru" : "Реифицированное отношение, связывающее эстетику с сущностью, которая считается репрезентативной для неё. Такие ассоциации кодируют механизмы, посредством которых эстетика распознается и конструируется, и могут быть уточнены временными рамками, степенью репрезентативности или ролью (например, основной).",
+      "ja" : "美学と、その象徴的な表象であるエンティティとを繋ぐ関係を実体化したクラス。これらの関連は美学が認識され構築されるメカニズムを定めるものであり、時間的範囲、代表性の度合い、あるいは（主従などの）役割によって詳細化される。",
+      "en" : "A reified relation linking an Aesthetic to an entity that is considered representative of it. Such associations encode the mechanisms through which an aesthetic is recognized and constructed, and may be qualified by temporal scope, degree of representativeness, or role (e.g., primary).",
+      "it" : "Una relazione reificata che collega un’Estetica a un’entità considerata rappresentativa di essa. Tali associazioni codificano i meccanismi attraverso cui un’estetica viene riconosciuta e costruita, e possono essere qualificate rispetto all’estensione temporale, al grado di rappresentatività o al ruolo (ad esempio, primario).",
+      "nl" : "Een gereificeerde relatie die een esthetiek koppelt aan een entiteit die als representatief hiervoor wordt beschouwd. Dergelijke associaties coderen de mechanismen waardoor een esthetiek wordt herkend en geconstrueerd, en kunnen worden gekwalificeerd door temporele reikwijdte, mate van representativiteit of rol (bijv. primair)."
+    },
+    "id" : "61"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/LiteraryWork",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LiteraryWork",
+      "ru" : "Литературное произведение",
+      "ja" : "文学作品",
+      "en" : "Literary Work",
+      "it" : "Opera letteraria",
+      "nl" : "Literair werk"
+    },
+    "comment" : {
+      "ru" : "Текстовое произведение искусства, такое как роман, стихотворение или письменное повествование.",
+      "ja" : "小説、詩、書かれた物語などのテキスト作品。",
+      "en" : "A textual artwork such as a novel, poem, or written narrative.",
+      "it" : "Un’opera testuale come romanzi, poesie o narrazioni scritte.",
+      "nl" : "Een tekstueel kunstwerk zoals een roman, gedicht of geschreven verhaal."
+    },
+    "id" : "48",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/MusicWork",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MusicWork",
+      "ru" : "Музыкальное произведение",
+      "ja" : "音楽作品",
+      "en" : "Music Work",
+      "it" : "Opera musicale",
+      "nl" : "Muzikaal werk"
+    },
+    "subClasses" : [ "57", "90" ],
+    "comment" : {
+      "ru" : "Произведение искусства, выраженное через звук и музыкальную композицию.",
+      "ja" : "音と音楽的構成を通じて表現される作品。",
+      "en" : "An artwork expressed through sound and musical composition.",
+      "it" : "Un’opera espressa attraverso il suono e la composizione musicale.",
+      "nl" : "Een kunstwerk uitgedrukt via geluid en muzikale compositie."
+    },
+    "id" : "26",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/Image",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Image",
+      "ru" : "Изображение",
+      "ja" : "画像",
+      "en" : "Image",
+      "it" : "Immagine",
+      "nl" : "Afbeelding"
+    },
+    "comment" : {
+      "ru" : "Визуальное произведение искусства, такое как фотография или цифровое изображение.",
+      "ja" : "写真やデジタル画像などの視覚的作品。",
+      "en" : "A visual artwork such as a photograph or digital image.",
+      "it" : "Un’opera visiva come una fotografia o immagine digitale.",
+      "nl" : "Een visueel kunstwerk zoals een foto of digitale afbeelding."
+    },
+    "id" : "28",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/Painting",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Painting",
+      "ru" : "Картина",
+      "ja" : "絵画",
+      "en" : "Painting",
+      "it" : "Dipinto",
+      "nl" : "Schilderij"
+    },
+    "comment" : {
+      "ru" : "Визуальное произведение искусства, созданное красками на какой-либо поверхности.",
+      "ja" : "表面に絵の具を使って制作された視覚的作品。",
+      "en" : "A visual artwork created using paint on a surface.",
+      "it" : "Un’opera visiva realizzata con pittura su una superficie.",
+      "nl" : "Een visueel kunstwerk gemaakt met verf op een oppervlak."
+    },
+    "id" : "50",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/Theme",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Theme",
+      "ru" : "Тема",
+      "ja" : "テーマ",
+      "en" : "Theme",
+      "it" : "Tema",
+      "nl" : "Thema"
+    },
+    "comment" : {
+      "ru" : "Абстрактная концептуальная направленность или нарратив, лежащий в основе эстетики и отражающий её доминирующие смыслы, эмоциональный тон или мировоззрение. Например, тему эстетики Frutiger Aero можно описать как оптимистичное, чистое и интегрированное с природой видение ближайшего будущего.",
+      "ja" : "美学の根底にある抽象的な概念的方向性またはナラティブ。主要な意味合い、感情的トーンや世界観を捉える。例：Frutiger Aeroの美学のテーマは、楽観的で清潔で自然と統合された近未来のビジョンであると表現できる。",
+      "en" : "An abstract conceptual orientation or narrative underlying an aesthetic, capturing its dominant meanings, affective tone, or worldview. E.g., the theme of the Frutiger Aero aesthetic can be described as an optimistic, clean, and nature-integrated vision of the near future.",
+      "it" : "Un orientamento concettuale astratto o una struttura narrativa sottostante a un’estetica, che ne cattura i significati dominanti, il tono affettivo o la visione del mondo. Ad esempio, il tema dell’estetica Frutiger Aero può essere descritto come una visione ottimistica, pulita e integrata con la natura del futuro prossimo.",
+      "nl" : "Een abstracte conceptuele oriëntatie of narratief dat ten grondslag ligt aan een esthetiek en de dominante betekenissen, affectieve toon of wereldbeeld vastlegt. Bijv. het thema van de Frutiger Aero-esthetiek kan worden beschreven als een optimistische, schone en in de natuur geïntegreerde visie op de nabije toekomst."
+    },
+    "id" : "59"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/Motif",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Motif",
+      "ru" : "Мотив",
+      "ja" : "モチーフ",
+      "en" : "Motif",
+      "it" : "Motivo",
+      "nl" : "Motief"
+    },
+    "comment" : {
+      "ru" : "Повторяющийся и узнаваемый элемент (визуальный, концептуальный или стилистический), который формирует идентичность эстетики через многократные ассоциации. Например, мотивы эстетики Frutiger Aero включают скевоморфизм, глянцевые текстуры, пузырьки, образы природы и шрифты семейства Frutiger.",
+      "ja" : "美学のアイデンティティ形成に寄与する、特徴的な要素（視覚、概念、スタイル）。繰り返しその美学との関連性として現れる。　例：Frutiger Aeroにおける光沢感、泡、自然のイメージ、Frutiger系フォントなど。",
+      "en" : "A recurrent and recognizable element (visual, conceptual, or stylistic) that contributes to the identity of an aesthetic through repeated association. E.g., the Frutiger Aero aesthetic’s motifs include skeuomorphism, glossy textures, bubbles, nature imagery, and Frutiger-type fonts.",
+      "it" : "Un elemento ricorrente e riconoscibile (di tipo visivo, concettuale o stilistico) che contribuisce all’identità di un’estetica attraverso associazioni ripetute. Per esempio, nell’estetica Frutiger Aero, i motivi includono scheumorfismo, texture lucide, scene di natura e font di tipo Frutiger.",
+      "nl" : "Een terugkerend en herkenbaar element (visueel, conceptueel of stilistisch) dat bijdraagt aan de identiteit van een esthetiek door herhaalde associatie. Bijv. de motieven van de Frutiger Aero-esthetiek omvatten skeuomorfisme, glanzende texturen, bubbels, natuurbeelden en Frutiger-type lettertypen."
+    },
+    "id" : "117"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/TimeIndexedRole",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TimeIndexedRole",
+      "ru" : "Временно обозначенная роль",
+      "ja" : "時間付き役割",
+      "en" : "Time Indexed Role",
+      "it" : "Ruolo indicizzato temporalmente",
+      "nl" : "Tijdgeïndexeerde rol"
+    },
+    "comment" : {
+      "ru" : "Контекстная роль, присваиваемая сущности в рамках отношения, которое явно привязано к временному интервалу, что позволяет одной и той же сущности выполнять разные роли в разное время.",
+      "ja" : "時間区間に明示的に結びついた関係の中でエンティティに割り当てられる文脈的役割。同じエンティティが異なる時点で異なる役割を持つことを可能にする。",
+      "en" : "A contextual role assigned to an entity within a relation that is explicitly bound to a temporal interval, allowing the same entity to hold different roles at different times.",
+      "it" : "Un ruolo assegnato a un’entità all’interno di una relazione, esplicitamente vincolato a un intervallo temporale, cosa che permette alla stessa entità di avere ruoli diversi in tempi diversi.",
+      "nl" : "Een contextuele rol toegewezen aan een entiteit binnen een relatie die expliciet gebonden is aan een tijdsinterval, waardoor dezelfde entiteit op verschillende tijdstippen verschillende rollen kan vervullen."
+    },
+    "id" : "32"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/Collection",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Collection",
+      "ru" : "Коллекция",
+      "ja" : "コレクション",
+      "en" : "Collection",
+      "it" : "Collezione",
+      "nl" : "Collectie"
+    },
+    "comment" : {
+      "ru" : "Набор сущностей, сгруппированных вместе (явно или неявно) на основе воспринимаемой целостности, кураторства или общих ассоциаций. Коллекции служат основным средством выражения и узнавания эстетики, не требуя при этом фиксированного или исчерпывающего состава участников.",
+      "ja" : "一貫性、共通の連想に基づいて明示的・暗黙的にキュレーションされた実体の集合。美学が具体的に表現・認識されるための主要な媒体。コレクションの構成要素は必ずしも固定的や網羅的である必要はなく、流動的で変動的である。",
+      "en" : "A set of entities grouped together, either explicitly or implicitly, based on perceived coherence, curation, or shared associations. Collections function as the primary means through which an Aesthetic is expressed and recognized, without requiring fixed or exhaustive membership.",
+      "it" : "Un insieme di entità raggruppate assieme, in modo esplicito o implicito, per coerenza percepita o associazioni condivise. Le collezioni costituiscono il mezzo primario tramite il quale le estetiche vengono espresse o riconosciute; non richiedono la fissità o l'esausività dei loro membri.",
+      "nl" : "Een verzameling entiteiten die expliciet of impliciet zijn samengevoegd op basis van waargenomen coherentie, curatie of gedeelde associaties. Collecties fungeren als het primaire middel waarmee een esthetiek wordt uitgedrukt en herkend, zonder dat een vast of uitputtend lidmaatschap vereist is."
+    },
+    "id" : "87"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "104",
+    "label" : {
+      "IRI-based" : "anyURI"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "113",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/Beauty",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Beauty",
+      "ru" : "Красота и уход",
+      "ja" : "美容",
+      "en" : "Beauty",
+      "it" : "Cura della persona",
+      "nl" : "Schoonheidsverzorging"
+    },
+    "comment" : {
+      "ru" : "Сфера товаров, практик и индустрий, связанных с уходом за собой, косметикой и внешним видом, часто ассоциирующаяся с эстетическим самовыражением и конструированием идентичности.",
+      "ja" : "パーソナルケア、化粧品、スキンケア、身体的外見に関連する製品、実践、産業の領域。美的表現とアイデンティティの構築に関連することが多い。",
+      "en" : "A domain of products, practices, and industries related to personal care, cosmetics, skincare, and bodily appearance, often associated with aesthetic expression and identity construction.",
+      "it" : "Ambito che comprende prodotti, pratiche e industrie legate alla cura della persona, alla cosmetica, alla skincare e all’aspetto corporeo, spesso associato all’espressione estetica e alla costruzione dell’identiteit.",
+      "nl" : "Een domein van producten, praktijken en industrieën die verband houden met persoonlijke verzorging, cosmetica, huidverzorging en lichamelijke verschijning, vaak geassocieerd met esthetische expressie en identiteitsconstructie."
+    },
+    "id" : "120"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "121",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#gYear",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "46",
+    "label" : {
+      "IRI-based" : "gYear"
+    }
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/Person",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person",
+      "ru" : "Персона",
+      "ja" : "人物",
+      "en" : "Person",
+      "it" : "Persona",
+      "nl" : "Persoon"
+    },
+    "comment" : {
+      "ru" : "Человеческий индивид.",
+      "ja" : "個々の人間エージェント。",
+      "en" : "An individual human agent.",
+      "it" : "Un individuo umano.",
+      "nl" : "Een individuele menselijke actor."
+    },
+    "id" : "94",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "122",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "110",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/Location",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Location",
+      "ru" : "Местоположение",
+      "ja" : "場所",
+      "en" : "Location",
+      "it" : "Luogo",
+      "nl" : "Locatie"
+    },
+    "subClasses" : [ "107", "18", "96", "101" ],
+    "comment" : {
+      "ru" : "Пространственная сущность, представляющая физическое или цифровое место.",
+      "ja" : "物理的またはデジタルの場所を表す空間エンティティ。",
+      "en" : "A spatial entity representing a physical or a digital place.",
+      "it" : "Un’entità spaziale che rappresenta un luogo fisico o digitale.",
+      "nl" : "Een ruimtelijke entiteit die een fysieke of digitale plaats vertegenwoordigt."
+    },
+    "id" : "19"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#gYear",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "124",
+    "label" : {
+      "IRI-based" : "gYear"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "23",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/DigitalPlace",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DigitalPlace",
+      "ru" : "Цифровое пространство",
+      "ja" : "デジタル空間",
+      "en" : "Digital Place",
+      "it" : "Luogo digitale",
+      "nl" : "Digitale plek"
+    },
+    "comment" : {
+      "ru" : "Виртуальная среда, где происходит взаимодействие, создание контента или практики сообщества (например, форумы, веб-сайты, социальные сети).",
+      "ja" : "ユーザー同士の交流、コンテンツの制作や発信、コミュニティ活動等が行われるデジタル上の空間やプラットフォーム（例：SNS、掲示板、フォーラム、ウェブサイト等）。",
+      "en" : "A virtual environment where interactions, content creation, or community practices occur (e.g., forums, websites, social networks).",
+      "it" : "Un ambiente virtuale in cui avvengono interazioni, creazione di contenuti o pratiche comunitarie (per esempio, forum, siti web, social network).",
+      "nl" : "Een virtuele omgeving waar interacties, contentcreatie of gemeenschapspraktijken plaatsvinden (bijv. forums, websites, sociale netwerken)."
+    },
+    "id" : "107",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/Agent",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Agent",
+      "ja" : "エージェント",
+      "en" : "Agent",
+      "it" : "Agente",
+      "nl" : "Actor"
+    },
+    "subClasses" : [ "82", "94" ],
+    "comment" : {
+      "ru" : "Сущность, способная действовать, создавать или влиять на культурные артефакты или эстетику, включая индивидов и группы.",
+      "ja" : "個人やグループを含む、文化的成果物や美学に対して行動、創造、影響を与える能力を持つエンティティ。",
+      "en" : "An entity capable of acting, creating, or influencing cultural artifacts or aesthetics, including individuals and groups.",
+      "it" : "Un’entità capace di agire, creare o influenzare artefatti culturali o estetiche, inclusi individui e gruppi.",
+      "nl" : "Een entiteit die in staat is tot handelen, creëren of het beïnvloeden van culturele artefacten of esthetiek, inclusief individuen en groepen."
+    },
+    "id" : "21"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/InteriorDesign",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InteriorDesign",
+      "ru" : "Дизайн интерьера",
+      "ja" : "インテリアデザイン",
+      "en" : "Interior Design",
+      "it" : "Design d’interni",
+      "nl" : "Interieurontwerp"
+    },
+    "comment" : {
+      "ru" : "Форма архитектурной работы, ориентированная на проектирование внутренних пространств.",
+      "ja" : "内部空間のデザインに焦点を当てた建築作品の形態。",
+      "en" : "A form of architectural work focused on the design of interior spaces.",
+      "it" : "Una forma di progettazione architettonica focalizzata sugli spazi interni.",
+      "nl" : "Een vorm van architectonisch werk gericht op het ontwerpen van binnenruimtes."
+    },
+    "id" : "42",
+    "superClasses" : [ "38" ]
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/ArtistRole",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ArtistRole",
+      "ru" : "Роль художника",
+      "ja" : "アーティストの役割",
+      "en" : "Artist Role",
+      "it" : "Ruolo di artista",
+      "nl" : "Kunstenaarsrol"
+    },
+    "comment" : {
+      "ru" : "Роль, которую исполняет агент как создатель или участник процесса художественного производства.",
+      "ja" : "芸術制作の創造者または貢献者としてエージェントが担う役割。",
+      "en" : "role played by an agent as a creator or contributor to artistic production.",
+      "it" : "Un ruolo svolto da un agente come creatore o contributore alla produzione artistica.",
+      "nl" : "rol gespeeld door een agent als maker van of bijdrager aan artistieke productie."
+    },
+    "id" : "14",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/Videogame",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Videogame",
+      "ru" : "Видеоигра",
+      "ja" : "ビデオゲーム",
+      "en" : "Videogame",
+      "it" : "Videogioco",
+      "nl" : "Videogame"
+    },
+    "comment" : {
+      "ru" : "Интерактивное цифровое произведение, сочетающее визуальные, повествовательные и игровые элементы.",
+      "ja" : "視覚的、物語的、ゲームプレイの要素を組み合わせたインタラクティブなデジタル作品。",
+      "en" : "An interactive digital artwork combining visual, narrative, and gameplay elements.",
+      "it" : "Un’opera digitale interattiva che combina elementi visivi, narrativi e ludici.",
+      "nl" : "Een interactief digitaal kunstwerk dat visuele, narratieve en gameplay-elementen combineert."
+    },
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/Region",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Region",
+      "ru" : "Регион",
+      "ja" : "地域",
+      "en" : "Region",
+      "it" : "Regione",
+      "nl" : "Regio"
+    },
+    "comment" : {
+      "ru" : "Географическая область (регион).",
+      "ja" : "地理的区域。",
+      "en" : "A geographical area.",
+      "it" : "Un'area geografica.",
+      "nl" : "Een geografisch gebied."
+    },
+    "id" : "96",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/TVShow",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TVShow",
+      "ru" : "Сериал",
+      "ja" : "テレビ番組",
+      "en" : "TV Show",
+      "it" : "Serie TV",
+      "nl" : "TV-programma"
+    },
+    "comment" : {
+      "ru" : "Сериальное аудиовизуальное произведение, созданное для телевидения или стриминговых платформ.",
+      "ja" : "テレビまたはストリーミングプラットフォーム向けに制作された連続的な視聴覚作品。",
+      "en" : "A serial audiovisual work produced for television or streaming platforms.",
+      "it" : "Un’opera audiovisiva seriale prodotta per televisione o piattaforme streaming.",
+      "nl" : "Een serieel audiovisueel werk geproduceerd voor televisie of streamingplatforms."
+    },
+    "id" : "35",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/Film",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Film",
+      "ru" : "Фильм",
+      "ja" : "映画",
+      "en" : "Film",
+      "it" : "Film",
+      "nl" : "Film"
+    },
+    "comment" : {
+      "ru" : "Произведение движущихся изображений, созданное в рамках кинематографа.",
+      "ja" : "映像メディアの中で制作された動画作品。",
+      "en" : "A moving-image artwork produced within cinematic media.",
+      "it" : "Un’opera audiovisiva prodotta nel contesto cinematografico.",
+      "nl" : "Een kunstwerk van bewegende beelden geproduceerd binnen filmische media."
+    },
+    "id" : "40",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/Country",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Country",
+      "ru" : "Страна",
+      "ja" : "国",
+      "en" : "Country",
+      "it" : "Paese",
+      "nl" : "Land"
+    },
+    "comment" : {
+      "ru" : "Геополитическая локация, представляющая собой нацию или государство.",
+      "ja" : "国家または州を表す地政学的場所。",
+      "en" : "A geopolitical location representing a nation or state.",
+      "it" : "Una località geopolitica che rappresenta una nazione o uno stato.",
+      "nl" : "Een geopolitieke locatie die een natie of staat vertegenwoordigt."
+    },
+    "id" : "101",
+    "superClasses" : [ "19" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "5",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "20",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "31",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "45",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "52",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "60",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "66",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "77",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "80",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "83",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "84",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "72",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "85",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "86",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "88",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "89",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "70",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "93",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "95",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "97",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "98",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "99",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "103",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "105",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "108",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "109",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "111",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "112",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "115",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "116",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "78",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "118",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "119",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "123",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "114",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "125",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "126",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "74",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "127",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "128",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "129",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "130",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "73",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "0"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/hasPrimaryPlatform",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "hasPrimaryPlatform",
+      "ru" : "имеет основную платформу",
+      "ja" : "主要プラットフォーム",
+      "en" : "has primary platform",
+      "it" : "ha piattaforma principale",
+      "nl" : "heeft primair platform"
+    },
+    "superproperty" : [ "7" ],
+    "domain" : "4",
+    "comment" : {
+      "ru" : "Указывает на основную платформу, через которую эстетика преимущественно распространялась или получила известность.",
+      "ja" : "美学が主に普及、または認知を得た主要なプラットフォームを指定する。",
+      "en" : "Specifies the main Platform through which an Aesthetic is primarily disseminated or has gained visibility.",
+      "it" : "Specifica la Piattaforma principale attraverso cui un'Estetica è prevalentemente diffusa o ha acquisito visibilità.",
+      "nl" : "Specificeert het belangrijkste platform waarlangs een esthetiek voornamelijk wordt verspreid of zichtbaarheid heeft verkregen."
+    },
+    "attributes" : [ "object" ],
+    "id" : "5"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/hasPeriodDefinition",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "hasPeriodDefinition",
+      "ru" : "имеет определение периода",
+      "ja" : "期間定義",
+      "en" : "has period definition",
+      "it" : "ha definizione di periodo",
+      "nl" : "heeft periodedefinitie"
+    },
+    "domain" : "9",
+    "comment" : {
+      "ru" : "Ассоциирует сущность с Определением периода, помещая её в конкретный временной контекст.",
+      "ja" : "エンティティと、それを時間的文脈に位置づける期間定義を関連付ける。",
+      "en" : "Associates an entity with a PeriodDefinition that situates it within a temporal context.",
+      "it" : "Associa un'entità a una Definizione di periodo che la colloca in un contesto temporale.",
+      "nl" : "Associeert een entiteit met een periodedefinitie die deze binnen een temporele context plaatst."
+    },
+    "attributes" : [ "object" ],
+    "id" : "8"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/influencedBy",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "influencedBy",
+      "ru" : "находится под влиянием",
+      "ja" : "影響を受けた",
+      "en" : "influenced by",
+      "it" : "influenzato da",
+      "nl" : "beïnvloed door"
+    },
+    "superproperty" : [ "12" ],
+    "domain" : "4",
+    "comment" : {
+      "ru" : "Связывает эстетику с другой эстетикой, которая послужила источником стилистического, тематического или культурного влияния.",
+      "ja" : "美学と、それがスタイル的、テーマ的、または文化的影響を受けた別の美学を関連付ける。",
+      "en" : "Relates an Aesthetic to another Aesthetic from which it has drawn stylistic, thematic, or cultural influence.",
+      "it" : "Collega un'Estetica a un'altra Estetica da cui essa ha tratto influenza stilistica, tematica o culturale.",
+      "nl" : "Verbindt een esthetiek met een andere esthetiek waarvan het stilistische, thematische of culturele invloed heeft ondergaan."
+    },
+    "attributes" : [ "object" ],
+    "id" : "11"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/source",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "source",
+      "ru" : "источник",
+      "ja" : "出典",
+      "en" : "source",
+      "it" : "fonte",
+      "nl" : "bron"
+    },
+    "domain" : "10",
+    "comment" : {
+      "ru" : "Указывает на агента, который является источником доказательств или авторитетным лицом для данного определения периода.",
+      "ja" : "期間定義（PeriodDefinition）の根拠、あるいは権威的な裏付けとなるエージェント（出典元）を示す。  ",
+      "en" : "Indicates the Agent from which a PeriodDefinition derives its evidence or authority.",
+      "it" : "Indica l'Agente da cui una PeriodDefinition trae la propria evidenza o autorità.",
+      "nl" : "Geeft de actor aan waaraan een periodedefinitie zijn bewijs of autoriteit ontleent."
+    },
+    "attributes" : [ "object" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.w3.org/2004/02/skos/core#narrower",
+    "baseIri" : "http://www.w3.org/2004/02/skos/core",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "narrower"
+    },
+    "domain" : "23",
+    "attributes" : [ "external", "object" ],
+    "id" : "22"
+  }, {
+    "range" : "2",
+    "domain" : "26",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "25"
+  }, {
+    "range" : "2",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "27"
+  }, {
+    "range" : "2",
+    "domain" : "30",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "29"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/atTime",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "atTime",
+      "ru" : "во время",
+      "ja" : "時点",
+      "en" : "at time",
+      "it" : "al tempo",
+      "nl" : "op tijdstip"
+    },
+    "minCardinality" : "1",
+    "domain" : "32",
+    "comment" : {
+      "ru" : "Указывает временной интервал, в течение которого роль (TimeIndexedRole) является действительной.",
+      "ja" : "TimeIndexedRoleが有効である時間区間を指定する。",
+      "en" : "Specifies the temporal interval during which a TimeIndexedRole is valid.",
+      "it" : "Specifica l'intervallo temporale durante il quale un TimeIndexedRole è valido.",
+      "nl" : "Specificeert het tijdsinterval waarin een TimeIndexedRole geldig is."
+    },
+    "attributes" : [ "object" ],
+    "id" : "31"
+  }, {
+    "range" : "2",
+    "domain" : "35",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "34"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/hasRelatedWork",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasRelatedWork",
+      "ru" : "имеет ассоциирующееся произведение",
+      "ja" : "関連作品",
+      "en" : "has related work",
+      "it" : "ha opera associata",
+      "nl" : "heeft gerelateerd werk"
+    },
+    "superproperty" : [ "12" ],
+    "domain" : "4",
+    "comment" : {
+      "ru" : "Ассоциирует эстетику с произведением, которое считается репрезентативным для неё или тематически связано с ней.",
+      "ja" : "美学と、それを代表するまたはテーマ的に関連すると見なされる作品を関連付ける。",
+      "en" : "Associates an Aesthetic with an Artwork considered representative of or thematically related to it.",
+      "it" : "Associa un'Estetica a un'Opera considerata rappresentativa o tematicamente correlata.",
+      "nl" : "Associeert een esthetiek met een werk dat als representatief of thematisch gerelateerd wordt beschouwd."
+    },
+    "attributes" : [ "object" ],
+    "id" : "36"
+  }, {
+    "range" : "2",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "37"
+  }, {
+    "range" : "2",
+    "domain" : "40",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "39"
+  }, {
+    "range" : "38",
+    "domain" : "42",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "41"
+  }, {
+    "range" : "13",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "44"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/endYear",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "endYear",
+      "ru" : "год окончания",
+      "ja" : "終了年",
+      "en" : "end year",
+      "it" : "anno di fine",
+      "nl" : "eindjaar"
+    },
+    "domain" : "33",
+    "attributes" : [ "datatype" ],
+    "id" : "45"
+  }, {
+    "range" : "2",
+    "domain" : "48",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "47"
+  }, {
+    "range" : "2",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "49"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/follows",
+    "inverse" : "53",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "follows",
+      "ru" : "следует за",
+      "ja" : "後継する",
+      "en" : "follows",
+      "it" : "segue",
+      "nl" : "volgt"
+    },
+    "domain" : "4",
+    "comment" : {
+      "ru" : "Указывает на то, что одна эстетика следует за другой во времени или стилистически. Свойство является транзитивным.",
+      "ja" : "ある美学が別の美学に時間的またはスタイル的に後続することを示す。この性質は推移的である。",
+      "en" : "Indicates that one Aesthetic temporally or stylistically follows another. This property is transitive.",
+      "it" : "Indica che un'Estetica segue temporalmente o stilisticamente un'altra. Questa proprietà è transitiva.",
+      "nl" : "Geeft aan dat een esthetiek een andere temporeel of stylistisch volgt. Deze eigenschap is transitief."
+    },
+    "attributes" : [ "transitive", "object" ],
+    "id" : "52"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/hasIconicFigure",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "hasIconicFigure",
+      "ru" : "имеет иконическую фигуру",
+      "ja" : "象徴的人物",
+      "en" : "has iconic figure",
+      "it" : "ha figura iconica",
+      "nl" : "heeft iconisch figuur"
+    },
+    "domain" : "4",
+    "comment" : {
+      "ru" : "Ассоциирует эстетику с агентом, который считается её каноничным или культовым представителем.",
+      "ja" : "美学と、その象徴的または典型的な代表者と見なされるエージェントを関連付ける。",
+      "en" : "Associates an Aesthetic with an Agent who is considered an emblematic or iconic representative of it.",
+      "it" : "Associa un'Estetica a un Agente considerato suo rappresentante emblematico.",
+      "nl" : "Associeert een esthetiek met een agent die wordt beschouwd als een emblematische of iconische vertegenwoordiger ervan."
+    },
+    "attributes" : [ "object" ],
+    "id" : "55"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/hasTheme",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "59",
+    "label" : {
+      "IRI-based" : "hasTheme",
+      "ru" : "имеет тему",
+      "ja" : "テーマ",
+      "en" : "has theme",
+      "it" : "ha tema",
+      "nl" : "heeft thema"
+    },
+    "domain" : "2",
+    "comment" : {
+      "ru" : "Ассоциирует произведение с темой, которую оно выражает или выдвигает на первый план.",
+      "ja" : "作品とそのテーマ（作品が伝え、表現し、または強調している主旨やトーン）を関連付ける。",
+      "en" : "Associates an Artwork with a Theme it conveys, expresses, or foregrounds.",
+      "it" : "Associa un'Opera a un Tema che esprime, veicola o mette in primo piano.",
+      "nl" : "Associeert een werk met een thema dat het uitdrukt, uitdraagt of op de voorgrond plaatst."
+    },
+    "attributes" : [ "object" ],
+    "id" : "58"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/associationDimension",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "62",
+    "label" : {
+      "IRI-based" : "associationDimension",
+      "ru" : "измерение ассоциации",
+      "ja" : "関連の次元",
+      "en" : "association dimension",
+      "it" : "dimensione dell’associazione",
+      "nl" : "associatie dimensie"
+    },
+    "domain" : "61",
+    "comment" : {
+      "ru" : "Классифицирует тип ассоциации. Ожидаемые значения — индивиды: измерение мотива (motifDimension), темы (themeDimension), ценности (valueDimension), цвета (colorDimension), платформы (platformDimension), музыки (musicDimension), моды (fashionDimension) или иконической фигуры (iconicFigureDimension).",
+      "ja" : "関連性のレベルを分類するための属性。モチーフ、テーマ、価値観、色彩、プラットフォーム、音楽、ファッション、象徴的人物といった各次元を指定する。",
+      "en" : "Classifies the kind of association. Expected values are the named individuals: motifDimension, themeDimension, valueDimension, colorDimension, platformDimension, musicDimension, fashionDimension, iconicFigureDimension.",
+      "it" : "Classifica il tipo di associazione codificata da una RepresentativeAssociation. I valori attesi sono gli individui: motifDimension, themeDimension, valueDimension, colorDimension, platformDimension, musicDimension, fashionDimension, iconicFigureDimension.",
+      "nl" : "Classificeert het type associatie gecodeerd door een RepresentativeAssociation. Verwachte waarden zijn de individuen: motifDimension, themeDimension, valueDimension, colorDimension, platformDimension, musicDimension, fashionDimension, iconicFigureDimension."
+    },
+    "attributes" : [ "object" ],
+    "id" : "60"
+  }, {
+    "range" : "13",
+    "domain" : "14",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "63"
+  }, {
+    "range" : "3",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "64"
+  }, {
+    "range" : "13",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "65"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/withEntity",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "62",
+    "label" : {
+      "IRI-based" : "withEntity",
+      "ru" : "с сущностью",
+      "ja" : "対象エンティティ",
+      "en" : "with entity",
+      "it" : "con entità",
+      "nl" : "met entiteit"
+    },
+    "domain" : "61",
+    "comment" : {
+      "ru" : "Связывает репрезентативную ассоциацию с сущностью, которая считается характерной для данной эстетики.",
+      "ja" : "RepresentativeAssociationと、美学の象徴的な表象と見なされるエンティティを結びつける。",
+      "en" : "Links a RepresentativeAssociation to the entity that is considered representative of the Aesthetic.",
+      "it" : "Collega una RepresentativeAssociation all'entità considerata rappresentativa dell'Estetica.",
+      "nl" : "Koppelt een RepresentativeAssociation aan de entiteit die als representatief voor de esthetiek wordt beschouwd."
+    },
+    "attributes" : [ "object" ],
+    "id" : "66"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/relatedTo",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "relatedTo",
+      "ru" : "связано с",
+      "ja" : "関連する",
+      "en" : "related to",
+      "it" : "associato a",
+      "nl" : "gerelateerd aan"
+    },
+    "domain" : "4",
+    "subproperty" : [ "70", "71", "72", "73", "36", "11", "7", "74" ],
+    "comment" : {
+      "ru" : "Общее симметричное отношение, указывающее на культурную связь эстетики с другой сущностью. Служит суперсвойством для более специфичных типов отношений.",
+      "ja" : "美学が文化的に関連する方法で別のエンティティと関連することを示す一般的な対称関係。より具体的な関係タイプのスーパープロパティとして機能する。",
+      "en" : "A general symmetric relation indicating that an Aesthetic is related to another entity in some culturally relevant way. Serves as a superproperty for more specific relation types.",
+      "it" : "Una relazione simmetrica generale che indica che un'Estetica è correlata a un'altra entità in modo culturalmente rilevante. Funge da superpropietà per tipi di relazione più specifici.",
+      "nl" : "Een algemene symmetrische relatie die aangeeft dat een esthetiek gerelateerd is aan een andere entiteit op een cultureel relevante manier. Dient als superproperty voor specifiekere relatietypen."
+    },
+    "attributes" : [ "symmetric", "object" ],
+    "id" : "12"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/hasLocationOfOrigin",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "hasLocationOfOrigin",
+      "ru" : "место происхождения",
+      "ja" : "発祥地",
+      "en" : "has location of origin",
+      "it" : "ha luogo di origine",
+      "nl" : "heeft locatie van oorsprong"
+    },
+    "superproperty" : [ "78" ],
+    "domain" : "4",
+    "comment" : {
+      "ru" : "Указывает географическое или цифровое местоположение, в котором эстетика возникла впервые.",
+      "ja" : "美学と、それが最初に発祥した物理的またはデジタルの空間的場所を関連付ける。",
+      "en" : "Specifies the geographic or digital location where an Aesthetic first originated.",
+      "it" : "Specifica la collocazione geografica o digitale in cui un'Estetica ha avuto origine.",
+      "nl" : "Specificeert de geografische of digitale locatie waar een esthetiek voor het eerst is ontstaan."
+    },
+    "attributes" : [ "object" ],
+    "id" : "77"
+  }, {
+    "iri" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+    "baseIri" : "http://www.w3.org/2004/02/skos/core",
+    "range" : "75",
+    "label" : {
+      "IRI-based" : "prefLabel"
+    },
+    "domain" : "23",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://www.w3.org/2004/02/skos/core#closeMatch",
+    "baseIri" : "http://www.w3.org/2004/02/skos/core",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "closeMatch"
+    },
+    "domain" : "23",
+    "attributes" : [ "external", "object" ],
+    "id" : "80"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/timeInterval",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "timeInterval",
+      "ru" : "временной интервал",
+      "ja" : "時間区間",
+      "en" : "time interval",
+      "it" : "intervallo temporale",
+      "nl" : "tijdsinterval"
+    },
+    "minCardinality" : "1",
+    "domain" : "10",
+    "comment" : {
+      "ru" : "Связывает определение периода с временным интервалом, который оно описывает.",
+      "ja" : "期間定義と、それが定義する時間区間を結びつける。",
+      "en" : "Links a PeriodDefinition to the TimeInterval it defines.",
+      "it" : "Collega una PeriodDefinition all'intervallo temporale che essa definisce.",
+      "nl" : "Koppelt een periodedefinitie aan het tijdsinterval dat het definieert."
+    },
+    "attributes" : [ "object" ],
+    "id" : "83"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/associatedSubculture",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "associatedSubculture",
+      "ru" : "ассоциированная субкультура",
+      "ja" : "関連サブカルチャー",
+      "en" : "associated subculture",
+      "it" : "sottocultura associata",
+      "nl" : "geassocieerde subcultuur"
+    },
+    "domain" : "4",
+    "comment" : {
+      "ru" : "Связывает эстетику с субкультурой, которая ассоциируется с ней в обществе или способствовала её возникновению и стабилизации.",
+      "ja" : "美学と、社会的に関連の深いサブカルチャー、あるいはその出現や定着に寄与したサブカルチャーを結びつける。",
+      "en" : "Links an Aesthetic to a Subculture that is socially associated with it or contributed to its emergence and stabilization.",
+      "it" : "Collega un'Estetica a una Sottocultura che le è socialmente associata o ha contribuito alla sua emergenza e stabilizzazione.",
+      "nl" : "Koppelt een esthetiek aan een subcultuur die er sociaal mee geassocieerd is of heeft bijgedragen aan het ontstaan en de stabilisatie ervan."
+    },
+    "attributes" : [ "object" ],
+    "id" : "84"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/isSubgenreOf",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "isSubgenreOf",
+      "ru" : "является поджанром",
+      "ja" : "上位ジャンル",
+      "en" : "is subgenre of",
+      "it" : "è sottogenere di",
+      "nl" : "is subgenre van"
+    },
+    "superproperty" : [ "12" ],
+    "domain" : "4",
+    "comment" : {
+      "ru" : "Связывает эстетику с более широкой эстетикой, подвариантом которой она является.",
+      "ja" : "美学と、それが属する上位ジャンル、親ジャンル（より広い美学）を関連付ける。",
+      "en" : "Relates an Aesthetic to a broader Aesthetic of which it is a more specific subvariant.",
+      "it" : "Collega un'Estetica a un'Estetica più ampia di cui essa è una sottovariante più specifica.",
+      "nl" : "Verbindt een esthetiek met een bredere esthetiek waarvan het een specifiekere subvariant is."
+    },
+    "attributes" : [ "object" ],
+    "id" : "72"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/hasOriginPeriod",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "hasOriginPeriod",
+      "ru" : "период возникновения",
+      "ja" : "発祥期",
+      "en" : "has origin period",
+      "it" : "ha periodo di origine",
+      "nl" : "heeft periode van oorsprong"
+    },
+    "domain" : "4",
+    "comment" : {
+      "ru" : "Указывает временной интервал, в течение которого эстетика появилась впервые.",
+      "ja" : "美学が最初に出現した期間を指定する。",
+      "en" : "Specifies the time interval during which an Aesthetic first emerged.",
+      "it" : "Specifica l'intervallo temporale durante il quale un'Estetica è emersa per la prima volta.",
+      "nl" : "Specificeert het tijdsinterval waarin een esthetiek voor het eerst naar voren kwam."
+    },
+    "attributes" : [ "object" ],
+    "id" : "85"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/isMemberOf",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "87",
+    "label" : {
+      "IRI-based" : "isMemberOf",
+      "ru" : "является элементом",
+      "ja" : "のメンバーである",
+      "en" : "is member of",
+      "it" : "è membro di",
+      "nl" : "is lid van"
+    },
+    "domain" : "68",
+    "comment" : {
+      "ru" : "Связывает сущность с коллекцией, частью которой она является.",
+      "ja" : "エンティティと、それが構成メンバーであるコレクションを関連付ける。",
+      "en" : "Relates an entity to the Collection of which it is a constituent member.",
+      "it" : "Collega un'entità alla Collezione di cui è membro costituente.",
+      "nl" : "Verbindt een entiteit met de collectie waarvan het een samenstellend lid is."
+    },
+    "attributes" : [ "object" ],
+    "id" : "86"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/forAesthetic",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "forAesthetic",
+      "ru" : "для эстетики",
+      "ja" : "対象",
+      "en" : "for aesthetic",
+      "it" : "per estetica",
+      "nl" : "voor esthetiek"
+    },
+    "minCardinality" : "1",
+    "domain" : "61",
+    "comment" : {
+      "ru" : "Связывает репрезентативную ассоциацию с конкретной эстетикой, которую она характеризует.",
+      "ja" : "象徴的な関連（Representative Association）が、どの美学的系統を規定・説明しているかを示す。",
+      "en" : "Links a RepresentativeAssociation to the Aesthetic it qualifies.",
+      "it" : "Collega una AssociazioneRappresentativa all'Estetica che essa qualifica.",
+      "nl" : "Koppelt een RepresentativeAssociation aan de esthetiek die het kwalificeert."
+    },
+    "attributes" : [ "object" ],
+    "id" : "88"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/isRoleInTimeOf",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "isRoleInTimeOf",
+      "ru" : "является временной ролью для",
+      "ja" : "時間的役割の対象",
+      "en" : "is role in time of",
+      "it" : "è ruolo nel tempo di",
+      "nl" : "is tijdsgebonden rol van"
+    },
+    "domain" : "32",
+    "comment" : {
+      "ru" : "Связывает временную роль (TimeIndexedRole) с платформой, чья обусловленная временем роль описывается.",
+      "ja" : "TimeIndexedRoleと、その時間的に位置づけられた役割が記述されるプラットフォームを結びつける。",
+      "en" : "Links a TimeIndexedRole to the Platform whose temporally situated role is being described.",
+      "it" : "Collega un TimeIndexedRole alla Piattaforma il cui ruolo temporalmente situato viene descritto.",
+      "nl" : "Koppelt een TimeIndexedRole aan het platform waarvan de tijdsgebonden rol wordt beschreven."
+    },
+    "attributes" : [ "object" ],
+    "id" : "89"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/hasPlatform",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "hasPlatform",
+      "ru" : "имеет платформу",
+      "ja" : "流通プラットフォーム",
+      "en" : "has platform",
+      "it" : "ha piattaforma",
+      "nl" : "heeft platform"
+    },
+    "superproperty" : [ "12" ],
+    "domain" : "4",
+    "subproperty" : [ "5" ],
+    "comment" : {
+      "ru" : "Ассоциирует эстетику с платформой, на которой она распространяется.",
+      "ja" : "美学と、それが流通しまたは普及したプラットフォームを関連付ける。",
+      "en" : "Associates an Aesthetic with a Platform on which it circulates or has been disseminated.",
+      "it" : "Associa un'Estetica a una Piattaforma su cui essa circola o è stata diffusa.",
+      "nl" : "Associeert een esthetiek met een platform waarop deze circuleert of is verspreid."
+    },
+    "attributes" : [ "object" ],
+    "id" : "7"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/hasRelatedBrand",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "91",
+    "label" : {
+      "IRI-based" : "hasRelatedBrand",
+      "ru" : "имеет ассоциирующийся бренд",
+      "ja" : "関連ブランド",
+      "en" : "has related brand",
+      "it" : "ha brand associato",
+      "nl" : "heeft gerelateerd merk"
+    },
+    "superproperty" : [ "12" ],
+    "domain" : "4",
+    "comment" : {
+      "ru" : "Ассоциирует эстетику с брендом, который является характерным для неё или близок ей по духу.",
+      "ja" : "美学と、その特徴的な、または文化的に一致するブランドを関連付ける。",
+      "en" : "Associates an Aesthetic with a Brand that is characteristic of or culturally aligned with it.",
+      "it" : "Associa un'Estetica a un Brand che le è caratteristico o culturalmente affine.",
+      "nl" : "Associeert een esthetiek met een merk dat er kenmerkend voor is of er cultureel mee overeenstemt."
+    },
+    "attributes" : [ "object" ],
+    "id" : "70"
+  }, {
+    "range" : "21",
+    "domain" : "94",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "93"
+  }, {
+    "range" : "19",
+    "domain" : "96",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "95"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/withRole",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "withRole",
+      "ru" : "с ролью",
+      "ja" : "役割",
+      "en" : "with role",
+      "it" : "con ruolo",
+      "nl" : "met rol"
+    },
+    "minCardinality" : "1",
+    "domain" : "32",
+    "comment" : {
+      "ru" : "Определяет Роль, которую сущность играет в рамках отношения временной роли (TimeIndexedRole).",
+      "ja" : "特定の関係性や時間的な枠組みにおいて、エンティティが担っている具体的な役割を示す。",
+      "en" : "Specifies the Role held by the entity within a TimeIndexedRole relation.",
+      "it" : "Specifica il Ruolo ricoperto dall'entità all'interno di una relazione di tipo Ruolo indicizzato temporalmente.",
+      "nl" : "Specificeert de rol die de entiteit vervult binnen een tijdgeïndexeerde rolrelatie."
+    },
+    "attributes" : [ "object" ],
+    "id" : "97"
+  }, {
+    "range" : "19",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "98"
+  }, {
+    "range" : "21",
+    "domain" : "82",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "99"
+  }, {
+    "range" : "19",
+    "domain" : "101",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "100"
+  }, {
+    "range" : "26",
+    "domain" : "57",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "102"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/URL",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "URL",
+      "ru" : "URL-адрес",
+      "ja" : "URL",
+      "en" : "URL",
+      "it" : "URL",
+      "nl" : "URL"
+    },
+    "domain" : "4",
+    "comment" : {
+      "ru" : "URL-адрес в вики (эстетика)",
+      "ja" : "ウィキデータURL（美学）",
+      "en" : "The wiki URL (aesthetic)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "103"
+  }, {
+    "range" : "2",
+    "domain" : "56",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "105"
+  }, {
+    "range" : "19",
+    "domain" : "107",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "106"
+  }, {
+    "range" : "26",
+    "domain" : "90",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "108"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/representativenessType",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "110",
+    "label" : {
+      "IRI-based" : "representativenessType",
+      "ru" : "тип репрезентативности",
+      "ja" : "象徴性タイプ",
+      "en" : "representativeness type",
+      "it" : "tipo di rappresentatività",
+      "nl" : "representativiteit type"
+    },
+    "domain" : "61",
+    "attributes" : [ "datatype" ],
+    "id" : "109"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/hasColorPalette",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "hasColorPalette",
+      "ru" : "имеет цветовую палитру",
+      "ja" : "カラーパレット",
+      "en" : "has color palette",
+      "it" : "ha palette di colori",
+      "nl" : "heeft kleurenpalet"
+    },
+    "domain" : "4",
+    "comment" : {
+      "ru" : "Ассоциирует эстетику с характерной цветовой палитрой, определяющей её визуальную идентичность.",
+      "ja" : "美学と、その視覚的アイデンティティに寄与する特徴的なカラーパレットを関連付ける。",
+      "en" : "Associates an Aesthetic with a characteristic ColorPalette that contributes to its visual identity.",
+      "it" : "Associa un'Estetica a una palette di colori caratteristica che contribuisce alla sua identità visiva.",
+      "nl" : "Associeert een esthetiek met een karakteristiek kleurenpalet dat bijdraagt aan de visuele identiteit."
+    },
+    "attributes" : [ "object" ],
+    "id" : "111"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/alternateName",
+    "equivalent" : [ "114" ],
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "113",
+    "label" : {
+      "IRI-based" : "alternateName",
+      "ru" : "альтернативное название",
+      "ja" : "別名",
+      "en" : "alternate name",
+      "it" : "nome alternativo",
+      "nl" : "alternatieve naam"
+    },
+    "domain" : "4",
+    "attributes" : [ "datatype" ],
+    "id" : "112"
+  }, {
+    "iri" : "http://www.w3.org/2004/02/skos/core#broader",
+    "baseIri" : "http://www.w3.org/2004/02/skos/core",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "broader"
+    },
+    "domain" : "23",
+    "attributes" : [ "external", "object" ],
+    "id" : "115"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/hasMotif",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "117",
+    "label" : {
+      "IRI-based" : "hasMotif",
+      "ru" : "имеет мотив",
+      "ja" : "モチーフ",
+      "en" : "has motif",
+      "it" : "ha motivo",
+      "nl" : "heeft motief"
+    },
+    "domain" : "2",
+    "comment" : {
+      "ru" : "Ассоциирует произведение искусства с узнаваемым повторяющимся мотивом, который в нем присутствует.",
+      "ja" : "作品と、その中に現れる特徴的なモチーフを関連付ける。",
+      "en" : "Associates an Artwork with a recurrent and recognizable motif it exhibits.",
+      "it" : "Associa un'Opera d'arte a un motivo ricorrente e riconoscibile.",
+      "nl" : "Associeert een kunstwerk met een terugkerend en herkenbaar motief dat het vertoont."
+    },
+    "attributes" : [ "object" ],
+    "id" : "116"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/hasLocation",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "hasLocation",
+      "ru" : "имеет местоположение",
+      "ja" : "所在地",
+      "en" : "has location",
+      "it" : "ha luogo",
+      "nl" : "heeft locatie"
+    },
+    "domain" : "67",
+    "subproperty" : [ "77" ],
+    "comment" : {
+      "ru" : "Ассоциирует любую сущность с физическим или цифровым пространственным расположением.",
+      "ja" : "任意のエンティティと物理的またはデジタルの空間的場所を関連付ける。",
+      "en" : "Associates any entity with a physical or digital spatial location.",
+      "it" : "Associa qualsiasi entità a una collocazione spaziale, fisica o digitale.",
+      "nl" : "Associeert elke entiteit met een fysieke of digitale ruimtelijke locatie."
+    },
+    "attributes" : [ "object" ],
+    "id" : "78"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/hasMember",
+    "inverse" : "86",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "68",
+    "label" : {
+      "IRI-based" : "hasMember",
+      "ru" : "имеет участника/элемент",
+      "ja" : "構成要素",
+      "en" : "has member",
+      "it" : "ha membro",
+      "nl" : "heeft lid"
+    },
+    "minCardinality" : "1",
+    "domain" : "87",
+    "comment" : {
+      "ru" : "Связывает коллекцию с одной из составляющих её сущностей. Принадлежность не подразумевает исчерпаемости или строгой необходимости.",
+      "ja" : "エンティティと、それが構成要素となるコレクションを関連付ける。",
+      "en" : "Relates a Collection to one of its constituent entities. Membership does not imply exhaustiveness or strict necessity.",
+      "it" : "Collega una Collezione a una delle entità che la costituiscono. L'appartenenza non implica esaustività né necessità.",
+      "nl" : "Verbindt een collectie met een van de samenstellende entiteiten. Lidmaatschap impliceert geen volledigheid of strikte noodzaak."
+    },
+    "attributes" : [ "object" ],
+    "id" : "118"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/hasCreator",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "hasCreator",
+      "ru" : "имеет создателя",
+      "ja" : "クリエイター",
+      "en" : "has creator",
+      "it" : "ha creatore",
+      "nl" : "heeft maker"
+    },
+    "domain" : "4",
+    "comment" : {
+      "ru" : "Связывает эстетику с агентом, который создал её или способствовал её появлению.",
+      "ja" : "美学と、それを創造したまたは生み出したエージェントを関連付ける。",
+      "en" : "Relates an Aesthetic to the Agent who created or gave rise to it.",
+      "it" : "Collega un'Estetica all'Agente che l'ha creata o a cui essa deve la propria origine.",
+      "nl" : "Verbindt een esthetiek met de agent die deze heeft gecreëerd of aan wie het zijn oorsprong ontleent."
+    },
+    "attributes" : [ "object" ],
+    "id" : "119"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/approximateLabel",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "121",
+    "label" : {
+      "IRI-based" : "approximateLabel",
+      "ru" : "приблизительная метка",
+      "ja" : "近似ラベル",
+      "en" : "approximate label",
+      "it" : "etichetta approssimativa",
+      "nl" : "bijna gelijk label"
+    },
+    "domain" : "33",
+    "attributes" : [ "datatype" ],
+    "id" : "123"
+  }, {
+    "iri" : "http://www.w3.org/2004/02/skos/core#altLabel",
+    "baseIri" : "http://www.w3.org/2004/02/skos/core",
+    "range" : "76",
+    "label" : {
+      "IRI-based" : "altLabel"
+    },
+    "domain" : "23",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "114"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/precedes",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "precedes",
+      "ru" : "предшествует",
+      "ja" : "先行する",
+      "en" : "precedes",
+      "it" : "precede",
+      "nl" : "gaat vooraf aan"
+    },
+    "domain" : "4",
+    "comment" : {
+      "ru" : "Указывает на то, что одна эстетика предшествует другой во времени или стилистически. Свойство транзитивно.",
+      "ja" : "ある美学が別の美学に時間的またはスタイル的に先行することを示す。この性質は推移的である。",
+      "en" : "Indicates that one Aesthetic temporally or stylistically precedes another. This property is transitive.",
+      "it" : "Indica che un'Estetica precede temporalmente o stilisticamente un'altra. Questa proprietà è transitiva.",
+      "nl" : "Geeft aan dat een esthetiek een andere temporeel of stylistisch voorafgaat. Deze eigenschap is transitief."
+    },
+    "attributes" : [ "transitive", "object" ],
+    "id" : "53"
+  }, {
+    "range" : "6",
+    "domain" : "94",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "125"
+  }, {
+    "range" : "33",
+    "domain" : "94",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "126"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/overlapsWith",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "overlapsWith",
+      "ru" : "пересекается с",
+      "ja" : "重複する",
+      "en" : "overlaps with",
+      "it" : "si sovrappone a",
+      "nl" : "overlapt met"
+    },
+    "superproperty" : [ "12" ],
+    "domain" : "4",
+    "comment" : {
+      "ru" : "Указывает на то, что две эстетики имеют общие значимые элементы или ассоциации, при этом ни одна не является поджанром другой. Свойство симметрично.",
+      "ja" : "二つの美学が、どちらも相手のサブジャンルではなく、重要な要素や関連を共有することを示す。この性質は対称的である。",
+      "en" : "Indicates that two Aesthetics share significant elements or associations without either being a subgenre of the other. This property is symmetric.",
+      "it" : "Indica che due Estetiche condividono elementi o associazioni significativi, senza che l'una sia sottogenere dell'altra. Questa proprietà è simmetrica.",
+      "nl" : "Geeft aan dat twee esthetieken significante elementen of associaties delen, zonder dat de een een subgenre van de ander is. Deze eigenschap is symmetrisch."
+    },
+    "attributes" : [ "symmetric", "object" ],
+    "id" : "74"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/hasValue",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "hasValue",
+      "ru" : "имеет ценность",
+      "ja" : "価値観",
+      "en" : "has value",
+      "it" : "ha valore",
+      "nl" : "heeft waarde"
+    },
+    "domain" : "4",
+    "comment" : {
+      "ru" : "Ассоциирует эстетику с абстрактной ценностью, характеризующей её направленность.",
+      "ja" : "美学と、その方向性を特徴づける抽象的な価値観を関連付ける。",
+      "en" : "Associates an Aesthetic with an abstract Value that characterizes its orientation.",
+      "it" : "Associa un'Estetica a un Valore che ne caratterizza l'orientamento.",
+      "nl" : "Associeert een esthetiek met een abstracte waarde die de oriëntatie ervan kenmerkt."
+    },
+    "attributes" : [ "object" ],
+    "id" : "127"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/coinedBy",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "coinedBy",
+      "ru" : "придумано (кем)",
+      "ja" : "命名者",
+      "en" : "coined by",
+      "it" : "coniato da",
+      "nl" : "opgebracht door"
+    },
+    "domain" : "4",
+    "comment" : {
+      "ru" : "Связывает эстетику с агентом, который впервые ввел её название или термин.",
+      "ja" : "美学と、それを作り出したまたは最初に名付けたエージェントを関連付ける。",
+      "en" : "Relates an Aesthetic to the Agent who coined or first named it.",
+      "it" : "Collega un'Estetica all'Agente che l'ha coniata o che vi ha dato il nome per la prima volta.",
+      "nl" : "Verbindt een esthetiek met de agent die deze heeft opgebracht of voor het eerst een naam heeft gegeven."
+    },
+    "attributes" : [ "object" ],
+    "id" : "128"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/name",
+    "equivalent" : [ "79" ],
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "122",
+    "label" : {
+      "IRI-based" : "name",
+      "ru" : "название",
+      "ja" : "名称",
+      "en" : "name",
+      "it" : "nome",
+      "nl" : "naam"
+    },
+    "domain" : "4",
+    "attributes" : [ "datatype" ],
+    "id" : "129"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/influenced",
+    "inverse" : "11",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "influenced",
+      "ru" : "оказала влияние на",
+      "ja" : "影響を与えた",
+      "en" : "influenced",
+      "it" : "ha influenzato",
+      "nl" : "beïnvloedde"
+    },
+    "superproperty" : [ "12" ],
+    "domain" : "4",
+    "comment" : {
+      "ru" : "Связывает эстетику с другой эстетикой, на которую она оказала влияние (в стиле, мотивах, ценностях и т. д.).",
+      "ja" : "美学と、それがスタイル、モチーフ、価値観などの点で影響を与えた別の美学を関連付ける。",
+      "en" : "Relates an Aesthetic to another Aesthetic that it has influenced in terms of style, motifs, values, or other.",
+      "it" : "Collega un'Estetica a un'altra Estetica che essa ha influenzato in termini di stile, motivi o valori, o altro.",
+      "nl" : "Verbindt een esthetiek met een andere esthetiek die het heeft beïnvloed op het gebied van stijl, motieven, waarden of anderszins."
+    },
+    "attributes" : [ "object" ],
+    "id" : "71"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/startYear",
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "124",
+    "label" : {
+      "IRI-based" : "startYear",
+      "ru" : "год начала",
+      "ja" : "開始年",
+      "en" : "start year",
+      "it" : "anno di inizio",
+      "nl" : "startjaar"
+    },
+    "domain" : "33",
+    "attributes" : [ "datatype" ],
+    "id" : "130"
+  }, {
+    "iri" : "https://w3id.org/vibe-ontology/hasSubgenre",
+    "inverse" : "72",
+    "equivalent" : [ "22" ],
+    "baseIri" : "https://w3id.org/vibe-ontology",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "hasSubgenre",
+      "ru" : "имеет поджанр",
+      "ja" : "サブジャンル",
+      "en" : "has subgenre",
+      "it" : "ha sottogenere",
+      "nl" : "heeft subgenre"
+    },
+    "superproperty" : [ "12" ],
+    "domain" : "4",
+    "comment" : {
+      "ru" : "Связывает Эстетику с более узкой Эстетикой, являющейся её подвариантом.",
+      "ja" : "美学と、その派生系統を構成する、より具体的な美学を関連付ける。",
+      "en" : "Relates an Aesthetic to a more specific Aesthetic that constitutes one of its subvariants.",
+      "it" : "Collega un'Estetica a un'Estetica più specifica che ne costituisce una sottovariante.",
+      "nl" : "Verbindt een esthetiek met een specifiekere esthetiek die er een subvariant van vormt."
+    },
+    "attributes" : [ "object" ],
+    "id" : "73"
+  } ]
+}
