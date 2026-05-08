@@ -1,3 +1,11 @@
 <h2 id="intro" class="list">Introduction <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <span class="markdown">
-This is a place holder text for the introduction. The introduction should briefly describe the ontology, its motivation, state of the art and goals.</span>
+In contemporary digital culture, an aesthetic such as *Frutiger Aero* or *Cottagecore* denotes a recognisable configuration of heterogeneous elements (visual, material, affective, and thematic) that is perceived as coherent, yet not defined by necessary and sufficient conditions. Rather, aesthetics are fluid, socially constructed categories that emerge through culturally shared patterns of interpretation and meaning established within communities and online practices, and circulate as organisational categories for content production, discovery, and identity expression online. 
+
+Despite their prominence, aesthetics remain largely absent from Linked Open Data, as their dynamic, multimodal, and community-driven nature is difficult to capture through existing taxonomies.
+The Vibe Ontology addresses this gap by providing a formal vocabulary in which aesthetics are modelled as first-class conceptual entities. Their open-ended nature is formalised through two core mechanisms: 
+- *representativeness*, encoding the associations between an aesthetic and entities such as motifs, values, artworks, or platforms, recognised as indicative of it, without being definitional or exhaustive; 
+- *collection*, capturing the assemblage structure through which aesthetics emerge from heterogeneous sets of elements. 
+
+These are implemented through classes of `vibe:RepresentativeAssociation` and `vibe:Collection`, typed by `vibe:AssociationDimension`.
+The ontology reuses the Agent Role, Time Interval, and Collection Entity content ontology design patterns, and is designed as a multilingual resource (English, Italian, Japanese, Russian, Dutch). It serves as the modelling foundation for the Aesthetics-KG knowledge graph. 
